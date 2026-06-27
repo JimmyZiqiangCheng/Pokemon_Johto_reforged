@@ -1,0 +1,2512 @@
+[
+  {
+    "id": 701,
+    "max_level": 88,
+    "min_level": 82,
+    "name": "Lance",
+    "party": [
+      {
+        "item": "ITEM_LUM_BERRY",
+        "level": 84,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_SHADOW_CLAW",
+          "MOVE_DRAGON_CLAW",
+          "MOVE_REST"
+        ],
+        "name": "Salamence",
+        "species": "SPECIES_SALAMENCE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_THUNDER_WAVE",
+          "MOVE_ICE_FANG",
+          "MOVE_WATERFALL",
+          "MOVE_DRAGON_DANCE"
+        ],
+        "name": "Gyarados",
+        "species": "SPECIES_GYARADOS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 84,
+        "moves": [
+          "MOVE_SWORDS_DANCE",
+          "MOVE_OUTRAGE",
+          "MOVE_EARTHQUAKE",
+          "MOVE_ROAR"
+        ],
+        "name": "Garchomp",
+        "species": "SPECIES_GARCHOMP"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 84,
+        "moves": [
+          "MOVE_PERISH_SONG",
+          "MOVE_DRAGON_BREATH",
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Altaria",
+        "species": "SPECIES_ALTARIA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 84,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_AIR_SLASH",
+          "MOVE_DRAGON_CLAW",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Charizard",
+        "species": "SPECIES_CHARIZARD"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 88,
+        "moves": [
+          "MOVE_FIRE_BLAST",
+          "MOVE_SAFEGUARD",
+          "MOVE_DRACO_METEOR",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Dragonite",
+        "species": "SPECIES_DRAGONITE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_SALAMENCE",
+      "SPECIES_GYARADOS",
+      "SPECIES_GARCHOMP",
+      "SPECIES_ALTARIA",
+      "SPECIES_CHARIZARD",
+      "SPECIES_DRAGONITE"
+    ],
+    "trainer_class": "TRAINERCLASS_CHAMPION",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 702,
+    "max_level": 84,
+    "min_level": 78,
+    "name": "Will",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_REFLECT",
+          "MOVE_PAYBACK",
+          "MOVE_GRAVITY",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Bronzong",
+        "species": "SPECIES_BRONZONG"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_FAKE_TEARS",
+          "MOVE_LOVELY_KISS",
+          "MOVE_BLIZZARD",
+          "MOVE_DREAM_EATER"
+        ],
+        "name": "Jynx",
+        "species": "SPECIES_JYNX"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_CONFUSE_RAY",
+          "MOVE_SIGNAL_BEAM",
+          "MOVE_POWER_GEM",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Grumpig",
+        "species": "SPECIES_GRUMPIG"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_CURSE",
+          "MOVE_AMNESIA",
+          "MOVE_BODY_SLAM",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Slowbro",
+        "species": "SPECIES_SLOWBRO"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_FOCUS_BLAST",
+          "MOVE_CHARGE_BEAM",
+          "MOVE_CALM_MIND",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Gardevoir",
+        "species": "SPECIES_GARDEVOIR"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 84,
+        "moves": [
+          "MOVE_QUICK_ATTACK",
+          "MOVE_SHADOW_BALL",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Xatu",
+        "species": "SPECIES_XATU"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_BRONZONG",
+      "SPECIES_JYNX",
+      "SPECIES_GRUMPIG",
+      "SPECIES_SLOWBRO",
+      "SPECIES_GARDEVOIR",
+      "SPECIES_XATU"
+    ],
+    "trainer_class": "TRAINERCLASS_ELITE_FOUR_WILL",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 703,
+    "max_level": 84,
+    "min_level": 78,
+    "name": "Koga",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_DIG",
+          "MOVE_TOXIC",
+          "MOVE_EXPLOSION"
+        ],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_BATON_PASS",
+          "MOVE_PSYCHIC",
+          "MOVE_SILVER_WIND"
+        ],
+        "name": "Venomoth",
+        "species": "SPECIES_VENOMOTH"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_CROSS_CHOP",
+          "MOVE_X_SCISSOR",
+          "MOVE_SWAGGER",
+          "MOVE_GUNK_SHOT"
+        ],
+        "name": "Toxicroak",
+        "species": "SPECIES_TOXICROAK"
+      },
+      {
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 80,
+        "moves": [
+          "MOVE_MINIMIZE",
+          "MOVE_SCREECH",
+          "MOVE_SWAGGER",
+          "MOVE_TOXIC"
+        ],
+        "name": "Muk",
+        "species": "SPECIES_MUK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_TOXIC",
+          "MOVE_MEAN_LOOK",
+          "MOVE_FLY",
+          "MOVE_CROSS_POISON"
+        ],
+        "name": "Crobat",
+        "species": "SPECIES_CROBAT"
+      },
+      {
+        "item": "ITEM_LEFTOVERS",
+        "level": 84,
+        "moves": [
+          "MOVE_YAWN",
+          "MOVE_AMNESIA",
+          "MOVE_PAIN_SPLIT",
+          "MOVE_SLUDGE_BOMB"
+        ],
+        "name": "Swalot",
+        "species": "SPECIES_SWALOT"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_SKUNTANK",
+      "SPECIES_VENOMOTH",
+      "SPECIES_TOXICROAK",
+      "SPECIES_MUK",
+      "SPECIES_CROBAT",
+      "SPECIES_SWALOT"
+    ],
+    "trainer_class": "TRAINERCLASS_ELITE_FOUR_KOGA",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 704,
+    "max_level": 84,
+    "min_level": 78,
+    "name": "Bruno",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_COUNTER",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_EARTHQUAKE"
+        ],
+        "name": "Hitmontop",
+        "species": "SPECIES_HITMONTOP"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_SWAGGER",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_REVERSAL",
+          "MOVE_BLAZE_KICK"
+        ],
+        "name": "Hitmonlee",
+        "species": "SPECIES_HITMONLEE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_SUBSTITUTE",
+          "MOVE_DRAIN_PUNCH",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_BULLET_PUNCH"
+        ],
+        "name": "Hitmonchan",
+        "species": "SPECIES_HITMONCHAN"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 80,
+        "moves": [
+          "MOVE_LOW_KICK",
+          "MOVE_PAYBACK",
+          "MOVE_BULLET_PUNCH",
+          "MOVE_BULK_UP"
+        ],
+        "name": "Hariyama",
+        "species": "SPECIES_HARIYAMA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_BULLET_PUNCH",
+          "MOVE_FORESIGHT",
+          "MOVE_STONE_EDGE",
+          "MOVE_DYNAMIC_PUNCH"
+        ],
+        "name": "Machamp",
+        "species": "SPECIES_MACHAMP"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 84,
+        "moves": [
+          "MOVE_EXTREME_SPEED",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_COUNTER",
+          "MOVE_IRON_TAIL"
+        ],
+        "name": "Lucario",
+        "species": "SPECIES_LUCARIO"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_HITMONTOP",
+      "SPECIES_HITMONLEE",
+      "SPECIES_HITMONCHAN",
+      "SPECIES_HARIYAMA",
+      "SPECIES_MACHAMP",
+      "SPECIES_LUCARIO"
+    ],
+    "trainer_class": "TRAINERCLASS_ELITE_FOUR_BRUNO",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 705,
+    "max_level": 84,
+    "min_level": 78,
+    "name": "Karen",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_ICE_SHARD",
+          "MOVE_NIGHT_SLASH",
+          "MOVE_ICE_PUNCH",
+          "MOVE_LOW_KICK"
+        ],
+        "name": "Weavile",
+        "species": "SPECIES_WEAVILE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_CURSE",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_PAIN_SPLIT",
+          "MOVE_SUCKER_PUNCH"
+        ],
+        "name": "Spiritomb",
+        "species": "SPECIES_SPIRITOMB"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_NIGHT_SLASH",
+          "MOVE_PSYCHO_CUT",
+          "MOVE_DETECT",
+          "MOVE_PERISH_SONG"
+        ],
+        "name": "Absol",
+        "species": "SPECIES_ABSOL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_DRILL_PECK",
+          "MOVE_WHIRLWIND",
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_THUNDER_WAVE"
+        ],
+        "name": "Honchkrow",
+        "species": "SPECIES_HONCHKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_NASTY_PLOT",
+          "MOVE_DARK_PULSE",
+          "MOVE_FLAMETHROWER",
+          "MOVE_SLUDGE_BOMB"
+        ],
+        "name": "Houndoom",
+        "species": "SPECIES_HOUNDOOM"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 84,
+        "moves": [
+          "MOVE_CURSE",
+          "MOVE_PAYBACK",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_SUCKER_PUNCH"
+        ],
+        "name": "Umbreon",
+        "species": "SPECIES_UMBREON"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_WEAVILE",
+      "SPECIES_SPIRITOMB",
+      "SPECIES_ABSOL",
+      "SPECIES_HONCHKROW",
+      "SPECIES_HOUNDOOM",
+      "SPECIES_UMBREON"
+    ],
+    "trainer_class": "TRAINERCLASS_ELITE_FOUR_KAREN",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 706,
+    "max_level": 33,
+    "min_level": 28,
+    "name": "Proton",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 28,
+        "moves": [
+          "MOVE_LEECH_LIFE",
+          "MOVE_BITE",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_WING_ATTACK"
+        ],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [
+          "MOVE_DOUBLE_HIT",
+          "MOVE_SLUDGE",
+          "MOVE_SMOKESCREEN",
+          "MOVE_SMOG"
+        ],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
+      }
+    ],
+    "party_size": 2,
+    "species": [
+      "SPECIES_GOLBAT",
+      "SPECIES_WEEZING"
+    ],
+    "trainer_class": "TRAINERCLASS_EXECUTIVE_PROTON",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES"
+  },
+  {
+    "id": 707,
+    "max_level": 5,
+    "min_level": 5,
+    "name": "Palmer",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 5,
+        "moves": [],
+        "name": "Rattata",
+        "species": "SPECIES_RATTATA"
+      }
+    ],
+    "party_size": 1,
+    "species": [
+      "SPECIES_RATTATA"
+    ],
+    "trainer_class": "TRAINERCLASS_TOWER_TYCOON",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 708,
+    "max_level": 5,
+    "min_level": 5,
+    "name": "Argenta",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 5,
+        "moves": [],
+        "name": "Rattata",
+        "species": "SPECIES_RATTATA"
+      }
+    ],
+    "party_size": 1,
+    "species": [
+      "SPECIES_RATTATA"
+    ],
+    "trainer_class": "TRAINERCLASS_HALL_MATRON",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 709,
+    "max_level": 5,
+    "min_level": 5,
+    "name": "Thorton",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 5,
+        "moves": [],
+        "name": "Rattata",
+        "species": "SPECIES_RATTATA"
+      }
+    ],
+    "party_size": 1,
+    "species": [
+      "SPECIES_RATTATA"
+    ],
+    "trainer_class": "TRAINERCLASS_FACTORY_HEAD",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 710,
+    "max_level": 5,
+    "min_level": 5,
+    "name": "Dahlia",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 5,
+        "moves": [],
+        "name": "Rattata",
+        "species": "SPECIES_RATTATA"
+      }
+    ],
+    "party_size": 1,
+    "species": [
+      "SPECIES_RATTATA"
+    ],
+    "trainer_class": "TRAINERCLASS_ARCADE_STAR",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 711,
+    "max_level": 5,
+    "min_level": 5,
+    "name": "Darach",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 5,
+        "moves": [],
+        "name": "Rattata",
+        "species": "SPECIES_RATTATA"
+      }
+    ],
+    "party_size": 1,
+    "species": [
+      "SPECIES_RATTATA"
+    ],
+    "trainer_class": "TRAINERCLASS_CASTLE_VALET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 712,
+    "max_level": 72,
+    "min_level": 66,
+    "name": "Falkner",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 68,
+        "moves": [
+          "MOVE_ATTRACT",
+          "MOVE_BRAVE_BIRD",
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_U_TURN"
+        ],
+        "name": "Staraptor",
+        "species": "SPECIES_STARAPTOR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 66,
+        "moves": [
+          "MOVE_ROOST",
+          "MOVE_AIR_SLASH",
+          "MOVE_SHADOW_BALL",
+          "MOVE_FEATHER_DANCE"
+        ],
+        "name": "Noctowl",
+        "species": "SPECIES_NOCTOWL"
+      },
+      {
+        "item": "ITEM_FLAME_ORB",
+        "level": 68,
+        "moves": [
+          "MOVE_FACADE",
+          "MOVE_PROTECT",
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_ENDEAVOR"
+        ],
+        "name": "Swellow",
+        "species": "SPECIES_SWELLOW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_NIGHT_SLASH",
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_THUNDER_WAVE",
+          "MOVE_DARK_PULSE"
+        ],
+        "name": "Honchkrow",
+        "species": "SPECIES_HONCHKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_TAILWIND",
+          "MOVE_ICE_BEAM",
+          "MOVE_HIDDEN_POWER"
+        ],
+        "name": "Pelipper",
+        "species": "SPECIES_PELIPPER"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_RETURN",
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_SWAGGER",
+          "MOVE_ROOST"
+        ],
+        "name": "Pidgeot",
+        "species": "SPECIES_PIDGEOT"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_STARAPTOR",
+      "SPECIES_NOCTOWL",
+      "SPECIES_SWELLOW",
+      "SPECIES_HONCHKROW",
+      "SPECIES_PELIPPER",
+      "SPECIES_PIDGEOT"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_FALKNER",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 713,
+    "max_level": 72,
+    "min_level": 68,
+    "name": "Bugsy",
+    "party": [
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 70,
+        "moves": [
+          "MOVE_BULLET_PUNCH",
+          "MOVE_X_SCISSOR",
+          "MOVE_SWORDS_DANCE",
+          "MOVE_SUPERPOWER"
+        ],
+        "name": "Scizor",
+        "species": "SPECIES_SCIZOR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 68,
+        "moves": [
+          "MOVE_TOXIC",
+          "MOVE_X_SCISSOR",
+          "MOVE_SHADOW_SNEAK",
+          "MOVE_SWAGGER"
+        ],
+        "name": "Shedinja",
+        "species": "SPECIES_SHEDINJA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 68,
+        "moves": [
+          "MOVE_DETECT",
+          "MOVE_BUG_BUZZ",
+          "MOVE_AIR_SLASH",
+          "MOVE_ANCIENT_POWER"
+        ],
+        "name": "Yanmega",
+        "species": "SPECIES_YANMEGA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 69,
+        "moves": [
+          "MOVE_EARTHQUAKE",
+          "MOVE_GUILLOTINE",
+          "MOVE_X_SCISSOR",
+          "MOVE_ROCK_TOMB"
+        ],
+        "name": "Pinsir",
+        "species": "SPECIES_PINSIR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_MEGAHORN",
+          "MOVE_STONE_EDGE",
+          "MOVE_COUNTER"
+        ],
+        "name": "Heracross",
+        "species": "SPECIES_HERACROSS"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 72,
+        "moves": [
+          "MOVE_PROTECT",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_ATTACK_ORDER",
+          "MOVE_DEFEND_ORDER"
+        ],
+        "name": "Vespiquen",
+        "species": "SPECIES_VESPIQUEN"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_SCIZOR",
+      "SPECIES_SHEDINJA",
+      "SPECIES_YANMEGA",
+      "SPECIES_PINSIR",
+      "SPECIES_HERACROSS",
+      "SPECIES_VESPIQUEN"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_BUGSY",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 714,
+    "max_level": 73,
+    "min_level": 69,
+    "name": "Whitney",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 71,
+        "moves": [
+          "MOVE_PSYCHIC",
+          "MOVE_SHADOW_BALL",
+          "MOVE_CALM_MIND",
+          "MOVE_BATON_PASS"
+        ],
+        "name": "Girafarig",
+        "species": "SPECIES_GIRAFARIG"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 69,
+        "moves": [
+          "MOVE_WRING_OUT",
+          "MOVE_FLAMETHROWER",
+          "MOVE_ICE_BEAM",
+          "MOVE_THUNDERBOLT"
+        ],
+        "name": "Lickilicky",
+        "species": "SPECIES_LICKILICKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 69,
+        "moves": [
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_CHARGE_BEAM",
+          "MOVE_SURF",
+          "MOVE_ICE_BEAM"
+        ],
+        "name": "Bibarel",
+        "species": "SPECIES_BIBAREL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_FAKE_OUT",
+          "MOVE_ASSIST",
+          "MOVE_CALM_MIND",
+          "MOVE_BATON_PASS"
+        ],
+        "name": "Delcatty",
+        "species": "SPECIES_DELCATTY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_BLIZZARD",
+          "MOVE_THUNDER",
+          "MOVE_FIRE_BLAST",
+          "MOVE_CALM_MIND"
+        ],
+        "name": "Clefable",
+        "species": "SPECIES_CLEFABLE"
+      },
+      {
+        "item": "ITEM_LUM_BERRY",
+        "level": 73,
+        "moves": [
+          "MOVE_BODY_SLAM",
+          "MOVE_ATTRACT",
+          "MOVE_SLEEP_TALK",
+          "MOVE_REST"
+        ],
+        "name": "Miltank",
+        "species": "SPECIES_MILTANK"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_GIRAFARIG",
+      "SPECIES_LICKILICKY",
+      "SPECIES_BIBAREL",
+      "SPECIES_DELCATTY",
+      "SPECIES_CLEFABLE",
+      "SPECIES_MILTANK"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_WHITNEY",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 715,
+    "max_level": 74,
+    "min_level": 68,
+    "name": "Morty",
+    "party": [
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 72,
+        "moves": [
+          "MOVE_DESTINY_BOND",
+          "MOVE_SUBSTITUTE",
+          "MOVE_THUNDERBOLT",
+          "MOVE_SHADOW_BALL"
+        ],
+        "name": "Drifblim",
+        "species": "SPECIES_DRIFBLIM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 68,
+        "moves": [
+          "MOVE_PAIN_SPLIT",
+          "MOVE_WILL_O_WISP",
+          "MOVE_SUBSTITUTE",
+          "MOVE_PAYBACK"
+        ],
+        "name": "Dusknoir",
+        "species": "SPECIES_DUSKNOIR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_BRICK_BREAK",
+          "MOVE_ICE_PUNCH",
+          "MOVE_FAKE_OUT"
+        ],
+        "name": "Sableye",
+        "species": "SPECIES_SABLEYE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_PERISH_SONG",
+          "MOVE_MEAN_LOOK",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_ASTONISH"
+        ],
+        "name": "Mismagius",
+        "species": "SPECIES_MISMAGIUS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_HYPNOSIS",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_SHADOW_BALL",
+          "MOVE_FOCUS_BLAST"
+        ],
+        "name": "Gengar",
+        "species": "SPECIES_GENGAR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_SUBSTITUTE",
+          "MOVE_SHADOW_BALL",
+          "MOVE_THUNDERBOLT",
+          "MOVE_DESTINY_BOND"
+        ],
+        "name": "Gengar",
+        "species": "SPECIES_GENGAR"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_DRIFBLIM",
+      "SPECIES_DUSKNOIR",
+      "SPECIES_SABLEYE",
+      "SPECIES_MISMAGIUS",
+      "SPECIES_GENGAR",
+      "SPECIES_GENGAR"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_MORTY",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 716,
+    "max_level": 76,
+    "min_level": 72,
+    "name": "Pryce",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_ICE_SHARD",
+          "MOVE_WOOD_HAMMER",
+          "MOVE_EARTHQUAKE",
+          "MOVE_BLIZZARD"
+        ],
+        "name": "Abomasnow",
+        "species": "SPECIES_ABOMASNOW"
+      },
+      {
+        "item": "ITEM_LUM_BERRY",
+        "level": 72,
+        "moves": [
+          "MOVE_DIVE",
+          "MOVE_SHEER_COLD",
+          "MOVE_SLEEP_TALK",
+          "MOVE_REST"
+        ],
+        "name": "Dewgong",
+        "species": "SPECIES_DEWGONG"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_PAYBACK",
+          "MOVE_TORMENT",
+          "MOVE_ATTRACT",
+          "MOVE_BLIZZARD"
+        ],
+        "name": "Glalie",
+        "species": "SPECIES_GLALIE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_ICE_SHARD",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_ATTRACT",
+          "MOVE_BLIZZARD"
+        ],
+        "name": "Froslass",
+        "species": "SPECIES_FROSLASS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_HAIL",
+          "MOVE_BODY_SLAM",
+          "MOVE_SWAGGER",
+          "MOVE_BLIZZARD"
+        ],
+        "name": "Walrein",
+        "species": "SPECIES_WALREIN"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 76,
+        "moves": [
+          "MOVE_EARTHQUAKE",
+          "MOVE_AVALANCHE",
+          "MOVE_STONE_EDGE",
+          "MOVE_DOUBLE_TEAM"
+        ],
+        "name": "Mamoswine",
+        "species": "SPECIES_MAMOSWINE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_ABOMASNOW",
+      "SPECIES_DEWGONG",
+      "SPECIES_GLALIE",
+      "SPECIES_FROSLASS",
+      "SPECIES_WALREIN",
+      "SPECIES_MAMOSWINE"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_PRYCE",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 717,
+    "max_level": 78,
+    "min_level": 70,
+    "name": "Jasmine",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_METEOR_MASH",
+          "MOVE_BULLET_PUNCH",
+          "MOVE_GRAVITY",
+          "MOVE_EXPLOSION"
+        ],
+        "name": "Metagross",
+        "species": "SPECIES_METAGROSS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_ZAP_CANNON",
+          "MOVE_LOCK_ON",
+          "MOVE_MIRROR_COAT",
+          "MOVE_METAL_SOUND"
+        ],
+        "name": "Magnezone",
+        "species": "SPECIES_MAGNEZONE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_AIR_SLASH",
+          "MOVE_SPIKES",
+          "MOVE_NIGHT_SLASH",
+          "MOVE_STEEL_WING"
+        ],
+        "name": "Skarmory",
+        "species": "SPECIES_SKARMORY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_GYRO_BALL",
+          "MOVE_HYPNOSIS",
+          "MOVE_DREAM_EATER",
+          "MOVE_GRAVITY"
+        ],
+        "name": "Bronzong",
+        "species": "SPECIES_BRONZONG"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_HYDRO_PUMP",
+          "MOVE_BLIZZARD",
+          "MOVE_AQUA_JET",
+          "MOVE_ROAR"
+        ],
+        "name": "Empoleon",
+        "species": "SPECIES_EMPOLEON"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_STONE_EDGE",
+          "MOVE_STEALTH_ROCK",
+          "MOVE_ROAR",
+          "MOVE_IRON_TAIL"
+        ],
+        "name": "Steelix",
+        "species": "SPECIES_STEELIX"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_METAGROSS",
+      "SPECIES_MAGNEZONE",
+      "SPECIES_SKARMORY",
+      "SPECIES_BRONZONG",
+      "SPECIES_EMPOLEON",
+      "SPECIES_STEELIX"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_JASMINE",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 718,
+    "max_level": 75,
+    "min_level": 70,
+    "name": "Chuck",
+    "party": [
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 73,
+        "moves": [
+          "MOVE_HIGH_JUMP_KICK",
+          "MOVE_PSYCHO_CUT",
+          "MOVE_ATTRACT",
+          "MOVE_THUNDER_PUNCH"
+        ],
+        "name": "Medicham",
+        "species": "SPECIES_MEDICHAM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_MACH_PUNCH",
+          "MOVE_SWAGGER",
+          "MOVE_FOCUS_PUNCH",
+          "MOVE_DOUBLE_TEAM"
+        ],
+        "name": "Hitmonchan",
+        "species": "SPECIES_HITMONCHAN"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 70,
+        "moves": [
+          "MOVE_HIGH_JUMP_KICK",
+          "MOVE_FAKE_OUT",
+          "MOVE_BLAZE_KICK",
+          "MOVE_BULK_UP"
+        ],
+        "name": "Hitmonlee",
+        "species": "SPECIES_HITMONLEE"
+      },
+      {
+        "item": "ITEM_TOXIC_ORB",
+        "level": 72,
+        "moves": [
+          "MOVE_SUBSTITUTE",
+          "MOVE_FOCUS_PUNCH",
+          "MOVE_DRAIN_PUNCH",
+          "MOVE_STONE_EDGE"
+        ],
+        "name": "Breloom",
+        "species": "SPECIES_BRELOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 73,
+        "moves": [
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_PAYBACK",
+          "MOVE_THUNDER_PUNCH",
+          "MOVE_SWAGGER"
+        ],
+        "name": "Primeape",
+        "species": "SPECIES_PRIMEAPE"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 75,
+        "moves": [
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_WATERFALL",
+          "MOVE_FOCUS_PUNCH",
+          "MOVE_SUBSTITUTE"
+        ],
+        "name": "Poliwrath",
+        "species": "SPECIES_POLIWRATH"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_MEDICHAM",
+      "SPECIES_HITMONCHAN",
+      "SPECIES_HITMONLEE",
+      "SPECIES_BRELOOM",
+      "SPECIES_PRIMEAPE",
+      "SPECIES_POLIWRATH"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_CHUCK",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 719,
+    "max_level": 78,
+    "min_level": 72,
+    "name": "Clair",
+    "party": [
+      {
+        "item": "ITEM_WACAN_BERRY",
+        "level": 72,
+        "moves": [
+          "MOVE_DRAGON_DANCE",
+          "MOVE_EARTHQUAKE",
+          "MOVE_WATERFALL",
+          "MOVE_DRAGON_PULSE"
+        ],
+        "name": "Gyarados",
+        "species": "SPECIES_GYARADOS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_THUNDER_WAVE",
+          "MOVE_DRAGON_RUSH",
+          "MOVE_THUNDERBOLT",
+          "MOVE_FLAMETHROWER"
+        ],
+        "name": "Dragonair",
+        "species": "SPECIES_DRAGONAIR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_EARTHQUAKE",
+          "MOVE_THUNDER_FANG",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_ROAR"
+        ],
+        "name": "Aerodactyl",
+        "species": "SPECIES_AERODACTYL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_YAWN",
+          "MOVE_HYDRO_PUMP",
+          "MOVE_ICE_BEAM",
+          "MOVE_DRAGON_BREATH"
+        ],
+        "name": "Kingdra",
+        "species": "SPECIES_KINGDRA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_SHADOW_CLAW",
+          "MOVE_AIR_SLASH",
+          "MOVE_DRAGON_CLAW",
+          "MOVE_FIRE_FANG"
+        ],
+        "name": "Charizard",
+        "species": "SPECIES_CHARIZARD"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 78,
+        "moves": [
+          "MOVE_THUNDER",
+          "MOVE_SAFEGUARD",
+          "MOVE_DRAGON_BREATH",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Dragonite",
+        "species": "SPECIES_DRAGONITE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_GYARADOS",
+      "SPECIES_DRAGONAIR",
+      "SPECIES_AERODACTYL",
+      "SPECIES_KINGDRA",
+      "SPECIES_CHARIZARD",
+      "SPECIES_DRAGONITE"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_CLAIR",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 720,
+    "max_level": 78,
+    "min_level": 72,
+    "name": "Brock",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_SANDSTORM",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_ROCK_POLISH",
+          "MOVE_EARTHQUAKE"
+        ],
+        "name": "Golem",
+        "species": "SPECIES_GOLEM"
+      },
+      {
+        "item": "ITEM_LUM_BERRY",
+        "level": 72,
+        "moves": [
+          "MOVE_HEAD_SMASH",
+          "MOVE_AQUA_TAIL",
+          "MOVE_EARTHQUAKE",
+          "MOVE_REST"
+        ],
+        "name": "Relicanth",
+        "species": "SPECIES_RELICANTH"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_ANCIENT_POWER",
+          "MOVE_BRINE",
+          "MOVE_PROTECT",
+          "MOVE_SANDSTORM"
+        ],
+        "name": "Omastar",
+        "species": "SPECIES_OMASTAR"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 76,
+        "moves": [
+          "MOVE_STEALTH_ROCK",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_ROCK_POLISH",
+          "MOVE_SANDSTORM"
+        ],
+        "name": "Onix",
+        "species": "SPECIES_ONIX"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_ROCK_SLIDE",
+          "MOVE_AQUA_JET",
+          "MOVE_ENDURE",
+          "MOVE_GIGA_DRAIN"
+        ],
+        "name": "Kabutops",
+        "species": "SPECIES_KABUTOPS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_EARTHQUAKE",
+          "MOVE_STONE_EDGE",
+          "MOVE_AVALANCHE",
+          "MOVE_ROCK_POLISH"
+        ],
+        "name": "Rampardos",
+        "species": "SPECIES_RAMPARDOS"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_GOLEM",
+      "SPECIES_RELICANTH",
+      "SPECIES_OMASTAR",
+      "SPECIES_ONIX",
+      "SPECIES_KABUTOPS",
+      "SPECIES_RAMPARDOS"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_BROCK",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 721,
+    "max_level": 78,
+    "min_level": 72,
+    "name": "Misty",
+    "party": [
+      {
+        "item": "ITEM_COLBUR_BERRY",
+        "level": 76,
+        "moves": [
+          "MOVE_THUNDERBOLT",
+          "MOVE_PSYCHIC",
+          "MOVE_ICE_BEAM",
+          "MOVE_SURF"
+        ],
+        "name": "Starmie",
+        "species": "SPECIES_STARMIE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_WATER_PULSE",
+          "MOVE_AMNESIA",
+          "MOVE_EARTHQUAKE",
+          "MOVE_RAIN_DANCE"
+        ],
+        "name": "Quagsire",
+        "species": "SPECIES_QUAGSIRE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_PERISH_SONG",
+          "MOVE_BLIZZARD",
+          "MOVE_RAIN_DANCE"
+        ],
+        "name": "Lapras",
+        "species": "SPECIES_LAPRAS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_CONFUSE_RAY",
+          "MOVE_THUNDERBOLT",
+          "MOVE_SURF",
+          "MOVE_THUNDER_WAVE"
+        ],
+        "name": "Lanturn",
+        "species": "SPECIES_LANTURN"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_AGILITY",
+          "MOVE_ICE_FANG",
+          "MOVE_WATERFALL",
+          "MOVE_BATON_PASS"
+        ],
+        "name": "Floatzel",
+        "species": "SPECIES_FLOATZEL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_HYDRO_PUMP",
+          "MOVE_ICE_BEAM",
+          "MOVE_REST",
+          "MOVE_SLEEP_TALK"
+        ],
+        "name": "Milotic",
+        "species": "SPECIES_MILOTIC"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_STARMIE",
+      "SPECIES_QUAGSIRE",
+      "SPECIES_LAPRAS",
+      "SPECIES_LANTURN",
+      "SPECIES_FLOATZEL",
+      "SPECIES_MILOTIC"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_MISTY",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 722,
+    "max_level": 80,
+    "min_level": 74,
+    "name": "Lt. Surge",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_THUNDER_WAVE",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_THUNDERBOLT",
+          "MOVE_GRASS_KNOT"
+        ],
+        "name": "Raichu",
+        "species": "SPECIES_RAICHU"
+      },
+      {
+        "item": "ITEM_PINAP_BERRY",
+        "level": 74,
+        "moves": [
+          "MOVE_THUNDER_WAVE",
+          "MOVE_NATURAL_GIFT",
+          "MOVE_DISCHARGE",
+          "MOVE_OVERHEAT"
+        ],
+        "name": "Manectric",
+        "species": "SPECIES_MANECTRIC"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_THUNDERBOLT",
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_MAGNET_RISE",
+          "MOVE_MIRROR_SHOT"
+        ],
+        "name": "Magnezone",
+        "species": "SPECIES_MAGNEZONE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_THUNDER_WAVE",
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_THUNDERBOLT",
+          "MOVE_EXPLOSION"
+        ],
+        "name": "Electrode",
+        "species": "SPECIES_ELECTRODE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_QUICK_ATTACK",
+          "MOVE_SUPER_FANG",
+          "MOVE_DISCHARGE",
+          "MOVE_SWEET_KISS"
+        ],
+        "name": "Pachirisu",
+        "species": "SPECIES_PACHIRISU"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 80,
+        "moves": [
+          "MOVE_THUNDERBOLT",
+          "MOVE_CROSS_CHOP",
+          "MOVE_ICE_PUNCH",
+          "MOVE_EARTHQUAKE"
+        ],
+        "name": "Electivire",
+        "species": "SPECIES_ELECTIVIRE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_RAICHU",
+      "SPECIES_MANECTRIC",
+      "SPECIES_MAGNEZONE",
+      "SPECIES_ELECTRODE",
+      "SPECIES_PACHIRISU",
+      "SPECIES_ELECTIVIRE"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_LT_SURGE",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 723,
+    "max_level": 80,
+    "min_level": 74,
+    "name": "Erika",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_LEAF_STORM",
+          "MOVE_SUCKER_PUNCH",
+          "MOVE_EXPLOSION",
+          "MOVE_SUNNY_DAY"
+        ],
+        "name": "Shiftry",
+        "species": "SPECIES_SHIFTRY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_U_TURN",
+          "MOVE_MEMENTO",
+          "MOVE_SLEEP_POWDER",
+          "MOVE_GIGA_DRAIN"
+        ],
+        "name": "Jumpluff",
+        "species": "SPECIES_JUMPLUFF"
+      },
+      {
+        "item": "ITEM_KELPSY_BERRY",
+        "level": 76,
+        "moves": [
+          "MOVE_NATURAL_GIFT",
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_LEAF_STORM",
+          "MOVE_LEAF_BLADE"
+        ],
+        "name": "Victreebel",
+        "species": "SPECIES_VICTREEBEL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_SUNNY_DAY",
+          "MOVE_SOLAR_BEAM",
+          "MOVE_GIGA_DRAIN",
+          "MOVE_ATTRACT"
+        ],
+        "name": "Bellossom",
+        "species": "SPECIES_BELLOSSOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_SWORDS_DANCE",
+          "MOVE_POWER_WHIP",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_EARTHQUAKE"
+        ],
+        "name": "Tangrowth",
+        "species": "SPECIES_TANGROWTH"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_WEATHER_BALL",
+          "MOVE_ENERGY_BALL",
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_STUN_SPORE"
+        ],
+        "name": "Roserade",
+        "species": "SPECIES_ROSERADE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_SHIFTRY",
+      "SPECIES_JUMPLUFF",
+      "SPECIES_VICTREEBEL",
+      "SPECIES_BELLOSSOM",
+      "SPECIES_TANGROWTH",
+      "SPECIES_ROSERADE"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_ERIKA",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 724,
+    "max_level": 78,
+    "min_level": 72,
+    "name": "Janine",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_HEAT_WAVE",
+          "MOVE_CROSS_POISON",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_U_TURN"
+        ],
+        "name": "Crobat",
+        "species": "SPECIES_CROBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 72,
+        "moves": [
+          "MOVE_THUNDERBOLT",
+          "MOVE_SLUDGE_BOMB",
+          "MOVE_TOXIC",
+          "MOVE_EXPLOSION"
+        ],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 74,
+        "moves": [
+          "MOVE_CROSS_CHOP",
+          "MOVE_POISON_JAB",
+          "MOVE_ATTRACT",
+          "MOVE_SUBSTITUTE"
+        ],
+        "name": "Toxicroak",
+        "species": "SPECIES_TOXICROAK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_TOXIC",
+          "MOVE_BOUNCE",
+          "MOVE_SWAGGER",
+          "MOVE_NIGHT_SHADE"
+        ],
+        "name": "Ariados",
+        "species": "SPECIES_ARIADOS"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 76,
+        "moves": [
+          "MOVE_SLEEP_POWDER",
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_BUG_BUZZ",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Venomoth",
+        "species": "SPECIES_VENOMOTH"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_CROSS_POISON",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_CRUNCH",
+          "MOVE_SWORDS_DANCE"
+        ],
+        "name": "Drapion",
+        "species": "SPECIES_DRAPION"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_CROBAT",
+      "SPECIES_WEEZING",
+      "SPECIES_TOXICROAK",
+      "SPECIES_ARIADOS",
+      "SPECIES_VENOMOTH",
+      "SPECIES_DRAPION"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_JANINE",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 725,
+    "max_level": 80,
+    "min_level": 76,
+    "name": "Sabrina",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_GRAVITY",
+          "MOVE_FOCUS_BLAST",
+          "MOVE_ENERGY_BALL",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Alakazam",
+        "species": "SPECIES_ALAKAZAM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_CALM_MIND",
+          "MOVE_BATON_PASS",
+          "MOVE_SHADOW_BALL",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Espeon",
+        "species": "SPECIES_ESPEON"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_REFLECT",
+          "MOVE_SKILL_SWAP",
+          "MOVE_THUNDER",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Mr Mime",
+        "species": "SPECIES_MR_MIME"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_BLIZZARD",
+          "MOVE_PERISH_SONG",
+          "MOVE_PSYCHIC",
+          "MOVE_FOCUS_BLAST"
+        ],
+        "name": "Jynx",
+        "species": "SPECIES_JYNX"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_COUNTER",
+          "MOVE_MIRROR_COAT",
+          "MOVE_DESTINY_BOND",
+          "MOVE_ENCORE"
+        ],
+        "name": "Wobbuffet",
+        "species": "SPECIES_WOBBUFFET"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 80,
+        "moves": [
+          "MOVE_CLOSE_COMBAT",
+          "MOVE_PSYCHO_CUT",
+          "MOVE_NIGHT_SLASH",
+          "MOVE_STONE_EDGE"
+        ],
+        "name": "Gallade",
+        "species": "SPECIES_GALLADE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_ALAKAZAM",
+      "SPECIES_ESPEON",
+      "SPECIES_MR_MIME",
+      "SPECIES_JYNX",
+      "SPECIES_WOBBUFFET",
+      "SPECIES_GALLADE"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_SABRINA",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 726,
+    "max_level": 82,
+    "min_level": 78,
+    "name": "Blaine",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_SUNNY_DAY",
+          "MOVE_YAWN",
+          "MOVE_BODY_SLAM",
+          "MOVE_OVERHEAT"
+        ],
+        "name": "Torkoal",
+        "species": "SPECIES_TORKOAL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_EARTHQUAKE",
+          "MOVE_ERUPTION",
+          "MOVE_SOLAR_BEAM",
+          "MOVE_SUNNY_DAY"
+        ],
+        "name": "Camerupt",
+        "species": "SPECIES_CAMERUPT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_MEGAHORN",
+          "MOVE_QUICK_ATTACK",
+          "MOVE_OVERHEAT",
+          "MOVE_FLARE_BLITZ"
+        ],
+        "name": "Rapidash",
+        "species": "SPECIES_RAPIDASH"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_CURSE",
+          "MOVE_GYRO_BALL",
+          "MOVE_OVERHEAT",
+          "MOVE_STONE_EDGE"
+        ],
+        "name": "Magcargo",
+        "species": "SPECIES_MAGCARGO"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_SHADOW_BALL",
+          "MOVE_DARK_PULSE",
+          "MOVE_FLAMETHROWER",
+          "MOVE_SUCKER_PUNCH"
+        ],
+        "name": "Houndoom",
+        "species": "SPECIES_HOUNDOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_THUNDERBOLT",
+          "MOVE_LOW_KICK",
+          "MOVE_FLAMETHROWER",
+          "MOVE_CONFUSE_RAY"
+        ],
+        "name": "Magmortar",
+        "species": "SPECIES_MAGMORTAR"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_TORKOAL",
+      "SPECIES_CAMERUPT",
+      "SPECIES_RAPIDASH",
+      "SPECIES_MAGCARGO",
+      "SPECIES_HOUNDOOM",
+      "SPECIES_MAGMORTAR"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_BLAINE",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 727,
+    "max_level": 90,
+    "min_level": 84,
+    "name": "Blue",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 84,
+        "moves": [
+          "MOVE_LEAF_STORM",
+          "MOVE_PSYCHIC",
+          "MOVE_EXPLOSION",
+          "MOVE_TRICK_ROOM"
+        ],
+        "name": "Exeggutor",
+        "species": "SPECIES_EXEGGUTOR"
+      },
+      {
+        "item": "ITEM_IRON_BALL",
+        "level": 84,
+        "moves": [
+          "MOVE_DYNAMIC_PUNCH",
+          "MOVE_STONE_EDGE",
+          "MOVE_FLING",
+          "MOVE_ATTRACT"
+        ],
+        "name": "Machamp",
+        "species": "SPECIES_MACHAMP"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 86,
+        "moves": [
+          "MOVE_MEGAHORN",
+          "MOVE_STONE_EDGE",
+          "MOVE_THUNDER_FANG",
+          "MOVE_EARTHQUAKE"
+        ],
+        "name": "Rhyperior",
+        "species": "SPECIES_RHYPERIOR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 86,
+        "moves": [
+          "MOVE_FLARE_BLITZ",
+          "MOVE_EXTREME_SPEED",
+          "MOVE_THUNDER_FANG",
+          "MOVE_CRUNCH"
+        ],
+        "name": "Arcanine",
+        "species": "SPECIES_ARCANINE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 88,
+        "moves": [
+          "MOVE_LOW_KICK",
+          "MOVE_FIRE_FANG",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_EARTHQUAKE"
+        ],
+        "name": "Tyranitar",
+        "species": "SPECIES_TYRANITAR"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 90,
+        "moves": [
+          "MOVE_RETURN",
+          "MOVE_DOUBLE_TEAM",
+          "MOVE_AIR_SLASH",
+          "MOVE_STEEL_WING"
+        ],
+        "name": "Pidgeot",
+        "species": "SPECIES_PIDGEOT"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_EXEGGUTOR",
+      "SPECIES_MACHAMP",
+      "SPECIES_RHYPERIOR",
+      "SPECIES_ARCANINE",
+      "SPECIES_TYRANITAR",
+      "SPECIES_PIDGEOT"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_BLUE",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 733,
+    "max_level": 88,
+    "min_level": 82,
+    "name": "Lance",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_WATERFALL",
+          "MOVE_ICE_FANG",
+          "MOVE_DRAGON_DANCE",
+          "MOVE_CRUNCH"
+        ],
+        "name": "Gyarados",
+        "species": "SPECIES_GYARADOS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_AERIAL_ACE",
+          "MOVE_ROCK_SLIDE",
+          "MOVE_CRUNCH",
+          "MOVE_THUNDER_FANG"
+        ],
+        "name": "Aerodactyl",
+        "species": "SPECIES_AERODACTYL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 84,
+        "moves": [
+          "MOVE_SURF",
+          "MOVE_DRAGON_PULSE",
+          "MOVE_ICE_BEAM",
+          "MOVE_YAWN"
+        ],
+        "name": "Kingdra",
+        "species": "SPECIES_KINGDRA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 84,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_AIR_SLASH",
+          "MOVE_DRAGON_CLAW",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Charizard",
+        "species": "SPECIES_CHARIZARD"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 86,
+        "moves": [
+          "MOVE_IRON_HEAD",
+          "MOVE_DRAGON_CLAW",
+          "MOVE_EARTHQUAKE",
+          "MOVE_STONE_EDGE"
+        ],
+        "name": "Aggron",
+        "species": "SPECIES_AGGRON"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 88,
+        "moves": [
+          "MOVE_FIRE_PUNCH",
+          "MOVE_SAFEGUARD",
+          "MOVE_DRACO_METEOR",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Dragonite",
+        "species": "SPECIES_DRAGONITE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_GYARADOS",
+      "SPECIES_AERODACTYL",
+      "SPECIES_KINGDRA",
+      "SPECIES_CHARIZARD",
+      "SPECIES_AGGRON",
+      "SPECIES_DRAGONITE"
+    ],
+    "trainer_class": "TRAINERCLASS_CHAMPION",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 734,
+    "max_level": 84,
+    "min_level": 76,
+    "name": "Clair",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_WATERFALL",
+          "MOVE_ICE_FANG",
+          "MOVE_DRAGON_DANCE",
+          "MOVE_CRUNCH"
+        ],
+        "name": "Gyarados",
+        "species": "SPECIES_GYARADOS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 76,
+        "moves": [
+          "MOVE_THUNDER_WAVE",
+          "MOVE_DRAGON_RUSH",
+          "MOVE_THUNDERBOLT",
+          "MOVE_FLAMETHROWER"
+        ],
+        "name": "Dragonair",
+        "species": "SPECIES_DRAGONAIR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_DRAGON_PULSE",
+          "MOVE_AIR_SLASH",
+          "MOVE_ROOST",
+          "MOVE_SING"
+        ],
+        "name": "Altaria",
+        "species": "SPECIES_ALTARIA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_HYDRO_PUMP",
+          "MOVE_ICE_BEAM",
+          "MOVE_DRAGON_PULSE",
+          "MOVE_YAWN"
+        ],
+        "name": "Kingdra",
+        "species": "SPECIES_KINGDRA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 82,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_AIR_SLASH",
+          "MOVE_DRAGON_CLAW",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Charizard",
+        "species": "SPECIES_CHARIZARD"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 84,
+        "moves": [
+          "MOVE_THUNDER",
+          "MOVE_PROTECT",
+          "MOVE_DRAGON_RUSH",
+          "MOVE_HYPER_BEAM"
+        ],
+        "name": "Dragonite",
+        "species": "SPECIES_DRAGONITE"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_GYARADOS",
+      "SPECIES_DRAGONAIR",
+      "SPECIES_ALTARIA",
+      "SPECIES_KINGDRA",
+      "SPECIES_CHARIZARD",
+      "SPECIES_DRAGONITE"
+    ],
+    "trainer_class": "TRAINERCLASS_LEADER_CLAIR",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 735,
+    "max_level": 82,
+    "min_level": 78,
+    "name": "Silver",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_QUICK_ATTACK",
+          "MOVE_ICE_PUNCH",
+          "MOVE_NIGHT_SLASH",
+          "MOVE_SHADOW_CLAW"
+        ],
+        "name": "Weavile",
+        "species": "SPECIES_WEAVILE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_POISON_FANG",
+          "MOVE_BITE",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_AIR_CUTTER"
+        ],
+        "name": "Crobat",
+        "species": "SPECIES_CROBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 79,
+        "moves": [
+          "MOVE_DISCHARGE",
+          "MOVE_FLASH_CANNON",
+          "MOVE_THUNDER_WAVE",
+          "MOVE_MAGNET_BOMB"
+        ],
+        "name": "Magnezone",
+        "species": "SPECIES_MAGNEZONE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_MEAN_LOOK",
+          "MOVE_CURSE",
+          "MOVE_SHADOW_BALL",
+          "MOVE_CONFUSE_RAY"
+        ],
+        "name": "Gengar",
+        "species": "SPECIES_GENGAR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_DISABLE",
+          "MOVE_RECOVER",
+          "MOVE_REFLECT",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Alakazam",
+        "species": "SPECIES_ALAKAZAM"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 82,
+        "moves": [
+          "MOVE_PETAL_DANCE",
+          "MOVE_BODY_SLAM",
+          "MOVE_LIGHT_SCREEN",
+          "MOVE_SYNTHESIS"
+        ],
+        "name": "Meganium",
+        "species": "SPECIES_MEGANIUM"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_WEAVILE",
+      "SPECIES_CROBAT",
+      "SPECIES_MAGNEZONE",
+      "SPECIES_GENGAR",
+      "SPECIES_ALAKAZAM",
+      "SPECIES_MEGANIUM"
+    ],
+    "trainer_class": "TRAINERCLASS_RIVAL",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 736,
+    "max_level": 82,
+    "min_level": 78,
+    "name": "Silver",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_QUICK_ATTACK",
+          "MOVE_ICE_PUNCH",
+          "MOVE_NIGHT_SLASH",
+          "MOVE_SHADOW_CLAW"
+        ],
+        "name": "Weavile",
+        "species": "SPECIES_WEAVILE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_POISON_FANG",
+          "MOVE_BITE",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_AIR_CUTTER"
+        ],
+        "name": "Crobat",
+        "species": "SPECIES_CROBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 79,
+        "moves": [
+          "MOVE_DISCHARGE",
+          "MOVE_FLASH_CANNON",
+          "MOVE_THUNDER_WAVE",
+          "MOVE_MAGNET_BOMB"
+        ],
+        "name": "Magnezone",
+        "species": "SPECIES_MAGNEZONE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_MEAN_LOOK",
+          "MOVE_CURSE",
+          "MOVE_SHADOW_BALL",
+          "MOVE_CONFUSE_RAY"
+        ],
+        "name": "Gengar",
+        "species": "SPECIES_GENGAR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_DISABLE",
+          "MOVE_RECOVER",
+          "MOVE_REFLECT",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Alakazam",
+        "species": "SPECIES_ALAKAZAM"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 82,
+        "moves": [
+          "MOVE_FLAMETHROWER",
+          "MOVE_FOCUS_BLAST",
+          "MOVE_WILL_O_WISP",
+          "MOVE_SWIFT"
+        ],
+        "name": "Typhlosion",
+        "species": "SPECIES_TYPHLOSION"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_WEAVILE",
+      "SPECIES_CROBAT",
+      "SPECIES_MAGNEZONE",
+      "SPECIES_GENGAR",
+      "SPECIES_ALAKAZAM",
+      "SPECIES_TYPHLOSION"
+    ],
+    "trainer_class": "TRAINERCLASS_RIVAL",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  },
+  {
+    "id": 737,
+    "max_level": 82,
+    "min_level": 78,
+    "name": "Silver",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_QUICK_ATTACK",
+          "MOVE_ICE_PUNCH",
+          "MOVE_NIGHT_SLASH",
+          "MOVE_SHADOW_CLAW"
+        ],
+        "name": "Weavile",
+        "species": "SPECIES_WEAVILE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 78,
+        "moves": [
+          "MOVE_POISON_FANG",
+          "MOVE_BITE",
+          "MOVE_CONFUSE_RAY",
+          "MOVE_AIR_CUTTER"
+        ],
+        "name": "Crobat",
+        "species": "SPECIES_CROBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 79,
+        "moves": [
+          "MOVE_DISCHARGE",
+          "MOVE_FLASH_CANNON",
+          "MOVE_THUNDER_WAVE",
+          "MOVE_MAGNET_BOMB"
+        ],
+        "name": "Magnezone",
+        "species": "SPECIES_MAGNEZONE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_MEAN_LOOK",
+          "MOVE_CURSE",
+          "MOVE_SHADOW_BALL",
+          "MOVE_CONFUSE_RAY"
+        ],
+        "name": "Gengar",
+        "species": "SPECIES_GENGAR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 80,
+        "moves": [
+          "MOVE_DISABLE",
+          "MOVE_RECOVER",
+          "MOVE_REFLECT",
+          "MOVE_PSYCHIC"
+        ],
+        "name": "Alakazam",
+        "species": "SPECIES_ALAKAZAM"
+      },
+      {
+        "item": "ITEM_SITRUS_BERRY",
+        "level": 82,
+        "moves": [
+          "MOVE_WATERFALL",
+          "MOVE_ICE_FANG",
+          "MOVE_CRUNCH",
+          "MOVE_AQUA_TAIL"
+        ],
+        "name": "Feraligatr",
+        "species": "SPECIES_FERALIGATR"
+      }
+    ],
+    "party_size": 6,
+    "species": [
+      "SPECIES_WEAVILE",
+      "SPECIES_CROBAT",
+      "SPECIES_MAGNEZONE",
+      "SPECIES_GENGAR",
+      "SPECIES_ALAKAZAM",
+      "SPECIES_FERALIGATR"
+    ],
+    "trainer_class": "TRAINERCLASS_RIVAL",
+    "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+  }
+]

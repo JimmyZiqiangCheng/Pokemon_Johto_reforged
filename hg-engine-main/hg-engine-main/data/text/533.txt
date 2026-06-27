@@ -1,0 +1,99 @@
+The master is making a pilgrimage with his Pokemon.\n
+This is the Fighting Dojo. Trainers who have earned Gym Leader rematches gather here.\n
+Struggle for vengeance!\nFighting Dojo\n
+A complicated fracture.\nThe Karate King, the Fighting Master, is in a cave in Johto for training.\n
+Falkner: You have never felt the rush of soaring through the sky!\n
+Falkner: Someday, I will be able to fly in the sky with them...\n
+Bugsy: Study shall reveal the great secrets of Bug-type Pokemon!\n
+Bugsy: Tough Pokemon like yours are another great subject for research.\n
+Whitney: You came all the way to see me? Then let us battle!\n
+Whitney: No fair! You are still too strong!\n
+Chuck: Let your fists do the talking!\n
+Chuck: Wahaha! You landed a clean one!\n
+Jasmine: I will battle with steel-hard resolve.\n
+Jasmine: Your strength is gentle, but it does not bend.\n
+Morty: I have trained to see even further into the future.\n
+Morty: I saw this result...but it still stings.\n
+Pryce: The winter of training never ends.\n
+Pryce: Hm. I still have much to learn.\n
+Clair: I will show you the pride of the Dragon Den.\n
+Clair: I accept it. You are strong.\n
+Lt. Surge: Hey, kid! My Electric Pokemon are ready to shock you!\n
+Lt. Surge: You shorted out my strategy!\n
+Sabrina: I foresaw your arrival. Let us battle.\n
+Sabrina: The vision was correct. You are exceptional.\n
+Erika: Let us have a graceful battle.\n
+Erika: Oh my. Your skill blooms beautifully.\n
+Misty: Are you ready for my Water Pokemon?\n
+Misty: You splashed right through me!\n
+Brock: Rock-hard defense, full power!\n
+Brock: Your tactics cracked my wall.\n
+Janine: I will battle in my father name!\n
+Janine: I still need more training.\n
+Blaine: My fiery spirit has not cooled one bit!\n
+Blaine: Burned out again! Hah!\n
+Blue: A real challenger? Fine. Show me what you have got.\n
+Blue: Not bad. I can see why the League keeps talking about you.\n
+Earn all sixteen badges first. Kanto has deeper challenges for a proven Champion.\n
+The Dojo now keeps postgame battle records and legendary dossiers. Choose a challenge.\n
+Articuno\n
+Zapdos\n
+Moltres\n
+Mewtwo\n
+Lugia\n
+Ho-Oh\n
+Suicune\n
+Latias\n
+Latios\n
+Back\n
+Regirock\n
+Regice\n
+Registeel\n
+Regigigas\n
+Kyogre\n
+Groudon\n
+Rayquaza\n
+Mew\n
+Celebi\n
+Jirachi\n
+Deoxys\n
+Heatran\n
+Cresselia\n
+Darkrai\n
+Shaymin\n
+Manaphy\n
+Phione\n
+Uxie\n
+Mesprit\n
+Azelf\n
+Dialga\n
+Palkia\n
+Giratina\n
+Arceus\n
+Lance\n
+Blue\n
+Red\n
+Steven\n
+Wallace\n
+Cynthia\n
+Champion Circuit\n
+Kanto Legends\n
+Ancient Seals\n
+Mythic Dossiers\n
+Creation Echoes\n
+Choose a Champion Circuit battle.\n
+Choose a Kanto or Johto legendary dossier.\n
+Choose an ancient seal or weather dossier.\n
+Choose a mythical or dream dossier.\n
+Choose a lake or creation dossier.\n
+Defeat Red on Mt. Silver before advanced circuit challenges open.\n
+The three ancient seals must be claimed before Regigigas awakens.\n
+Rayquaza will not descend until Kyogre and Groudon have both been claimed.\n
+The nightmare dossier will not open until Cresselia has been claimed.\n
+The Phione dossier will not open until Manaphy has been claimed.\n
+Arceus requires Red defeated plus the lake trio and creation trio.\n
+That dossier has already gone quiet.\n
+The dossier seal opens. A presence answers the challenge!\n
+The presence withdraws. The dossier remains active for another attempt.\n
+The Champion Circuit records your victory.\n
+The seal is not ready to open.\n

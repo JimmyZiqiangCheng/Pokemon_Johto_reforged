@@ -1,0 +1,415 @@
+{
+  "gift_export_status": "Phase 9 exports the Phase 8 static/dossier layer; pre-existing gifts are not exhaustively changed by Phases 6-8.",
+  "static": [
+    {
+      "encounter_type": "roaming",
+      "level": 40,
+      "location": "Burned Tower release",
+      "name": "Raikou",
+      "prerequisites": "Burned Tower event releases the Johto roamer"
+    },
+    {
+      "encounter_type": "roaming",
+      "level": 40,
+      "location": "Burned Tower release",
+      "name": "Entei",
+      "prerequisites": "Burned Tower event releases the Johto roamer"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_ARTICUNO",
+      "hide_flags": [
+        "FLAG_HIDE_SEAFOAM_ISLAND_ARTICUNO"
+      ],
+      "level": 70,
+      "location": "Seafoam dossier, Saffron Fighting Dojo",
+      "name": "Articuno",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_ARTICUNO"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_ZAPDOS",
+      "hide_flags": [
+        "FLAG_HIDE_ROUTE_10_ZAPDOS"
+      ],
+      "level": 70,
+      "location": "Power Plant dossier, Saffron Fighting Dojo",
+      "name": "Zapdos",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_ZAPDOS"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_MOLTRES",
+      "hide_flags": [
+        "FLAG_HIDE_MT_SILVER_CAVE_MOLTRES"
+      ],
+      "level": 72,
+      "location": "Mt. Silver dossier, Saffron Fighting Dojo",
+      "name": "Moltres",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MOLTRES"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_MEWTWO",
+      "hide_flags": [
+        "FLAG_HIDE_CERULEAN_CAVE_MEWTWO"
+      ],
+      "level": 80,
+      "location": "Cerulean Cave dossier, Saffron Fighting Dojo",
+      "name": "Mewtwo",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MEWTWO"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_LUGIA",
+      "hide_flags": [
+        "FLAG_HIDE_WHIRL_ISLAND_LUGIA"
+      ],
+      "level": 75,
+      "location": "Whirl Islands dossier, Saffron Fighting Dojo",
+      "name": "Lugia",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_LUGIA"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_HO_OH",
+      "hide_flags": [
+        "FLAG_HIDE_BELL_TOWER_HO_OH"
+      ],
+      "level": 75,
+      "location": "Bell Tower dossier, Saffron Fighting Dojo",
+      "name": "Ho-Oh",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_HO_OH"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_SUICUNE",
+      "hide_flags": [
+        "FLAG_HIDE_BURNED_TOWER_B1F_SUICUNE",
+        "FLAG_HIDE_BURNED_TOWER_1F_SUICUNE",
+        "FLAG_HIDE_CIANWOOD_SUICUNE",
+        "FLAG_HIDE_ROUTE_42_SUICUNE",
+        "FLAG_HIDE_VERMILION_SUICUNE",
+        "FLAG_HIDE_ROUTE_14_SUICUNE",
+        "FLAG_HIDE_ROUTE_25_SUICUNE",
+        "FLAG_HIDE_BURNED_TOWER_STATIC_SUICUNE"
+      ],
+      "level": 65,
+      "location": "Eusine dossier, Saffron Fighting Dojo",
+      "name": "Suicune",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_SUICUNE"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_LATIAS",
+      "hide_flags": [
+        "FLAG_HIDE_PEWTER_CITY_LATIAS"
+      ],
+      "level": 68,
+      "location": "Kanto roaming dossier, Saffron Fighting Dojo",
+      "name": "Latias",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_LATIAS"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_LATIOS",
+      "hide_flags": [
+        "FLAG_HIDE_PEWTER_CITY_LATIOS"
+      ],
+      "level": 68,
+      "location": "Kanto roaming dossier, Saffron Fighting Dojo",
+      "name": "Latios",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_LATIOS"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGIROCK",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Regirock",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_REGIROCK"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGICE",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Regice",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_REGICE"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGISTEEL",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Registeel",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_REGISTEEL"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGIGIGAS",
+      "hide_flags": [],
+      "level": 80,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Regigigas",
+      "prerequisites": "16 badges plus Regirock, Regice, and Registeel caught",
+      "species": "SPECIES_REGIGIGAS"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_KYOGRE",
+      "hide_flags": [
+        "FLAG_HIDE_EMBEDDED_TOWER_KYOGRE",
+        "FLAG_HIDE_EMBEDDED_TOWER_KYOGRE_HIKER"
+      ],
+      "level": 75,
+      "location": "Embedded Tower weather dossier, Saffron Fighting Dojo",
+      "name": "Kyogre",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_KYOGRE"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_GROUDON",
+      "hide_flags": [
+        "FLAG_HIDE_EMBEDDED_TOWER_GROUDON",
+        "FLAG_HIDE_EMBEDDED_TOWER_GROUDON_HIKER"
+      ],
+      "level": 75,
+      "location": "Embedded Tower weather dossier, Saffron Fighting Dojo",
+      "name": "Groudon",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_GROUDON"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_RAYQUAZA",
+      "hide_flags": [
+        "FLAG_HIDE_EMBEDDED_TOWER_RAYQUAZA"
+      ],
+      "level": 80,
+      "location": "Embedded Tower sky dossier, Saffron Fighting Dojo",
+      "name": "Rayquaza",
+      "prerequisites": "16 badges plus Kyogre and Groudon caught",
+      "species": "SPECIES_RAYQUAZA"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_MEW",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Faraway dossier, Saffron Fighting Dojo",
+      "name": "Mew",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MEW"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_CELEBI",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ilex Shrine dossier, Saffron Fighting Dojo",
+      "name": "Celebi",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_CELEBI"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_JIRACHI",
+      "hide_flags": [],
+      "level": 75,
+      "location": "Mt. Moon stargazing dossier, Saffron Fighting Dojo",
+      "name": "Jirachi",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_JIRACHI"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_DEOXYS",
+      "hide_flags": [],
+      "level": 80,
+      "location": "Pewter meteorite dossier, Saffron Fighting Dojo",
+      "name": "Deoxys",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_DEOXYS"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_HEATRAN",
+      "hide_flags": [],
+      "level": 78,
+      "location": "Volcanic dossier, Saffron Fighting Dojo",
+      "name": "Heatran",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_HEATRAN"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_CRESSELIA",
+      "hide_flags": [],
+      "level": 78,
+      "location": "Dream dossier, Saffron Fighting Dojo",
+      "name": "Cresselia",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_CRESSELIA"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_DARKRAI",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Nightmare dossier, Saffron Fighting Dojo",
+      "name": "Darkrai",
+      "prerequisites": "16 badges plus Cresselia caught",
+      "species": "SPECIES_DARKRAI"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_SHAYMIN",
+      "hide_flags": [],
+      "level": 75,
+      "location": "Flower restoration dossier, Saffron Fighting Dojo",
+      "name": "Shaymin",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_SHAYMIN"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_MANAPHY",
+      "hide_flags": [],
+      "level": 75,
+      "location": "Ocean egg dossier, Saffron Fighting Dojo",
+      "name": "Manaphy",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MANAPHY"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_PHIONE",
+      "hide_flags": [],
+      "level": 65,
+      "location": "Ocean egg dossier, Saffron Fighting Dojo",
+      "name": "Phione",
+      "prerequisites": "16 badges plus Manaphy caught",
+      "species": "SPECIES_PHIONE"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_UXIE",
+      "hide_flags": [],
+      "level": 72,
+      "location": "Lake insight dossier, Saffron Fighting Dojo",
+      "name": "Uxie",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_UXIE"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_MESPRIT",
+      "hide_flags": [],
+      "level": 72,
+      "location": "Lake emotion dossier, Saffron Fighting Dojo",
+      "name": "Mesprit",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MESPRIT"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_AZELF",
+      "hide_flags": [],
+      "level": 72,
+      "location": "Lake willpower dossier, Saffron Fighting Dojo",
+      "name": "Azelf",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_AZELF"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_DIALGA",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Sinjoh time dossier, Saffron Fighting Dojo",
+      "name": "Dialga",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_DIALGA"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_PALKIA",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Sinjoh space dossier, Saffron Fighting Dojo",
+      "name": "Palkia",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_PALKIA"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_GIRATINA",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Sinjoh distortion dossier, Saffron Fighting Dojo",
+      "name": "Giratina",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_GIRATINA"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_ARCEUS",
+      "hide_flags": [],
+      "level": 100,
+      "location": "Ultimate Sinjoh dossier, Saffron Fighting Dojo",
+      "name": "Arceus",
+      "prerequisites": "16 badges, Red defeated, lake trio caught, and creation trio caught",
+      "species": "SPECIES_ARCEUS"
+    }
+  ]
+}

@@ -1,0 +1,2513 @@
+[
+  {
+    "from": "SPECIES_BULBASAUR",
+    "from_name": "Bulbasaur",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_IVYSAUR",
+    "target_form": null,
+    "target_name": "Ivysaur"
+  },
+  {
+    "from": "SPECIES_IVYSAUR",
+    "from_name": "Ivysaur",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_VENUSAUR",
+    "target_form": null,
+    "target_name": "Venusaur"
+  },
+  {
+    "from": "SPECIES_CHARMANDER",
+    "from_name": "Charmander",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_CHARMELEON",
+    "target_form": null,
+    "target_name": "Charmeleon"
+  },
+  {
+    "from": "SPECIES_CHARMELEON",
+    "from_name": "Charmeleon",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_CHARIZARD",
+    "target_form": null,
+    "target_name": "Charizard"
+  },
+  {
+    "from": "SPECIES_SQUIRTLE",
+    "from_name": "Squirtle",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_WARTORTLE",
+    "target_form": null,
+    "target_name": "Wartortle"
+  },
+  {
+    "from": "SPECIES_WARTORTLE",
+    "from_name": "Wartortle",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_BLASTOISE",
+    "target_form": null,
+    "target_name": "Blastoise"
+  },
+  {
+    "from": "SPECIES_CATERPIE",
+    "from_name": "Caterpie",
+    "method": "EVO_LEVEL",
+    "parameter": "7",
+    "target": "SPECIES_METAPOD",
+    "target_form": null,
+    "target_name": "Metapod"
+  },
+  {
+    "from": "SPECIES_METAPOD",
+    "from_name": "Metapod",
+    "method": "EVO_LEVEL",
+    "parameter": "10",
+    "target": "SPECIES_BUTTERFREE",
+    "target_form": null,
+    "target_name": "Butterfree"
+  },
+  {
+    "from": "SPECIES_WEEDLE",
+    "from_name": "Weedle",
+    "method": "EVO_LEVEL",
+    "parameter": "7",
+    "target": "SPECIES_KAKUNA",
+    "target_form": null,
+    "target_name": "Kakuna"
+  },
+  {
+    "from": "SPECIES_KAKUNA",
+    "from_name": "Kakuna",
+    "method": "EVO_LEVEL",
+    "parameter": "10",
+    "target": "SPECIES_BEEDRILL",
+    "target_form": null,
+    "target_name": "Beedrill"
+  },
+  {
+    "from": "SPECIES_PIDGEY",
+    "from_name": "Pidgey",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_PIDGEOTTO",
+    "target_form": null,
+    "target_name": "Pidgeotto"
+  },
+  {
+    "from": "SPECIES_PIDGEOTTO",
+    "from_name": "Pidgeotto",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_PIDGEOT",
+    "target_form": null,
+    "target_name": "Pidgeot"
+  },
+  {
+    "from": "SPECIES_RATTATA",
+    "from_name": "Rattata",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_RATICATE",
+    "target_form": null,
+    "target_name": "Raticate"
+  },
+  {
+    "from": "SPECIES_SPEAROW",
+    "from_name": "Spearow",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_FEAROW",
+    "target_form": null,
+    "target_name": "Fearow"
+  },
+  {
+    "from": "SPECIES_EKANS",
+    "from_name": "Ekans",
+    "method": "EVO_LEVEL",
+    "parameter": "22",
+    "target": "SPECIES_ARBOK",
+    "target_form": null,
+    "target_name": "Arbok"
+  },
+  {
+    "from": "SPECIES_PIKACHU",
+    "from_name": "Pikachu",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_THUNDER_STONE",
+    "target": "SPECIES_RAICHU",
+    "target_form": null,
+    "target_name": "Raichu"
+  },
+  {
+    "from": "SPECIES_SANDSHREW",
+    "from_name": "Sandshrew",
+    "method": "EVO_LEVEL",
+    "parameter": "22",
+    "target": "SPECIES_SANDSLASH",
+    "target_form": null,
+    "target_name": "Sandslash"
+  },
+  {
+    "from": "SPECIES_NIDORAN_F",
+    "from_name": "Nidoran F",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_NIDORINA",
+    "target_form": null,
+    "target_name": "Nidorina"
+  },
+  {
+    "from": "SPECIES_NIDORINA",
+    "from_name": "Nidorina",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_MOON_STONE",
+    "target": "SPECIES_NIDOQUEEN",
+    "target_form": null,
+    "target_name": "Nidoqueen"
+  },
+  {
+    "from": "SPECIES_NIDORAN_M",
+    "from_name": "Nidoran M",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_NIDORINO",
+    "target_form": null,
+    "target_name": "Nidorino"
+  },
+  {
+    "from": "SPECIES_NIDORINO",
+    "from_name": "Nidorino",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_MOON_STONE",
+    "target": "SPECIES_NIDOKING",
+    "target_form": null,
+    "target_name": "Nidoking"
+  },
+  {
+    "from": "SPECIES_CLEFAIRY",
+    "from_name": "Clefairy",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_MOON_STONE",
+    "target": "SPECIES_CLEFABLE",
+    "target_form": null,
+    "target_name": "Clefable"
+  },
+  {
+    "from": "SPECIES_VULPIX",
+    "from_name": "Vulpix",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_FIRE_STONE",
+    "target": "SPECIES_NINETALES",
+    "target_form": null,
+    "target_name": "Ninetales"
+  },
+  {
+    "from": "SPECIES_JIGGLYPUFF",
+    "from_name": "Jigglypuff",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_MOON_STONE",
+    "target": "SPECIES_WIGGLYTUFF",
+    "target_form": null,
+    "target_name": "Wigglytuff"
+  },
+  {
+    "from": "SPECIES_ZUBAT",
+    "from_name": "Zubat",
+    "method": "EVO_LEVEL",
+    "parameter": "22",
+    "target": "SPECIES_GOLBAT",
+    "target_form": null,
+    "target_name": "Golbat"
+  },
+  {
+    "from": "SPECIES_GOLBAT",
+    "from_name": "Golbat",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_CROBAT",
+    "target_form": null,
+    "target_name": "Crobat"
+  },
+  {
+    "from": "SPECIES_ODDISH",
+    "from_name": "Oddish",
+    "method": "EVO_LEVEL",
+    "parameter": "21",
+    "target": "SPECIES_GLOOM",
+    "target_form": null,
+    "target_name": "Gloom"
+  },
+  {
+    "from": "SPECIES_GLOOM",
+    "from_name": "Gloom",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LEAF_STONE",
+    "target": "SPECIES_VILEPLUME",
+    "target_form": null,
+    "target_name": "Vileplume"
+  },
+  {
+    "from": "SPECIES_GLOOM",
+    "from_name": "Gloom",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_SUN_STONE",
+    "target": "SPECIES_BELLOSSOM",
+    "target_form": null,
+    "target_name": "Bellossom"
+  },
+  {
+    "from": "SPECIES_PARAS",
+    "from_name": "Paras",
+    "method": "EVO_LEVEL",
+    "parameter": "24",
+    "target": "SPECIES_PARASECT",
+    "target_form": null,
+    "target_name": "Parasect"
+  },
+  {
+    "from": "SPECIES_VENONAT",
+    "from_name": "Venonat",
+    "method": "EVO_LEVEL",
+    "parameter": "31",
+    "target": "SPECIES_VENOMOTH",
+    "target_form": null,
+    "target_name": "Venomoth"
+  },
+  {
+    "from": "SPECIES_DIGLETT",
+    "from_name": "Diglett",
+    "method": "EVO_LEVEL",
+    "parameter": "26",
+    "target": "SPECIES_DUGTRIO",
+    "target_form": null,
+    "target_name": "Dugtrio"
+  },
+  {
+    "from": "SPECIES_MEOWTH",
+    "from_name": "Meowth",
+    "method": "EVO_LEVEL",
+    "parameter": "28",
+    "target": "SPECIES_PERSIAN",
+    "target_form": null,
+    "target_name": "Persian"
+  },
+  {
+    "from": "SPECIES_PSYDUCK",
+    "from_name": "Psyduck",
+    "method": "EVO_LEVEL",
+    "parameter": "33",
+    "target": "SPECIES_GOLDUCK",
+    "target_form": null,
+    "target_name": "Golduck"
+  },
+  {
+    "from": "SPECIES_MANKEY",
+    "from_name": "Mankey",
+    "method": "EVO_LEVEL",
+    "parameter": "28",
+    "target": "SPECIES_PRIMEAPE",
+    "target_form": null,
+    "target_name": "Primeape"
+  },
+  {
+    "from": "SPECIES_PRIMEAPE",
+    "from_name": "Primeape",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_RAGE_FIST",
+    "target": "SPECIES_ANNIHILAPE",
+    "target_form": null,
+    "target_name": "Annihilape"
+  },
+  {
+    "from": "SPECIES_GROWLITHE",
+    "from_name": "Growlithe",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_FIRE_STONE",
+    "target": "SPECIES_ARCANINE",
+    "target_form": null,
+    "target_name": "Arcanine"
+  },
+  {
+    "from": "SPECIES_POLIWAG",
+    "from_name": "Poliwag",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_POLIWHIRL",
+    "target_form": null,
+    "target_name": "Poliwhirl"
+  },
+  {
+    "from": "SPECIES_POLIWHIRL",
+    "from_name": "Poliwhirl",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_WATER_STONE",
+    "target": "SPECIES_POLIWRATH",
+    "target_form": null,
+    "target_name": "Poliwrath"
+  },
+  {
+    "from": "SPECIES_POLIWHIRL",
+    "from_name": "Poliwhirl",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_KINGS_ROCK",
+    "target": "SPECIES_POLITOED",
+    "target_form": null,
+    "target_name": "Politoed"
+  },
+  {
+    "from": "SPECIES_ABRA",
+    "from_name": "Abra",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_KADABRA",
+    "target_form": null,
+    "target_name": "Kadabra"
+  },
+  {
+    "from": "SPECIES_KADABRA",
+    "from_name": "Kadabra",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LINKING_CORD",
+    "target": "SPECIES_ALAKAZAM",
+    "target_form": null,
+    "target_name": "Alakazam"
+  },
+  {
+    "from": "SPECIES_MACHOP",
+    "from_name": "Machop",
+    "method": "EVO_LEVEL",
+    "parameter": "28",
+    "target": "SPECIES_MACHOKE",
+    "target_form": null,
+    "target_name": "Machoke"
+  },
+  {
+    "from": "SPECIES_MACHOKE",
+    "from_name": "Machoke",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LINKING_CORD",
+    "target": "SPECIES_MACHAMP",
+    "target_form": null,
+    "target_name": "Machamp"
+  },
+  {
+    "from": "SPECIES_BELLSPROUT",
+    "from_name": "Bellsprout",
+    "method": "EVO_LEVEL",
+    "parameter": "21",
+    "target": "SPECIES_WEEPINBELL",
+    "target_form": null,
+    "target_name": "Weepinbell"
+  },
+  {
+    "from": "SPECIES_WEEPINBELL",
+    "from_name": "Weepinbell",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LEAF_STONE",
+    "target": "SPECIES_VICTREEBEL",
+    "target_form": null,
+    "target_name": "Victreebel"
+  },
+  {
+    "from": "SPECIES_TENTACOOL",
+    "from_name": "Tentacool",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_TENTACRUEL",
+    "target_form": null,
+    "target_name": "Tentacruel"
+  },
+  {
+    "from": "SPECIES_GEODUDE",
+    "from_name": "Geodude",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_GRAVELER",
+    "target_form": null,
+    "target_name": "Graveler"
+  },
+  {
+    "from": "SPECIES_GRAVELER",
+    "from_name": "Graveler",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LINKING_CORD",
+    "target": "SPECIES_GOLEM",
+    "target_form": null,
+    "target_name": "Golem"
+  },
+  {
+    "from": "SPECIES_PONYTA",
+    "from_name": "Ponyta",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_RAPIDASH",
+    "target_form": null,
+    "target_name": "Rapidash"
+  },
+  {
+    "from": "SPECIES_SLOWPOKE",
+    "from_name": "Slowpoke",
+    "method": "EVO_LEVEL",
+    "parameter": "37",
+    "target": "SPECIES_SLOWBRO",
+    "target_form": null,
+    "target_name": "Slowbro"
+  },
+  {
+    "from": "SPECIES_SLOWPOKE",
+    "from_name": "Slowpoke",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_KINGS_ROCK",
+    "target": "SPECIES_SLOWKING",
+    "target_form": null,
+    "target_name": "Slowking"
+  },
+  {
+    "from": "SPECIES_MAGNEMITE",
+    "from_name": "Magnemite",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_MAGNETON",
+    "target_form": null,
+    "target_name": "Magneton"
+  },
+  {
+    "from": "SPECIES_MAGNETON",
+    "from_name": "Magneton",
+    "method": "EVO_MAGNETIC_FIELD",
+    "parameter": "0",
+    "target": "SPECIES_MAGNEZONE",
+    "target_form": null,
+    "target_name": "Magnezone"
+  },
+  {
+    "from": "SPECIES_MAGNETON",
+    "from_name": "Magneton",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_THUNDER_STONE",
+    "target": "SPECIES_MAGNEZONE",
+    "target_form": null,
+    "target_name": "Magnezone"
+  },
+  {
+    "from": "SPECIES_DODUO",
+    "from_name": "Doduo",
+    "method": "EVO_LEVEL",
+    "parameter": "31",
+    "target": "SPECIES_DODRIO",
+    "target_form": null,
+    "target_name": "Dodrio"
+  },
+  {
+    "from": "SPECIES_SEEL",
+    "from_name": "Seel",
+    "method": "EVO_LEVEL",
+    "parameter": "34",
+    "target": "SPECIES_DEWGONG",
+    "target_form": null,
+    "target_name": "Dewgong"
+  },
+  {
+    "from": "SPECIES_GRIMER",
+    "from_name": "Grimer",
+    "method": "EVO_LEVEL",
+    "parameter": "38",
+    "target": "SPECIES_MUK",
+    "target_form": null,
+    "target_name": "Muk"
+  },
+  {
+    "from": "SPECIES_SHELLDER",
+    "from_name": "Shellder",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_WATER_STONE",
+    "target": "SPECIES_CLOYSTER",
+    "target_form": null,
+    "target_name": "Cloyster"
+  },
+  {
+    "from": "SPECIES_GASTLY",
+    "from_name": "Gastly",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_HAUNTER",
+    "target_form": null,
+    "target_name": "Haunter"
+  },
+  {
+    "from": "SPECIES_HAUNTER",
+    "from_name": "Haunter",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LINKING_CORD",
+    "target": "SPECIES_GENGAR",
+    "target_form": null,
+    "target_name": "Gengar"
+  },
+  {
+    "from": "SPECIES_ONIX",
+    "from_name": "Onix",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_METAL_COAT",
+    "target": "SPECIES_STEELIX",
+    "target_form": null,
+    "target_name": "Steelix"
+  },
+  {
+    "from": "SPECIES_DROWZEE",
+    "from_name": "Drowzee",
+    "method": "EVO_LEVEL",
+    "parameter": "26",
+    "target": "SPECIES_HYPNO",
+    "target_form": null,
+    "target_name": "Hypno"
+  },
+  {
+    "from": "SPECIES_KRABBY",
+    "from_name": "Krabby",
+    "method": "EVO_LEVEL",
+    "parameter": "28",
+    "target": "SPECIES_KINGLER",
+    "target_form": null,
+    "target_name": "Kingler"
+  },
+  {
+    "from": "SPECIES_VOLTORB",
+    "from_name": "Voltorb",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_ELECTRODE",
+    "target_form": null,
+    "target_name": "Electrode"
+  },
+  {
+    "from": "SPECIES_EXEGGCUTE",
+    "from_name": "Exeggcute",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LEAF_STONE",
+    "target": "SPECIES_EXEGGUTOR",
+    "target_form": null,
+    "target_name": "Exeggutor"
+  },
+  {
+    "from": "SPECIES_CUBONE",
+    "from_name": "Cubone",
+    "method": "EVO_LEVEL",
+    "parameter": "28",
+    "target": "SPECIES_MAROWAK",
+    "target_form": null,
+    "target_name": "Marowak"
+  },
+  {
+    "from": "SPECIES_LICKITUNG",
+    "from_name": "Lickitung",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_ROLLOUT",
+    "target": "SPECIES_LICKILICKY",
+    "target_form": null,
+    "target_name": "Lickilicky"
+  },
+  {
+    "from": "SPECIES_KOFFING",
+    "from_name": "Koffing",
+    "method": "EVO_LEVEL",
+    "parameter": "35",
+    "target": "SPECIES_WEEZING",
+    "target_form": null,
+    "target_name": "Weezing"
+  },
+  {
+    "from": "SPECIES_RHYHORN",
+    "from_name": "Rhyhorn",
+    "method": "EVO_LEVEL",
+    "parameter": "42",
+    "target": "SPECIES_RHYDON",
+    "target_form": null,
+    "target_name": "Rhydon"
+  },
+  {
+    "from": "SPECIES_RHYDON",
+    "from_name": "Rhydon",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_PROTECTOR",
+    "target": "SPECIES_RHYPERIOR",
+    "target_form": null,
+    "target_name": "Rhyperior"
+  },
+  {
+    "from": "SPECIES_CHANSEY",
+    "from_name": "Chansey",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_BLISSEY",
+    "target_form": null,
+    "target_name": "Blissey"
+  },
+  {
+    "from": "SPECIES_TANGELA",
+    "from_name": "Tangela",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_ANCIENT_POWER",
+    "target": "SPECIES_TANGROWTH",
+    "target_form": null,
+    "target_name": "Tangrowth"
+  },
+  {
+    "from": "SPECIES_HORSEA",
+    "from_name": "Horsea",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_SEADRA",
+    "target_form": null,
+    "target_name": "Seadra"
+  },
+  {
+    "from": "SPECIES_SEADRA",
+    "from_name": "Seadra",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_DRAGON_SCALE",
+    "target": "SPECIES_KINGDRA",
+    "target_form": null,
+    "target_name": "Kingdra"
+  },
+  {
+    "from": "SPECIES_GOLDEEN",
+    "from_name": "Goldeen",
+    "method": "EVO_LEVEL",
+    "parameter": "33",
+    "target": "SPECIES_SEAKING",
+    "target_form": null,
+    "target_name": "Seaking"
+  },
+  {
+    "from": "SPECIES_STARYU",
+    "from_name": "Staryu",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_WATER_STONE",
+    "target": "SPECIES_STARMIE",
+    "target_form": null,
+    "target_name": "Starmie"
+  },
+  {
+    "from": "SPECIES_SCYTHER",
+    "from_name": "Scyther",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_METAL_COAT",
+    "target": "SPECIES_SCIZOR",
+    "target_form": null,
+    "target_name": "Scizor"
+  },
+  {
+    "from": "SPECIES_SCYTHER",
+    "from_name": "Scyther",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_BLACK_AUGURITE",
+    "target": "SPECIES_KLEAVOR",
+    "target_form": null,
+    "target_name": "Kleavor"
+  },
+  {
+    "from": "SPECIES_ELECTABUZZ",
+    "from_name": "Electabuzz",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_ELECTIRIZER",
+    "target": "SPECIES_ELECTIVIRE",
+    "target_form": null,
+    "target_name": "Electivire"
+  },
+  {
+    "from": "SPECIES_MAGMAR",
+    "from_name": "Magmar",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_MAGMARIZER",
+    "target": "SPECIES_MAGMORTAR",
+    "target_form": null,
+    "target_name": "Magmortar"
+  },
+  {
+    "from": "SPECIES_MAGIKARP",
+    "from_name": "Magikarp",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_GYARADOS",
+    "target_form": null,
+    "target_name": "Gyarados"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LEAF_STONE",
+    "target": "SPECIES_LEAFEON",
+    "target_form": null,
+    "target_name": "Leafeon"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_ICE_STONE",
+    "target": "SPECIES_GLACEON",
+    "target_form": null,
+    "target_name": "Glaceon"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_THUNDER_STONE",
+    "target": "SPECIES_JOLTEON",
+    "target_form": null,
+    "target_name": "Jolteon"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_WATER_STONE",
+    "target": "SPECIES_VAPOREON",
+    "target_form": null,
+    "target_name": "Vaporeon"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_FIRE_STONE",
+    "target": "SPECIES_FLAREON",
+    "target_form": null,
+    "target_name": "Flareon"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_HAS_MOVE_TYPE",
+    "parameter": "TYPE_FAIRY",
+    "target": "SPECIES_SYLVEON",
+    "target_form": null,
+    "target_name": "Sylveon"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_FRIENDSHIP_DAY",
+    "parameter": "0",
+    "target": "SPECIES_ESPEON",
+    "target_form": null,
+    "target_name": "Espeon"
+  },
+  {
+    "from": "SPECIES_EEVEE",
+    "from_name": "Eevee",
+    "method": "EVO_FRIENDSHIP_NIGHT",
+    "parameter": "0",
+    "target": "SPECIES_UMBREON",
+    "target_form": null,
+    "target_name": "Umbreon"
+  },
+  {
+    "from": "SPECIES_PORYGON",
+    "from_name": "Porygon",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_UP_GRADE",
+    "target": "SPECIES_PORYGON2",
+    "target_form": null,
+    "target_name": "Porygon2"
+  },
+  {
+    "from": "SPECIES_OMANYTE",
+    "from_name": "Omanyte",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_OMASTAR",
+    "target_form": null,
+    "target_name": "Omastar"
+  },
+  {
+    "from": "SPECIES_KABUTO",
+    "from_name": "Kabuto",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_KABUTOPS",
+    "target_form": null,
+    "target_name": "Kabutops"
+  },
+  {
+    "from": "SPECIES_DRATINI",
+    "from_name": "Dratini",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_DRAGONAIR",
+    "target_form": null,
+    "target_name": "Dragonair"
+  },
+  {
+    "from": "SPECIES_DRAGONAIR",
+    "from_name": "Dragonair",
+    "method": "EVO_LEVEL",
+    "parameter": "55",
+    "target": "SPECIES_DRAGONITE",
+    "target_form": null,
+    "target_name": "Dragonite"
+  },
+  {
+    "from": "SPECIES_CHIKORITA",
+    "from_name": "Chikorita",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_BAYLEEF",
+    "target_form": null,
+    "target_name": "Bayleef"
+  },
+  {
+    "from": "SPECIES_BAYLEEF",
+    "from_name": "Bayleef",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_MEGANIUM",
+    "target_form": null,
+    "target_name": "Meganium"
+  },
+  {
+    "from": "SPECIES_CYNDAQUIL",
+    "from_name": "Cyndaquil",
+    "method": "EVO_LEVEL",
+    "parameter": "14",
+    "target": "SPECIES_QUILAVA",
+    "target_form": null,
+    "target_name": "Quilava"
+  },
+  {
+    "from": "SPECIES_QUILAVA",
+    "from_name": "Quilava",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_TYPHLOSION",
+    "target_form": null,
+    "target_name": "Typhlosion"
+  },
+  {
+    "from": "SPECIES_TOTODILE",
+    "from_name": "Totodile",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_CROCONAW",
+    "target_form": null,
+    "target_name": "Croconaw"
+  },
+  {
+    "from": "SPECIES_CROCONAW",
+    "from_name": "Croconaw",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_FERALIGATR",
+    "target_form": null,
+    "target_name": "Feraligatr"
+  },
+  {
+    "from": "SPECIES_SENTRET",
+    "from_name": "Sentret",
+    "method": "EVO_LEVEL",
+    "parameter": "15",
+    "target": "SPECIES_FURRET",
+    "target_form": null,
+    "target_name": "Furret"
+  },
+  {
+    "from": "SPECIES_HOOTHOOT",
+    "from_name": "Hoothoot",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_NOCTOWL",
+    "target_form": null,
+    "target_name": "Noctowl"
+  },
+  {
+    "from": "SPECIES_LEDYBA",
+    "from_name": "Ledyba",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_LEDIAN",
+    "target_form": null,
+    "target_name": "Ledian"
+  },
+  {
+    "from": "SPECIES_SPINARAK",
+    "from_name": "Spinarak",
+    "method": "EVO_LEVEL",
+    "parameter": "22",
+    "target": "SPECIES_ARIADOS",
+    "target_form": null,
+    "target_name": "Ariados"
+  },
+  {
+    "from": "SPECIES_CHINCHOU",
+    "from_name": "Chinchou",
+    "method": "EVO_LEVEL",
+    "parameter": "27",
+    "target": "SPECIES_LANTURN",
+    "target_form": null,
+    "target_name": "Lanturn"
+  },
+  {
+    "from": "SPECIES_PICHU",
+    "from_name": "Pichu",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_PIKACHU",
+    "target_form": null,
+    "target_name": "Pikachu"
+  },
+  {
+    "from": "SPECIES_CLEFFA",
+    "from_name": "Cleffa",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_CLEFAIRY",
+    "target_form": null,
+    "target_name": "Clefairy"
+  },
+  {
+    "from": "SPECIES_IGGLYBUFF",
+    "from_name": "Igglybuff",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_JIGGLYPUFF",
+    "target_form": null,
+    "target_name": "Jigglypuff"
+  },
+  {
+    "from": "SPECIES_TOGEPI",
+    "from_name": "Togepi",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_TOGETIC",
+    "target_form": null,
+    "target_name": "Togetic"
+  },
+  {
+    "from": "SPECIES_TOGETIC",
+    "from_name": "Togetic",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_SHINY_STONE",
+    "target": "SPECIES_TOGEKISS",
+    "target_form": null,
+    "target_name": "Togekiss"
+  },
+  {
+    "from": "SPECIES_NATU",
+    "from_name": "Natu",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_XATU",
+    "target_form": null,
+    "target_name": "Xatu"
+  },
+  {
+    "from": "SPECIES_MAREEP",
+    "from_name": "Mareep",
+    "method": "EVO_LEVEL",
+    "parameter": "15",
+    "target": "SPECIES_FLAAFFY",
+    "target_form": null,
+    "target_name": "Flaaffy"
+  },
+  {
+    "from": "SPECIES_FLAAFFY",
+    "from_name": "Flaaffy",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_AMPHAROS",
+    "target_form": null,
+    "target_name": "Ampharos"
+  },
+  {
+    "from": "SPECIES_MARILL",
+    "from_name": "Marill",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_AZUMARILL",
+    "target_form": null,
+    "target_name": "Azumarill"
+  },
+  {
+    "from": "SPECIES_HOPPIP",
+    "from_name": "Hoppip",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_SKIPLOOM",
+    "target_form": null,
+    "target_name": "Skiploom"
+  },
+  {
+    "from": "SPECIES_SKIPLOOM",
+    "from_name": "Skiploom",
+    "method": "EVO_LEVEL",
+    "parameter": "27",
+    "target": "SPECIES_JUMPLUFF",
+    "target_form": null,
+    "target_name": "Jumpluff"
+  },
+  {
+    "from": "SPECIES_AIPOM",
+    "from_name": "Aipom",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_DOUBLE_HIT",
+    "target": "SPECIES_AMBIPOM",
+    "target_form": null,
+    "target_name": "Ambipom"
+  },
+  {
+    "from": "SPECIES_SUNKERN",
+    "from_name": "Sunkern",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_SUN_STONE",
+    "target": "SPECIES_SUNFLORA",
+    "target_form": null,
+    "target_name": "Sunflora"
+  },
+  {
+    "from": "SPECIES_YANMA",
+    "from_name": "Yanma",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_ANCIENT_POWER",
+    "target": "SPECIES_YANMEGA",
+    "target_form": null,
+    "target_name": "Yanmega"
+  },
+  {
+    "from": "SPECIES_WOOPER",
+    "from_name": "Wooper",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_QUAGSIRE",
+    "target_form": null,
+    "target_name": "Quagsire"
+  },
+  {
+    "from": "SPECIES_MURKROW",
+    "from_name": "Murkrow",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_DUSK_STONE",
+    "target": "SPECIES_HONCHKROW",
+    "target_form": null,
+    "target_name": "Honchkrow"
+  },
+  {
+    "from": "SPECIES_MISDREAVUS",
+    "from_name": "Misdreavus",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_DUSK_STONE",
+    "target": "SPECIES_MISMAGIUS",
+    "target_form": null,
+    "target_name": "Mismagius"
+  },
+  {
+    "from": "SPECIES_GIRAFARIG",
+    "from_name": "Girafarig",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_TWIN_BEAM",
+    "target": "SPECIES_FARIGIRAF",
+    "target_form": null,
+    "target_name": "Farigiraf"
+  },
+  {
+    "from": "SPECIES_PINECO",
+    "from_name": "Pineco",
+    "method": "EVO_LEVEL",
+    "parameter": "31",
+    "target": "SPECIES_FORRETRESS",
+    "target_form": null,
+    "target_name": "Forretress"
+  },
+  {
+    "from": "SPECIES_DUNSPARCE",
+    "from_name": "Dunsparce",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_HYPER_DRILL",
+    "target": "SPECIES_DUDUNSPARCE",
+    "target_form": null,
+    "target_name": "Dudunsparce"
+  },
+  {
+    "from": "SPECIES_GLIGAR",
+    "from_name": "Gligar",
+    "method": "EVO_ITEM_NIGHT",
+    "parameter": "ITEM_RAZOR_FANG",
+    "target": "SPECIES_GLISCOR",
+    "target_form": null,
+    "target_name": "Gliscor"
+  },
+  {
+    "from": "SPECIES_SNUBBULL",
+    "from_name": "Snubbull",
+    "method": "EVO_LEVEL",
+    "parameter": "23",
+    "target": "SPECIES_GRANBULL",
+    "target_form": null,
+    "target_name": "Granbull"
+  },
+  {
+    "from": "SPECIES_SNEASEL",
+    "from_name": "Sneasel",
+    "method": "EVO_ITEM_NIGHT",
+    "parameter": "ITEM_RAZOR_CLAW",
+    "target": "SPECIES_WEAVILE",
+    "target_form": null,
+    "target_name": "Weavile"
+  },
+  {
+    "from": "SPECIES_TEDDIURSA",
+    "from_name": "Teddiursa",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_URSARING",
+    "target_form": null,
+    "target_name": "Ursaring"
+  },
+  {
+    "from": "SPECIES_URSARING",
+    "from_name": "Ursaring",
+    "method": "EVO_ITEM_NIGHT",
+    "parameter": "ITEM_PEAT_BLOCK",
+    "target": "SPECIES_URSALUNA",
+    "target_form": null,
+    "target_name": "Ursaluna"
+  },
+  {
+    "from": "SPECIES_SLUGMA",
+    "from_name": "Slugma",
+    "method": "EVO_LEVEL",
+    "parameter": "38",
+    "target": "SPECIES_MAGCARGO",
+    "target_form": null,
+    "target_name": "Magcargo"
+  },
+  {
+    "from": "SPECIES_SWINUB",
+    "from_name": "Swinub",
+    "method": "EVO_LEVEL",
+    "parameter": "33",
+    "target": "SPECIES_PILOSWINE",
+    "target_form": null,
+    "target_name": "Piloswine"
+  },
+  {
+    "from": "SPECIES_PILOSWINE",
+    "from_name": "Piloswine",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_ANCIENT_POWER",
+    "target": "SPECIES_MAMOSWINE",
+    "target_form": null,
+    "target_name": "Mamoswine"
+  },
+  {
+    "from": "SPECIES_REMORAID",
+    "from_name": "Remoraid",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_OCTILLERY",
+    "target_form": null,
+    "target_name": "Octillery"
+  },
+  {
+    "from": "SPECIES_HOUNDOUR",
+    "from_name": "Houndour",
+    "method": "EVO_LEVEL",
+    "parameter": "24",
+    "target": "SPECIES_HOUNDOOM",
+    "target_form": null,
+    "target_name": "Houndoom"
+  },
+  {
+    "from": "SPECIES_PHANPY",
+    "from_name": "Phanpy",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_DONPHAN",
+    "target_form": null,
+    "target_name": "Donphan"
+  },
+  {
+    "from": "SPECIES_PORYGON2",
+    "from_name": "Porygon2",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_DUBIOUS_DISC",
+    "target": "SPECIES_PORYGON_Z",
+    "target_form": null,
+    "target_name": "Porygon Z"
+  },
+  {
+    "from": "SPECIES_STANTLER",
+    "from_name": "Stantler",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_PSYSHIELD_BASH",
+    "target": "SPECIES_WYRDEER",
+    "target_form": null,
+    "target_name": "Wyrdeer"
+  },
+  {
+    "from": "SPECIES_TYROGUE",
+    "from_name": "Tyrogue",
+    "method": "EVO_LEVEL_ATK_LT_DEF",
+    "parameter": "20",
+    "target": "SPECIES_HITMONCHAN",
+    "target_form": null,
+    "target_name": "Hitmonchan"
+  },
+  {
+    "from": "SPECIES_TYROGUE",
+    "from_name": "Tyrogue",
+    "method": "EVO_LEVEL_ATK_GT_DEF",
+    "parameter": "20",
+    "target": "SPECIES_HITMONLEE",
+    "target_form": null,
+    "target_name": "Hitmonlee"
+  },
+  {
+    "from": "SPECIES_TYROGUE",
+    "from_name": "Tyrogue",
+    "method": "EVO_LEVEL_ATK_EQ_DEF",
+    "parameter": "20",
+    "target": "SPECIES_HITMONTOP",
+    "target_form": null,
+    "target_name": "Hitmontop"
+  },
+  {
+    "from": "SPECIES_SMOOCHUM",
+    "from_name": "Smoochum",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_JYNX",
+    "target_form": null,
+    "target_name": "Jynx"
+  },
+  {
+    "from": "SPECIES_ELEKID",
+    "from_name": "Elekid",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_ELECTABUZZ",
+    "target_form": null,
+    "target_name": "Electabuzz"
+  },
+  {
+    "from": "SPECIES_MAGBY",
+    "from_name": "Magby",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_MAGMAR",
+    "target_form": null,
+    "target_name": "Magmar"
+  },
+  {
+    "from": "SPECIES_LARVITAR",
+    "from_name": "Larvitar",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_PUPITAR",
+    "target_form": null,
+    "target_name": "Pupitar"
+  },
+  {
+    "from": "SPECIES_PUPITAR",
+    "from_name": "Pupitar",
+    "method": "EVO_LEVEL",
+    "parameter": "55",
+    "target": "SPECIES_TYRANITAR",
+    "target_form": null,
+    "target_name": "Tyranitar"
+  },
+  {
+    "from": "SPECIES_TREECKO",
+    "from_name": "Treecko",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_GROVYLE",
+    "target_form": null,
+    "target_name": "Grovyle"
+  },
+  {
+    "from": "SPECIES_GROVYLE",
+    "from_name": "Grovyle",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_SCEPTILE",
+    "target_form": null,
+    "target_name": "Sceptile"
+  },
+  {
+    "from": "SPECIES_TORCHIC",
+    "from_name": "Torchic",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_COMBUSKEN",
+    "target_form": null,
+    "target_name": "Combusken"
+  },
+  {
+    "from": "SPECIES_COMBUSKEN",
+    "from_name": "Combusken",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_BLAZIKEN",
+    "target_form": null,
+    "target_name": "Blaziken"
+  },
+  {
+    "from": "SPECIES_MUDKIP",
+    "from_name": "Mudkip",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_MARSHTOMP",
+    "target_form": null,
+    "target_name": "Marshtomp"
+  },
+  {
+    "from": "SPECIES_MARSHTOMP",
+    "from_name": "Marshtomp",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_SWAMPERT",
+    "target_form": null,
+    "target_name": "Swampert"
+  },
+  {
+    "from": "SPECIES_POOCHYENA",
+    "from_name": "Poochyena",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_MIGHTYENA",
+    "target_form": null,
+    "target_name": "Mightyena"
+  },
+  {
+    "from": "SPECIES_ZIGZAGOON",
+    "from_name": "Zigzagoon",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_LINOONE",
+    "target_form": null,
+    "target_name": "Linoone"
+  },
+  {
+    "from": "SPECIES_WURMPLE",
+    "from_name": "Wurmple",
+    "method": "EVO_LEVEL_PID_LO",
+    "parameter": "7",
+    "target": "SPECIES_SILCOON",
+    "target_form": null,
+    "target_name": "Silcoon"
+  },
+  {
+    "from": "SPECIES_WURMPLE",
+    "from_name": "Wurmple",
+    "method": "EVO_LEVEL_PID_HI",
+    "parameter": "7",
+    "target": "SPECIES_CASCOON",
+    "target_form": null,
+    "target_name": "Cascoon"
+  },
+  {
+    "from": "SPECIES_SILCOON",
+    "from_name": "Silcoon",
+    "method": "EVO_LEVEL",
+    "parameter": "10",
+    "target": "SPECIES_BEAUTIFLY",
+    "target_form": null,
+    "target_name": "Beautifly"
+  },
+  {
+    "from": "SPECIES_CASCOON",
+    "from_name": "Cascoon",
+    "method": "EVO_LEVEL",
+    "parameter": "10",
+    "target": "SPECIES_DUSTOX",
+    "target_form": null,
+    "target_name": "Dustox"
+  },
+  {
+    "from": "SPECIES_LOTAD",
+    "from_name": "Lotad",
+    "method": "EVO_LEVEL",
+    "parameter": "14",
+    "target": "SPECIES_LOMBRE",
+    "target_form": null,
+    "target_name": "Lombre"
+  },
+  {
+    "from": "SPECIES_LOMBRE",
+    "from_name": "Lombre",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_WATER_STONE",
+    "target": "SPECIES_LUDICOLO",
+    "target_form": null,
+    "target_name": "Ludicolo"
+  },
+  {
+    "from": "SPECIES_SEEDOT",
+    "from_name": "Seedot",
+    "method": "EVO_LEVEL",
+    "parameter": "14",
+    "target": "SPECIES_NUZLEAF",
+    "target_form": null,
+    "target_name": "Nuzleaf"
+  },
+  {
+    "from": "SPECIES_NUZLEAF",
+    "from_name": "Nuzleaf",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LEAF_STONE",
+    "target": "SPECIES_SHIFTRY",
+    "target_form": null,
+    "target_name": "Shiftry"
+  },
+  {
+    "from": "SPECIES_TAILLOW",
+    "from_name": "Taillow",
+    "method": "EVO_LEVEL",
+    "parameter": "22",
+    "target": "SPECIES_SWELLOW",
+    "target_form": null,
+    "target_name": "Swellow"
+  },
+  {
+    "from": "SPECIES_WINGULL",
+    "from_name": "Wingull",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_PELIPPER",
+    "target_form": null,
+    "target_name": "Pelipper"
+  },
+  {
+    "from": "SPECIES_RALTS",
+    "from_name": "Ralts",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_KIRLIA",
+    "target_form": null,
+    "target_name": "Kirlia"
+  },
+  {
+    "from": "SPECIES_KIRLIA",
+    "from_name": "Kirlia",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_GARDEVOIR",
+    "target_form": null,
+    "target_name": "Gardevoir"
+  },
+  {
+    "from": "SPECIES_KIRLIA",
+    "from_name": "Kirlia",
+    "method": "EVO_STONE_MALE",
+    "parameter": "109",
+    "target": "SPECIES_GALLADE",
+    "target_form": null,
+    "target_name": "Gallade"
+  },
+  {
+    "from": "SPECIES_SURSKIT",
+    "from_name": "Surskit",
+    "method": "EVO_LEVEL",
+    "parameter": "22",
+    "target": "SPECIES_MASQUERAIN",
+    "target_form": null,
+    "target_name": "Masquerain"
+  },
+  {
+    "from": "SPECIES_SHROOMISH",
+    "from_name": "Shroomish",
+    "method": "EVO_LEVEL",
+    "parameter": "23",
+    "target": "SPECIES_BRELOOM",
+    "target_form": null,
+    "target_name": "Breloom"
+  },
+  {
+    "from": "SPECIES_SLAKOTH",
+    "from_name": "Slakoth",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_VIGOROTH",
+    "target_form": null,
+    "target_name": "Vigoroth"
+  },
+  {
+    "from": "SPECIES_VIGOROTH",
+    "from_name": "Vigoroth",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_SLAKING",
+    "target_form": null,
+    "target_name": "Slaking"
+  },
+  {
+    "from": "SPECIES_NINCADA",
+    "from_name": "Nincada",
+    "method": "EVO_LEVEL_NINJASK",
+    "parameter": "20",
+    "target": "SPECIES_NINJASK",
+    "target_form": null,
+    "target_name": "Ninjask"
+  },
+  {
+    "from": "SPECIES_NINCADA",
+    "from_name": "Nincada",
+    "method": "EVO_LEVEL_SHEDINJA",
+    "parameter": "20",
+    "target": "SPECIES_SHEDINJA",
+    "target_form": null,
+    "target_name": "Shedinja"
+  },
+  {
+    "from": "SPECIES_WHISMUR",
+    "from_name": "Whismur",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_LOUDRED",
+    "target_form": null,
+    "target_name": "Loudred"
+  },
+  {
+    "from": "SPECIES_LOUDRED",
+    "from_name": "Loudred",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_EXPLOUD",
+    "target_form": null,
+    "target_name": "Exploud"
+  },
+  {
+    "from": "SPECIES_MAKUHITA",
+    "from_name": "Makuhita",
+    "method": "EVO_LEVEL",
+    "parameter": "24",
+    "target": "SPECIES_HARIYAMA",
+    "target_form": null,
+    "target_name": "Hariyama"
+  },
+  {
+    "from": "SPECIES_AZURILL",
+    "from_name": "Azurill",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_MARILL",
+    "target_form": null,
+    "target_name": "Marill"
+  },
+  {
+    "from": "SPECIES_NOSEPASS",
+    "from_name": "Nosepass",
+    "method": "EVO_MAGNETIC_FIELD",
+    "parameter": "0",
+    "target": "SPECIES_PROBOPASS",
+    "target_form": null,
+    "target_name": "Probopass"
+  },
+  {
+    "from": "SPECIES_NOSEPASS",
+    "from_name": "Nosepass",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_THUNDER_STONE",
+    "target": "SPECIES_PROBOPASS",
+    "target_form": null,
+    "target_name": "Probopass"
+  },
+  {
+    "from": "SPECIES_SKITTY",
+    "from_name": "Skitty",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_MOON_STONE",
+    "target": "SPECIES_DELCATTY",
+    "target_form": null,
+    "target_name": "Delcatty"
+  },
+  {
+    "from": "SPECIES_ARON",
+    "from_name": "Aron",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_LAIRON",
+    "target_form": null,
+    "target_name": "Lairon"
+  },
+  {
+    "from": "SPECIES_LAIRON",
+    "from_name": "Lairon",
+    "method": "EVO_LEVEL",
+    "parameter": "42",
+    "target": "SPECIES_AGGRON",
+    "target_form": null,
+    "target_name": "Aggron"
+  },
+  {
+    "from": "SPECIES_MEDITITE",
+    "from_name": "Meditite",
+    "method": "EVO_LEVEL",
+    "parameter": "37",
+    "target": "SPECIES_MEDICHAM",
+    "target_form": null,
+    "target_name": "Medicham"
+  },
+  {
+    "from": "SPECIES_ELECTRIKE",
+    "from_name": "Electrike",
+    "method": "EVO_LEVEL",
+    "parameter": "26",
+    "target": "SPECIES_MANECTRIC",
+    "target_form": null,
+    "target_name": "Manectric"
+  },
+  {
+    "from": "SPECIES_ROSELIA",
+    "from_name": "Roselia",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_SHINY_STONE",
+    "target": "SPECIES_ROSERADE",
+    "target_form": null,
+    "target_name": "Roserade"
+  },
+  {
+    "from": "SPECIES_GULPIN",
+    "from_name": "Gulpin",
+    "method": "EVO_LEVEL",
+    "parameter": "26",
+    "target": "SPECIES_SWALOT",
+    "target_form": null,
+    "target_name": "Swalot"
+  },
+  {
+    "from": "SPECIES_CARVANHA",
+    "from_name": "Carvanha",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_SHARPEDO",
+    "target_form": null,
+    "target_name": "Sharpedo"
+  },
+  {
+    "from": "SPECIES_WAILMER",
+    "from_name": "Wailmer",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_WAILORD",
+    "target_form": null,
+    "target_name": "Wailord"
+  },
+  {
+    "from": "SPECIES_NUMEL",
+    "from_name": "Numel",
+    "method": "EVO_LEVEL",
+    "parameter": "33",
+    "target": "SPECIES_CAMERUPT",
+    "target_form": null,
+    "target_name": "Camerupt"
+  },
+  {
+    "from": "SPECIES_SPOINK",
+    "from_name": "Spoink",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_GRUMPIG",
+    "target_form": null,
+    "target_name": "Grumpig"
+  },
+  {
+    "from": "SPECIES_TRAPINCH",
+    "from_name": "Trapinch",
+    "method": "EVO_LEVEL",
+    "parameter": "35",
+    "target": "SPECIES_VIBRAVA",
+    "target_form": null,
+    "target_name": "Vibrava"
+  },
+  {
+    "from": "SPECIES_VIBRAVA",
+    "from_name": "Vibrava",
+    "method": "EVO_LEVEL",
+    "parameter": "45",
+    "target": "SPECIES_FLYGON",
+    "target_form": null,
+    "target_name": "Flygon"
+  },
+  {
+    "from": "SPECIES_CACNEA",
+    "from_name": "Cacnea",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_CACTURNE",
+    "target_form": null,
+    "target_name": "Cacturne"
+  },
+  {
+    "from": "SPECIES_SWABLU",
+    "from_name": "Swablu",
+    "method": "EVO_LEVEL",
+    "parameter": "35",
+    "target": "SPECIES_ALTARIA",
+    "target_form": null,
+    "target_name": "Altaria"
+  },
+  {
+    "from": "SPECIES_BARBOACH",
+    "from_name": "Barboach",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_WHISCASH",
+    "target_form": null,
+    "target_name": "Whiscash"
+  },
+  {
+    "from": "SPECIES_CORPHISH",
+    "from_name": "Corphish",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_CRAWDAUNT",
+    "target_form": null,
+    "target_name": "Crawdaunt"
+  },
+  {
+    "from": "SPECIES_BALTOY",
+    "from_name": "Baltoy",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_CLAYDOL",
+    "target_form": null,
+    "target_name": "Claydol"
+  },
+  {
+    "from": "SPECIES_LILEEP",
+    "from_name": "Lileep",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_CRADILY",
+    "target_form": null,
+    "target_name": "Cradily"
+  },
+  {
+    "from": "SPECIES_ANORITH",
+    "from_name": "Anorith",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_ARMALDO",
+    "target_form": null,
+    "target_name": "Armaldo"
+  },
+  {
+    "from": "SPECIES_FEEBAS",
+    "from_name": "Feebas",
+    "method": "EVO_BEAUTY",
+    "parameter": "170",
+    "target": "SPECIES_MILOTIC",
+    "target_form": null,
+    "target_name": "Milotic"
+  },
+  {
+    "from": "SPECIES_FEEBAS",
+    "from_name": "Feebas",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_PRISM_SCALE",
+    "target": "SPECIES_MILOTIC",
+    "target_form": null,
+    "target_name": "Milotic"
+  },
+  {
+    "from": "SPECIES_SHUPPET",
+    "from_name": "Shuppet",
+    "method": "EVO_LEVEL",
+    "parameter": "37",
+    "target": "SPECIES_BANETTE",
+    "target_form": null,
+    "target_name": "Banette"
+  },
+  {
+    "from": "SPECIES_DUSKULL",
+    "from_name": "Duskull",
+    "method": "EVO_LEVEL",
+    "parameter": "37",
+    "target": "SPECIES_DUSCLOPS",
+    "target_form": null,
+    "target_name": "Dusclops"
+  },
+  {
+    "from": "SPECIES_DUSCLOPS",
+    "from_name": "Dusclops",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_REAPER_CLOTH",
+    "target": "SPECIES_DUSKNOIR",
+    "target_form": null,
+    "target_name": "Dusknoir"
+  },
+  {
+    "from": "SPECIES_WYNAUT",
+    "from_name": "Wynaut",
+    "method": "EVO_LEVEL",
+    "parameter": "15",
+    "target": "SPECIES_WOBBUFFET",
+    "target_form": null,
+    "target_name": "Wobbuffet"
+  },
+  {
+    "from": "SPECIES_SNORUNT",
+    "from_name": "Snorunt",
+    "method": "EVO_LEVEL",
+    "parameter": "42",
+    "target": "SPECIES_GLALIE",
+    "target_form": null,
+    "target_name": "Glalie"
+  },
+  {
+    "from": "SPECIES_SNORUNT",
+    "from_name": "Snorunt",
+    "method": "EVO_STONE_FEMALE",
+    "parameter": "109",
+    "target": "SPECIES_FROSLASS",
+    "target_form": null,
+    "target_name": "Froslass"
+  },
+  {
+    "from": "SPECIES_SPHEAL",
+    "from_name": "Spheal",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_SEALEO",
+    "target_form": null,
+    "target_name": "Sealeo"
+  },
+  {
+    "from": "SPECIES_SEALEO",
+    "from_name": "Sealeo",
+    "method": "EVO_LEVEL",
+    "parameter": "44",
+    "target": "SPECIES_WALREIN",
+    "target_form": null,
+    "target_name": "Walrein"
+  },
+  {
+    "from": "SPECIES_CLAMPERL",
+    "from_name": "Clamperl",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_DEEP_SEA_TOOTH",
+    "target": "SPECIES_HUNTAIL",
+    "target_form": null,
+    "target_name": "Huntail"
+  },
+  {
+    "from": "SPECIES_CLAMPERL",
+    "from_name": "Clamperl",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_DEEP_SEA_SCALE",
+    "target": "SPECIES_GOREBYSS",
+    "target_form": null,
+    "target_name": "Gorebyss"
+  },
+  {
+    "from": "SPECIES_BAGON",
+    "from_name": "Bagon",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_SHELGON",
+    "target_form": null,
+    "target_name": "Shelgon"
+  },
+  {
+    "from": "SPECIES_SHELGON",
+    "from_name": "Shelgon",
+    "method": "EVO_LEVEL",
+    "parameter": "50",
+    "target": "SPECIES_SALAMENCE",
+    "target_form": null,
+    "target_name": "Salamence"
+  },
+  {
+    "from": "SPECIES_BELDUM",
+    "from_name": "Beldum",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_METANG",
+    "target_form": null,
+    "target_name": "Metang"
+  },
+  {
+    "from": "SPECIES_METANG",
+    "from_name": "Metang",
+    "method": "EVO_LEVEL",
+    "parameter": "45",
+    "target": "SPECIES_METAGROSS",
+    "target_form": null,
+    "target_name": "Metagross"
+  },
+  {
+    "from": "SPECIES_TURTWIG",
+    "from_name": "Turtwig",
+    "method": "EVO_LEVEL",
+    "parameter": "18",
+    "target": "SPECIES_GROTLE",
+    "target_form": null,
+    "target_name": "Grotle"
+  },
+  {
+    "from": "SPECIES_GROTLE",
+    "from_name": "Grotle",
+    "method": "EVO_LEVEL",
+    "parameter": "32",
+    "target": "SPECIES_TORTERRA",
+    "target_form": null,
+    "target_name": "Torterra"
+  },
+  {
+    "from": "SPECIES_CHIMCHAR",
+    "from_name": "Chimchar",
+    "method": "EVO_LEVEL",
+    "parameter": "14",
+    "target": "SPECIES_MONFERNO",
+    "target_form": null,
+    "target_name": "Monferno"
+  },
+  {
+    "from": "SPECIES_MONFERNO",
+    "from_name": "Monferno",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_INFERNAPE",
+    "target_form": null,
+    "target_name": "Infernape"
+  },
+  {
+    "from": "SPECIES_PIPLUP",
+    "from_name": "Piplup",
+    "method": "EVO_LEVEL",
+    "parameter": "16",
+    "target": "SPECIES_PRINPLUP",
+    "target_form": null,
+    "target_name": "Prinplup"
+  },
+  {
+    "from": "SPECIES_PRINPLUP",
+    "from_name": "Prinplup",
+    "method": "EVO_LEVEL",
+    "parameter": "36",
+    "target": "SPECIES_EMPOLEON",
+    "target_form": null,
+    "target_name": "Empoleon"
+  },
+  {
+    "from": "SPECIES_STARLY",
+    "from_name": "Starly",
+    "method": "EVO_LEVEL",
+    "parameter": "14",
+    "target": "SPECIES_STARAVIA",
+    "target_form": null,
+    "target_name": "Staravia"
+  },
+  {
+    "from": "SPECIES_STARAVIA",
+    "from_name": "Staravia",
+    "method": "EVO_LEVEL",
+    "parameter": "34",
+    "target": "SPECIES_STARAPTOR",
+    "target_form": null,
+    "target_name": "Staraptor"
+  },
+  {
+    "from": "SPECIES_BIDOOF",
+    "from_name": "Bidoof",
+    "method": "EVO_LEVEL",
+    "parameter": "15",
+    "target": "SPECIES_BIBAREL",
+    "target_form": null,
+    "target_name": "Bibarel"
+  },
+  {
+    "from": "SPECIES_KRICKETOT",
+    "from_name": "Kricketot",
+    "method": "EVO_LEVEL",
+    "parameter": "10",
+    "target": "SPECIES_KRICKETUNE",
+    "target_form": null,
+    "target_name": "Kricketune"
+  },
+  {
+    "from": "SPECIES_SHINX",
+    "from_name": "Shinx",
+    "method": "EVO_LEVEL",
+    "parameter": "15",
+    "target": "SPECIES_LUXIO",
+    "target_form": null,
+    "target_name": "Luxio"
+  },
+  {
+    "from": "SPECIES_LUXIO",
+    "from_name": "Luxio",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_LUXRAY",
+    "target_form": null,
+    "target_name": "Luxray"
+  },
+  {
+    "from": "SPECIES_BUDEW",
+    "from_name": "Budew",
+    "method": "EVO_FRIENDSHIP_DAY",
+    "parameter": "0",
+    "target": "SPECIES_ROSELIA",
+    "target_form": null,
+    "target_name": "Roselia"
+  },
+  {
+    "from": "SPECIES_CRANIDOS",
+    "from_name": "Cranidos",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_RAMPARDOS",
+    "target_form": null,
+    "target_name": "Rampardos"
+  },
+  {
+    "from": "SPECIES_SHIELDON",
+    "from_name": "Shieldon",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_BASTIODON",
+    "target_form": null,
+    "target_name": "Bastiodon"
+  },
+  {
+    "from": "SPECIES_BURMY",
+    "from_name": "Burmy",
+    "method": "EVO_LEVEL_FEMALE",
+    "parameter": "20",
+    "target": "SPECIES_WORMADAM",
+    "target_form": null,
+    "target_name": "Wormadam"
+  },
+  {
+    "from": "SPECIES_BURMY",
+    "from_name": "Burmy",
+    "method": "EVO_LEVEL_MALE",
+    "parameter": "20",
+    "target": "SPECIES_MOTHIM",
+    "target_form": null,
+    "target_name": "Mothim"
+  },
+  {
+    "from": "SPECIES_COMBEE",
+    "from_name": "Combee",
+    "method": "EVO_LEVEL_FEMALE",
+    "parameter": "21",
+    "target": "SPECIES_VESPIQUEN",
+    "target_form": null,
+    "target_name": "Vespiquen"
+  },
+  {
+    "from": "SPECIES_BUIZEL",
+    "from_name": "Buizel",
+    "method": "EVO_LEVEL",
+    "parameter": "26",
+    "target": "SPECIES_FLOATZEL",
+    "target_form": null,
+    "target_name": "Floatzel"
+  },
+  {
+    "from": "SPECIES_CHERUBI",
+    "from_name": "Cherubi",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_CHERRIM",
+    "target_form": null,
+    "target_name": "Cherrim"
+  },
+  {
+    "from": "SPECIES_SHELLOS",
+    "from_name": "Shellos",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_GASTRODON",
+    "target_form": null,
+    "target_name": "Gastrodon"
+  },
+  {
+    "from": "SPECIES_DRIFLOON",
+    "from_name": "Drifloon",
+    "method": "EVO_LEVEL",
+    "parameter": "28",
+    "target": "SPECIES_DRIFBLIM",
+    "target_form": null,
+    "target_name": "Drifblim"
+  },
+  {
+    "from": "SPECIES_BUNEARY",
+    "from_name": "Buneary",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_LOPUNNY",
+    "target_form": null,
+    "target_name": "Lopunny"
+  },
+  {
+    "from": "SPECIES_GLAMEOW",
+    "from_name": "Glameow",
+    "method": "EVO_LEVEL",
+    "parameter": "38",
+    "target": "SPECIES_PURUGLY",
+    "target_form": null,
+    "target_name": "Purugly"
+  },
+  {
+    "from": "SPECIES_CHINGLING",
+    "from_name": "Chingling",
+    "method": "EVO_FRIENDSHIP_NIGHT",
+    "parameter": "0",
+    "target": "SPECIES_CHIMECHO",
+    "target_form": null,
+    "target_name": "Chimecho"
+  },
+  {
+    "from": "SPECIES_STUNKY",
+    "from_name": "Stunky",
+    "method": "EVO_LEVEL",
+    "parameter": "34",
+    "target": "SPECIES_SKUNTANK",
+    "target_form": null,
+    "target_name": "Skuntank"
+  },
+  {
+    "from": "SPECIES_BRONZOR",
+    "from_name": "Bronzor",
+    "method": "EVO_LEVEL",
+    "parameter": "33",
+    "target": "SPECIES_BRONZONG",
+    "target_form": null,
+    "target_name": "Bronzong"
+  },
+  {
+    "from": "SPECIES_BONSLY",
+    "from_name": "Bonsly",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_MIMIC",
+    "target": "SPECIES_SUDOWOODO",
+    "target_form": null,
+    "target_name": "Sudowoodo"
+  },
+  {
+    "from": "SPECIES_MIME_JR",
+    "from_name": "Mime Jr",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_MIMIC",
+    "target": "SPECIES_MR_MIME",
+    "target_form": null,
+    "target_name": "Mr Mime"
+  },
+  {
+    "from": "SPECIES_HAPPINY",
+    "from_name": "Happiny",
+    "method": "EVO_ITEM_DAY",
+    "parameter": "ITEM_OVAL_STONE",
+    "target": "SPECIES_CHANSEY",
+    "target_form": null,
+    "target_name": "Chansey"
+  },
+  {
+    "from": "SPECIES_GIBLE",
+    "from_name": "Gible",
+    "method": "EVO_LEVEL",
+    "parameter": "24",
+    "target": "SPECIES_GABITE",
+    "target_form": null,
+    "target_name": "Gabite"
+  },
+  {
+    "from": "SPECIES_GABITE",
+    "from_name": "Gabite",
+    "method": "EVO_LEVEL",
+    "parameter": "48",
+    "target": "SPECIES_GARCHOMP",
+    "target_form": null,
+    "target_name": "Garchomp"
+  },
+  {
+    "from": "SPECIES_MUNCHLAX",
+    "from_name": "Munchlax",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_SNORLAX",
+    "target_form": null,
+    "target_name": "Snorlax"
+  },
+  {
+    "from": "SPECIES_RIOLU",
+    "from_name": "Riolu",
+    "method": "EVO_FRIENDSHIP_DAY",
+    "parameter": "0",
+    "target": "SPECIES_LUCARIO",
+    "target_form": null,
+    "target_name": "Lucario"
+  },
+  {
+    "from": "SPECIES_HIPPOPOTAS",
+    "from_name": "Hippopotas",
+    "method": "EVO_LEVEL",
+    "parameter": "34",
+    "target": "SPECIES_HIPPOWDON",
+    "target_form": null,
+    "target_name": "Hippowdon"
+  },
+  {
+    "from": "SPECIES_SKORUPI",
+    "from_name": "Skorupi",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_DRAPION",
+    "target_form": null,
+    "target_name": "Drapion"
+  },
+  {
+    "from": "SPECIES_CROAGUNK",
+    "from_name": "Croagunk",
+    "method": "EVO_LEVEL",
+    "parameter": "37",
+    "target": "SPECIES_TOXICROAK",
+    "target_form": null,
+    "target_name": "Toxicroak"
+  },
+  {
+    "from": "SPECIES_FINNEON",
+    "from_name": "Finneon",
+    "method": "EVO_LEVEL",
+    "parameter": "31",
+    "target": "SPECIES_LUMINEON",
+    "target_form": null,
+    "target_name": "Lumineon"
+  },
+  {
+    "from": "SPECIES_MANTYKE",
+    "from_name": "Mantyke",
+    "method": "EVO_OTHER_PARTY_MON",
+    "parameter": "SPECIES_REMORAID",
+    "target": "SPECIES_MANTINE",
+    "target_form": null,
+    "target_name": "Mantine"
+  },
+  {
+    "from": "SPECIES_SNOVER",
+    "from_name": "Snover",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_ABOMASNOW",
+    "target_form": null,
+    "target_name": "Abomasnow"
+  },
+  {
+    "from": "SPECIES_RATTATA_ALOLAN",
+    "from_name": "Rattata Alolan",
+    "method": "EVO_LEVEL_NIGHT",
+    "parameter": "20",
+    "target": "SPECIES_RATICATE",
+    "target_form": 1,
+    "target_name": "Raticate"
+  },
+  {
+    "from": "SPECIES_SANDSHREW_ALOLAN",
+    "from_name": "Sandshrew Alolan",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_ICE_STONE",
+    "target": "SPECIES_SANDSLASH",
+    "target_form": 1,
+    "target_name": "Sandslash"
+  },
+  {
+    "from": "SPECIES_VULPIX_ALOLAN",
+    "from_name": "Vulpix Alolan",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_ICE_STONE",
+    "target": "SPECIES_NINETALES",
+    "target_form": 1,
+    "target_name": "Ninetales"
+  },
+  {
+    "from": "SPECIES_DIGLETT_ALOLAN",
+    "from_name": "Diglett Alolan",
+    "method": "EVO_LEVEL",
+    "parameter": "26",
+    "target": "SPECIES_DUGTRIO",
+    "target_form": 1,
+    "target_name": "Dugtrio"
+  },
+  {
+    "from": "SPECIES_MEOWTH_ALOLAN",
+    "from_name": "Meowth Alolan",
+    "method": "EVO_FRIENDSHIP",
+    "parameter": "0",
+    "target": "SPECIES_PERSIAN",
+    "target_form": 1,
+    "target_name": "Persian"
+  },
+  {
+    "from": "SPECIES_GEODUDE_ALOLAN",
+    "from_name": "Geodude Alolan",
+    "method": "EVO_LEVEL",
+    "parameter": "25",
+    "target": "SPECIES_GRAVELER",
+    "target_form": 1,
+    "target_name": "Graveler"
+  },
+  {
+    "from": "SPECIES_GRAVELER_ALOLAN",
+    "from_name": "Graveler Alolan",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LINKING_CORD",
+    "target": "SPECIES_GOLEM",
+    "target_form": 1,
+    "target_name": "Golem"
+  },
+  {
+    "from": "SPECIES_GRIMER_ALOLAN",
+    "from_name": "Grimer Alolan",
+    "method": "EVO_LEVEL",
+    "parameter": "38",
+    "target": "SPECIES_MUK",
+    "target_form": 1,
+    "target_name": "Muk"
+  },
+  {
+    "from": "SPECIES_MEOWTH_GALARIAN",
+    "from_name": "Meowth Galarian",
+    "method": "EVO_LEVEL",
+    "parameter": "28",
+    "target": "SPECIES_PERRSERKER",
+    "target_form": null,
+    "target_name": "Perrserker"
+  },
+  {
+    "from": "SPECIES_PONYTA_GALARIAN",
+    "from_name": "Ponyta Galarian",
+    "method": "EVO_LEVEL",
+    "parameter": "40",
+    "target": "SPECIES_RAPIDASH",
+    "target_form": 1,
+    "target_name": "Rapidash"
+  },
+  {
+    "from": "SPECIES_SLOWPOKE_GALARIAN",
+    "from_name": "Slowpoke Galarian",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_GALARICA_CUFF",
+    "target": "SPECIES_SLOWBRO",
+    "target_form": 2,
+    "target_name": "Slowbro"
+  },
+  {
+    "from": "SPECIES_SLOWPOKE_GALARIAN",
+    "from_name": "Slowpoke Galarian",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_GALARICA_WREATH",
+    "target": "SPECIES_SLOWKING",
+    "target_form": 1,
+    "target_name": "Slowking"
+  },
+  {
+    "from": "SPECIES_FARFETCHD_GALARIAN",
+    "from_name": "Farfetchd Galarian",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_LEAF_BLADE",
+    "target": "SPECIES_SIRFETCHD",
+    "target_form": null,
+    "target_name": "Sirfetchd"
+  },
+  {
+    "from": "SPECIES_MR_MIME_GALARIAN",
+    "from_name": "Mr Mime Galarian",
+    "method": "EVO_LEVEL",
+    "parameter": "42",
+    "target": "SPECIES_MR_RIME",
+    "target_form": null,
+    "target_name": "Mr Rime"
+  },
+  {
+    "from": "SPECIES_CORSOLA_GALARIAN",
+    "from_name": "Corsola Galarian",
+    "method": "EVO_LEVEL",
+    "parameter": "38",
+    "target": "SPECIES_CURSOLA",
+    "target_form": null,
+    "target_name": "Cursola"
+  },
+  {
+    "from": "SPECIES_ZIGZAGOON_GALARIAN",
+    "from_name": "Zigzagoon Galarian",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_LINOONE",
+    "target_form": 1,
+    "target_name": "Linoone"
+  },
+  {
+    "from": "SPECIES_LINOONE_GALARIAN",
+    "from_name": "Linoone Galarian",
+    "method": "EVO_LEVEL",
+    "parameter": "35",
+    "target": "SPECIES_OBSTAGOON",
+    "target_form": null,
+    "target_name": "Obstagoon"
+  },
+  {
+    "from": "SPECIES_SHELLOS_EAST_SEA",
+    "from_name": "Shellos East Sea",
+    "method": "EVO_LEVEL",
+    "parameter": "30",
+    "target": "SPECIES_GASTRODON",
+    "target_form": null,
+    "target_name": "Gastrodon"
+  },
+  {
+    "from": "SPECIES_GROWLITHE_HISUIAN",
+    "from_name": "Growlithe Hisuian",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_FIRE_STONE",
+    "target": "SPECIES_ARCANINE",
+    "target_form": 1,
+    "target_name": "Arcanine"
+  },
+  {
+    "from": "SPECIES_VOLTORB_HISUIAN",
+    "from_name": "Voltorb Hisuian",
+    "method": "EVO_STONE",
+    "parameter": "ITEM_LEAF_STONE",
+    "target": "SPECIES_ELECTRODE",
+    "target_form": 1,
+    "target_name": "Electrode"
+  },
+  {
+    "from": "SPECIES_QWILFISH_HISUIAN",
+    "from_name": "Qwilfish Hisuian",
+    "method": "EVO_HAS_MOVE",
+    "parameter": "MOVE_BARB_BARRAGE",
+    "target": "SPECIES_OVERQWIL",
+    "target_form": null,
+    "target_name": "Overqwil"
+  },
+  {
+    "from": "SPECIES_SNEASEL_HISUIAN",
+    "from_name": "Sneasel Hisuian",
+    "method": "EVO_ITEM_DAY",
+    "parameter": "ITEM_RAZOR_CLAW",
+    "target": "SPECIES_SNEASLER",
+    "target_form": null,
+    "target_name": "Sneasler"
+  },
+  {
+    "from": "SPECIES_WOOPER_PALDEAN",
+    "from_name": "Wooper Paldean",
+    "method": "EVO_LEVEL",
+    "parameter": "20",
+    "target": "SPECIES_CLODSIRE",
+    "target_form": null,
+    "target_name": "Clodsire"
+  }
+]

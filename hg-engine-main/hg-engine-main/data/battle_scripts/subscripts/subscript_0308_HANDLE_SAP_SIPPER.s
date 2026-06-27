@@ -1,0 +1,15 @@
+.include "asm/include/battle_commands.inc"
+
+.data
+
+_000:
+    PrintAttackMessage 
+    Wait 
+    WaitButtonABTime 15
+
+    AbilityPopup BATTLER_CATEGORY_MSG_BATTLER_TEMP
+
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_BATTLER_STAT_CHANGE, BSCRIPT_VAR_MSG_BATTLER_TEMP
+    UpdateVar OPCODE_SET, BSCRIPT_VAR_SIDE_EFFECT_PARAM, MOVE_SUBSCRIPT_PTR_ATTACK_UP_1_STAGE
+    Call BATTLE_SUBSCRIPT_UPDATE_STAT_STAGE
+    End

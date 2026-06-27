@@ -1,0 +1,28 @@
+# Local ROM inputs and emulator state
+rom.nds
+baserom.nds
+*.nds
+*.srl
+*.sav
+*.dsv
+
+# Build outputs and temporary validation artifacts
+build/
+**/build/
+*.o
+*.elf
+*.map
+*.sym
+*.lst
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store

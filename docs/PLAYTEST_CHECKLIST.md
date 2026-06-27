@@ -1,0 +1,40 @@
+# Playtest Checklist
+
+- New game start.
+- Fast text behavior.
+- Deletable HMs.
+- Reusable TMs.
+- EV/IV viewer and nature indicators.
+- Badge-gated mart unlocks.
+- Max Candy and IV stat candies.
+- Evolution item access.
+- No-trade evolutions.
+- Approved later-generation forms/evolutions.
+- Early Johto level curve.
+- Each Johto Gym Leader.
+- Rival fights.
+- Team Rocket events.
+- Flexible Chuck/Jasmine/Pryce order.
+- Clair.
+- First Elite Four and Lance.
+- Kanto route progression.
+- Each Kanto Gym Leader.
+- Blue.
+- Gym rematches.
+- Elite Four rematches.
+- Red.
+- Saffron Fighting Dojo hub.
+- Champion Circuit Lance/Blue after 16 badges.
+- Champion Circuit Red/Steven/Wallace/Cynthia after Red.
+- Legendary dossier prerequisites.
+- Legendary caught flags.
+- Retry behavior after fleeing/fainting from dossier encounters.
+- Latias/Latios duplicate-access edge cases.
+- Native Raikou/Entei roamer coexistence.
+- Random legendary surprise encounters at each badge tier.
+- Repel behavior with random legendary surprise encounters.
+- Safari exclusion from random legendary surprise encounters.
+- Rare encounter verification.
+- Kanto wild level balance.
+- Pokedex completion path.
+- Final one-save obtainability.

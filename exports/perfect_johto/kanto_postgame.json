@@ -1,0 +1,955 @@
+{
+  "champion_circuit": {
+    "trainers": [
+      {
+        "id": 260,
+        "max_level": 100,
+        "min_level": 88,
+        "name": "Red",
+        "party": [
+          {
+            "item": "ITEM_LIGHT_BALL",
+            "level": 100,
+            "moves": [
+              "MOVE_VOLT_TACKLE",
+              "MOVE_IRON_TAIL",
+              "MOVE_QUICK_ATTACK",
+              "MOVE_THUNDERBOLT"
+            ],
+            "name": "Pikachu",
+            "species": "SPECIES_PIKACHU"
+          },
+          {
+            "item": "ITEM_LEFTOVERS",
+            "level": 88,
+            "moves": [
+              "MOVE_SURF",
+              "MOVE_BLIZZARD",
+              "MOVE_BODY_SLAM",
+              "MOVE_REST"
+            ],
+            "name": "Lapras",
+            "species": "SPECIES_LAPRAS"
+          },
+          {
+            "item": "ITEM_LEFTOVERS",
+            "level": 90,
+            "moves": [
+              "MOVE_BODY_SLAM",
+              "MOVE_CRUNCH",
+              "MOVE_REST",
+              "MOVE_SLEEP_TALK"
+            ],
+            "name": "Snorlax",
+            "species": "SPECIES_SNORLAX"
+          },
+          {
+            "item": "ITEM_MIRACLE_SEED",
+            "level": 92,
+            "moves": [
+              "MOVE_FRENZY_PLANT",
+              "MOVE_SLUDGE_BOMB",
+              "MOVE_SLEEP_POWDER",
+              "MOVE_GIGA_DRAIN"
+            ],
+            "name": "Venusaur",
+            "species": "SPECIES_VENUSAUR"
+          },
+          {
+            "item": "ITEM_CHARCOAL",
+            "level": 94,
+            "moves": [
+              "MOVE_BLAST_BURN",
+              "MOVE_AIR_SLASH",
+              "MOVE_DRAGON_CLAW",
+              "MOVE_FLAMETHROWER"
+            ],
+            "name": "Charizard",
+            "species": "SPECIES_CHARIZARD"
+          },
+          {
+            "item": "ITEM_MYSTIC_WATER",
+            "level": 94,
+            "moves": [
+              "MOVE_HYDRO_CANNON",
+              "MOVE_SURF",
+              "MOVE_ICE_BEAM",
+              "MOVE_FOCUS_BLAST"
+            ],
+            "name": "Blastoise",
+            "species": "SPECIES_BLASTOISE"
+          }
+        ],
+        "party_size": 6,
+        "species": [
+          "SPECIES_PIKACHU",
+          "SPECIES_LAPRAS",
+          "SPECIES_SNORLAX",
+          "SPECIES_VENUSAUR",
+          "SPECIES_CHARIZARD",
+          "SPECIES_BLASTOISE"
+        ],
+        "trainer_class": "TRAINERCLASS_PKMN_TRAINER_RED",
+        "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+      },
+      {
+        "id": 727,
+        "max_level": 90,
+        "min_level": 84,
+        "name": "Blue",
+        "party": [
+          {
+            "item": "ITEM_NONE",
+            "level": 84,
+            "moves": [
+              "MOVE_LEAF_STORM",
+              "MOVE_PSYCHIC",
+              "MOVE_EXPLOSION",
+              "MOVE_TRICK_ROOM"
+            ],
+            "name": "Exeggutor",
+            "species": "SPECIES_EXEGGUTOR"
+          },
+          {
+            "item": "ITEM_IRON_BALL",
+            "level": 84,
+            "moves": [
+              "MOVE_DYNAMIC_PUNCH",
+              "MOVE_STONE_EDGE",
+              "MOVE_FLING",
+              "MOVE_ATTRACT"
+            ],
+            "name": "Machamp",
+            "species": "SPECIES_MACHAMP"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 86,
+            "moves": [
+              "MOVE_MEGAHORN",
+              "MOVE_STONE_EDGE",
+              "MOVE_THUNDER_FANG",
+              "MOVE_EARTHQUAKE"
+            ],
+            "name": "Rhyperior",
+            "species": "SPECIES_RHYPERIOR"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 86,
+            "moves": [
+              "MOVE_FLARE_BLITZ",
+              "MOVE_EXTREME_SPEED",
+              "MOVE_THUNDER_FANG",
+              "MOVE_CRUNCH"
+            ],
+            "name": "Arcanine",
+            "species": "SPECIES_ARCANINE"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 88,
+            "moves": [
+              "MOVE_LOW_KICK",
+              "MOVE_FIRE_FANG",
+              "MOVE_ROCK_SLIDE",
+              "MOVE_EARTHQUAKE"
+            ],
+            "name": "Tyranitar",
+            "species": "SPECIES_TYRANITAR"
+          },
+          {
+            "item": "ITEM_SITRUS_BERRY",
+            "level": 90,
+            "moves": [
+              "MOVE_RETURN",
+              "MOVE_DOUBLE_TEAM",
+              "MOVE_AIR_SLASH",
+              "MOVE_STEEL_WING"
+            ],
+            "name": "Pidgeot",
+            "species": "SPECIES_PIDGEOT"
+          }
+        ],
+        "party_size": 6,
+        "species": [
+          "SPECIES_EXEGGUTOR",
+          "SPECIES_MACHAMP",
+          "SPECIES_RHYPERIOR",
+          "SPECIES_ARCANINE",
+          "SPECIES_TYRANITAR",
+          "SPECIES_PIDGEOT"
+        ],
+        "trainer_class": "TRAINERCLASS_LEADER_BLUE",
+        "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+      },
+      {
+        "id": 733,
+        "max_level": 88,
+        "min_level": 82,
+        "name": "Lance",
+        "party": [
+          {
+            "item": "ITEM_NONE",
+            "level": 82,
+            "moves": [
+              "MOVE_WATERFALL",
+              "MOVE_ICE_FANG",
+              "MOVE_DRAGON_DANCE",
+              "MOVE_CRUNCH"
+            ],
+            "name": "Gyarados",
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 82,
+            "moves": [
+              "MOVE_AERIAL_ACE",
+              "MOVE_ROCK_SLIDE",
+              "MOVE_CRUNCH",
+              "MOVE_THUNDER_FANG"
+            ],
+            "name": "Aerodactyl",
+            "species": "SPECIES_AERODACTYL"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 84,
+            "moves": [
+              "MOVE_SURF",
+              "MOVE_DRAGON_PULSE",
+              "MOVE_ICE_BEAM",
+              "MOVE_YAWN"
+            ],
+            "name": "Kingdra",
+            "species": "SPECIES_KINGDRA"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 84,
+            "moves": [
+              "MOVE_FLAMETHROWER",
+              "MOVE_AIR_SLASH",
+              "MOVE_DRAGON_CLAW",
+              "MOVE_HYPER_BEAM"
+            ],
+            "name": "Charizard",
+            "species": "SPECIES_CHARIZARD"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 86,
+            "moves": [
+              "MOVE_IRON_HEAD",
+              "MOVE_DRAGON_CLAW",
+              "MOVE_EARTHQUAKE",
+              "MOVE_STONE_EDGE"
+            ],
+            "name": "Aggron",
+            "species": "SPECIES_AGGRON"
+          },
+          {
+            "item": "ITEM_SITRUS_BERRY",
+            "level": 88,
+            "moves": [
+              "MOVE_FIRE_PUNCH",
+              "MOVE_SAFEGUARD",
+              "MOVE_DRACO_METEOR",
+              "MOVE_HYPER_BEAM"
+            ],
+            "name": "Dragonite",
+            "species": "SPECIES_DRAGONITE"
+          }
+        ],
+        "party_size": 6,
+        "species": [
+          "SPECIES_GYARADOS",
+          "SPECIES_AERODACTYL",
+          "SPECIES_KINGDRA",
+          "SPECIES_CHARIZARD",
+          "SPECIES_AGGRON",
+          "SPECIES_DRAGONITE"
+        ],
+        "trainer_class": "TRAINERCLASS_CHAMPION",
+        "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+      },
+      {
+        "id": 738,
+        "max_level": 96,
+        "min_level": 90,
+        "name": "Steven",
+        "party": [
+          {
+            "item": "ITEM_NONE",
+            "level": 90,
+            "moves": [
+              "MOVE_STEEL_WING",
+              "MOVE_AIR_SLASH",
+              "MOVE_NIGHT_SLASH",
+              "MOVE_SPIKES"
+            ],
+            "name": "Skarmory",
+            "species": "SPECIES_SKARMORY"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 90,
+            "moves": [
+              "MOVE_EARTH_POWER",
+              "MOVE_PSYCHIC",
+              "MOVE_ANCIENT_POWER",
+              "MOVE_LIGHT_SCREEN"
+            ],
+            "name": "Claydol",
+            "species": "SPECIES_CLAYDOL"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 91,
+            "moves": [
+              "MOVE_ENERGY_BALL",
+              "MOVE_STONE_EDGE",
+              "MOVE_CONFUSE_RAY",
+              "MOVE_RECOVER"
+            ],
+            "name": "Cradily",
+            "species": "SPECIES_CRADILY"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 91,
+            "moves": [
+              "MOVE_X_SCISSOR",
+              "MOVE_ROCK_SLIDE",
+              "MOVE_AQUA_TAIL",
+              "MOVE_CRUSH_CLAW"
+            ],
+            "name": "Armaldo",
+            "species": "SPECIES_ARMALDO"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 93,
+            "moves": [
+              "MOVE_IRON_HEAD",
+              "MOVE_STONE_EDGE",
+              "MOVE_EARTHQUAKE",
+              "MOVE_DRAGON_CLAW"
+            ],
+            "name": "Aggron",
+            "species": "SPECIES_AGGRON"
+          },
+          {
+            "item": "ITEM_SITRUS_BERRY",
+            "level": 96,
+            "moves": [
+              "MOVE_METEOR_MASH",
+              "MOVE_ZEN_HEADBUTT",
+              "MOVE_EARTHQUAKE",
+              "MOVE_BULLET_PUNCH"
+            ],
+            "name": "Metagross",
+            "species": "SPECIES_METAGROSS"
+          }
+        ],
+        "party_size": 6,
+        "species": [
+          "SPECIES_SKARMORY",
+          "SPECIES_CLAYDOL",
+          "SPECIES_CRADILY",
+          "SPECIES_ARMALDO",
+          "SPECIES_AGGRON",
+          "SPECIES_METAGROSS"
+        ],
+        "trainer_class": "TRAINERCLASS_CHAMPION",
+        "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+      },
+      {
+        "id": 739,
+        "max_level": 96,
+        "min_level": 90,
+        "name": "Wallace",
+        "party": [
+          {
+            "item": "ITEM_NONE",
+            "level": 90,
+            "moves": [
+              "MOVE_WATER_SPOUT",
+              "MOVE_ICE_BEAM",
+              "MOVE_AMNESIA",
+              "MOVE_REST"
+            ],
+            "name": "Wailord",
+            "species": "SPECIES_WAILORD"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 90,
+            "moves": [
+              "MOVE_SURF",
+              "MOVE_SLUDGE_BOMB",
+              "MOVE_ICE_BEAM",
+              "MOVE_TOXIC_SPIKES"
+            ],
+            "name": "Tentacruel",
+            "species": "SPECIES_TENTACRUEL"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 91,
+            "moves": [
+              "MOVE_WATERFALL",
+              "MOVE_ICE_FANG",
+              "MOVE_DRAGON_DANCE",
+              "MOVE_CRUNCH"
+            ],
+            "name": "Gyarados",
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 92,
+            "moves": [
+              "MOVE_SURF",
+              "MOVE_ENERGY_BALL",
+              "MOVE_ICE_BEAM",
+              "MOVE_RAIN_DANCE"
+            ],
+            "name": "Ludicolo",
+            "species": "SPECIES_LUDICOLO"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 92,
+            "moves": [
+              "MOVE_EARTHQUAKE",
+              "MOVE_AQUA_TAIL",
+              "MOVE_ZEN_HEADBUTT",
+              "MOVE_REST"
+            ],
+            "name": "Whiscash",
+            "species": "SPECIES_WHISCASH"
+          },
+          {
+            "item": "ITEM_SITRUS_BERRY",
+            "level": 96,
+            "moves": [
+              "MOVE_SURF",
+              "MOVE_ICE_BEAM",
+              "MOVE_AQUA_RING",
+              "MOVE_RECOVER"
+            ],
+            "name": "Milotic",
+            "species": "SPECIES_MILOTIC"
+          }
+        ],
+        "party_size": 6,
+        "species": [
+          "SPECIES_WAILORD",
+          "SPECIES_TENTACRUEL",
+          "SPECIES_GYARADOS",
+          "SPECIES_LUDICOLO",
+          "SPECIES_WHISCASH",
+          "SPECIES_MILOTIC"
+        ],
+        "trainer_class": "TRAINERCLASS_CHAMPION",
+        "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+      },
+      {
+        "id": 740,
+        "max_level": 98,
+        "min_level": 92,
+        "name": "Cynthia",
+        "party": [
+          {
+            "item": "ITEM_NONE",
+            "level": 92,
+            "moves": [
+              "MOVE_DARK_PULSE",
+              "MOVE_SHADOW_BALL",
+              "MOVE_WILL_O_WISP",
+              "MOVE_SILVER_WIND"
+            ],
+            "name": "Spiritomb",
+            "species": "SPECIES_SPIRITOMB"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 92,
+            "moves": [
+              "MOVE_ENERGY_BALL",
+              "MOVE_SLUDGE_BOMB",
+              "MOVE_SHADOW_BALL",
+              "MOVE_STUN_SPORE"
+            ],
+            "name": "Roserade",
+            "species": "SPECIES_ROSERADE"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 93,
+            "moves": [
+              "MOVE_AIR_SLASH",
+              "MOVE_AURA_SPHERE",
+              "MOVE_EXTREME_SPEED",
+              "MOVE_ROOST"
+            ],
+            "name": "Togekiss",
+            "species": "SPECIES_TOGEKISS"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 94,
+            "moves": [
+              "MOVE_AURA_SPHERE",
+              "MOVE_DRAGON_PULSE",
+              "MOVE_EXTREME_SPEED",
+              "MOVE_DARK_PULSE"
+            ],
+            "name": "Lucario",
+            "species": "SPECIES_LUCARIO"
+          },
+          {
+            "item": "ITEM_NONE",
+            "level": 94,
+            "moves": [
+              "MOVE_SURF",
+              "MOVE_ICE_BEAM",
+              "MOVE_MIRROR_COAT",
+              "MOVE_RECOVER"
+            ],
+            "name": "Milotic",
+            "species": "SPECIES_MILOTIC"
+          },
+          {
+            "item": "ITEM_SITRUS_BERRY",
+            "level": 98,
+            "moves": [
+              "MOVE_DRAGON_RUSH",
+              "MOVE_EARTHQUAKE",
+              "MOVE_STONE_EDGE",
+              "MOVE_SWORDS_DANCE"
+            ],
+            "name": "Garchomp",
+            "species": "SPECIES_GARCHOMP"
+          }
+        ],
+        "party_size": 6,
+        "species": [
+          "SPECIES_SPIRITOMB",
+          "SPECIES_ROSERADE",
+          "SPECIES_TOGEKISS",
+          "SPECIES_LUCARIO",
+          "SPECIES_MILOTIC",
+          "SPECIES_GARCHOMP"
+        ],
+        "trainer_class": "TRAINERCLASS_CHAMPION",
+        "trainer_type": "TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ITEMS"
+      }
+    ],
+    "unlock_rules": [
+      "Lance and Blue unlock after 16 badges.",
+      "Red rematch, Steven, Wallace, Cynthia, and Arceus require original Mt. Silver Red defeat."
+    ]
+  },
+  "dojo_hub": "Saffron Fighting Dojo postgame hub after 16 badges.",
+  "legendary_dossiers": [
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_ARTICUNO",
+      "hide_flags": [
+        "FLAG_HIDE_SEAFOAM_ISLAND_ARTICUNO"
+      ],
+      "level": 70,
+      "location": "Seafoam dossier, Saffron Fighting Dojo",
+      "name": "Articuno",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_ARTICUNO"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_ZAPDOS",
+      "hide_flags": [
+        "FLAG_HIDE_ROUTE_10_ZAPDOS"
+      ],
+      "level": 70,
+      "location": "Power Plant dossier, Saffron Fighting Dojo",
+      "name": "Zapdos",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_ZAPDOS"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_MOLTRES",
+      "hide_flags": [
+        "FLAG_HIDE_MT_SILVER_CAVE_MOLTRES"
+      ],
+      "level": 72,
+      "location": "Mt. Silver dossier, Saffron Fighting Dojo",
+      "name": "Moltres",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MOLTRES"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_MEWTWO",
+      "hide_flags": [
+        "FLAG_HIDE_CERULEAN_CAVE_MEWTWO"
+      ],
+      "level": 80,
+      "location": "Cerulean Cave dossier, Saffron Fighting Dojo",
+      "name": "Mewtwo",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MEWTWO"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_LUGIA",
+      "hide_flags": [
+        "FLAG_HIDE_WHIRL_ISLAND_LUGIA"
+      ],
+      "level": 75,
+      "location": "Whirl Islands dossier, Saffron Fighting Dojo",
+      "name": "Lugia",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_LUGIA"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_HO_OH",
+      "hide_flags": [
+        "FLAG_HIDE_BELL_TOWER_HO_OH"
+      ],
+      "level": 75,
+      "location": "Bell Tower dossier, Saffron Fighting Dojo",
+      "name": "Ho-Oh",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_HO_OH"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_SUICUNE",
+      "hide_flags": [
+        "FLAG_HIDE_BURNED_TOWER_B1F_SUICUNE",
+        "FLAG_HIDE_BURNED_TOWER_1F_SUICUNE",
+        "FLAG_HIDE_CIANWOOD_SUICUNE",
+        "FLAG_HIDE_ROUTE_42_SUICUNE",
+        "FLAG_HIDE_VERMILION_SUICUNE",
+        "FLAG_HIDE_ROUTE_14_SUICUNE",
+        "FLAG_HIDE_ROUTE_25_SUICUNE",
+        "FLAG_HIDE_BURNED_TOWER_STATIC_SUICUNE"
+      ],
+      "level": 65,
+      "location": "Eusine dossier, Saffron Fighting Dojo",
+      "name": "Suicune",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_SUICUNE"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_LATIAS",
+      "hide_flags": [
+        "FLAG_HIDE_PEWTER_CITY_LATIAS"
+      ],
+      "level": 68,
+      "location": "Kanto roaming dossier, Saffron Fighting Dojo",
+      "name": "Latias",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_LATIAS"
+    },
+    {
+      "category": "kanto",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_LATIOS",
+      "hide_flags": [
+        "FLAG_HIDE_PEWTER_CITY_LATIOS"
+      ],
+      "level": 68,
+      "location": "Kanto roaming dossier, Saffron Fighting Dojo",
+      "name": "Latios",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_LATIOS"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGIROCK",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Regirock",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_REGIROCK"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGICE",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Regice",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_REGICE"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGISTEEL",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Registeel",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_REGISTEEL"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_REGIGIGAS",
+      "hide_flags": [],
+      "level": 80,
+      "location": "Ruins of Alph seal dossier, Saffron Fighting Dojo",
+      "name": "Regigigas",
+      "prerequisites": "16 badges plus Regirock, Regice, and Registeel caught",
+      "species": "SPECIES_REGIGIGAS"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_KYOGRE",
+      "hide_flags": [
+        "FLAG_HIDE_EMBEDDED_TOWER_KYOGRE",
+        "FLAG_HIDE_EMBEDDED_TOWER_KYOGRE_HIKER"
+      ],
+      "level": 75,
+      "location": "Embedded Tower weather dossier, Saffron Fighting Dojo",
+      "name": "Kyogre",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_KYOGRE"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_GROUDON",
+      "hide_flags": [
+        "FLAG_HIDE_EMBEDDED_TOWER_GROUDON",
+        "FLAG_HIDE_EMBEDDED_TOWER_GROUDON_HIKER"
+      ],
+      "level": 75,
+      "location": "Embedded Tower weather dossier, Saffron Fighting Dojo",
+      "name": "Groudon",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_GROUDON"
+    },
+    {
+      "category": "ancient",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_CAUGHT_RAYQUAZA",
+      "hide_flags": [
+        "FLAG_HIDE_EMBEDDED_TOWER_RAYQUAZA"
+      ],
+      "level": 80,
+      "location": "Embedded Tower sky dossier, Saffron Fighting Dojo",
+      "name": "Rayquaza",
+      "prerequisites": "16 badges plus Kyogre and Groudon caught",
+      "species": "SPECIES_RAYQUAZA"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_MEW",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Faraway dossier, Saffron Fighting Dojo",
+      "name": "Mew",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MEW"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_CELEBI",
+      "hide_flags": [],
+      "level": 70,
+      "location": "Ilex Shrine dossier, Saffron Fighting Dojo",
+      "name": "Celebi",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_CELEBI"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_JIRACHI",
+      "hide_flags": [],
+      "level": 75,
+      "location": "Mt. Moon stargazing dossier, Saffron Fighting Dojo",
+      "name": "Jirachi",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_JIRACHI"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_DEOXYS",
+      "hide_flags": [],
+      "level": 80,
+      "location": "Pewter meteorite dossier, Saffron Fighting Dojo",
+      "name": "Deoxys",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_DEOXYS"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_HEATRAN",
+      "hide_flags": [],
+      "level": 78,
+      "location": "Volcanic dossier, Saffron Fighting Dojo",
+      "name": "Heatran",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_HEATRAN"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_CRESSELIA",
+      "hide_flags": [],
+      "level": 78,
+      "location": "Dream dossier, Saffron Fighting Dojo",
+      "name": "Cresselia",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_CRESSELIA"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_DARKRAI",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Nightmare dossier, Saffron Fighting Dojo",
+      "name": "Darkrai",
+      "prerequisites": "16 badges plus Cresselia caught",
+      "species": "SPECIES_DARKRAI"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_SHAYMIN",
+      "hide_flags": [],
+      "level": 75,
+      "location": "Flower restoration dossier, Saffron Fighting Dojo",
+      "name": "Shaymin",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_SHAYMIN"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_MANAPHY",
+      "hide_flags": [],
+      "level": 75,
+      "location": "Ocean egg dossier, Saffron Fighting Dojo",
+      "name": "Manaphy",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MANAPHY"
+    },
+    {
+      "category": "mythic",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_PHIONE",
+      "hide_flags": [],
+      "level": 65,
+      "location": "Ocean egg dossier, Saffron Fighting Dojo",
+      "name": "Phione",
+      "prerequisites": "16 badges plus Manaphy caught",
+      "species": "SPECIES_PHIONE"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_UXIE",
+      "hide_flags": [],
+      "level": 72,
+      "location": "Lake insight dossier, Saffron Fighting Dojo",
+      "name": "Uxie",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_UXIE"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_MESPRIT",
+      "hide_flags": [],
+      "level": 72,
+      "location": "Lake emotion dossier, Saffron Fighting Dojo",
+      "name": "Mesprit",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_MESPRIT"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_AZELF",
+      "hide_flags": [],
+      "level": 72,
+      "location": "Lake willpower dossier, Saffron Fighting Dojo",
+      "name": "Azelf",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_AZELF"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_DIALGA",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Sinjoh time dossier, Saffron Fighting Dojo",
+      "name": "Dialga",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_DIALGA"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_PALKIA",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Sinjoh space dossier, Saffron Fighting Dojo",
+      "name": "Palkia",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_PALKIA"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_GIRATINA",
+      "hide_flags": [],
+      "level": 82,
+      "location": "Sinjoh distortion dossier, Saffron Fighting Dojo",
+      "name": "Giratina",
+      "prerequisites": "16 badges",
+      "species": "SPECIES_GIRATINA"
+    },
+    {
+      "category": "creation",
+      "encounter_type": "stationary scripted Dojo dossier",
+      "flag": "FLAG_PHASE8_CAUGHT_ARCEUS",
+      "hide_flags": [],
+      "level": 100,
+      "location": "Ultimate Sinjoh dossier, Saffron Fighting Dojo",
+      "name": "Arceus",
+      "prerequisites": "16 badges, Red defeated, lake trio caught, and creation trio caught",
+      "species": "SPECIES_ARCEUS"
+    }
+  ]
+}

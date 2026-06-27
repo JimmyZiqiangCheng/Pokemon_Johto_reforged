@@ -1,0 +1,8 @@
+{
+  "effect": "Sets all six IVs to 31 if at least one IV can change.",
+  "id": 1058,
+  "item": "ITEM_MAX_CANDY",
+  "name": "Max Candy",
+  "price": 8000,
+  "required_badges": 12
+}

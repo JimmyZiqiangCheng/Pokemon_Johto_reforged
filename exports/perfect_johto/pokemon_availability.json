@@ -1,0 +1,17 @@
+{
+  "sources": [
+    "data/Encounters.c",
+    "data/SafariEncounters.c",
+    "data/Headbutt.c",
+    "armips/scr_seq/scr_seq_00832_phase8_dojo.s",
+    "docs/phase6_obtainability_report.md",
+    "docs/phase8_postgame_report.md"
+  ],
+  "summary": {
+    "approved_later_exception_count": 52,
+    "gen1_4_species_count": 493,
+    "meaningful_areas_with_rare_layer": 132,
+    "pokedex_area_status": "needs release confirmation",
+    "proper_legendary_entries": 35
+  }
+}

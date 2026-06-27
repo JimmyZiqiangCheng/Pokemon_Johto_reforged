@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1231,
+    "item": "ITEM_LONELY_MINT",
+    "name": "Lonely Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1232,
+    "item": "ITEM_ADAMANT_MINT",
+    "name": "Adamant Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1233,
+    "item": "ITEM_NAUGHTY_MINT",
+    "name": "Naughty Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1234,
+    "item": "ITEM_BRAVE_MINT",
+    "name": "Brave Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1235,
+    "item": "ITEM_BOLD_MINT",
+    "name": "Bold Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1236,
+    "item": "ITEM_IMPISH_MINT",
+    "name": "Impish Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1237,
+    "item": "ITEM_LAX_MINT",
+    "name": "Lax Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1238,
+    "item": "ITEM_RELAXED_MINT",
+    "name": "Relaxed Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1239,
+    "item": "ITEM_MODEST_MINT",
+    "name": "Modest Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1240,
+    "item": "ITEM_MILD_MINT",
+    "name": "Mild Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1241,
+    "item": "ITEM_RASH_MINT",
+    "name": "Rash Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1242,
+    "item": "ITEM_QUIET_MINT",
+    "name": "Quiet Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1243,
+    "item": "ITEM_CALM_MINT",
+    "name": "Calm Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1244,
+    "item": "ITEM_GENTLE_MINT",
+    "name": "Gentle Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1245,
+    "item": "ITEM_CAREFUL_MINT",
+    "name": "Careful Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1246,
+    "item": "ITEM_SASSY_MINT",
+    "name": "Sassy Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1247,
+    "item": "ITEM_TIMID_MINT",
+    "name": "Timid Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1248,
+    "item": "ITEM_HASTY_MINT",
+    "name": "Hasty Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1249,
+    "item": "ITEM_JOLLY_MINT",
+    "name": "Jolly Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1250,
+    "item": "ITEM_NAIVE_MINT",
+    "name": "Naive Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1251,
+    "item": "ITEM_SERIOUS_MINT",
+    "name": "Serious Mint",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 645,
+    "item": "ITEM_ABILITY_CAPSULE",
+    "name": "Ability Capsule",
+    "price": 1000,
+    "required_badges": 3
+  },
+  {
+    "id": 1606,
+    "item": "ITEM_ABILITY_PATCH",
+    "name": "Ability Patch",
+    "price": 1000,
+    "required_badges": 6
+  },
+  {
+    "id": 960,
+    "item": "ITEM_HEALTH_CANDY",
+    "name": "Health Candy",
+    "price": 2000,
+    "required_badges": 5
+  },
+  {
+    "id": 961,
+    "item": "ITEM_MIGHTY_CANDY",
+    "name": "Mighty Candy",
+    "price": 2000,
+    "required_badges": 5
+  },
+  {
+    "id": 962,
+    "item": "ITEM_TOUGH_CANDY",
+    "name": "Tough Candy",
+    "price": 2000,
+    "required_badges": 5
+  },
+  {
+    "id": 963,
+    "item": "ITEM_SMART_CANDY",
+    "name": "Smart Candy",
+    "price": 2000,
+    "required_badges": 5
+  },
+  {
+    "id": 964,
+    "item": "ITEM_COURAGE_CANDY",
+    "name": "Courage Candy",
+    "price": 2000,
+    "required_badges": 5
+  },
+  {
+    "id": 965,
+    "item": "ITEM_QUICK_CANDY",
+    "name": "Quick Candy",
+    "price": 2000,
+    "required_badges": 5
+  },
+  {
+    "id": 45,
+    "item": "ITEM_HP_UP",
+    "name": "HP Up",
+    "price": 3000,
+    "required_badges": 4
+  },
+  {
+    "id": 46,
+    "item": "ITEM_PROTEIN",
+    "name": "Protein",
+    "price": 3000,
+    "required_badges": 4
+  },
+  {
+    "id": 47,
+    "item": "ITEM_IRON",
+    "name": "Iron",
+    "price": 3000,
+    "required_badges": 4
+  },
+  {
+    "id": 49,
+    "item": "ITEM_CALCIUM",
+    "name": "Calcium",
+    "price": 3000,
+    "required_badges": 4
+  },
+  {
+    "id": 52,
+    "item": "ITEM_ZINC",
+    "name": "Zinc",
+    "price": 3000,
+    "required_badges": 4
+  },
+  {
+    "id": 48,
+    "item": "ITEM_CARBOS",
+    "name": "Carbos",
+    "price": 3000,
+    "required_badges": 4
+  },
+  {
+    "id": 565,
+    "item": "ITEM_HEALTH_FEATHER",
+    "name": "Health Feather",
+    "price": 300,
+    "required_badges": 3
+  },
+  {
+    "id": 566,
+    "item": "ITEM_MUSCLE_FEATHER",
+    "name": "Muscle Feather",
+    "price": 300,
+    "required_badges": 3
+  },
+  {
+    "id": 567,
+    "item": "ITEM_RESIST_FEATHER",
+    "name": "Resist Feather",
+    "price": 300,
+    "required_badges": 3
+  },
+  {
+    "id": 568,
+    "item": "ITEM_GENIUS_FEATHER",
+    "name": "Genius Feather",
+    "price": 300,
+    "required_badges": 3
+  },
+  {
+    "id": 569,
+    "item": "ITEM_CLEVER_FEATHER",
+    "name": "Clever Feather",
+    "price": 300,
+    "required_badges": 3
+  },
+  {
+    "id": 570,
+    "item": "ITEM_SWIFT_FEATHER",
+    "name": "Swift Feather",
+    "price": 300,
+    "required_badges": 3
+  },
+  {
+    "id": 169,
+    "item": "ITEM_POMEG_BERRY",
+    "name": "Pomeg Berry",
+    "price": 200,
+    "required_badges": 3
+  },
+  {
+    "id": 170,
+    "item": "ITEM_KELPSY_BERRY",
+    "name": "Kelpsy Berry",
+    "price": 200,
+    "required_badges": 3
+  },
+  {
+    "id": 171,
+    "item": "ITEM_QUALOT_BERRY",
+    "name": "Qualot Berry",
+    "price": 200,
+    "required_badges": 3
+  },
+  {
+    "id": 172,
+    "item": "ITEM_HONDEW_BERRY",
+    "name": "Hondew Berry",
+    "price": 200,
+    "required_badges": 3
+  },
+  {
+    "id": 173,
+    "item": "ITEM_GREPA_BERRY",
+    "name": "Grepa Berry",
+    "price": 200,
+    "required_badges": 3
+  },
+  {
+    "id": 174,
+    "item": "ITEM_TAMATO_BERRY",
+    "name": "Tamato Berry",
+    "price": 200,
+    "required_badges": 3
+  },
+  {
+    "id": 215,
+    "item": "ITEM_MACHO_BRACE",
+    "name": "Macho Brace",
+    "price": 3000,
+    "required_badges": 5
+  },
+  {
+    "id": 294,
+    "item": "ITEM_POWER_WEIGHT",
+    "name": "Power Weight",
+    "price": 3000,
+    "required_badges": 5
+  },
+  {
+    "id": 289,
+    "item": "ITEM_POWER_BRACER",
+    "name": "Power Bracer",
+    "price": 3000,
+    "required_badges": 5
+  },
+  {
+    "id": 290,
+    "item": "ITEM_POWER_BELT",
+    "name": "Power Belt",
+    "price": 3000,
+    "required_badges": 5
+  },
+  {
+    "id": 291,
+    "item": "ITEM_POWER_LENS",
+    "name": "Power Lens",
+    "price": 3000,
+    "required_badges": 5
+  },
+  {
+    "id": 292,
+    "item": "ITEM_POWER_BAND",
+    "name": "Power Band",
+    "price": 3000,
+    "required_badges": 5
+  },
+  {
+    "id": 293,
+    "item": "ITEM_POWER_ANKLET",
+    "name": "Power Anklet",
+    "price": 3000,
+    "required_badges": 5
+  }
+]
