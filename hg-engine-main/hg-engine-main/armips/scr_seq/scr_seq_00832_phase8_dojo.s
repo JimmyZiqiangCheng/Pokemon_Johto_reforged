@@ -1710,5 +1710,5 @@ scr_seq_T11R0101_002:
     simple_npc_msg 3
     end
 
-    .balign 4, 0
+    .align 4
 .close

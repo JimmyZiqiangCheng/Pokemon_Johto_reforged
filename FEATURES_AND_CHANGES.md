@@ -332,8 +332,8 @@ Files changed:
 
 ### Phase 9 - Final Game Validation, Build Readiness, Static Documentation, and Playtest Package
 
-Status: complete for static validation and documentation; pending local build
-tooling, `rom.nds`, script assembly, and runtime playtesting.
+Status: complete for static validation, documentation, local native build,
+script assembly, and playtest patch generation; pending runtime playtesting.
 
 Scope:
 
@@ -373,10 +373,10 @@ Scope:
   party-use behavior, and forbidden-gimmick mart exclusion.
 - Validated no approved-scope trade-only evolutions remain and that
   approved-scope item and known-move evolution methods have static access.
-- Documented remaining release warnings: build environment incomplete,
-  `rom.nds` missing, `armips` missing, Pokedex area data regeneration/derival
-  unconfirmed, Dudunsparce Three-Segment and Ursaluna Bloodmoon special form
-  access not implemented, and runtime playtesting still required.
+- Documented remaining release warnings: Docker is not installed, Pokedex area
+  data regeneration/derival is unconfirmed, Dudunsparce Three-Segment and
+  Ursaluna Bloodmoon special form access are not implemented, and runtime
+  playtesting is still required.
 
 Files changed:
 
@@ -1365,17 +1365,16 @@ Discovered intended base disassembly commands:
 Local environment status:
 
 - `python` and `python3`: available, Python 3.12.7.
-- `git`: not available on PATH.
-- `make`: not available on PATH.
-- `cmake`: not available on PATH.
-- `armips`: not available on PATH.
-- `arm-none-eabi-gcc`: not available on PATH.
+- `git`: available when Git/MSYS2 paths are added for the build shell.
+- `make`: available through MSYS2.
+- `cmake`: available through MSYS2 UCRT64.
+- `armips`: built at `hg-engine-main/hg-engine-main/tools/armips`.
+- `arm-none-eabi-gcc`: available through MSYS2 UCRT64.
 - `docker`: not available on PATH.
-- `rom.nds`: missing from `hg-engine-main/hg-engine-main`.
+- `rom.nds`: present locally in `hg-engine-main/hg-engine-main` and ignored by git.
 - `baserom.nds`: missing from `pokeheartgold-master`.
-- No full ROM build was possible in Phase 1, Phase 2, Phase 3, Phase 4, Phase
-  5, Phase 6, Phase 7, Phase 8, or Phase 9 because the local build
-  environment is incomplete.
+- A full native HG-Engine ROM build now completes locally through MSYS2 and
+  outputs `hg-engine-main/hg-engine-main/test.nds`.
 
 Reproducible build requirements:
 
@@ -1565,9 +1564,13 @@ Checks run in Phase 9:
   Three-Segment and Ursaluna Bloodmoon special access are not implemented.
 - Pokedex area data status: warning. No Phase 9 regeneration hook was confirmed;
   release must confirm engine derivation or add area-data generation.
-- Build readiness: warning. `git`, `make`, `cmake`, `armips`, Docker,
-  `arm-none-eabi-gcc`, and `rom.nds` are missing, so no full ROM build,
-  `armips` assembly run, Docker build, or `make -n` dry run could be completed.
+- Build readiness: warning only for Docker. Git, Make, CMake, `armips`,
+  `arm-none-eabi-gcc`, and `rom.nds` are available in the local native build
+  setup used for the playtest package.
+- Full native ROM build: passed through MSYS2 with
+  `make -j$(nproc) PREFIX=/ucrt64/bin/arm-none-eabi- PYTHON_NO_VENV=python3`.
+- Playtest patch: generated at `exports/patches/pokemon_johto_reforged_playtest.xdelta`
+  and verified by applying it back to the clean HeartGold ROM.
 
 ## Known Limitations and Risks
 
@@ -1607,11 +1610,10 @@ Checks run in Phase 9:
   state. This guarantees one-save non-event access to both Lati twins, but the
   native roamer/Enigma-style flow should be runtime-checked for possible
   duplicate access in edge-case save orders.
-- Phase 8 script syntax and control flow were statically checked, but the Dojo
-  script archive could not be assembled with `armips` in the current
-  environment.
-- Phase 9 master validation passed all static checks, but it does not replace a
-  full ROM build, script assembly, or runtime playtest pass.
+- Phase 8 script syntax and control flow were statically checked, and the Dojo
+  script archive now assembles with the local `armips` build.
+- Phase 9 master validation passed all static checks, and the local ROM build
+  completed. This still does not replace a runtime playtest pass.
 - Pokedex area data was not separately regenerated in Phase 6; confirm whether this
   HG-Engine build derives area data from encounter NARCs or needs a separate Pokedex-area
   update before release.
@@ -1622,10 +1624,10 @@ Checks run in Phase 9:
   before these forms are exposed in player-facing documentation.
 - Fast text is currently a global forced setting, not an in-game option.
 - Deletable HMs are enabled through config, but field moves still require known moves.
-- Build environment is incomplete in the current PowerShell PATH.
-- `git`, `make`, `cmake`, `armips`, Docker, and `arm-none-eabi-gcc` are not
-  available on PATH in the current environment.
-- Full build requires a legally obtained US HeartGold `rom.nds` in the HG-Engine directory.
+- Docker is not installed or available on PATH; the native MSYS2 build route is
+  the working local build path.
+- Full build requires a legally obtained US HeartGold `rom.nds` in the
+  HG-Engine directory; that file is present locally and ignored by git.
 - Base disassembly build requires proprietary toolchain components and base ROM inputs that are
   not present here.
 - Future script/map editing needs careful coordination between HG-Engine patched scripts and the
@@ -1636,30 +1638,29 @@ Checks run in Phase 9:
 ## TODO
 
 - Add exact source provenance for the HG-Engine checkout.
-- Install Git before future major data passes.
-- Establish a reproducible local build environment, preferably Docker first on this machine,
-  or install the native Git/Make/CMake/`armips`/ARM toolchain route.
-- Add a legally obtained US HeartGold `rom.nds` locally for builds; do not commit it.
+- Keep the MSYS2 native build toolchain documented and available for future
+  build/test passes; Docker remains optional future infrastructure.
+- Keep the local legally obtained US HeartGold `rom.nds` out of git.
 - Run `python tools/perfect_johto/validate_project.py` before release and after
   any future gameplay data changes.
 - Keep `exports/perfect_johto/` and static `docs/` generated from the Phase 9
   runner when source data changes.
 - Runtime-test approved regional/new form encounter display, form handling, and evolution
-  behavior after a build works.
+  behavior from the generated playtest patch.
 - Investigate AutoRun/toggle run, fast Surf, and field-move-without-HM-teaching as dedicated
-  field/input tasks after a build works.
+  field/input tasks after the initial playtest priorities.
 - Runtime-test the Phase 8 Dojo postgame hub, Champion Circuit unlocks,
   legendary/mythical caught flags, retry behavior after failed static battles,
-  and prerequisite chains after builds are possible.
+  and prerequisite chains from the generated playtest patch.
 - Consider moving selected Phase 8 dossiers into bespoke native map quests
-  after the script build/runtime loop is available.
+  after the playtest pass confirms the current dossier loop.
 - Add Pokedex area-data generation/update if the engine does not derive area data from the
   regenerated encounter archives.
 - Runtime-test Phase 7 boss teams, Rocket Executive fights, Silver fights,
-  Kanto trainers, rematches, and Red after builds are possible.
+  Kanto trainers, rematches, and Red from the generated playtest patch.
 - Confirm Phase 7's regular-trainer curve in map order and tune any local
   difficulty spikes found during playtesting.
-- Runtime-test random legendary surprise encounters after builds are possible, including Repel,
+- Runtime-test random legendary surprise encounters from the generated playtest patch, including Repel,
   Safari exclusion, built-in roamer coexistence, levels, and badge-gated pools.
 - Treat any interactive web-app explorer as a future separate project that
   consumes the structured exports, not as part of this ROM hack release.

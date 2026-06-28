@@ -182,7 +182,7 @@ ifeq (,$(wildcard $(NDSTOOL)))
 	cd tools/source/ndstool ; chmod +x *.sh
 	cd tools/source/ndstool ; ./autogen.sh
 	cd tools/source/ndstool ; ./configure && $(MAKE)
-	mv tools/source/ndstool/ndstool tools/ndstool
+	if [ -f tools/source/ndstool/ndstool ]; then mv tools/source/ndstool/ndstool tools/ndstool; else mv tools/source/ndstool/ndstool.exe tools/ndstool; fi
 	rm -r -f tools/source/ndstool
 endif
 
@@ -193,9 +193,9 @@ ifeq (,$(wildcard $(ARMIPS)))
 	rm -r -f tools/source/armips
 	cd tools/source ; git clone --recursive https://github.com/BluRosie/armips.git
 	mkdir -p tools/source/armips/build
-	cd tools/source/armips/build; cmake .. -DCMAKE_BUILD_TYPE=Release ..
+	cd tools/source/armips/build; cmake -G "Unix Makefiles" .. -DCMAKE_BUILD_TYPE=Release
 	cd tools/source/armips/build; $(MAKE)
-	mv tools/source/armips/build/armips tools/armips
+	if [ -f tools/source/armips/build/armips ]; then mv tools/source/armips/build/armips tools/armips; else mv tools/source/armips/build/armips.exe tools/armips; fi
 	rm -r -f tools/source/armips
 endif
 
@@ -224,8 +224,12 @@ TOOLS += tools/ntrWavTool.py
 
 NITROGFX_SOURCES := $(wildcard tools/source/nitrogfx/*.c) $(wildcard tools/source/nitrogfx/*.h)
 $(GFX): $(NITROGFX_SOURCES)
+ifeq (,$(wildcard tools/source/nitrogfx/Makefile))
+	rm -r -f tools/source/nitrogfx
+	cd tools/source ; git clone https://github.com/BluRosie/nitrogfx.git
+endif
 	cd tools/source/nitrogfx ; $(MAKE)
-	mv tools/source/nitrogfx/nitrogfx $(GFX)
+	if [ -f tools/source/nitrogfx/nitrogfx ]; then mv tools/source/nitrogfx/nitrogfx $(GFX); else mv tools/source/nitrogfx/nitrogfx.exe $(GFX); fi
 
 TOOLS += $(GFX)
 

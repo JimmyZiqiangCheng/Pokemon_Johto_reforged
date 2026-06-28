@@ -5,15 +5,20 @@ baserom.nds
 *.srl
 *.sav
 *.dsv
+*.xdelta
 
 # Build outputs and temporary validation artifacts
 build/
 **/build/
 *.o
 *.elf
+*.exe
 *.map
 *.sym
 *.lst
+
+# Tool sources fetched during local Windows builds
+hg-engine-main/hg-engine-main/tools/source/nitrogfx/
 
 # Python cache
 __pycache__/

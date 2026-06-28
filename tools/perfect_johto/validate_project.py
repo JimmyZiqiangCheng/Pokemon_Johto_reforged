@@ -340,6 +340,10 @@ def approved_species_set() -> set[str]:
     return approved
 
 
+def species_sort_key(species: str, species_numbers: dict[str, int]) -> tuple[int, str]:
+    return (species_numbers.get(species, 99999), species)
+
+
 def parse_random_legendary_pool() -> list[dict[str, Any]]:
     text = (ENGINE / "src" / "field" / "enemy_party.c").read_text(encoding="utf-8", errors="replace")
     marker = "sPerfectJohtoRandomLegendaryPool[]"
@@ -480,7 +484,7 @@ def validate_text_archives() -> CheckResult:
 def validate_learnsets_generation() -> CheckResult:
     with tempfile.TemporaryDirectory(prefix="perfect_johto_learnsets_") as tmp:
         tmp_path = pathlib.Path(tmp)
-        return run_command(
+        result = run_command(
             [
                 sys.executable,
                 "scripts/build_learnsets.py",
@@ -497,6 +501,7 @@ def validate_learnsets_generation() -> CheckResult:
             ],
             ENGINE,
         )
+        return dataclasses.replace(result, name="Learnset generation")
 
 
 def validate_phase6() -> CheckResult:
@@ -915,11 +920,11 @@ def build_exports(build_details: dict[str, Any], results: list[CheckResult]) -> 
                 "Unrelated Gen 5+ Pokemon and forbidden battle gimmicks are out of scope.",
             ],
             "gen1_4_range": {"min": 1, "max": 493},
-            "approved_later_exceptions": sorted(approved_later, key=lambda s: species_numbers.get(s, 99999)),
+            "approved_later_exceptions": sorted(approved_later, key=lambda s: species_sort_key(s, species_numbers)),
         },
         "approved_later_exceptions.json": [
             {"species": species, "species_id": species_numbers.get(species), "name": symbol_name(species)}
-            for species in sorted(approved_later, key=lambda s: species_numbers.get(s, 99999))
+            for species in sorted(approved_later, key=lambda s: species_sort_key(s, species_numbers))
         ],
         "evolutions.json": approved_evolutions,
         "trade_evolution_replacements.json": trade_replacements,

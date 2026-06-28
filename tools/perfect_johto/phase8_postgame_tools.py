@@ -486,10 +486,10 @@ def write_trainers() -> None:
     text = text[:insert_at] + "\n\n" + block + text[insert_at:]
 
     order_marker = "    // Phase 8 Champion Circuit text"
-    text = text.replace(order_marker + "\n", "")
-    order_insert = order_marker + "\n" + "".join(f"    {trainer_id},\n" for trainer_id in PHASE8_TEXT_ORDER)
+    text = re.sub(rf"\n*{re.escape(order_marker)}\n*", "\n", text)
+    order_insert = "\n\n\n" + order_marker + "\n" + "".join(f"    {trainer_id},\n" for trainer_id in PHASE8_TEXT_ORDER)
     order_at = text.index("\n};\n\nconst u32 sTrainerDataCount")
-    text = text[:order_at] + "\n" + order_insert + text[order_at:]
+    text = text[:order_at].rstrip() + order_insert + text[order_at:]
     TRAINERS.write_text(text, encoding="utf-8", newline="\n")
 
 
@@ -806,7 +806,7 @@ def generate_dojo_script() -> str:
         *(encounter_label(event) for event in LEGENDARIES),
         "\n".join(common),
         "\n".join(signs),
-        "    .balign 4, 0\n.close\n",
+        "    .align 4\n.close\n",
     ]
     return "\n\n".join(part.strip("\n") for part in parts) + "\n"
 

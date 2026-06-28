@@ -75,123 +75,8 @@
     "species_id": 1032
   },
   {
-    "name": "Electrode Hisuian",
-    "species": "SPECIES_ELECTRODE_HISUIAN",
-    "species_id": null
-  },
-  {
-    "name": "Ninetales Alolan",
-    "species": "SPECIES_NINETALES_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Qwilfish Hisuian",
-    "species": "SPECIES_QWILFISH_HISUIAN",
-    "species_id": null
-  },
-  {
-    "name": "Sneasel Hisuian",
-    "species": "SPECIES_SNEASEL_HISUIAN",
-    "species_id": null
-  },
-  {
-    "name": "Raticate Alolan",
-    "species": "SPECIES_RATICATE_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Rapidash Galarian",
-    "species": "SPECIES_RAPIDASH_GALARIAN",
-    "species_id": null
-  },
-  {
-    "name": "Exeggutor Alolan",
-    "species": "SPECIES_EXEGGUTOR_ALOLAN",
-    "species_id": null
-  },
-  {
     "name": "Arcanine Hisuian",
     "species": "SPECIES_ARCANINE_HISUIAN",
-    "species_id": null
-  },
-  {
-    "name": "Raichu Alolan",
-    "species": "SPECIES_RAICHU_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Meowth Alolan",
-    "species": "SPECIES_MEOWTH_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Slowking Galarian",
-    "species": "SPECIES_SLOWKING_GALARIAN",
-    "species_id": null
-  },
-  {
-    "name": "Dugtrio Alolan",
-    "species": "SPECIES_DUGTRIO_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Vulpix Alolan",
-    "species": "SPECIES_VULPIX_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Persian Alolan",
-    "species": "SPECIES_PERSIAN_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Meowth Galarian",
-    "species": "SPECIES_MEOWTH_GALARIAN",
-    "species_id": null
-  },
-  {
-    "name": "Sandslash Alolan",
-    "species": "SPECIES_SANDSLASH_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Slowpoke Galarian",
-    "species": "SPECIES_SLOWPOKE_GALARIAN",
-    "species_id": null
-  },
-  {
-    "name": "Graveler Alolan",
-    "species": "SPECIES_GRAVELER_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Muk Alolan",
-    "species": "SPECIES_MUK_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Growlithe Hisuian",
-    "species": "SPECIES_GROWLITHE_HISUIAN",
-    "species_id": null
-  },
-  {
-    "name": "Slowbro Galarian",
-    "species": "SPECIES_SLOWBRO_GALARIAN",
-    "species_id": null
-  },
-  {
-    "name": "Diglett Alolan",
-    "species": "SPECIES_DIGLETT_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Voltorb Hisuian",
-    "species": "SPECIES_VOLTORB_HISUIAN",
-    "species_id": null
-  },
-  {
-    "name": "Marowak Alolan",
-    "species": "SPECIES_MAROWAK_ALOLAN",
     "species_id": null
   },
   {
@@ -200,13 +85,23 @@
     "species_id": null
   },
   {
-    "name": "Wooper Paldean",
-    "species": "SPECIES_WOOPER_PALDEAN",
+    "name": "Diglett Alolan",
+    "species": "SPECIES_DIGLETT_ALOLAN",
     "species_id": null
   },
   {
-    "name": "Mr Mime Galarian",
-    "species": "SPECIES_MR_MIME_GALARIAN",
+    "name": "Dugtrio Alolan",
+    "species": "SPECIES_DUGTRIO_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Electrode Hisuian",
+    "species": "SPECIES_ELECTRODE_HISUIAN",
+    "species_id": null
+  },
+  {
+    "name": "Exeggutor Alolan",
+    "species": "SPECIES_EXEGGUTOR_ALOLAN",
     "species_id": null
   },
   {
@@ -215,8 +110,18 @@
     "species_id": null
   },
   {
+    "name": "Geodude Alolan",
+    "species": "SPECIES_GEODUDE_ALOLAN",
+    "species_id": null
+  },
+  {
     "name": "Golem Alolan",
     "species": "SPECIES_GOLEM_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Graveler Alolan",
+    "species": "SPECIES_GRAVELER_ALOLAN",
     "species_id": null
   },
   {
@@ -225,13 +130,8 @@
     "species_id": null
   },
   {
-    "name": "Sandshrew Alolan",
-    "species": "SPECIES_SANDSHREW_ALOLAN",
-    "species_id": null
-  },
-  {
-    "name": "Ponyta Galarian",
-    "species": "SPECIES_PONYTA_GALARIAN",
+    "name": "Growlithe Hisuian",
+    "species": "SPECIES_GROWLITHE_HISUIAN",
     "species_id": null
   },
   {
@@ -240,8 +140,108 @@
     "species_id": null
   },
   {
-    "name": "Geodude Alolan",
-    "species": "SPECIES_GEODUDE_ALOLAN",
+    "name": "Marowak Alolan",
+    "species": "SPECIES_MAROWAK_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Meowth Alolan",
+    "species": "SPECIES_MEOWTH_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Meowth Galarian",
+    "species": "SPECIES_MEOWTH_GALARIAN",
+    "species_id": null
+  },
+  {
+    "name": "Mr Mime Galarian",
+    "species": "SPECIES_MR_MIME_GALARIAN",
+    "species_id": null
+  },
+  {
+    "name": "Muk Alolan",
+    "species": "SPECIES_MUK_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Ninetales Alolan",
+    "species": "SPECIES_NINETALES_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Persian Alolan",
+    "species": "SPECIES_PERSIAN_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Ponyta Galarian",
+    "species": "SPECIES_PONYTA_GALARIAN",
+    "species_id": null
+  },
+  {
+    "name": "Qwilfish Hisuian",
+    "species": "SPECIES_QWILFISH_HISUIAN",
+    "species_id": null
+  },
+  {
+    "name": "Raichu Alolan",
+    "species": "SPECIES_RAICHU_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Rapidash Galarian",
+    "species": "SPECIES_RAPIDASH_GALARIAN",
+    "species_id": null
+  },
+  {
+    "name": "Raticate Alolan",
+    "species": "SPECIES_RATICATE_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Rattata Alolan",
+    "species": "SPECIES_RATTATA_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Sandshrew Alolan",
+    "species": "SPECIES_SANDSHREW_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Sandslash Alolan",
+    "species": "SPECIES_SANDSLASH_ALOLAN",
+    "species_id": null
+  },
+  {
+    "name": "Slowbro Galarian",
+    "species": "SPECIES_SLOWBRO_GALARIAN",
+    "species_id": null
+  },
+  {
+    "name": "Slowking Galarian",
+    "species": "SPECIES_SLOWKING_GALARIAN",
+    "species_id": null
+  },
+  {
+    "name": "Slowpoke Galarian",
+    "species": "SPECIES_SLOWPOKE_GALARIAN",
+    "species_id": null
+  },
+  {
+    "name": "Sneasel Hisuian",
+    "species": "SPECIES_SNEASEL_HISUIAN",
+    "species_id": null
+  },
+  {
+    "name": "Voltorb Hisuian",
+    "species": "SPECIES_VOLTORB_HISUIAN",
+    "species_id": null
+  },
+  {
+    "name": "Vulpix Alolan",
+    "species": "SPECIES_VULPIX_ALOLAN",
     "species_id": null
   },
   {
@@ -250,13 +250,13 @@
     "species_id": null
   },
   {
-    "name": "Zigzagoon Galarian",
-    "species": "SPECIES_ZIGZAGOON_GALARIAN",
+    "name": "Wooper Paldean",
+    "species": "SPECIES_WOOPER_PALDEAN",
     "species_id": null
   },
   {
-    "name": "Rattata Alolan",
-    "species": "SPECIES_RATTATA_ALOLAN",
+    "name": "Zigzagoon Galarian",
+    "species": "SPECIES_ZIGZAGOON_GALARIAN",
     "species_id": null
   }
 ]
