@@ -28,9 +28,10 @@ repository. Building requires a legally obtained US Pokemon HeartGold ROM named
   does not change the public project name.
 - `exports/perfect_johto/`: generated JSON exports for auditability and future
   explorer tooling.
-- `docs/`: generated project documentation, release checklists, and gameplay
-  summaries.
-- `FEATURES_AND_CHANGES.md`: detailed project ledger.
+- `docs/`: generated project documentation, release checklists, gameplay
+  summaries, and archived history docs.
+- `FEATURES_AND_CHANGES.md`: consolidated feature/change index with document
+  versions and links to detailed history.
 
 ## Major Features
 

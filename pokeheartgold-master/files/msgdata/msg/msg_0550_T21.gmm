@@ -100,4 +100,8 @@
 		<attribute name="window_context_name">used</attribute>
 		<language name="English">Guide Gent’s House\nFull-of-Energy, High-Speed Old Man</language>
 	</row>
+	<row id="msg_0550_T21_00025" index="25">
+		<attribute name="window_context_name">used</attribute>
+		<language name="English">Oh? You already have Running Shoes.\rThen you do not need my walking tour!\fI will catch up with you later and\nadd the Town Map to your Pokégear.</language>
+	</row>
 </body>

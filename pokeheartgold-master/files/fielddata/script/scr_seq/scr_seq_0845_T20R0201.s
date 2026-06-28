@@ -42,6 +42,11 @@ scr_seq_T20R0201_000:
 	PlayFanfare SEQ_SE_PL_KIRAKIRA
 	WaitFanfare
 	NPCMsg msg_0545_T20R0201_00005
+	GiveRunningShoes
+	NPCMsg msg_0545_T20R0201_00039
+	PlayFanfare SEQ_ME_ITEM
+	WaitFanfare
+	NPCMsg msg_0545_T20R0201_00040
 	CloseMsg
 	Wait 15, VAR_SPECIAL_RESULT
 	ApplyMovement obj_T20R0201_gsmama, _00C8

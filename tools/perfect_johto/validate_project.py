@@ -1178,6 +1178,8 @@ The web-app explorer is a future separate project, not part of this ROM hack pha
     docs["QOL_FEATURES.md"] = """
 # QOL Features
 
+- Running from the beginning is enabled: Mom gives the Running Shoes in the initial home conversation.
+- The Cherrygrove Guide Gent skips the forced walking tour when the player already has Running Shoes, while preserving the later Map Card callback.
 - Fast text is enabled globally through `FAST_TEXT_PRINTING`.
 - HMs are deletable through `DELETABLE_HMS`.
 - TMs are reusable through existing HG-Engine configuration.

@@ -156,4 +156,12 @@
 		<attribute name="window_context_name">used</attribute>
 		<language name="English">What’s in the fridge...?\rLots of drinking water and\nsweeeet lemonade!</language>
 	</row>
+	<row id="msg_0545_T20R0201_00039" index="39">
+		<attribute name="window_context_name">used</attribute>
+		<language name="English">{STRVAR_1 3, 0, 0} received\nthe Running Shoes from Mom!\r</language>
+	</row>
+	<row id="msg_0545_T20R0201_00040" index="40">
+		<attribute name="window_context_name">used</attribute>
+		<language name="English">Hold the B Button, or touch the\nSprint Button, when you want to run.</language>
+	</row>
 </body>

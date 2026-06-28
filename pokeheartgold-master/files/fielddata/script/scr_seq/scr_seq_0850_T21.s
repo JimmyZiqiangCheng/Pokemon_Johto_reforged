@@ -49,6 +49,9 @@ scr_seq_T21_001:
 	Lock obj_T21_gsoldman1
 	ApplyMovement obj_T21_gsoldman1, _0350
 	WaitMovement
+	CheckRunningShoes VAR_TEMP_x4002
+	Compare VAR_TEMP_x4002, 1
+	GoToIfEq _already_has_running_shoes
 	CallStd std_play_follow_music
 	GetPlayerCoords VAR_TEMP_x4000, VAR_TEMP_x4001
 	Compare VAR_TEMP_x4001, 397
@@ -210,6 +213,15 @@ _0228:
 	ScrCmd_308 77
 	ScrCmd_309 77
 	CallStd std_fade_end_mom_music
+	SetVar VAR_SCENE_CHERRYGROVE_CITY_OW, 1
+	End
+
+_already_has_running_shoes:
+	NPCMsg msg_0550_T21_00025
+	CloseMsg
+	Release obj_T21_gsoldman1
+	HidePerson obj_T21_gsoldman1
+	SetFlag FLAG_HIDE_CHERRYGROVE_GUIDE_GENT
 	SetVar VAR_SCENE_CHERRYGROVE_CITY_OW, 1
 	End
 
