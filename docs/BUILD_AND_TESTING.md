@@ -20,16 +20,16 @@ python tools/perfect_johto/validate_project.py --write
 | --- | --- | --- |
 | Learnset JSON parse | PASS | data/learnsets/learnsets.json parsed |
 | text archive validation | PASS | 46 archives passed |
-| Build readiness | WARN | missing requirements: docker |
+| Build readiness | WARN | missing requirements: git, make, cmake, armips, docker, arm-none-eabi-gcc |
 
 ## Tool Availability
 
-- `git`: available at C:\msys64\usr\bin\git.EXE
-- `make`: available at C:\msys64\usr\bin\make.EXE
-- `cmake`: available at C:\msys64\ucrt64\bin\cmake.EXE
-- `armips`: available at C:\Users\jimmy\Documents\pokemon_romhacks\perfect_johto\hg-engine-main\hg-engine-main\tools\armips.EXE
+- `git`: missing on PATH
+- `make`: missing on PATH
+- `cmake`: missing on PATH
+- `armips`: missing on PATH
 - `docker`: missing on PATH
-- `arm-none-eabi-gcc`: available at C:\msys64\ucrt64\bin\arm-none-eabi-gcc.EXE
+- `arm-none-eabi-gcc`: missing on PATH
 - `python`: available at C:\Users\jimmy\AppData\Local\Programs\Python\Python312\python.exe
 
 ## ROM Inputs
@@ -43,5 +43,5 @@ Do not commit or redistribute `rom.nds`, `baserom.nds`, pre-patched ROMs, or cop
 
 - Docker route: install Docker Desktop, then run `docker build . -t hg-engine` from `hg-engine-main/hg-engine-main`, followed by `docker-makerom.cmd`.
 - Native route: install Git, GNU Make, CMake, Python 3, `armips`, and the ARM toolchain expected by HG-Engine. WSL or MSYS2 is recommended over raw PowerShell for native Makefile use.
-- `make -n` status: echo "Done.  See output test.nds.".
-- Dojo `armips` assembly status: completed.
+- `make -n` status: make is not available on PATH.
+- Dojo `armips` assembly status: armips is not available on PATH.

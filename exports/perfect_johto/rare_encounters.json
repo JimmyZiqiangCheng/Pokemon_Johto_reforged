@@ -2,815 +2,798 @@
   {
     "area": "ENCDATA_T20_NEW_BARK_TOWN",
     "rare_notes": [
-      "surf SPECIES_SHELLDER 1% lv17-19 - coastal Johto rare"
+      "surf SPECIES_FEEBAS 4% lv17-19 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_R29_ROUTE_29",
     "rare_notes": [
-      "land SPECIES_SHINX 2% lv4 - early electric variety without starter clutter"
+      "land SPECIES_RIOLU 4% lv3 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_T21_CHERRYGROVE_CITY",
     "rare_notes": [
-      "surf SPECIES_STARYU 1% lv17-19 - night-fish identity made always reachable"
+      "surf SPECIES_SQUIRTLE 4% lv17-19 - early coastal Kanto water starter rare"
     ]
   },
   {
     "area": "ENCDATA_R30_ROUTE_30",
     "rare_notes": [
-      "land SPECIES_LEDYBA 2% lv4 - morning Johto bug line access",
-      "surf SPECIES_SURSKIT 1% lv15-17 - pond bug/water rare"
+      "land SPECIES_RALTS 4% lv4 - quiet wooded-route empath line"
     ]
   },
   {
     "area": "ENCDATA_R31_ROUTE_31",
     "rare_notes": [
-      "land SPECIES_WEEDLE 2% lv5 - version-independent forest bug access",
-      "surf SPECIES_SURSKIT 1% lv15-17 - pond bug/water rare"
+      "land SPECIES_TREECKO 4% lv5 - forest-edge Hoenn starter rare"
     ]
   },
   {
     "area": "ENCDATA_T22_VIOLET_CITY",
     "rare_notes": [
-      "surf SPECIES_POLIWAG 1% lv17-19 - city pond baseline rare"
+      "surf SPECIES_PIPLUP 4% lv17-19 - quiet city-pond Sinnoh water starter rare"
     ]
   },
   {
     "area": "ENCDATA_D15R0102_SPROUT_TOWER_2F",
     "rare_notes": [
-      "land SPECIES_CHINGLING 2% lv6 - quiet tower rare"
+      "land SPECIES_SPIRITOMB 4% lv5 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D15R0103_SPROUT_TOWER_3F",
     "rare_notes": [
-      "land SPECIES_TOGEPI 1% lv7 - sacred tower surprise"
+      "land SPECIES_DUSKULL 4% lv7 - watchful tower ghost rare"
     ]
   },
   {
     "area": "ENCDATA_R32_ROUTE_32",
     "rare_notes": [
-      "land SPECIES_WOOPER_PALDEAN 2% lv8 - approved Wooper-family regional form",
-      "surf SPECIES_FEEBAS 1% lv11-13 - very early but weak 1% water rare"
+      "surf SPECIES_FEEBAS 4% lv11-13 - very early but weak beauty-line rare"
     ]
   },
   {
     "area": "ENCDATA_D24R0101_RUINS_OF_ALPH_OUTSIDE",
     "rare_notes": [
-      "land SPECIES_NATU 2% lv12 - mystic ruins flavor"
+      "land SPECIES_BALTOY 4% lv12 - ancient clay guardian rare"
     ]
   },
   {
     "area": "ENCDATA_D24R0205_RUINS_OF_ALPH_INSIDE_MAIN_ROOM",
     "rare_notes": [
-      "land SPECIES_SPIRITOMB 1% lv16 - ancient sealed-spirit rare"
+      "land SPECIES_SPIRITOMB 4% lv16 - ancient sealed-spirit rare"
     ]
   },
   {
     "area": "ENCDATA_D24R0217_RUINS_OF_ALPH_INSIDE_LADDER_ROOM",
     "rare_notes": [
-      "land SPECIES_MAWILE 2% lv5 - default cave/dungeon rare layer"
+      "land SPECIES_BRONZOR 4% lv5 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D25R0101_UNION_CAVE_1F",
     "rare_notes": [
-      "land SPECIES_ARON 2% lv9 - mineral cave line"
+      "land SPECIES_ARON 4% lv9 - mineral cave line"
     ]
   },
   {
     "area": "ENCDATA_D25R0102_UNION_CAVE_B1F",
     "rare_notes": [
-      "land SPECIES_MAWILE 2% lv10 - cave steel/fairy-line access"
+      "land SPECIES_GIBLE 4% lv10 - early rocky cave pseudo rare"
     ]
   },
   {
     "area": "ENCDATA_D25R0103_UNION_CAVE_B2F",
     "rare_notes": [
-      "land SPECIES_LILEEP 1% lv22 - deep fossil-adjacent rare"
+      "land timed rare SPECIES_BAGON/SPECIES_BAGON/SPECIES_BAGON 4% lv22 - deeper cave Bagon with fossil-line daytime echo"
     ]
   },
   {
     "area": "ENCDATA_R33_ROUTE_33",
     "rare_notes": [
-      "land SPECIES_GULPIN 2% lv11 - wet lowland Hoenn line"
+      "land SPECIES_RIOLU 4% lv6 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_D26R0102_SLOWPOKE_WELL_1F",
     "rare_notes": [
-      "land SPECIES_SLOWPOKE_GALARIAN 2% lv12 - approved Slowpoke-family regional form"
+      "land SPECIES_SLOWPOKE_GALARIAN 4% lv12 - approved Slowpoke-family regional form"
     ]
   },
   {
     "area": "ENCDATA_D26R0103_SLOWPOKE_WELL_B2F",
     "rare_notes": [
-      "land SPECIES_SHELLDER 2% lv15 - Slowpoke ecosystem pairing"
+      "land SPECIES_MUDKIP 4% lv15 - wet cave Hoenn starter rare"
     ]
   },
   {
     "area": "ENCDATA_D36R0101_ILEX_FOREST",
     "rare_notes": [
-      "land SPECIES_NINCADA 2% lv14 - hidden forest molt line"
+      "land timed rare SPECIES_BULBASAUR/SPECIES_BULBASAUR/SPECIES_TREECKO 4% lv14 - forest starter and hidden molt-line split"
     ]
   },
   {
     "area": "ENCDATA_R34_ROUTE_34",
     "rare_notes": [
-      "land SPECIES_SKITTY 2% lv15 - Goldenrod-adjacent domestic rare",
-      "surf SPECIES_CLAMPERL 1% lv21-23 - coastal pearl rare"
+      "land timed rare SPECIES_RIOLU/SPECIES_RIOLU/SPECIES_RIOLU 4% lv15 - Day-Care route friendship and baby-form surprises"
     ]
   },
   {
     "area": "ENCDATA_R35_ROUTE_35",
     "rare_notes": [
-      "land SPECIES_EEVEE 1% lv16 - desirable but restrained city-edge rare"
+      "land timed rare SPECIES_EEVEE/SPECIES_EEVEE/SPECIES_HAPPINY 4% lv16 - city-edge happiness-line rare split"
     ]
   },
   {
     "area": "ENCDATA_D22R0101_NATIONAL_PARK",
     "rare_notes": [
-      "land SPECIES_SCYTHER 1% lv16 - classic park rare"
+      "land SPECIES_SCYTHER 4% lv16 - classic park rare"
     ]
   },
   {
     "area": "ENCDATA_D22R0102_NATIONAL_PARK_BUG_CATCHING_CONTEST",
     "rare_notes": [
-      "land SPECIES_PINSIR 1% lv16 - contest counterpart rare"
+      "land SPECIES_PINSIR 4% lv16 - contest counterpart rare"
     ]
   },
   {
     "area": "ENCDATA_R36_ROUTE_36",
     "rare_notes": [
-      "land SPECIES_BONSLY 2% lv17 - Sudowoodo-route family access"
+      "land SPECIES_RIOLU 4% lv14 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R37_ROUTE_37",
     "rare_notes": [
-      "land SPECIES_VULPIX 2% lv18 - Ecruteak fox-fire flavor",
-      "land timed rare 2% lv18 - day fox-fire, night ghost flavor"
+      "land timed rare SPECIES_CHARMANDER/SPECIES_VULPIX/SPECIES_CHARMANDER 4% lv18 - morning Kanto fire starter, day fox-fire, night ghost flavor"
     ]
   },
   {
     "area": "ENCDATA_T27_ECRUTEAK_CITY",
     "rare_notes": [
-      "surf SPECIES_STARYU 1% lv18-20 - default surf rare layer"
+      "surf SPECIES_TOTODILE 4% lv17-19 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_D18R0101_BURNED_TOWER_1F",
     "rare_notes": [
-      "land SPECIES_HOUNDOUR 2% lv18 - burned ruins dark/fire rare"
+      "land timed rare SPECIES_TORCHIC/SPECIES_HOUNDOUR/SPECIES_MAGBY 4% lv18 - burned ruins fire-line split"
     ]
   },
   {
     "area": "ENCDATA_D18R0102_BURNED_TOWER_B1F",
     "rare_notes": [
-      "land SPECIES_DUSKULL 2% lv19 - haunted basement rare"
+      "land SPECIES_DUSKULL 4% lv19 - haunted basement rare"
     ]
   },
   {
     "area": "ENCDATA_D17R0102_BELL_TOWER_2F",
     "rare_notes": [
-      "land SPECIES_TOGEPI 1% lv22 - sacred tower line"
+      "land SPECIES_TOGEPI 4% lv22 - sacred tower line"
     ]
   },
   {
     "area": "ENCDATA_D17R0103_BELL_TOWER_3F",
     "rare_notes": [
-      "land SPECIES_CHIMECHO 2% lv23 - bell-themed rare"
+      "land SPECIES_AERODACTYL 4% lv23 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D17R0104_BELL_TOWER_4F",
     "rare_notes": [
-      "land SPECIES_DRIFLOON 2% lv24 - windborne tower rare"
+      "land SPECIES_ARON 4% lv23 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D17R0105_BELL_TOWER_5F",
     "rare_notes": [
-      "land SPECIES_ABSOL 2% lv25 - omens near a sacred tower"
+      "land SPECIES_ABSOL 4% lv25 - omens near a sacred tower"
     ]
   },
   {
     "area": "ENCDATA_D17R0106_BELL_TOWER_6F",
     "rare_notes": [
-      "land SPECIES_PONYTA_GALARIAN 1% lv26 - approved mystical regional form"
+      "land SPECIES_PONYTA_GALARIAN 4% lv26 - approved mystical regional form"
     ]
   },
   {
     "area": "ENCDATA_D17R0107_BELL_TOWER_7F",
     "rare_notes": [
-      "land SPECIES_KECLEON 2% lv27 - hidden tower trickster"
+      "land SPECIES_GIBLE 4% lv23 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D17R0108_BELL_TOWER_8F",
     "rare_notes": [
-      "land SPECIES_CASTFORM 2% lv28 - weather-sensitive tower rare"
+      "land SPECIES_RALTS 4% lv28 - sacred tower psychic-line rare"
     ]
   },
   {
     "area": "ENCDATA_D17R0109_BELL_TOWER_9F",
     "rare_notes": [
-      "land SPECIES_CHERUBI 2% lv29 - sunlit tower crown"
+      "land SPECIES_RIOLU 4% lv29 - aura-sensitive tower rare"
     ]
   },
   {
     "area": "ENCDATA_R38_ROUTE_38",
     "rare_notes": [
-      "land SPECIES_MEOWTH_GALARIAN 2% lv18 - approved Meowth-family regional form",
-      "land timed rare 2% lv18 - Meowth-family regional split by time"
+      "land timed rare SPECIES_MEOWTH_GALARIAN/SPECIES_MEOWTH_GALARIAN/SPECIES_MEOWTH_ALOLAN 4% lv26 - Meowth-family regional split by time"
     ]
   },
   {
     "area": "ENCDATA_R39_ROUTE_39",
     "rare_notes": [
-      "land SPECIES_FARFETCHD_GALARIAN 2% lv19 - farm-route regional Farfetch'd"
+      "land timed rare SPECIES_FARFETCHD_GALARIAN/SPECIES_FARFETCHD_GALARIAN/SPECIES_ELEKID 4% lv27 - farm-route regional bird with electric baby night rare"
     ]
   },
   {
     "area": "ENCDATA_T26_OLIVINE_CITY",
     "rare_notes": [
-      "surf SPECIES_WAILMER 1% lv29-31 - port-city whale line"
+      "surf SPECIES_WAILMER 4% lv29-31 - port-city whale line"
     ]
   },
   {
     "area": "ENCDATA_W40_ROUTE_40",
     "rare_notes": [
-      "surf SPECIES_FINNEON 1% lv27-29 - open-sea Sinnoh fish",
-      "super rod SPECIES_LUVDISC 4% lv29-31 - warm-water uncommon fish"
+      "surf SPECIES_RELICANTH 4% lv27-29 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_W41_ROUTE_41",
     "rare_notes": [
-      "surf SPECIES_CARVANHA 1% lv29-31 - rough ocean predator",
       "super rod SPECIES_RELICANTH 4% lv41-43 - ancient deep-sea rare"
     ]
   },
   {
     "area": "ENCDATA_D40R0101_WHIRL_ISLANDS_1F",
     "rare_notes": [
-      "land SPECIES_BAGON 1% lv25 - rugged sea-cave dragon rare"
+      "land SPECIES_BAGON 4% lv28 - rugged sea-cave dragon rare"
     ]
   },
   {
     "area": "ENCDATA_D40R0102_WHIRL_ISLANDS_B1F",
     "rare_notes": [
-      "land SPECIES_QWILFISH_HISUIAN 2% lv26 - approved Qwilfish regional form"
+      "land SPECIES_QWILFISH_HISUIAN 4% lv30 - approved Qwilfish regional form"
     ]
   },
   {
     "area": "ENCDATA_D40R0104_WHIRL_ISLANDS_B2F",
     "rare_notes": [
-      "land SPECIES_CORSOLA_GALARIAN 1% lv28 - deep ghostly coral form"
+      "land SPECIES_CORSOLA_GALARIAN 4% lv31 - deep ghostly coral form"
     ]
   },
   {
     "area": "ENCDATA_D40R0106_WHIRL_ISLANDS_B3F_LEDGE_OVERLOOKING_LUGIA_ROOM",
     "rare_notes": [
-      "land SPECIES_DRATINI 1% lv30 - dragon-water pilgrimage rare"
+      "land SPECIES_DRATINI 4% lv32 - dragon-water pilgrimage rare"
     ]
   },
   {
     "area": "ENCDATA_T24_CIANWOOD_CITY",
     "rare_notes": [
-      "surf SPECIES_CLAMPERL 1% lv29-31 - island pearl rare"
+      "surf SPECIES_TOTODILE 4% lv27-29 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_R42_ROUTE_42",
     "rare_notes": [
-      "land SPECIES_TEDDIURSA 2% lv22 - mountain-edge bear line"
+      "land timed rare SPECIES_TURTWIG/SPECIES_TEDDIURSA/SPECIES_TEDDIURSA 4% lv28 - mountain-edge Sinnoh starter and bear-line split"
     ]
   },
   {
     "area": "ENCDATA_D38R0101_MT_MORTAR_WATERFALL_ROOM",
     "rare_notes": [
-      "land SPECIES_TYROGUE 2% lv25 - Mt. Mortar fighting-line access"
+      "land SPECIES_BRONZOR 4% lv31 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D38R0102_MT_MORTAR_CENTRAL_ROOM",
     "rare_notes": [
-      "land SPECIES_BELDUM 1% lv27 - mineral/steel pseudo rare"
+      "land SPECIES_BELDUM 4% lv32 - mineral/steel pseudo rare"
     ]
   },
   {
     "area": "ENCDATA_D38R0103_MT_MORTAR_ROOM_ABOVE_WATERFALL",
     "rare_notes": [
-      "land SPECIES_CRANIDOS 1% lv28 - rugged fossil-line rare"
+      "land SPECIES_AERODACTYL 4% lv31 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D38R0104_MT_MORTAR_B1F",
     "rare_notes": [
-      "land SPECIES_SHIELDON 1% lv28 - deep fossil-line counterpart"
+      "land SPECIES_ARON 4% lv31 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_R43_ROUTE_43",
     "rare_notes": [
-      "land SPECIES_CASTFORM 2% lv24 - Lake of Rage weather route"
+      "land SPECIES_RIOLU 4% lv31 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_T29_LAKE_OF_RAGE",
     "rare_notes": [
-      "surf SPECIES_FEEBAS 1% lv27-29 - lake beauty-line rare",
-      "super rod SPECIES_FEEBAS 4% lv29-31 - lake beauty-line rare"
+      "surf SPECIES_FEEBAS 4% lv31-33 - lake beauty-line rare",
+      "super rod SPECIES_FEEBAS 4% lv31-33 - lake beauty-line rare"
     ]
   },
   {
     "area": "ENCDATA_R44_ROUTE_44",
     "rare_notes": [
-      "land SPECIES_KECLEON 2% lv26 - concealed roadside rare"
+      "land SPECIES_MUNCHLAX 4% lv33 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_D39R0101_ICE_PATH_1F",
     "rare_notes": [
-      "land SPECIES_SNORUNT 2% lv28 - cold-cave Hoenn ice line"
+      "land SPECIES_BELDUM 4% lv35 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D39R0102_ICE_PATH_B1F",
     "rare_notes": [
-      "land SPECIES_SANDSHREW_ALOLAN 2% lv29 - approved cold regional form"
+      "land SPECIES_SANDSHREW_ALOLAN 4% lv35 - approved cold regional form"
     ]
   },
   {
     "area": "ENCDATA_D39R0103_ICE_PATH_B2F",
     "rare_notes": [
-      "land SPECIES_VULPIX_ALOLAN 1% lv30 - stronger cold regional rare"
+      "land SPECIES_VULPIX_ALOLAN 4% lv36 - stronger cold regional rare"
     ]
   },
   {
     "area": "ENCDATA_D39R0104_ICE_PATH_B3F",
     "rare_notes": [
-      "land SPECIES_SNOVER 2% lv31 - deep ice forest line"
+      "land SPECIES_AERODACTYL 4% lv35 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_T30_BLACKTHORN_CITY",
     "rare_notes": [
-      "surf SPECIES_DRATINI 1% lv34-36 - dragon-city water rare"
+      "surf SPECIES_DRATINI 4% lv39-41 - dragon-city water rare"
     ]
   },
   {
     "area": "ENCDATA_D44R0102_DRAGONS_DEN",
     "rare_notes": [
-      "super rod SPECIES_DRATINI 4% lv34-36 - dragon shrine fishing rare"
+      "super rod SPECIES_DRATINI 4% lv39-41 - dragon shrine fishing rare"
     ]
   },
   {
     "area": "ENCDATA_R45_ROUTE_45",
     "rare_notes": [
-      "land SPECIES_SKARMORY 2% lv33 - cliffside steel bird"
+      "land SPECIES_MUNCHLAX 4% lv37 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R46_ROUTE_46",
     "rare_notes": [
-      "land SPECIES_TRAPINCH 2% lv10 - dry cliff rare without early power spike"
+      "land SPECIES_TRAPINCH 4% lv10 - dry cliff rare without early power spike"
     ]
   },
   {
     "area": "ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE",
     "rare_notes": [
-      "land SPECIES_LARVITAR 1% lv7 - Sacred Gold-style early pseudo at 1%"
+      "land SPECIES_LARVITAR 4% lv7 - Sacred Gold-style early pseudo surprise"
     ]
   },
   {
     "area": "ENCDATA_D42R0101_DARK_CAVE_ROUTE_45_ENTRANCE",
     "rare_notes": [
-      "land SPECIES_GIBLE 1% lv32 - deep rocky tunnel pseudo rare"
+      "land SPECIES_GIBLE 4% lv38 - deep rocky tunnel pseudo rare"
     ]
   },
   {
     "area": "ENCDATA_R47_ROUTE_47",
     "rare_notes": [
-      "land SPECIES_TURTWIG 1% lv35 - late Johto starter access",
-      "surf SPECIES_SHELLOS 1% lv34-36 - cliffside coastal Sinnoh line"
+      "land SPECIES_TURTWIG 4% lv40 - late Johto starter access"
     ]
   },
   {
     "area": "ENCDATA_D02R0103_MT_MOON_OUTSIDE_AREA",
     "rare_notes": [
-      "surf SPECIES_CLAMPERL 1% lv33-35 - default surf rare layer"
+      "surf SPECIES_FEEBAS 4% lv53-55 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_D02R0104_MT_MOON_OUTSIDE_CLEFAIRY_ACTIVE",
     "rare_notes": [
-      "surf SPECIES_FINNEON 1% lv33-35 - default surf rare layer"
+      "surf SPECIES_FEEBAS 4% lv53-55 - moonlit pond beauty-line rare"
     ]
   },
   {
     "area": "ENCDATA_D11R0101_SEAFOAM_ISLANDS_1F",
     "rare_notes": [
-      "land SPECIES_PIPLUP 1% lv41 - postgame cold-water starter access"
+      "land SPECIES_PIPLUP 4% lv53 - postgame cold-water starter access"
     ]
   },
   {
     "area": "ENCDATA_D11R0102_SEAFOAM_ISLANDS_B1F",
     "rare_notes": [
-      "land SPECIES_MR_MIME_GALARIAN 2% lv43 - approved cold regional form"
+      "land SPECIES_MR_MIME_GALARIAN 4% lv55 - approved cold regional form"
     ]
   },
   {
     "area": "ENCDATA_D11R0103_SEAFOAM_ISLANDS_B2F",
     "rare_notes": [
-      "land SPECIES_DELIBIRD 2% lv44 - deep ice cave rare"
+      "land SPECIES_ABSOL 4% lv55 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_D11R0104_SEAFOAM_ISLANDS_B3F",
     "rare_notes": [
-      "land SPECIES_SNORUNT 2% lv45 - deep ice family reinforcement"
+      "land SPECIES_HERACROSS 4% lv55 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_D11R0105_SEAFOAM_ISLANDS_B4F",
     "rare_notes": [
-      "land SPECIES_VULPIX_ALOLAN 1% lv46 - deep cold regional rare"
+      "land SPECIES_VULPIX_ALOLAN 4% lv58 - deep cold regional rare"
     ]
   },
   {
     "area": "ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM",
     "rare_notes": [
-      "land SPECIES_CHIMCHAR 1% lv55 - postgame fire starter access"
+      "land SPECIES_CHIMCHAR 4% lv62 - postgame fire starter access"
     ]
   },
   {
     "area": "ENCDATA_D41R0106_MT_SILVER_3F",
     "rare_notes": [
-      "land SPECIES_BAGON 1% lv56 - high mountain dragon rare"
+      "land SPECIES_BAGON 4% lv64 - high mountain dragon rare"
     ]
   },
   {
     "area": "ENCDATA_D41R0107_MT_SILVER_4F",
     "rare_notes": [
-      "land SPECIES_SNEASEL_HISUIAN 2% lv57 - approved high-cliff regional form"
+      "land SPECIES_SNEASEL_HISUIAN 4% lv65 - approved high-cliff regional form"
     ]
   },
   {
     "area": "ENCDATA_D48R0101_CLIFF_EDGE_GATE",
     "rare_notes": [
-      "surf SPECIES_SHELLDER 1% lv29-31 - default surf rare layer"
+      "surf SPECIES_PIPLUP 4% lv39-41 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_D50R0101_CLIFF_CAVE",
     "rare_notes": [
-      "land SPECIES_ANORITH 1% lv35 - cliff fossil-line rare"
+      "land SPECIES_GIBLE 4% lv39 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D17R0112_BELL_TOWER_10F",
     "rare_notes": [
-      "land SPECIES_CHIKORITA 1% lv32 - late Johto starter access",
-      "land SPECIES_CYNDAQUIL 1% lv32 - late Johto starter access"
+      "land timed rare SPECIES_CYNDAQUIL/SPECIES_TORCHIC/SPECIES_CHIMCHAR 4% lv32 - sacred tower fire-starter split"
     ]
   },
   {
     "area": "ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER",
     "rare_notes": [
-      "surf SPECIES_DRATINI 1% lv49-51 - remote mountain water rare"
+      "surf SPECIES_DRATINI 4% lv61-63 - remote mountain water rare"
     ]
   },
   {
     "area": "ENCDATA_D41R0101_MT_SILVER_1F",
     "rare_notes": [
-      "land SPECIES_TORCHIC 1% lv53 - postgame fire starter access"
+      "land SPECIES_TORCHIC 4% lv62 - postgame fire starter access"
     ]
   },
   {
     "area": "ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE",
     "rare_notes": [
-      "land SPECIES_GROWLITHE_HISUIAN 2% lv55 - approved volcanic mountain regional form"
+      "land SPECIES_GROWLITHE_HISUIAN 4% lv64 - approved volcanic mountain regional form"
     ]
   },
   {
     "area": "ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM",
     "rare_notes": [
-      "land SPECIES_RIOLU 1% lv55 - expert training chamber rare"
+      "land SPECIES_RIOLU 4% lv64 - expert training chamber rare"
     ]
   },
   {
     "area": "ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA",
     "rare_notes": [
-      "land SPECIES_SNEASEL_HISUIAN 2% lv58 - snowy summit form"
+      "land SPECIES_SNEASEL_HISUIAN 4% lv66 - snowy summit form"
     ]
   },
   {
     "area": "ENCDATA_R12_ROUTE_12",
     "rare_notes": [
-      "surf SPECIES_TOTODILE 1% lv39-41 - postgame water starter access"
+      "surf SPECIES_TOTODILE 4% lv49-51 - postgame water starter access"
     ]
   },
   {
     "area": "ENCDATA_W19_ROUTE_19",
     "rare_notes": [
-      "surf SPECIES_PIPLUP 1% lv39-41 - cold sea starter access",
-      "super rod SPECIES_FINNEON 4% lv39-41 - southern sea Sinnoh fish"
+      "surf SPECIES_PIPLUP 4% lv51-53 - cold sea starter access"
     ]
   },
   {
     "area": "ENCDATA_W20_ROUTE_20",
     "rare_notes": [
-      "surf SPECIES_CARVANHA 1% lv40-42 - rough current predator",
-      "super rod SPECIES_CARVANHA 4% lv40-42 - rough current predator"
+      "surf SPECIES_PIPLUP 4% lv53-55 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_T01_PALLET_TOWN",
     "rare_notes": [
-      "surf SPECIES_SQUIRTLE 1% lv35-37 - postgame starter coastal access"
+      "surf SPECIES_SQUIRTLE 4% lv47-49 - postgame starter coastal access"
     ]
   },
   {
     "area": "ENCDATA_T02_VIRIDIAN_CITY",
     "rare_notes": [
-      "surf SPECIES_CLAMPERL 1% lv39-41 - default surf rare layer"
+      "surf SPECIES_FEEBAS 4% lv50-52 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_T04_CERULEAN_CITY",
     "rare_notes": [
-      "surf SPECIES_SQUIRTLE 1% lv37-39 - postgame water-starter city access"
+      "surf SPECIES_SQUIRTLE 4% lv49-51 - postgame water-starter city access"
     ]
   },
   {
     "area": "ENCDATA_T06_VERMILION_CITY",
     "rare_notes": [
-      "surf SPECIES_WAILMER 1% lv39-41 - major-port whale line"
+      "surf SPECIES_WAILMER 4% lv49-51 - major-port whale line"
     ]
   },
   {
     "area": "ENCDATA_T07_CELADON_CITY",
     "rare_notes": [
-      "surf SPECIES_STARYU 1% lv39-41 - default surf rare layer"
+      "surf SPECIES_TOTODILE 4% lv50-52 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_T08_FUCHSIA_CITY",
     "rare_notes": [
-      "surf SPECIES_FINNEON 1% lv39-41 - southern water-route fish"
+      "surf SPECIES_PIPLUP 4% lv51-53 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_T09_CINNABAR_ISLAND",
     "rare_notes": [
-      "surf SPECIES_CLAMPERL 1% lv41-43 - island shellfish rare",
-      "super rod SPECIES_CLAMPERL 4% lv41-43 - island shellfish rare"
+      "surf SPECIES_RELICANTH 4% lv53-55 - default surf rare layer"
     ]
   },
   {
     "area": "ENCDATA_R48_ROUTE_48",
     "rare_notes": [
-      "land SPECIES_TREECKO 1% lv35 - Safari-frontier Hoenn starter access"
+      "land SPECIES_TREECKO 4% lv40 - Safari-frontier Hoenn starter access"
     ]
   },
   {
     "area": "ENCDATA_R26_ROUTE_26",
     "rare_notes": [
-      "land SPECIES_MUDKIP 1% lv43 - late pre-League starter access"
+      "land SPECIES_MUDKIP 4% lv43 - late pre-League starter access"
     ]
   },
   {
     "area": "ENCDATA_R27_ROUTE_27",
     "rare_notes": [
-      "land SPECIES_PORYGON 1% lv43 - Tohjo technical rare"
+      "land SPECIES_PORYGON 4% lv43 - Tohjo technical rare"
     ]
   },
   {
     "area": "ENCDATA_R28_ROUTE_28",
     "rare_notes": [
-      "land SPECIES_SNORLAX 1% lv55 - postgame mountain-gate rare"
+      "land SPECIES_SNORLAX 4% lv62 - postgame mountain-gate rare"
     ]
   },
   {
     "area": "ENCDATA_D02R0101_MT_MOON_1F",
     "rare_notes": [
-      "land SPECIES_CHARMANDER 1% lv39 - postgame Kanto starter access"
+      "land timed rare SPECIES_CHARMANDER/SPECIES_CHARMANDER/SPECIES_CHARMANDER 4% lv53 - Kanto fire starter by day, moon baby at night"
     ]
   },
   {
     "area": "ENCDATA_D02R0102_MT_MOON_2F",
     "rare_notes": [
-      "land SPECIES_AERODACTYL 1% lv44 - ancient mountain fossil rare"
+      "land SPECIES_AERODACTYL 4% lv56 - ancient mountain fossil rare"
     ]
   },
   {
     "area": "ENCDATA_D05R0101_ROCK_TUNNEL_1F",
     "rare_notes": [
-      "land SPECIES_OMANYTE 1% lv42 - ancient damp cave fossil"
+      "land SPECIES_BELDUM 4% lv53 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D05R0102_ROCK_TUNNEL_B1F",
     "rare_notes": [
-      "land SPECIES_KABUTO 1% lv43 - ancient damp cave counterpart"
+      "land SPECIES_BRONZOR 4% lv53 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D43R0101_VICTORY_ROAD_1F",
     "rare_notes": [
-      "land SPECIES_BAGON 1% lv45 - late rugged dragon rare"
+      "land SPECIES_BAGON 4% lv45 - late rugged dragon rare"
     ]
   },
   {
     "area": "ENCDATA_R01_ROUTE_1",
     "rare_notes": [
-      "land SPECIES_BULBASAUR 1% lv37 - postgame Kanto starter access"
+      "land SPECIES_BULBASAUR 4% lv49 - postgame Kanto starter access"
     ]
   },
   {
     "area": "ENCDATA_R02_ROUTE_2_SOUTH_BELOW_VIRIDIAN_FOREST",
     "rare_notes": [
-      "land SPECIES_WEEDLE 2% lv37 - Kanto forest bug version parity"
+      "land SPECIES_MUNCHLAX 4% lv49 - default forest rare layer"
     ]
   },
   {
     "area": "ENCDATA_R03_ROUTE_3",
     "rare_notes": [
-      "land SPECIES_CHARMANDER 1% lv39 - postgame rocky Kanto starter access"
+      "land SPECIES_CHARMANDER 4% lv50 - postgame rocky Kanto starter access"
     ]
   },
   {
     "area": "ENCDATA_R04_ROUTE_4",
     "rare_notes": [
-      "land SPECIES_EEVEE 1% lv39 - Cerulean-edge rare"
+      "land SPECIES_EEVEE 4% lv50 - Cerulean-edge rare"
     ]
   },
   {
     "area": "ENCDATA_R05_ROUTE_5",
     "rare_notes": [
-      "land SPECIES_MEOWTH 2% lv38 - Kanto urban-cat family access"
+      "land SPECIES_MEOWTH_ALOLAN 4% lv49 - urban regional dark-cat rare"
     ]
   },
   {
     "area": "ENCDATA_R06_ROUTE_6",
     "rare_notes": [
-      "land SPECIES_GLAMEOW 2% lv38 - urban Sinnoh cat counterpart"
+      "land SPECIES_ABSOL 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R07_ROUTE_7",
     "rare_notes": [
-      "land SPECIES_PORYGON 1% lv39 - Celadon technical rare"
+      "land SPECIES_PORYGON 4% lv51 - Celadon technical rare"
     ]
   },
   {
     "area": "ENCDATA_R08_ROUTE_8",
     "rare_notes": [
-      "land SPECIES_STUNKY 2% lv39 - urban poison/dark Sinnoh line"
+      "land SPECIES_SCYTHER 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R09_ROUTE_9",
     "rare_notes": [
-      "land SPECIES_VOLTORB_HISUIAN 2% lv40 - Power Plant-adjacent regional form"
+      "land SPECIES_VOLTORB_HISUIAN 4% lv51 - Power Plant-adjacent regional form"
     ]
   },
   {
     "area": "ENCDATA_R10_ROUTE_10",
     "rare_notes": [
-      "land SPECIES_ROTOM 1% lv40 - Power Plant-adjacent ghost/electric rare"
+      "land SPECIES_RALTS 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R11_ROUTE_11",
     "rare_notes": [
-      "land SPECIES_MUNCHLAX 1% lv40 - Snorlax-route family access"
+      "land SPECIES_MUNCHLAX 4% lv51 - Snorlax-route family access"
     ]
   },
   {
     "area": "ENCDATA_R13_ROUTE_13",
     "rare_notes": [
-      "land SPECIES_CARNIVINE 2% lv39 - marsh-edge Sinnoh rare"
+      "land SPECIES_EEVEE 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R14_ROUTE_14",
     "rare_notes": [
-      "land SPECIES_TROPIUS 2% lv40 - warm southern Kanto rare"
+      "land SPECIES_MUNCHLAX 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R15_ROUTE_15",
     "rare_notes": [
-      "land SPECIES_BURMY 2% lv39 - tree-lined route Sinnoh line"
+      "land SPECIES_ABSOL 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R16R0301_ROUTE_16",
     "rare_notes": [
-      "land SPECIES_RATTATA_ALOLAN 2% lv40 - urban night-leaning regional family",
-      "land timed rare 2% lv40 - urban regional dark/poison forms"
+      "land timed rare SPECIES_RATTATA_ALOLAN/SPECIES_RATTATA_ALOLAN/SPECIES_GRIMER_ALOLAN 4% lv51 - urban regional dark/poison forms"
     ]
   },
   {
     "area": "ENCDATA_R17_ROUTE_17",
     "rare_notes": [
-      "land SPECIES_TAUROS 2% lv40 - wide-open Cycling Road plains"
+      "land SPECIES_SCYTHER 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R18_ROUTE_18",
     "rare_notes": [
-      "land SPECIES_PONYTA 2% lv40 - plains fire-horse family"
+      "land SPECIES_PONYTA_GALARIAN 4% lv51 - quiet western-route regional form"
     ]
   },
   {
     "area": "ENCDATA_W21_ROUTE_21",
     "rare_notes": [
-      "surf SPECIES_WAILMER 1% lv39-41 - deep ocean-route whale line",
-      "super rod SPECIES_WAILMER 4% lv39-41 - open sea whale line"
+      "surf SPECIES_WAILMER 4% lv51-53 - deep ocean-route whale line",
+      "super rod SPECIES_WAILMER 4% lv51-53 - open sea whale line"
     ]
   },
   {
     "area": "ENCDATA_R22_ROUTE_22",
     "rare_notes": [
-      "land SPECIES_TREECKO 1% lv38 - postgame starter echo near Victory Road"
+      "land SPECIES_TREECKO 4% lv50 - postgame starter echo near Victory Road"
     ]
   },
   {
     "area": "ENCDATA_R24_ROUTE_24",
     "rare_notes": [
-      "land SPECIES_SQUIRTLE 1% lv38 - postgame water starter access",
-      "surf SPECIES_SQUIRTLE 1% lv37-39 - Cerulean cape water starter"
+      "land SPECIES_SQUIRTLE 4% lv50 - postgame water starter access",
+      "surf SPECIES_SQUIRTLE 4% lv49-51 - Cerulean cape water starter"
     ]
   },
   {
     "area": "ENCDATA_R25_ROUTE_25",
     "rare_notes": [
-      "land SPECIES_SHELLOS 2% lv39 - coastal Sinnoh water line",
-      "surf SPECIES_SHELLOS 1% lv38-40 - coastal Sinnoh water line"
+      "land SPECIES_MUNCHLAX 4% lv49 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_D45R0101_TOHJO_FALLS",
     "rare_notes": [
-      "land SPECIES_FEEBAS 1% lv42 - waterfall beauty line rare",
-      "surf SPECIES_FEEBAS 1% lv42-44 - waterfall beauty-line rare"
+      "land SPECIES_FEEBAS 4% lv42 - waterfall beauty line rare",
+      "surf SPECIES_FEEBAS 4% lv42-44 - waterfall beauty-line rare"
     ]
   },
   {
     "area": "ENCDATA_D01R0101_DIGLETTS_CAVE",
     "rare_notes": [
-      "land SPECIES_DIGLETT_ALOLAN 2% lv42 - approved Diglett regional form"
+      "land SPECIES_DIGLETT_ALOLAN 4% lv52 - approved Diglett regional form"
     ]
   },
   {
     "area": "ENCDATA_D43R0102_VICTORY_ROAD_2F",
     "rare_notes": [
-      "land SPECIES_GIBLE 1% lv46 - late tunnel pseudo rare"
+      "land SPECIES_GIBLE 4% lv46 - late tunnel pseudo rare"
     ]
   },
   {
     "area": "ENCDATA_D43R0103_VICTORY_ROAD_3F",
     "rare_notes": [
-      "land SPECIES_BELDUM 1% lv47 - late mineral pseudo rare"
+      "land SPECIES_BELDUM 4% lv47 - late mineral pseudo rare"
     ]
   },
   {
     "area": "ENCDATA_R02R0101_ROUTE_2_NORTH_ABOVE_VIRIDIAN_FOREST",
     "rare_notes": [
-      "land SPECIES_BULBASAUR 1% lv38 - postgame forest starter access"
+      "land SPECIES_BULBASAUR 4% lv50 - postgame forest starter access"
     ]
   },
   {
     "area": "ENCDATA_D46R0101_VIRIDIAN_FOREST",
     "rare_notes": [
-      "land SPECIES_CHIKORITA 1% lv39 - postgame forest starter access"
+      "land SPECIES_CHIKORITA 4% lv50 - postgame forest starter access"
     ]
   },
   {
     "area": "ENCDATA_D03R0101_CERULEAN_CAVE_1F",
     "rare_notes": [
-      "land SPECIES_DITTO 2% lv58 - identity-shifting cave rare",
-      "super rod SPECIES_FEEBAS 4% lv54-56 - deep cave water rare"
+      "super rod SPECIES_FEEBAS 4% lv63-65 - deep cave water rare"
     ]
   },
   {
     "area": "ENCDATA_D03R0102_CERULEAN_CAVE_B1F",
     "rare_notes": [
-      "land SPECIES_BELDUM 1% lv60 - deep artificial/mineral pseudo",
-      "super rod SPECIES_RELICANTH 4% lv57-59 - ancient cave-pool rare"
+      "land SPECIES_BELDUM 4% lv66 - deep artificial/mineral pseudo",
+      "super rod SPECIES_RELICANTH 4% lv65-67 - ancient cave-pool rare"
     ]
   },
   {
     "area": "ENCDATA_D03R0103_CERULEAN_CAVE_B2F",
     "rare_notes": [
-      "land SPECIES_ROTOM 1% lv60 - deep strange-energy rare",
-      "super rod SPECIES_DRATINI 4% lv57-59 - deep cave dragon-water rare"
+      "super rod SPECIES_DRATINI 4% lv65-67 - deep cave dragon-water rare"
     ]
   }
 ]

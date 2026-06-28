@@ -487,17 +487,8 @@ static u16 PerfectJohto_RandomLegendaryRateDenominator(u8 badgeCount)
 {
     if (badgeCount < 4) {
         return 0;
-    } else if (badgeCount < 5) {
-        return 4096;
-    } else if (badgeCount < 6) {
-        return 3072;
-    } else if (badgeCount < 8) {
-        return 2048;
-    } else if (badgeCount < 16) {
-        return 1536;
-    } else {
-        return 1024;
     }
+    return 100;
 }
 
 static u8 PerfectJohto_RandomLegendaryLevel(u8 badgeCount, u8 mapLevel)
@@ -533,6 +524,19 @@ static u8 PerfectJohto_RandomLegendaryLevel(u8 badgeCount, u8 mapLevel)
         return maxLevel;
     }
     return level;
+}
+
+static void PerfectJohto_SetRandomLegendaryFleeMove(struct PartyPokemon *mon)
+{
+    u16 move = MOVE_TELEPORT;
+    u8 pp = 20;
+
+    if (mon == NULL) {
+        return;
+    }
+
+    SetMonData(mon, MON_DATA_MOVE4, &move);
+    SetMonData(mon, MON_DATA_MOVE4PP, &pp);
 }
 
 static BOOL PerfectJohto_TryRandomLegendary(
@@ -578,6 +582,7 @@ static BOOL PerfectJohto_TryRandomLegendary(
     species = candidates[gf_rand() % candidateCount];
     level = PerfectJohto_RandomLegendaryLevel(badgeCount, GetMonData(encounterPartyPokemon, MON_DATA_LEVEL, NULL));
     PokeParaSet(encounterPartyPokemon, species, level, 32, FALSE, 0, 0, 0);
+    PerfectJohto_SetRandomLegendaryFleeMove(encounterPartyPokemon);
     encounterInfo->level = level;
     space_for_setmondata = 0;
     return TRUE;

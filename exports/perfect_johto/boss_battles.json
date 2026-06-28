@@ -121,7 +121,7 @@
         "species": "SPECIES_CHATOT"
       },
       {
-        "item": "ITEM_ORAN_BERRY",
+        "item": "ITEM_NONE",
         "level": 14,
         "moves": [
           "MOVE_WING_ATTACK",
@@ -236,7 +236,7 @@
         "species": "SPECIES_PINSIR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_SILVER_POWDER",
         "level": 20,
         "moves": [
           "MOVE_QUICK_ATTACK",
@@ -315,7 +315,7 @@
         "species": "SPECIES_WIGGLYTUFF"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SITRUS_BERRY",
         "level": 24,
         "moves": [
           "MOVE_METRONOME",
@@ -327,7 +327,7 @@
         "species": "SPECIES_CLEFABLE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 25,
         "moves": [
           "MOVE_STOMP",
@@ -394,7 +394,7 @@
         "species": "SPECIES_HAUNTER"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 30,
         "moves": [
           "MOVE_SHADOW_BALL",
@@ -418,7 +418,7 @@
         "species": "SPECIES_SABLEYE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_WIDE_LENS",
         "level": 31,
         "moves": [
           "MOVE_SHADOW_BALL",
@@ -449,7 +449,7 @@
     "name": "Pryce",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ICY_ROCK",
         "level": 40,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -461,7 +461,7 @@
         "species": "SPECIES_ABOMASNOW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 41,
         "moves": [
           "MOVE_ICE_BEAM",
@@ -497,7 +497,7 @@
         "species": "SPECIES_DEWGONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 42,
         "moves": [
           "MOVE_SURF",
@@ -509,7 +509,7 @@
         "species": "SPECIES_LAPRAS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 43,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -564,7 +564,7 @@
         "species": "SPECIES_FORRETRESS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 39,
         "moves": [
           "MOVE_REFLECT",
@@ -576,7 +576,7 @@
         "species": "SPECIES_BRONZONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 40,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -588,7 +588,7 @@
         "species": "SPECIES_MAGNETON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ROCKY_HELMET",
         "level": 40,
         "moves": [
           "MOVE_AIR_SLASH",
@@ -600,7 +600,7 @@
         "species": "SPECIES_SKARMORY"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 42,
         "moves": [
           "MOVE_IRON_TAIL",
@@ -643,7 +643,7 @@
         "species": "SPECIES_PRIMEAPE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_BELT",
         "level": 35,
         "moves": [
           "MOVE_MACH_PUNCH",
@@ -679,7 +679,7 @@
         "species": "SPECIES_HITMONLEE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 36,
         "moves": [
           "MOVE_DRAIN_PUNCH",
@@ -691,7 +691,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 38,
         "moves": [
           "MOVE_SURF",
@@ -722,7 +722,7 @@
     "name": "Clair",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LUM_BERRY",
         "level": 46,
         "moves": [
           "MOVE_WATERFALL",
@@ -734,7 +734,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 47,
         "moves": [
           "MOVE_DRAGON_PULSE",
@@ -746,7 +746,7 @@
         "species": "SPECIES_DRAGONAIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 48,
         "moves": [
           "MOVE_DRAGON_PULSE",
@@ -770,7 +770,7 @@
         "species": "SPECIES_FLYGON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 49,
         "moves": [
           "MOVE_SURF",
@@ -782,7 +782,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 50,
         "moves": [
           "MOVE_DRAGON_RUSH",
@@ -813,7 +813,7 @@
     "name": "Lance",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 58,
         "moves": [
           "MOVE_WATERFALL",
@@ -825,7 +825,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 58,
         "moves": [
           "MOVE_AERIAL_ACE",
@@ -837,7 +837,7 @@
         "species": "SPECIES_AERODACTYL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 59,
         "moves": [
           "MOVE_SURF",
@@ -849,7 +849,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 59,
         "moves": [
           "MOVE_FLAMETHROWER",
@@ -861,7 +861,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 59,
         "moves": [
           "MOVE_IRON_HEAD",
@@ -873,7 +873,7 @@
         "species": "SPECIES_AGGRON"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LUM_BERRY",
         "level": 60,
         "moves": [
           "MOVE_DRAGON_RUSH",
@@ -904,7 +904,7 @@
     "name": "Will",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 50,
         "moves": [
           "MOVE_ICE_PUNCH",
@@ -916,7 +916,7 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 51,
         "moves": [
           "MOVE_PSYCHIC",
@@ -928,7 +928,7 @@
         "species": "SPECIES_LUNATONE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 51,
         "moves": [
           "MOVE_PSYCHIC",
@@ -940,7 +940,7 @@
         "species": "SPECIES_SOLROCK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 52,
         "moves": [
           "MOVE_SURF",
@@ -952,7 +952,7 @@
         "species": "SPECIES_SLOWBRO"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 53,
         "moves": [
           "MOVE_PSYCHIC",
@@ -964,7 +964,7 @@
         "species": "SPECIES_GARDEVOIR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 54,
         "moves": [
           "MOVE_PSYCHIC",
@@ -995,7 +995,7 @@
     "name": "Karen",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 56,
         "moves": [
           "MOVE_PAYBACK",
@@ -1007,7 +1007,7 @@
         "species": "SPECIES_UMBREON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 56,
         "moves": [
           "MOVE_DARK_PULSE",
@@ -1019,7 +1019,7 @@
         "species": "SPECIES_SPIRITOMB"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SCOPE_LENS",
         "level": 57,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -1031,7 +1031,7 @@
         "species": "SPECIES_ABSOL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 57,
         "moves": [
           "MOVE_DRILL_PECK",
@@ -1043,7 +1043,7 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 58,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -1055,7 +1055,7 @@
         "species": "SPECIES_WEAVILE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 58,
         "moves": [
           "MOVE_NASTY_PLOT",
@@ -1086,7 +1086,7 @@
     "name": "Koga",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 52,
         "moves": [
           "MOVE_PSYCHIC",
@@ -1098,7 +1098,7 @@
         "species": "SPECIES_VENOMOTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 52,
         "moves": [
           "MOVE_SLUDGE_BOMB",
@@ -1110,7 +1110,7 @@
         "species": "SPECIES_WEEZING"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 53,
         "moves": [
           "MOVE_POISON_JAB",
@@ -1122,7 +1122,7 @@
         "species": "SPECIES_TOXICROAK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 54,
         "moves": [
           "MOVE_SURF",
@@ -1146,7 +1146,7 @@
         "species": "SPECIES_MUK"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 56,
         "moves": [
           "MOVE_CROSS_POISON",
@@ -1809,13 +1809,13 @@
   },
   {
     "id": 260,
-    "max_level": 100,
-    "min_level": 88,
+    "max_level": 96,
+    "min_level": 92,
     "name": "Red",
     "party": [
       {
         "item": "ITEM_LIGHT_BALL",
-        "level": 100,
+        "level": 96,
         "moves": [
           "MOVE_VOLT_TACKLE",
           "MOVE_IRON_TAIL",
@@ -1827,7 +1827,7 @@
       },
       {
         "item": "ITEM_LEFTOVERS",
-        "level": 88,
+        "level": 92,
         "moves": [
           "MOVE_SURF",
           "MOVE_BLIZZARD",
@@ -1839,7 +1839,7 @@
       },
       {
         "item": "ITEM_LEFTOVERS",
-        "level": 90,
+        "level": 93,
         "moves": [
           "MOVE_BODY_SLAM",
           "MOVE_CRUNCH",
@@ -1850,8 +1850,8 @@
         "species": "SPECIES_SNORLAX"
       },
       {
-        "item": "ITEM_MIRACLE_SEED",
-        "level": 92,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 94,
         "moves": [
           "MOVE_FRENZY_PLANT",
           "MOVE_SLUDGE_BOMB",
@@ -1862,8 +1862,8 @@
         "species": "SPECIES_VENUSAUR"
       },
       {
-        "item": "ITEM_CHARCOAL",
-        "level": 94,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 95,
         "moves": [
           "MOVE_BLAST_BURN",
           "MOVE_AIR_SLASH",
@@ -1874,8 +1874,8 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_MYSTIC_WATER",
-        "level": 94,
+        "item": "ITEM_LIFE_ORB",
+        "level": 95,
         "moves": [
           "MOVE_HYDRO_CANNON",
           "MOVE_SURF",
@@ -3105,7 +3105,7 @@
     "name": "Bruno",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 54,
         "moves": [
           "MOVE_FAKE_OUT",
@@ -3117,7 +3117,7 @@
         "species": "SPECIES_HITMONTOP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 54,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -3129,7 +3129,7 @@
         "species": "SPECIES_HITMONLEE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 54,
         "moves": [
           "MOVE_DRAIN_PUNCH",
@@ -3141,7 +3141,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 56,
         "moves": [
           "MOVE_AURA_SPHERE",
@@ -3153,7 +3153,7 @@
         "species": "SPECIES_LUCARIO"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 57,
         "moves": [
           "MOVE_FAKE_OUT",
@@ -3165,7 +3165,7 @@
         "species": "SPECIES_HARIYAMA"
       },
       {
-        "item": "ITEM_BLACK_BELT",
+        "item": "ITEM_LUM_BERRY",
         "level": 58,
         "moves": [
           "MOVE_DYNAMIC_PUNCH",
@@ -3191,13 +3191,13 @@
   },
   {
     "id": 478,
-    "max_level": 47,
-    "min_level": 45,
+    "max_level": 52,
+    "min_level": 48,
     "name": "Ariana",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 45,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 48,
         "moves": [
           "MOVE_POISON_JAB",
           "MOVE_CRUNCH",
@@ -3208,8 +3208,8 @@
         "species": "SPECIES_ARBOK"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 45,
+        "item": "ITEM_FOCUS_SASH",
+        "level": 48,
         "moves": [
           "MOVE_ICE_BEAM",
           "MOVE_PSYCHIC",
@@ -3220,8 +3220,8 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 45,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 49,
         "moves": [
           "MOVE_GIGA_DRAIN",
           "MOVE_SLUDGE_BOMB",
@@ -3232,8 +3232,8 @@
         "species": "SPECIES_VILEPLUME"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_LIFE_ORB",
+        "level": 50,
         "moves": [
           "MOVE_FAKE_OUT",
           "MOVE_BODY_SLAM",
@@ -3244,8 +3244,8 @@
         "species": "SPECIES_PURUGLY"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_LEFTOVERS",
+        "level": 51,
         "moves": [
           "MOVE_SURF",
           "MOVE_RECOVER",
@@ -3256,8 +3256,8 @@
         "species": "SPECIES_MILOTIC"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 47,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 52,
         "moves": [
           "MOVE_DRILL_PECK",
           "MOVE_SUCKER_PUNCH",
@@ -3282,65 +3282,74 @@
   },
   {
     "id": 479,
-    "max_level": 27,
-    "min_level": 25,
+    "max_level": 34,
+    "min_level": 31,
     "name": "Ariana",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 25,
-        "moves": [
-          "MOVE_WRAP",
-          "MOVE_POISON_STING",
-          "MOVE_CRUNCH",
-          "MOVE_GLARE"
-        ],
+        "level": 32,
+        "moves": [],
         "name": "Arbok",
         "species": "SPECIES_ARBOK"
       },
       {
         "item": "ITEM_NONE",
-        "level": 25,
-        "moves": [
-          "MOVE_MEGA_DRAIN",
-          "MOVE_SWEET_SCENT",
-          "MOVE_SLEEP_POWDER",
-          "MOVE_ACID"
-        ],
+        "level": 31,
+        "moves": [],
         "name": "Gloom",
         "species": "SPECIES_GLOOM"
       },
       {
         "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [
-          "MOVE_WING_ATTACK",
-          "MOVE_PURSUIT",
-          "MOVE_ASTONISH",
-          "MOVE_NIGHT_SHADE"
-        ],
+        "level": 32,
+        "moves": [],
         "name": "Murkrow",
         "species": "SPECIES_MURKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Vileplume",
+        "species": "SPECIES_VILEPLUME"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Honchkrow",
+        "species": "SPECIES_HONCHKROW"
       }
     ],
-    "party_size": 3,
+    "party_size": 6,
     "species": [
       "SPECIES_ARBOK",
       "SPECIES_GLOOM",
-      "SPECIES_MURKROW"
+      "SPECIES_MURKROW",
+      "SPECIES_GOLBAT",
+      "SPECIES_VILEPLUME",
+      "SPECIES_HONCHKROW"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_ARIANA",
-    "trainer_type": "TRAINER_DATA_TYPE_MOVES"
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 485,
-    "max_level": 48,
-    "min_level": 46,
+    "max_level": 54,
+    "min_level": 50,
     "name": "Archer",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_TOXIC_ORB",
+        "level": 50,
         "moves": [
           "MOVE_CRUSH_CLAW",
           "MOVE_X_SCISSOR",
@@ -3351,8 +3360,8 @@
         "species": "SPECIES_ZANGOOSE"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_SCOPE_LENS",
+        "level": 50,
         "moves": [
           "MOVE_CROSS_POISON",
           "MOVE_CRUNCH",
@@ -3363,8 +3372,8 @@
         "species": "SPECIES_DRAPION"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_LIFE_ORB",
+        "level": 51,
         "moves": [
           "MOVE_X_SCISSOR",
           "MOVE_IRON_HEAD",
@@ -3375,8 +3384,8 @@
         "species": "SPECIES_SCIZOR"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 47,
+        "item": "ITEM_LUM_BERRY",
+        "level": 52,
         "moves": [
           "MOVE_DYNAMIC_PUNCH",
           "MOVE_STONE_EDGE",
@@ -3387,8 +3396,8 @@
         "species": "SPECIES_MACHAMP"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 47,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 53,
         "moves": [
           "MOVE_WATERFALL",
           "MOVE_ICE_FANG",
@@ -3399,8 +3408,8 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 48,
+        "item": "ITEM_LIFE_ORB",
+        "level": 54,
         "moves": [
           "MOVE_NASTY_PLOT",
           "MOVE_DARK_PULSE",
@@ -3425,42 +3434,58 @@
   },
   {
     "id": 486,
-    "max_level": 12,
-    "min_level": 8,
+    "max_level": 16,
+    "min_level": 14,
     "name": "Proton",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 8,
+        "level": 14,
         "moves": [],
         "name": "Zubat",
         "species": "SPECIES_ZUBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 12,
+        "level": 15,
         "moves": [],
         "name": "Koffing",
         "species": "SPECIES_KOFFING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 15,
+        "moves": [],
+        "name": "Ekans",
+        "species": "SPECIES_EKANS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 16,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
       "SPECIES_ZUBAT",
-      "SPECIES_KOFFING"
+      "SPECIES_KOFFING",
+      "SPECIES_EKANS",
+      "SPECIES_RATICATE"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_PROTON",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 487,
-    "max_level": 45,
-    "min_level": 42,
+    "max_level": 52,
+    "min_level": 48,
     "name": "Petrel",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 42,
+        "item": "ITEM_LIFE_ORB",
+        "level": 48,
         "moves": [
           "MOVE_SUPER_FANG",
           "MOVE_CRUNCH",
@@ -3471,8 +3496,8 @@
         "species": "SPECIES_RATICATE"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 42,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 48,
         "moves": [
           "MOVE_NIGHT_SLASH",
           "MOVE_POISON_JAB",
@@ -3483,8 +3508,8 @@
         "species": "SPECIES_SKUNTANK"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 43,
+        "item": "ITEM_LEFTOVERS",
+        "level": 49,
         "moves": [
           "MOVE_POWER_WHIP",
           "MOVE_ANCIENT_POWER",
@@ -3495,8 +3520,8 @@
         "species": "SPECIES_TANGROWTH"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 43,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 50,
         "moves": [
           "MOVE_POISON_JAB",
           "MOVE_CROSS_CHOP",
@@ -3507,8 +3532,8 @@
         "species": "SPECIES_TOXICROAK"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 44,
+        "item": "ITEM_LEFTOVERS",
+        "level": 51,
         "moves": [
           "MOVE_PSYCHIC",
           "MOVE_HYPNOSIS",
@@ -3519,8 +3544,8 @@
         "species": "SPECIES_HYPNO"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 45,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 52,
         "moves": [
           "MOVE_SLUDGE_BOMB",
           "MOVE_THUNDERBOLT",
@@ -3545,37 +3570,45 @@
   },
   {
     "id": 488,
-    "max_level": 24,
-    "min_level": 22,
+    "max_level": 27,
+    "min_level": 26,
     "name": "Petrel",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 22,
+        "level": 26,
         "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 24,
+        "level": 26,
         "moves": [],
         "name": "Raticate",
         "species": "SPECIES_RATICATE"
       },
       {
         "item": "ITEM_NONE",
-        "level": 22,
+        "level": 27,
         "moves": [],
         "name": "Koffing",
         "species": "SPECIES_KOFFING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 27,
+        "moves": [],
+        "name": "Grimer",
+        "species": "SPECIES_GRIMER"
       }
     ],
-    "party_size": 3,
+    "party_size": 4,
     "species": [
-      "SPECIES_ZUBAT",
+      "SPECIES_GOLBAT",
       "SPECIES_RATICATE",
-      "SPECIES_KOFFING"
+      "SPECIES_KOFFING",
+      "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_PETREL",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -3881,13 +3914,13 @@
   },
   {
     "id": 700,
-    "max_level": 64,
-    "min_level": 58,
+    "max_level": 68,
+    "min_level": 62,
     "name": "Giovanni",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 58,
+        "item": "ITEM_LIFE_ORB",
+        "level": 62,
         "moves": [
           "MOVE_EARTH_POWER",
           "MOVE_POISON_JAB",
@@ -3898,8 +3931,8 @@
         "species": "SPECIES_NIDOKING"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 59,
+        "item": "ITEM_SILK_SCARF",
+        "level": 63,
         "moves": [
           "MOVE_DIZZY_PUNCH",
           "MOVE_SUCKER_PUNCH",
@@ -3910,8 +3943,8 @@
         "species": "SPECIES_KANGASKHAN"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 60,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 64,
         "moves": [
           "MOVE_DARK_PULSE",
           "MOVE_NASTY_PLOT",
@@ -3922,8 +3955,8 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 61,
+        "item": "ITEM_ASSAULT_VEST",
+        "level": 65,
         "moves": [
           "MOVE_EARTHQUAKE",
           "MOVE_STONE_EDGE",
@@ -3934,8 +3967,8 @@
         "species": "SPECIES_RHYPERIOR"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 62,
+        "item": "ITEM_FOCUS_SASH",
+        "level": 66,
         "moves": [
           "MOVE_FAKE_OUT",
           "MOVE_SLASH",
@@ -3946,8 +3979,8 @@
         "species": "SPECIES_PERSIAN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 64,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 68,
         "moves": [
           "MOVE_EARTH_POWER",
           "MOVE_SUPERPOWER",
@@ -3989,7 +4022,7 @@
         "species": "SPECIES_SALAMENCE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -4001,7 +4034,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CLEAR_AMULET",
         "level": 84,
         "moves": [
           "MOVE_SWORDS_DANCE",
@@ -4013,7 +4046,7 @@
         "species": "SPECIES_GARCHOMP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 84,
         "moves": [
           "MOVE_PERISH_SONG",
@@ -4025,7 +4058,7 @@
         "species": "SPECIES_ALTARIA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 84,
         "moves": [
           "MOVE_FLAMETHROWER",
@@ -4037,7 +4070,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 88,
         "moves": [
           "MOVE_FIRE_BLAST",
@@ -4068,7 +4101,7 @@
     "name": "Will",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 78,
         "moves": [
           "MOVE_REFLECT",
@@ -4080,7 +4113,7 @@
         "species": "SPECIES_BRONZONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 80,
         "moves": [
           "MOVE_FAKE_TEARS",
@@ -4092,7 +4125,7 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_CONFUSE_RAY",
@@ -4104,7 +4137,7 @@
         "species": "SPECIES_GRUMPIG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 80,
         "moves": [
           "MOVE_CURSE",
@@ -4116,7 +4149,7 @@
         "species": "SPECIES_SLOWBRO"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 82,
         "moves": [
           "MOVE_FOCUS_BLAST",
@@ -4128,7 +4161,7 @@
         "species": "SPECIES_GARDEVOIR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 84,
         "moves": [
           "MOVE_QUICK_ATTACK",
@@ -4159,7 +4192,7 @@
     "name": "Koga",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 78,
         "moves": [
           "MOVE_SUCKER_PUNCH",
@@ -4171,7 +4204,7 @@
         "species": "SPECIES_SKUNTANK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 80,
         "moves": [
           "MOVE_DOUBLE_TEAM",
@@ -4183,7 +4216,7 @@
         "species": "SPECIES_VENOMOTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 78,
         "moves": [
           "MOVE_CROSS_CHOP",
@@ -4207,7 +4240,7 @@
         "species": "SPECIES_MUK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_TOXIC",
@@ -4250,7 +4283,7 @@
     "name": "Bruno",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 78,
         "moves": [
           "MOVE_COUNTER",
@@ -4262,7 +4295,7 @@
         "species": "SPECIES_HITMONTOP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 78,
         "moves": [
           "MOVE_SWAGGER",
@@ -4274,7 +4307,7 @@
         "species": "SPECIES_HITMONLEE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 78,
         "moves": [
           "MOVE_SUBSTITUTE",
@@ -4286,7 +4319,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 80,
         "moves": [
           "MOVE_LOW_KICK",
@@ -4298,7 +4331,7 @@
         "species": "SPECIES_HARIYAMA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LUM_BERRY",
         "level": 82,
         "moves": [
           "MOVE_BULLET_PUNCH",
@@ -4310,7 +4343,7 @@
         "species": "SPECIES_MACHAMP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 84,
         "moves": [
           "MOVE_EXTREME_SPEED",
@@ -4341,7 +4374,7 @@
     "name": "Karen",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 78,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -4353,7 +4386,7 @@
         "species": "SPECIES_WEAVILE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_CURSE",
@@ -4365,7 +4398,7 @@
         "species": "SPECIES_SPIRITOMB"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SCOPE_LENS",
         "level": 80,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -4377,7 +4410,7 @@
         "species": "SPECIES_ABSOL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_DRILL_PECK",
@@ -4389,7 +4422,7 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 82,
         "moves": [
           "MOVE_NASTY_PLOT",
@@ -4401,7 +4434,7 @@
         "species": "SPECIES_HOUNDOOM"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 84,
         "moves": [
           "MOVE_CURSE",
@@ -4427,42 +4460,64 @@
   },
   {
     "id": 706,
-    "max_level": 33,
-    "min_level": 28,
+    "max_level": 36,
+    "min_level": 34,
     "name": "Proton",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 28,
-        "moves": [
-          "MOVE_LEECH_LIFE",
-          "MOVE_BITE",
-          "MOVE_CONFUSE_RAY",
-          "MOVE_WING_ATTACK"
-        ],
+        "level": 34,
+        "moves": [],
         "name": "Golbat",
         "species": "SPECIES_GOLBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 33,
-        "moves": [
-          "MOVE_DOUBLE_HIT",
-          "MOVE_SLUDGE",
-          "MOVE_SMOKESCREEN",
-          "MOVE_SMOG"
-        ],
+        "level": 35,
+        "moves": [],
         "name": "Weezing",
         "species": "SPECIES_WEEZING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 35,
+        "moves": [],
+        "name": "Arbok",
+        "species": "SPECIES_ARBOK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 35,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 36,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
       }
     ],
-    "party_size": 2,
+    "party_size": 6,
     "species": [
       "SPECIES_GOLBAT",
-      "SPECIES_WEEZING"
+      "SPECIES_WEEZING",
+      "SPECIES_RATICATE",
+      "SPECIES_ARBOK",
+      "SPECIES_MURKROW",
+      "SPECIES_SKUNTANK"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_PROTON",
-    "trainer_type": "TRAINER_DATA_TYPE_MOVES"
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 712,
@@ -4471,7 +4526,7 @@
     "name": "Falkner",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 68,
         "moves": [
           "MOVE_ATTRACT",
@@ -4483,7 +4538,7 @@
         "species": "SPECIES_STARAPTOR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 66,
         "moves": [
           "MOVE_ROOST",
@@ -4507,7 +4562,7 @@
         "species": "SPECIES_SWELLOW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 70,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -4519,7 +4574,7 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 70,
         "moves": [
           "MOVE_SURF",
@@ -4531,7 +4586,7 @@
         "species": "SPECIES_PELIPPER"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 72,
         "moves": [
           "MOVE_RETURN",
@@ -4562,7 +4617,7 @@
     "name": "Bugsy",
     "party": [
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 70,
         "moves": [
           "MOVE_BULLET_PUNCH",
@@ -4574,7 +4629,7 @@
         "species": "SPECIES_SCIZOR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 68,
         "moves": [
           "MOVE_TOXIC",
@@ -4586,7 +4641,7 @@
         "species": "SPECIES_SHEDINJA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 68,
         "moves": [
           "MOVE_DETECT",
@@ -4598,7 +4653,7 @@
         "species": "SPECIES_YANMEGA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 69,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -4610,7 +4665,7 @@
         "species": "SPECIES_PINSIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SCARF",
         "level": 70,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -4622,7 +4677,7 @@
         "species": "SPECIES_HERACROSS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 72,
         "moves": [
           "MOVE_PROTECT",
@@ -4653,7 +4708,7 @@
     "name": "Whitney",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 71,
         "moves": [
           "MOVE_PSYCHIC",
@@ -4665,7 +4720,7 @@
         "species": "SPECIES_GIRAFARIG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 69,
         "moves": [
           "MOVE_WRING_OUT",
@@ -4677,7 +4732,7 @@
         "species": "SPECIES_LICKILICKY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 69,
         "moves": [
           "MOVE_DOUBLE_TEAM",
@@ -4689,7 +4744,7 @@
         "species": "SPECIES_BIBAREL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 70,
         "moves": [
           "MOVE_FAKE_OUT",
@@ -4701,7 +4756,7 @@
         "species": "SPECIES_DELCATTY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 72,
         "moves": [
           "MOVE_BLIZZARD",
@@ -4713,7 +4768,7 @@
         "species": "SPECIES_CLEFABLE"
       },
       {
-        "item": "ITEM_LUM_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 73,
         "moves": [
           "MOVE_BODY_SLAM",
@@ -4756,7 +4811,7 @@
         "species": "SPECIES_DRIFBLIM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 68,
         "moves": [
           "MOVE_PAIN_SPLIT",
@@ -4768,7 +4823,7 @@
         "species": "SPECIES_DUSKNOIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 70,
         "moves": [
           "MOVE_SUCKER_PUNCH",
@@ -4780,7 +4835,7 @@
         "species": "SPECIES_SABLEYE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 70,
         "moves": [
           "MOVE_PERISH_SONG",
@@ -4792,7 +4847,7 @@
         "species": "SPECIES_MISMAGIUS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 72,
         "moves": [
           "MOVE_HYPNOSIS",
@@ -4804,7 +4859,7 @@
         "species": "SPECIES_GENGAR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 74,
         "moves": [
           "MOVE_SUBSTITUTE",
@@ -4835,7 +4890,7 @@
     "name": "Pryce",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 72,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -4859,7 +4914,7 @@
         "species": "SPECIES_DEWGONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 72,
         "moves": [
           "MOVE_PAYBACK",
@@ -4871,7 +4926,7 @@
         "species": "SPECIES_GLALIE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 74,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -4883,7 +4938,7 @@
         "species": "SPECIES_FROSLASS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_HAIL",
@@ -4895,7 +4950,7 @@
         "species": "SPECIES_WALREIN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -4926,7 +4981,7 @@
     "name": "Jasmine",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 72,
         "moves": [
           "MOVE_METEOR_MASH",
@@ -4938,7 +4993,7 @@
         "species": "SPECIES_METAGROSS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SPECS",
         "level": 74,
         "moves": [
           "MOVE_ZAP_CANNON",
@@ -4950,7 +5005,7 @@
         "species": "SPECIES_MAGNEZONE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ROCKY_HELMET",
         "level": 70,
         "moves": [
           "MOVE_AIR_SLASH",
@@ -4962,7 +5017,7 @@
         "species": "SPECIES_SKARMORY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 72,
         "moves": [
           "MOVE_GYRO_BALL",
@@ -4974,7 +5029,7 @@
         "species": "SPECIES_BRONZONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ASSAULT_VEST",
         "level": 76,
         "moves": [
           "MOVE_HYDRO_PUMP",
@@ -4986,7 +5041,7 @@
         "species": "SPECIES_EMPOLEON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_STONE_EDGE",
@@ -5017,7 +5072,7 @@
     "name": "Chuck",
     "party": [
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 73,
         "moves": [
           "MOVE_HIGH_JUMP_KICK",
@@ -5029,7 +5084,7 @@
         "species": "SPECIES_MEDICHAM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 70,
         "moves": [
           "MOVE_MACH_PUNCH",
@@ -5041,7 +5096,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 70,
         "moves": [
           "MOVE_HIGH_JUMP_KICK",
@@ -5065,7 +5120,7 @@
         "species": "SPECIES_BRELOOM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SCARF",
         "level": 73,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -5077,7 +5132,7 @@
         "species": "SPECIES_PRIMEAPE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 75,
         "moves": [
           "MOVE_DOUBLE_TEAM",
@@ -5108,7 +5163,7 @@
     "name": "Clair",
     "party": [
       {
-        "item": "ITEM_WACAN_BERRY",
+        "item": "ITEM_LUM_BERRY",
         "level": 72,
         "moves": [
           "MOVE_DRAGON_DANCE",
@@ -5120,7 +5175,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 72,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -5132,7 +5187,7 @@
         "species": "SPECIES_DRAGONAIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 74,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -5144,7 +5199,7 @@
         "species": "SPECIES_AERODACTYL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_YAWN",
@@ -5156,7 +5211,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 76,
         "moves": [
           "MOVE_SHADOW_CLAW",
@@ -5168,7 +5223,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 78,
         "moves": [
           "MOVE_THUNDER",
@@ -5199,7 +5254,7 @@
     "name": "Brock",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_WEAKNESS_POLICY",
         "level": 74,
         "moves": [
           "MOVE_SANDSTORM",
@@ -5223,7 +5278,7 @@
         "species": "SPECIES_RELICANTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_ANCIENT_POWER",
@@ -5235,7 +5290,7 @@
         "species": "SPECIES_OMASTAR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_EVIOLITE",
         "level": 76,
         "moves": [
           "MOVE_STEALTH_ROCK",
@@ -5247,7 +5302,7 @@
         "species": "SPECIES_ONIX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_ROCK_SLIDE",
@@ -5259,7 +5314,7 @@
         "species": "SPECIES_KABUTOPS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 78,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -5290,7 +5345,7 @@
     "name": "Misty",
     "party": [
       {
-        "item": "ITEM_COLBUR_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -5302,7 +5357,7 @@
         "species": "SPECIES_STARMIE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 72,
         "moves": [
           "MOVE_WATER_PULSE",
@@ -5314,7 +5369,7 @@
         "species": "SPECIES_QUAGSIRE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_SURF",
@@ -5326,7 +5381,7 @@
         "species": "SPECIES_LAPRAS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_CONFUSE_RAY",
@@ -5338,7 +5393,7 @@
         "species": "SPECIES_LANTURN"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_AGILITY",
@@ -5350,7 +5405,7 @@
         "species": "SPECIES_FLOATZEL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_HYDRO_PUMP",
@@ -5381,7 +5436,7 @@
     "name": "Lt. Surge",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -5393,7 +5448,7 @@
         "species": "SPECIES_RAICHU"
       },
       {
-        "item": "ITEM_PINAP_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 74,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -5405,7 +5460,7 @@
         "species": "SPECIES_MANECTRIC"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SPECS",
         "level": 76,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -5417,7 +5472,7 @@
         "species": "SPECIES_MAGNEZONE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -5429,7 +5484,7 @@
         "species": "SPECIES_ELECTRODE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_QUICK_ATTACK",
@@ -5441,7 +5496,7 @@
         "species": "SPECIES_PACHIRISU"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_EXPERT_BELT",
         "level": 80,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -5472,7 +5527,7 @@
     "name": "Erika",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_LEAF_STORM",
@@ -5484,7 +5539,7 @@
         "species": "SPECIES_SHIFTRY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 74,
         "moves": [
           "MOVE_U_TURN",
@@ -5496,7 +5551,7 @@
         "species": "SPECIES_JUMPLUFF"
       },
       {
-        "item": "ITEM_KELPSY_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_NATURAL_GIFT",
@@ -5508,7 +5563,7 @@
         "species": "SPECIES_VICTREEBEL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAT_ROCK",
         "level": 78,
         "moves": [
           "MOVE_SUNNY_DAY",
@@ -5520,7 +5575,7 @@
         "species": "SPECIES_BELLOSSOM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 78,
         "moves": [
           "MOVE_SWORDS_DANCE",
@@ -5532,7 +5587,7 @@
         "species": "SPECIES_TANGROWTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 80,
         "moves": [
           "MOVE_WEATHER_BALL",
@@ -5563,7 +5618,7 @@
     "name": "Janine",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 74,
         "moves": [
           "MOVE_HEAT_WAVE",
@@ -5575,7 +5630,7 @@
         "species": "SPECIES_CROBAT"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 72,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -5587,7 +5642,7 @@
         "species": "SPECIES_WEEZING"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 74,
         "moves": [
           "MOVE_CROSS_CHOP",
@@ -5599,7 +5654,7 @@
         "species": "SPECIES_TOXICROAK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_TOXIC",
@@ -5611,7 +5666,7 @@
         "species": "SPECIES_ARIADOS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_SLEEP_POWDER",
@@ -5623,7 +5678,7 @@
         "species": "SPECIES_VENOMOTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SCOPE_LENS",
         "level": 78,
         "moves": [
           "MOVE_CROSS_POISON",
@@ -5654,7 +5709,7 @@
     "name": "Sabrina",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 78,
         "moves": [
           "MOVE_GRAVITY",
@@ -5666,7 +5721,7 @@
         "species": "SPECIES_ALAKAZAM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 76,
         "moves": [
           "MOVE_CALM_MIND",
@@ -5678,7 +5733,7 @@
         "species": "SPECIES_ESPEON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 76,
         "moves": [
           "MOVE_REFLECT",
@@ -5690,7 +5745,7 @@
         "species": "SPECIES_MR_MIME"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_BLIZZARD",
@@ -5702,7 +5757,7 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_COUNTER",
@@ -5714,7 +5769,7 @@
         "species": "SPECIES_WOBBUFFET"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 80,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -5745,7 +5800,7 @@
     "name": "Blaine",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAT_ROCK",
         "level": 80,
         "moves": [
           "MOVE_SUNNY_DAY",
@@ -5757,7 +5812,7 @@
         "species": "SPECIES_TORKOAL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 78,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -5769,7 +5824,7 @@
         "species": "SPECIES_CAMERUPT"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 78,
         "moves": [
           "MOVE_MEGAHORN",
@@ -5781,7 +5836,7 @@
         "species": "SPECIES_RAPIDASH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_CURSE",
@@ -5793,7 +5848,7 @@
         "species": "SPECIES_MAGCARGO"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 80,
         "moves": [
           "MOVE_SHADOW_BALL",
@@ -5805,7 +5860,7 @@
         "species": "SPECIES_HOUNDOOM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 82,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -5831,13 +5886,13 @@
   },
   {
     "id": 727,
-    "max_level": 90,
-    "min_level": 84,
+    "max_level": 96,
+    "min_level": 92,
     "name": "Blue",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 84,
+        "item": "ITEM_LIFE_ORB",
+        "level": 92,
         "moves": [
           "MOVE_LEAF_STORM",
           "MOVE_PSYCHIC",
@@ -5849,7 +5904,7 @@
       },
       {
         "item": "ITEM_IRON_BALL",
-        "level": 84,
+        "level": 92,
         "moves": [
           "MOVE_DYNAMIC_PUNCH",
           "MOVE_STONE_EDGE",
@@ -5860,8 +5915,8 @@
         "species": "SPECIES_MACHAMP"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 86,
+        "item": "ITEM_ASSAULT_VEST",
+        "level": 93,
         "moves": [
           "MOVE_MEGAHORN",
           "MOVE_STONE_EDGE",
@@ -5872,8 +5927,8 @@
         "species": "SPECIES_RHYPERIOR"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 86,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 94,
         "moves": [
           "MOVE_FLARE_BLITZ",
           "MOVE_EXTREME_SPEED",
@@ -5884,8 +5939,8 @@
         "species": "SPECIES_ARCANINE"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 88,
+        "item": "ITEM_CHOICE_BAND",
+        "level": 95,
         "moves": [
           "MOVE_LOW_KICK",
           "MOVE_FIRE_FANG",
@@ -5896,8 +5951,8 @@
         "species": "SPECIES_TYRANITAR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 90,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 96,
         "moves": [
           "MOVE_RETURN",
           "MOVE_DOUBLE_TEAM",
@@ -5922,13 +5977,13 @@
   },
   {
     "id": 733,
-    "max_level": 88,
-    "min_level": 82,
+    "max_level": 96,
+    "min_level": 92,
     "name": "Lance",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 82,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 92,
         "moves": [
           "MOVE_WATERFALL",
           "MOVE_ICE_FANG",
@@ -5939,8 +5994,8 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 82,
+        "item": "ITEM_FOCUS_SASH",
+        "level": 92,
         "moves": [
           "MOVE_AERIAL_ACE",
           "MOVE_ROCK_SLIDE",
@@ -5951,8 +6006,8 @@
         "species": "SPECIES_AERODACTYL"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 84,
+        "item": "ITEM_LIFE_ORB",
+        "level": 93,
         "moves": [
           "MOVE_SURF",
           "MOVE_DRAGON_PULSE",
@@ -5963,8 +6018,8 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 84,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 94,
         "moves": [
           "MOVE_FLAMETHROWER",
           "MOVE_AIR_SLASH",
@@ -5975,8 +6030,8 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 86,
+        "item": "ITEM_CHOICE_BAND",
+        "level": 95,
         "moves": [
           "MOVE_IRON_HEAD",
           "MOVE_DRAGON_CLAW",
@@ -5987,8 +6042,8 @@
         "species": "SPECIES_AGGRON"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 88,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 96,
         "moves": [
           "MOVE_FIRE_PUNCH",
           "MOVE_SAFEGUARD",
@@ -6018,7 +6073,7 @@
     "name": "Clair",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 76,
         "moves": [
           "MOVE_WATERFALL",
@@ -6030,7 +6085,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 76,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -6042,7 +6097,7 @@
         "species": "SPECIES_DRAGONAIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_DRAGON_PULSE",
@@ -6054,7 +6109,7 @@
         "species": "SPECIES_ALTARIA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 80,
         "moves": [
           "MOVE_HYDRO_PUMP",
@@ -6066,7 +6121,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_FLAMETHROWER",
@@ -6078,7 +6133,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 84,
         "moves": [
           "MOVE_THUNDER",
@@ -6378,12 +6433,12 @@
   {
     "id": 738,
     "max_level": 96,
-    "min_level": 90,
+    "min_level": 92,
     "name": "Steven",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_ROCKY_HELMET",
+        "level": 92,
         "moves": [
           "MOVE_STEEL_WING",
           "MOVE_AIR_SLASH",
@@ -6394,8 +6449,8 @@
         "species": "SPECIES_SKARMORY"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_LIGHT_CLAY",
+        "level": 92,
         "moves": [
           "MOVE_EARTH_POWER",
           "MOVE_PSYCHIC",
@@ -6406,8 +6461,8 @@
         "species": "SPECIES_CLAYDOL"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 91,
+        "item": "ITEM_LEFTOVERS",
+        "level": 93,
         "moves": [
           "MOVE_ENERGY_BALL",
           "MOVE_STONE_EDGE",
@@ -6418,8 +6473,8 @@
         "species": "SPECIES_CRADILY"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 91,
+        "item": "ITEM_LIFE_ORB",
+        "level": 94,
         "moves": [
           "MOVE_X_SCISSOR",
           "MOVE_ROCK_SLIDE",
@@ -6430,8 +6485,8 @@
         "species": "SPECIES_ARMALDO"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 93,
+        "item": "ITEM_CHOICE_BAND",
+        "level": 95,
         "moves": [
           "MOVE_IRON_HEAD",
           "MOVE_STONE_EDGE",
@@ -6442,7 +6497,7 @@
         "species": "SPECIES_AGGRON"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_ASSAULT_VEST",
         "level": 96,
         "moves": [
           "MOVE_METEOR_MASH",
@@ -6469,12 +6524,12 @@
   {
     "id": 739,
     "max_level": 96,
-    "min_level": 90,
+    "min_level": 92,
     "name": "Wallace",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_LEFTOVERS",
+        "level": 92,
         "moves": [
           "MOVE_WATER_SPOUT",
           "MOVE_ICE_BEAM",
@@ -6485,8 +6540,8 @@
         "species": "SPECIES_WAILORD"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 92,
         "moves": [
           "MOVE_SURF",
           "MOVE_SLUDGE_BOMB",
@@ -6497,8 +6552,8 @@
         "species": "SPECIES_TENTACRUEL"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 91,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 93,
         "moves": [
           "MOVE_WATERFALL",
           "MOVE_ICE_FANG",
@@ -6509,8 +6564,8 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 92,
+        "item": "ITEM_LIFE_ORB",
+        "level": 94,
         "moves": [
           "MOVE_SURF",
           "MOVE_ENERGY_BALL",
@@ -6521,8 +6576,8 @@
         "species": "SPECIES_LUDICOLO"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 92,
+        "item": "ITEM_LEFTOVERS",
+        "level": 95,
         "moves": [
           "MOVE_EARTHQUAKE",
           "MOVE_AQUA_TAIL",
@@ -6533,7 +6588,7 @@
         "species": "SPECIES_WHISCASH"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 96,
         "moves": [
           "MOVE_SURF",
@@ -6559,12 +6614,12 @@
   },
   {
     "id": 740,
-    "max_level": 98,
+    "max_level": 96,
     "min_level": 92,
     "name": "Cynthia",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 92,
         "moves": [
           "MOVE_DARK_PULSE",
@@ -6576,7 +6631,7 @@
         "species": "SPECIES_SPIRITOMB"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 92,
         "moves": [
           "MOVE_ENERGY_BALL",
@@ -6588,7 +6643,7 @@
         "species": "SPECIES_ROSERADE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 93,
         "moves": [
           "MOVE_AIR_SLASH",
@@ -6600,7 +6655,7 @@
         "species": "SPECIES_TOGEKISS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 94,
         "moves": [
           "MOVE_AURA_SPHERE",
@@ -6612,8 +6667,8 @@
         "species": "SPECIES_LUCARIO"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 94,
+        "item": "ITEM_LEFTOVERS",
+        "level": 95,
         "moves": [
           "MOVE_SURF",
           "MOVE_ICE_BEAM",
@@ -6624,8 +6679,8 @@
         "species": "SPECIES_MILOTIC"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 98,
+        "item": "ITEM_CLEAR_AMULET",
+        "level": 96,
         "moves": [
           "MOVE_DRAGON_RUSH",
           "MOVE_EARTHQUAKE",

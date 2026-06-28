@@ -668,7 +668,7 @@ scr_seq_T11R0101_000:
     lockall
     faceplayer
     count_badges VAR_SPECIAL_RESULT
-    compare VAR_SPECIAL_RESULT, 16
+    compare VAR_SPECIAL_RESULT, 8
     goto_if_lt _p8_need_badges
 _p8_main_menu:
     npc_msg 37
@@ -697,6 +697,9 @@ _p8_main_menu:
     goto _p8_close
 
 _p8_champions:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     npc_msg 83
     touchscreen_menu_hide
     menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -764,6 +767,9 @@ _p8_kanto_legends:
     goto _p8_main_menu
 
 _p8_ancient_seals:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     npc_msg 85
     touchscreen_menu_hide
     menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -796,6 +802,9 @@ _p8_ancient_seals:
     goto _p8_main_menu
 
 _p8_mythic_dossiers:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     npc_msg 86
     touchscreen_menu_hide
     menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -837,6 +846,9 @@ _p8_mythic_dossiers:
     goto _p8_main_menu
 
 _p8_creation_echoes:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     npc_msg 87
     touchscreen_menu_hide
     menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT
@@ -952,7 +964,7 @@ _p8_articuno:
     play_cry SPECIES_ARTICUNO, 0
     wait_cry
     setflag FLAG_ENGAGING_STATIC_POKEMON
-    wild_battle SPECIES_ARTICUNO, 70, 0
+    wild_battle SPECIES_ARTICUNO, 60, 0
     clearflag FLAG_ENGAGING_STATIC_POKEMON
     check_battle_won VAR_SPECIAL_RESULT
     compare VAR_SPECIAL_RESULT, 0
@@ -973,7 +985,7 @@ _p8_zapdos:
     play_cry SPECIES_ZAPDOS, 0
     wait_cry
     setflag FLAG_ENGAGING_STATIC_POKEMON
-    wild_battle SPECIES_ZAPDOS, 70, 0
+    wild_battle SPECIES_ZAPDOS, 60, 0
     clearflag FLAG_ENGAGING_STATIC_POKEMON
     check_battle_won VAR_SPECIAL_RESULT
     compare VAR_SPECIAL_RESULT, 0
@@ -987,6 +999,9 @@ _p8_zapdos:
     end
 
 _p8_moltres:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_CAUGHT_MOLTRES, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1008,6 +1023,9 @@ _p8_moltres:
     end
 
 _p8_mewtwo:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_CAUGHT_MEWTWO, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1029,6 +1047,9 @@ _p8_mewtwo:
     end
 
 _p8_lugia:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_CAUGHT_LUGIA, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1050,6 +1071,9 @@ _p8_lugia:
     end
 
 _p8_ho_oh:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_CAUGHT_HO_OH, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1078,7 +1102,7 @@ _p8_suicune:
     play_cry SPECIES_SUICUNE, 0
     wait_cry
     setflag FLAG_ENGAGING_STATIC_POKEMON
-    wild_battle SPECIES_SUICUNE, 65, 0
+    wild_battle SPECIES_SUICUNE, 55, 0
     clearflag FLAG_ENGAGING_STATIC_POKEMON
     check_battle_won VAR_SPECIAL_RESULT
     compare VAR_SPECIAL_RESULT, 0
@@ -1099,6 +1123,9 @@ _p8_suicune:
     end
 
 _p8_latias:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_LATIAS, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1120,6 +1147,9 @@ _p8_latias:
     end
 
 _p8_latios:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_LATIOS, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1141,6 +1171,9 @@ _p8_latios:
     end
 
 _p8_regirock:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_REGIROCK, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1161,6 +1194,9 @@ _p8_regirock:
     end
 
 _p8_regice:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_REGICE, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1181,6 +1217,9 @@ _p8_regice:
     end
 
 _p8_registeel:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_REGISTEEL, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1201,6 +1240,9 @@ _p8_registeel:
     end
 
 _p8_regigigas:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_unset FLAG_PHASE8_CAUGHT_REGIROCK, _p8_need_regis
     goto_if_unset FLAG_PHASE8_CAUGHT_REGICE, _p8_need_regis
     goto_if_unset FLAG_PHASE8_CAUGHT_REGISTEEL, _p8_need_regis
@@ -1224,6 +1266,9 @@ _p8_regigigas:
     end
 
 _p8_kyogre:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_CAUGHT_KYOGRE, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1246,6 +1291,9 @@ _p8_kyogre:
     end
 
 _p8_groudon:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_CAUGHT_GROUDON, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1268,6 +1316,9 @@ _p8_groudon:
     end
 
 _p8_rayquaza:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_unset FLAG_CAUGHT_KYOGRE, _p8_need_weather
     goto_if_unset FLAG_CAUGHT_GROUDON, _p8_need_weather
     goto_if_set FLAG_CAUGHT_RAYQUAZA, _p8_already_caught
@@ -1291,6 +1342,9 @@ _p8_rayquaza:
     end
 
 _p8_mew:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_MEW, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1311,6 +1365,9 @@ _p8_mew:
     end
 
 _p8_celebi:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_CELEBI, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1331,6 +1388,9 @@ _p8_celebi:
     end
 
 _p8_jirachi:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_JIRACHI, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1351,6 +1411,9 @@ _p8_jirachi:
     end
 
 _p8_deoxys:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_DEOXYS, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1371,6 +1434,9 @@ _p8_deoxys:
     end
 
 _p8_heatran:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_HEATRAN, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1391,6 +1457,9 @@ _p8_heatran:
     end
 
 _p8_cresselia:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_CRESSELIA, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1411,6 +1480,9 @@ _p8_cresselia:
     end
 
 _p8_darkrai:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_unset FLAG_PHASE8_CAUGHT_CRESSELIA, _p8_need_cresselia
     goto_if_set FLAG_PHASE8_CAUGHT_DARKRAI, _p8_already_caught
     npc_msg 95
@@ -1432,6 +1504,9 @@ _p8_darkrai:
     end
 
 _p8_shaymin:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_SHAYMIN, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1452,6 +1527,9 @@ _p8_shaymin:
     end
 
 _p8_manaphy:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_MANAPHY, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1472,6 +1550,9 @@ _p8_manaphy:
     end
 
 _p8_phione:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_unset FLAG_PHASE8_CAUGHT_MANAPHY, _p8_need_manaphy
     goto_if_set FLAG_PHASE8_CAUGHT_PHIONE, _p8_already_caught
     npc_msg 95
@@ -1493,6 +1574,9 @@ _p8_phione:
     end
 
 _p8_uxie:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_UXIE, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1513,6 +1597,9 @@ _p8_uxie:
     end
 
 _p8_mesprit:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_MESPRIT, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1533,6 +1620,9 @@ _p8_mesprit:
     end
 
 _p8_azelf:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_AZELF, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1553,6 +1643,9 @@ _p8_azelf:
     end
 
 _p8_dialga:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_DIALGA, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1573,6 +1666,9 @@ _p8_dialga:
     end
 
 _p8_palkia:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_PALKIA, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1593,6 +1689,9 @@ _p8_palkia:
     end
 
 _p8_giratina:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_set FLAG_PHASE8_CAUGHT_GIRATINA, _p8_already_caught
     npc_msg 95
     wait_button
@@ -1613,6 +1712,9 @@ _p8_giratina:
     end
 
 _p8_arceus:
+    count_badges VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 16
+    goto_if_lt _p8_need_sixteen_badges
     goto_if_not_defeated 260, _p8_need_red
     goto_if_unset FLAG_PHASE8_CAUGHT_UXIE, _p8_need_creation
     goto_if_unset FLAG_PHASE8_CAUGHT_MESPRIT, _p8_need_creation
@@ -1641,6 +1743,12 @@ _p8_arceus:
 
 _p8_need_badges:
     npc_msg 36
+    wait_button
+    closemsg
+    releaseall
+    end
+_p8_need_sixteen_badges:
+    npc_msg 99
     wait_button
     closemsg
     releaseall

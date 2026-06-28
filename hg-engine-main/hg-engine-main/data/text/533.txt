@@ -34,7 +34,7 @@ Blaine: My fiery spirit has not cooled one bit!\n
 Blaine: Burned out again! Hah!\n
 Blue: A real challenger? Fine. Show me what you have got.\n
 Blue: Not bad. I can see why the League keeps talking about you.\n
-Earn all sixteen badges first. Kanto has deeper challenges for a proven Champion.\n
+Earn eight badges first. The Dojo dossiers open once you reach Kanto.\n
 The Dojo now keeps postgame battle records and legendary dossiers. Choose a challenge.\n
 Articuno\n
 Zapdos\n
@@ -97,3 +97,4 @@ The dossier seal opens. A presence answers the challenge!\n
 The presence withdraws. The dossier remains active for another attempt.\n
 The Champion Circuit records your victory.\n
 The seal is not ready to open.\n
+Earn all sixteen badges first. Advanced dossiers and Champion Circuit records open after Kanto is complete.\n

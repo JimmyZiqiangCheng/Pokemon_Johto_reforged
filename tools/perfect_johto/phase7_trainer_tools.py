@@ -87,6 +87,188 @@ DUPLICATE_ALT_SPECIES = {
     "SPECIES_VOLTORB": ["SPECIES_MAGNEMITE", "SPECIES_ELECTRIKE"],
 }
 
+REGULAR_VARIETY_REPLACEMENTS = {
+    "TRAINERCLASS_BUG_CATCHER": {
+        "SPECIES_CATERPIE": ["SPECIES_WURMPLE", "SPECIES_KRICKETOT"],
+        "SPECIES_METAPOD": ["SPECIES_SILCOON", "SPECIES_CASCOON"],
+        "SPECIES_BUTTERFREE": ["SPECIES_BEAUTIFLY", "SPECIES_DUSTOX"],
+        "SPECIES_WEEDLE": ["SPECIES_WURMPLE", "SPECIES_KRICKETOT"],
+        "SPECIES_KAKUNA": ["SPECIES_SILCOON", "SPECIES_CASCOON"],
+        "SPECIES_BEEDRILL": ["SPECIES_BEAUTIFLY", "SPECIES_DUSTOX"],
+        "SPECIES_PARAS": ["SPECIES_SHROOMISH", "SPECIES_BURMY"],
+        "SPECIES_VENONAT": ["SPECIES_SURSKIT", "SPECIES_COMBEE"],
+    },
+    "TRAINERCLASS_BIRD_KEEPER_GS": {
+        "SPECIES_PIDGEY": ["SPECIES_STARLY", "SPECIES_TAILLOW"],
+        "SPECIES_PIDGEOTTO": ["SPECIES_STARAVIA", "SPECIES_SWELLOW"],
+        "SPECIES_SPEAROW": ["SPECIES_TAILLOW", "SPECIES_STARLY"],
+        "SPECIES_FEAROW": ["SPECIES_SWELLOW", "SPECIES_STARAVIA"],
+        "SPECIES_DODUO": ["SPECIES_TAILLOW", "SPECIES_STARLY"],
+        "SPECIES_NOCTOWL": ["SPECIES_CHATOT", "SPECIES_SWABLU"],
+    },
+    "TRAINERCLASS_YOUNGSTER": {
+        "SPECIES_RATTATA": ["SPECIES_ZIGZAGOON", "SPECIES_BIDOOF"],
+        "SPECIES_RATICATE": ["SPECIES_LINOONE", "SPECIES_BIBAREL"],
+        "SPECIES_PIDGEY": ["SPECIES_STARLY", "SPECIES_TAILLOW"],
+        "SPECIES_SENTRET": ["SPECIES_BIDOOF", "SPECIES_ZIGZAGOON"],
+        "SPECIES_SPEAROW": ["SPECIES_TAILLOW", "SPECIES_STARLY"],
+    },
+    "TRAINERCLASS_LASS": {
+        "SPECIES_JIGGLYPUFF": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+        "SPECIES_CLEFAIRY": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+        "SPECIES_ODDISH": ["SPECIES_BUDEW", "SPECIES_CHERUBI"],
+        "SPECIES_GLOOM": ["SPECIES_ROSELIA", "SPECIES_CHERRIM"],
+        "SPECIES_SNUBBULL": ["SPECIES_SKITTY", "SPECIES_GLAMEOW"],
+    },
+    "TRAINERCLASS_SCHOOL_KID_M": {
+        "SPECIES_ODDISH": ["SPECIES_BUDEW", "SPECIES_CHERUBI"],
+        "SPECIES_BELLSPROUT": ["SPECIES_BUDEW", "SPECIES_SEEDOT"],
+        "SPECIES_VOLTORB": ["SPECIES_ELECTRIKE", "SPECIES_SHINX"],
+        "SPECIES_MAGNEMITE": ["SPECIES_ELECTRIKE", "SPECIES_SHINX"],
+        "SPECIES_ABRA": ["SPECIES_RALTS", "SPECIES_SPOINK"],
+    },
+    "TRAINERCLASS_TEAM_ROCKET": {
+        "SPECIES_RATTATA": ["SPECIES_POOCHYENA", "SPECIES_ZIGZAGOON"],
+        "SPECIES_RATICATE": ["SPECIES_MIGHTYENA", "SPECIES_LINOONE"],
+        "SPECIES_ZUBAT": ["SPECIES_STUNKY", "SPECIES_POOCHYENA"],
+        "SPECIES_GOLBAT": ["SPECIES_SKUNTANK", "SPECIES_MIGHTYENA"],
+        "SPECIES_EKANS": ["SPECIES_CROAGUNK", "SPECIES_SEVIPER"],
+        "SPECIES_ARBOK": ["SPECIES_TOXICROAK", "SPECIES_SEVIPER"],
+        "SPECIES_KOFFING": ["SPECIES_STUNKY", "SPECIES_GULPIN"],
+        "SPECIES_WEEZING": ["SPECIES_SKUNTANK", "SPECIES_SWALOT"],
+        "SPECIES_GRIMER": ["SPECIES_STUNKY", "SPECIES_GULPIN"],
+        "SPECIES_MUK": ["SPECIES_SKUNTANK", "SPECIES_SWALOT"],
+    },
+    "TRAINERCLASS_TEAM_ROCKET_F": {
+        "SPECIES_RATTATA": ["SPECIES_POOCHYENA", "SPECIES_ZIGZAGOON"],
+        "SPECIES_RATICATE": ["SPECIES_MIGHTYENA", "SPECIES_LINOONE"],
+        "SPECIES_ZUBAT": ["SPECIES_STUNKY", "SPECIES_POOCHYENA"],
+        "SPECIES_GOLBAT": ["SPECIES_SKUNTANK", "SPECIES_MIGHTYENA"],
+        "SPECIES_EKANS": ["SPECIES_CROAGUNK", "SPECIES_SEVIPER"],
+        "SPECIES_ARBOK": ["SPECIES_TOXICROAK", "SPECIES_SEVIPER"],
+        "SPECIES_KOFFING": ["SPECIES_STUNKY", "SPECIES_GULPIN"],
+        "SPECIES_WEEZING": ["SPECIES_SKUNTANK", "SPECIES_SWALOT"],
+        "SPECIES_GRIMER": ["SPECIES_STUNKY", "SPECIES_GULPIN"],
+        "SPECIES_MUK": ["SPECIES_SKUNTANK", "SPECIES_SWALOT"],
+    },
+    "TRAINERCLASS_HIKER": {
+        "SPECIES_GEODUDE": ["SPECIES_NOSEPASS", "SPECIES_ARON"],
+        "SPECIES_GRAVELER": ["SPECIES_LAIRON", "SPECIES_NOSEPASS"],
+        "SPECIES_ONIX": ["SPECIES_ARON", "SPECIES_NOSEPASS"],
+        "SPECIES_MACHOP": ["SPECIES_MAKUHITA", "SPECIES_MEDITITE"],
+        "SPECIES_MACHOKE": ["SPECIES_HARIYAMA", "SPECIES_MEDICHAM"],
+        "SPECIES_DIGLETT": ["SPECIES_TRAPINCH", "SPECIES_HIPPOPOTAS"],
+    },
+    "TRAINERCLASS_BLACK_BELT": {
+        "SPECIES_MACHOP": ["SPECIES_MAKUHITA", "SPECIES_MEDITITE"],
+        "SPECIES_MACHOKE": ["SPECIES_HARIYAMA", "SPECIES_MEDICHAM"],
+        "SPECIES_MANKEY": ["SPECIES_MAKUHITA", "SPECIES_MEDITITE"],
+        "SPECIES_PRIMEAPE": ["SPECIES_HARIYAMA", "SPECIES_MEDICHAM"],
+    },
+    "TRAINERCLASS_FISHERMAN": {
+        "SPECIES_MAGIKARP": ["SPECIES_FEEBAS", "SPECIES_BARBOACH"],
+        "SPECIES_GOLDEEN": ["SPECIES_FINNEON", "SPECIES_BARBOACH"],
+        "SPECIES_SEAKING": ["SPECIES_LUMINEON", "SPECIES_WHISCASH"],
+        "SPECIES_POLIWAG": ["SPECIES_LOTAD", "SPECIES_SHELLOS"],
+        "SPECIES_TENTACOOL": ["SPECIES_WINGULL", "SPECIES_SHELLOS"],
+        "SPECIES_QWILFISH": ["SPECIES_CARVANHA", "SPECIES_CORPHISH"],
+    },
+    "TRAINERCLASS_SWIMMER_M": {
+        "SPECIES_TENTACOOL": ["SPECIES_WINGULL", "SPECIES_SHELLOS"],
+        "SPECIES_TENTACRUEL": ["SPECIES_PELIPPER", "SPECIES_GASTRODON"],
+        "SPECIES_SHELLDER": ["SPECIES_CLAMPERL", "SPECIES_SHELLOS"],
+        "SPECIES_STARYU": ["SPECIES_FINNEON", "SPECIES_BUIZEL"],
+        "SPECIES_REMORAID": ["SPECIES_FINNEON", "SPECIES_BUIZEL"],
+        "SPECIES_GOLDEEN": ["SPECIES_FINNEON", "SPECIES_BARBOACH"],
+    },
+    "TRAINERCLASS_SWIMMER_F": {
+        "SPECIES_TENTACOOL": ["SPECIES_WINGULL", "SPECIES_SHELLOS"],
+        "SPECIES_TENTACRUEL": ["SPECIES_PELIPPER", "SPECIES_GASTRODON"],
+        "SPECIES_SHELLDER": ["SPECIES_CLAMPERL", "SPECIES_SHELLOS"],
+        "SPECIES_STARYU": ["SPECIES_FINNEON", "SPECIES_BUIZEL"],
+        "SPECIES_PSYDUCK": ["SPECIES_BUIZEL", "SPECIES_SHELLOS"],
+        "SPECIES_GOLDEEN": ["SPECIES_FINNEON", "SPECIES_BARBOACH"],
+    },
+    "TRAINERCLASS_SAILOR": {
+        "SPECIES_MACHOP": ["SPECIES_MAKUHITA", "SPECIES_MEDITITE"],
+        "SPECIES_POLIWAG": ["SPECIES_LOTAD", "SPECIES_BUIZEL"],
+        "SPECIES_TENTACOOL": ["SPECIES_WINGULL", "SPECIES_SHELLOS"],
+    },
+    "TRAINERCLASS_PSYCHIC_M": {
+        "SPECIES_ABRA": ["SPECIES_RALTS", "SPECIES_SPOINK"],
+        "SPECIES_KADABRA": ["SPECIES_KIRLIA", "SPECIES_GRUMPIG"],
+        "SPECIES_DROWZEE": ["SPECIES_RALTS", "SPECIES_SPOINK"],
+        "SPECIES_HYPNO": ["SPECIES_KIRLIA", "SPECIES_GRUMPIG"],
+        "SPECIES_EXEGGCUTE": ["SPECIES_BALTOY", "SPECIES_CHINGLING"],
+    },
+    "TRAINERCLASS_MEDIUM": {
+        "SPECIES_GASTLY": ["SPECIES_SHUPPET", "SPECIES_DUSKULL"],
+        "SPECIES_HAUNTER": ["SPECIES_BANETTE", "SPECIES_DUSCLOPS"],
+        "SPECIES_MISDREAVUS": ["SPECIES_SHUPPET", "SPECIES_DUSKULL"],
+    },
+    "TRAINERCLASS_FIREBREATHER": {
+        "SPECIES_KOFFING": ["SPECIES_NUMEL", "SPECIES_STUNKY"],
+        "SPECIES_GRIMER": ["SPECIES_STUNKY", "SPECIES_GULPIN"],
+        "SPECIES_MAGMAR": ["SPECIES_NUMEL", "SPECIES_TORKOAL"],
+        "SPECIES_SLUGMA": ["SPECIES_NUMEL", "SPECIES_TORKOAL"],
+        "SPECIES_MAGCARGO": ["SPECIES_CAMERUPT", "SPECIES_TORKOAL"],
+    },
+    "TRAINERCLASS_BIKER": {
+        "SPECIES_KOFFING": ["SPECIES_STUNKY", "SPECIES_GULPIN"],
+        "SPECIES_WEEZING": ["SPECIES_SKUNTANK", "SPECIES_SWALOT"],
+        "SPECIES_GRIMER": ["SPECIES_STUNKY", "SPECIES_GULPIN"],
+        "SPECIES_MUK": ["SPECIES_SKUNTANK", "SPECIES_SWALOT"],
+        "SPECIES_ZUBAT": ["SPECIES_POOCHYENA", "SPECIES_STUNKY"],
+    },
+    "TRAINERCLASS_CAMPER": {
+        "SPECIES_RATTATA": ["SPECIES_ZIGZAGOON", "SPECIES_BIDOOF"],
+        "SPECIES_SANDSHREW": ["SPECIES_TRAPINCH", "SPECIES_HIPPOPOTAS"],
+        "SPECIES_PIDGEY": ["SPECIES_STARLY", "SPECIES_TAILLOW"],
+        "SPECIES_ODDISH": ["SPECIES_BUDEW", "SPECIES_CHERUBI"],
+    },
+    "TRAINERCLASS_PICNICKER": {
+        "SPECIES_JIGGLYPUFF": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+        "SPECIES_ODDISH": ["SPECIES_BUDEW", "SPECIES_CHERUBI"],
+        "SPECIES_PIDGEY": ["SPECIES_STARLY", "SPECIES_TAILLOW"],
+        "SPECIES_NIDORAN_F": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+    },
+    "TRAINERCLASS_POKEFAN": {
+        "SPECIES_PIKACHU": ["SPECIES_PLUSLE", "SPECIES_MINUN"],
+        "SPECIES_CLEFAIRY": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+        "SPECIES_SNUBBULL": ["SPECIES_SKITTY", "SPECIES_GLAMEOW"],
+    },
+    "TRAINERCLASS_POKEFAN_M": {
+        "SPECIES_PIKACHU": ["SPECIES_PLUSLE", "SPECIES_MINUN"],
+        "SPECIES_CLEFAIRY": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+        "SPECIES_SNUBBULL": ["SPECIES_SKITTY", "SPECIES_GLAMEOW"],
+    },
+    "TRAINERCLASS_BEAUTY": {
+        "SPECIES_CLEFAIRY": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+        "SPECIES_JIGGLYPUFF": ["SPECIES_SKITTY", "SPECIES_BUNEARY"],
+        "SPECIES_ODDISH": ["SPECIES_BUDEW", "SPECIES_CHERUBI"],
+    },
+    "TRAINERCLASS_SUPER_NERD": {
+        "SPECIES_VOLTORB": ["SPECIES_ELECTRIKE", "SPECIES_SHINX"],
+        "SPECIES_MAGNEMITE": ["SPECIES_ELECTRIKE", "SPECIES_SHINX"],
+        "SPECIES_GRIMER": ["SPECIES_GULPIN", "SPECIES_STUNKY"],
+        "SPECIES_KOFFING": ["SPECIES_GULPIN", "SPECIES_STUNKY"],
+    },
+    "TRAINERCLASS_SCIENTIST_GS": {
+        "SPECIES_VOLTORB": ["SPECIES_ELECTRIKE", "SPECIES_SHINX"],
+        "SPECIES_MAGNEMITE": ["SPECIES_ELECTRIKE", "SPECIES_SHINX"],
+        "SPECIES_GRIMER": ["SPECIES_GULPIN", "SPECIES_STUNKY"],
+        "SPECIES_KOFFING": ["SPECIES_GULPIN", "SPECIES_STUNKY"],
+    },
+    "TRAINERCLASS_ELDER": {
+        "SPECIES_BELLSPROUT": ["SPECIES_BUDEW", "SPECIES_CHINGLING"],
+        "SPECIES_HOOTHOOT": ["SPECIES_CHINGLING", "SPECIES_SWABLU"],
+    },
+    "TRAINERCLASS_SAGE": {
+        "SPECIES_BELLSPROUT": ["SPECIES_BUDEW", "SPECIES_CHINGLING"],
+        "SPECIES_HOOTHOOT": ["SPECIES_CHINGLING", "SPECIES_SWABLU"],
+    },
+}
+
 
 @dataclasses.dataclass(frozen=True)
 class Mon:
@@ -642,14 +824,14 @@ TEAM_UPDATES: dict[int, TeamUpdate] = {
         items=("ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE"),
     ),
     260: TeamUpdate(
-        "Red superboss: iconic party at lv88-100.",
+        "Red superboss: iconic party rebalanced to lv92-96 with competitive items.",
         (
-            m("PIKACHU", 100, ("VOLT_TACKLE", "IRON_TAIL", "QUICK_ATTACK", "THUNDERBOLT"), "ITEM_LIGHT_BALL", 250),
-            m("LAPRAS", 88, ("SURF", "BLIZZARD", "BODY_SLAM", "REST"), "ITEM_LEFTOVERS", 250),
-            m("SNORLAX", 90, ("BODY_SLAM", "CRUNCH", "REST", "SLEEP_TALK"), "ITEM_LEFTOVERS", 250),
-            m("VENUSAUR", 92, ("FRENZY_PLANT", "SLUDGE_BOMB", "SLEEP_POWDER", "GIGA_DRAIN"), "ITEM_MIRACLE_SEED", 250),
-            m("CHARIZARD", 94, ("BLAST_BURN", "AIR_SLASH", "DRAGON_CLAW", "FLAMETHROWER"), "ITEM_CHARCOAL", 250),
-            m("BLASTOISE", 94, ("HYDRO_CANNON", "SURF", "ICE_BEAM", "FOCUS_BLAST"), "ITEM_MYSTIC_WATER", 250),
+            m("PIKACHU", 96, ("VOLT_TACKLE", "IRON_TAIL", "QUICK_ATTACK", "THUNDERBOLT"), "ITEM_LIGHT_BALL", 250),
+            m("LAPRAS", 92, ("SURF", "BLIZZARD", "BODY_SLAM", "REST"), "ITEM_LEFTOVERS", 250),
+            m("SNORLAX", 93, ("BODY_SLAM", "CRUNCH", "REST", "SLEEP_TALK"), "ITEM_LEFTOVERS", 250),
+            m("VENUSAUR", 94, ("FRENZY_PLANT", "SLUDGE_BOMB", "SLEEP_POWDER", "GIGA_DRAIN"), "ITEM_BLACK_SLUDGE", 250),
+            m("CHARIZARD", 95, ("BLAST_BURN", "AIR_SLASH", "DRAGON_CLAW", "FLAMETHROWER"), "ITEM_HEAVY_DUTY_BOOTS", 250),
+            m("BLASTOISE", 95, ("HYDRO_CANNON", "SURF", "ICE_BEAM", "FOCUS_BLAST"), "ITEM_LIFE_ORB", 250),
         ),
         items=("ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE"),
     ),
@@ -746,15 +928,27 @@ TEAM_UPDATES: dict[int, TeamUpdate] = {
         ),
         items=("ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_NONE", "ITEM_NONE"),
     ),
-    733: TeamUpdate(
-        "Postgame Lance special: Champion-class record expanded to six.",
+    727: TeamUpdate(
+        "Blue Champion Circuit: mixed final-form team rebalanced to lv92-96 with competitive items.",
         (
-            m("GYARADOS", 82, ("WATERFALL", "ICE_FANG", "DRAGON_DANCE", "CRUNCH"), ivs=250),
-            m("AERODACTYL", 82, ("AERIAL_ACE", "ROCK_SLIDE", "CRUNCH", "THUNDER_FANG"), ivs=250),
-            m("KINGDRA", 84, ("SURF", "DRAGON_PULSE", "ICE_BEAM", "YAWN"), ivs=250),
-            m("CHARIZARD", 84, ("FLAMETHROWER", "AIR_SLASH", "DRAGON_CLAW", "HYPER_BEAM"), ivs=250),
-            m("AGGRON", 86, ("IRON_HEAD", "DRAGON_CLAW", "EARTHQUAKE", "STONE_EDGE"), ivs=250),
-            m("DRAGONITE", 88, ("FIRE_PUNCH", "SAFEGUARD", "DRACO_METEOR", "HYPER_BEAM"), "ITEM_SITRUS_BERRY", 250),
+            m("EXEGGUTOR", 92, ("LEAF_STORM", "PSYCHIC", "EXPLOSION", "TRICK_ROOM"), "ITEM_LIFE_ORB", 100),
+            m("MACHAMP", 92, ("DYNAMIC_PUNCH", "STONE_EDGE", "FLING", "ATTRACT"), "ITEM_IRON_BALL", 250, "TRAINER_POKEMON_ABILITY_2"),
+            m("RHYPERIOR", 93, ("MEGAHORN", "STONE_EDGE", "THUNDER_FANG", "EARTHQUAKE"), "ITEM_ASSAULT_VEST", 250, "TRAINER_POKEMON_ABILITY_2"),
+            m("ARCANINE", 94, ("FLARE_BLITZ", "EXTREME_SPEED", "THUNDER_FANG", "CRUNCH"), "ITEM_HEAVY_DUTY_BOOTS", 250),
+            m("TYRANITAR", 95, ("LOW_KICK", "FIRE_FANG", "ROCK_SLIDE", "EARTHQUAKE"), "ITEM_CHOICE_BAND", 250),
+            m("PIDGEOT", 96, ("RETURN", "DOUBLE_TEAM", "AIR_SLASH", "STEEL_WING"), "ITEM_HEAVY_DUTY_BOOTS", 250),
+        ),
+        items=("ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE"),
+    ),
+    733: TeamUpdate(
+        "Postgame Lance special: Champion-class record rebalanced to lv92-96 with competitive items.",
+        (
+            m("GYARADOS", 92, ("WATERFALL", "ICE_FANG", "DRAGON_DANCE", "CRUNCH"), "ITEM_HEAVY_DUTY_BOOTS", 250),
+            m("AERODACTYL", 92, ("AERIAL_ACE", "ROCK_SLIDE", "CRUNCH", "THUNDER_FANG"), "ITEM_FOCUS_SASH", 250),
+            m("KINGDRA", 93, ("SURF", "DRAGON_PULSE", "ICE_BEAM", "YAWN"), "ITEM_LIFE_ORB", 250),
+            m("CHARIZARD", 94, ("FLAMETHROWER", "AIR_SLASH", "DRAGON_CLAW", "HYPER_BEAM"), "ITEM_HEAVY_DUTY_BOOTS", 250),
+            m("AGGRON", 95, ("IRON_HEAD", "DRAGON_CLAW", "EARTHQUAKE", "STONE_EDGE"), "ITEM_CHOICE_BAND", 250),
+            m("DRAGONITE", 96, ("FIRE_PUNCH", "SAFEGUARD", "DRACO_METEOR", "HYPER_BEAM"), "ITEM_HEAVY_DUTY_BOOTS", 250),
         ),
         items=("ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE", "ITEM_FULL_RESTORE"),
     ),
@@ -812,7 +1006,6 @@ LEVEL_ONLY_UPDATES: dict[int, list[int]] = {
     724: [74, 72, 74, 76, 76, 78],
     725: [78, 76, 76, 76, 78, 80],
     726: [80, 78, 78, 78, 80, 82],
-    727: [84, 84, 86, 86, 88, 90],
 }
 
 
@@ -831,6 +1024,64 @@ def read_species_numbers(path: pathlib.Path) -> dict[str, int | None]:
         number = int(value) if re.fullmatch(r"\d+", value) else None
         numbers[match.group(1)] = number
     return numbers
+
+
+def is_gen3_4_species(species: str, species_numbers: dict[str, int | None]) -> bool:
+    number = species_numbers.get(species)
+    return number is not None and 252 <= number <= 493
+
+
+def regular_later_gen_variety(
+    block: str,
+    entry: Entry,
+    defined_species: set[str],
+    species_numbers: dict[str, int | None],
+) -> tuple[str, list[str]]:
+    if "TRAINER_DATA_TYPE_NOTHING" not in block or is_boss_class(entry.trainer_class):
+        return block, []
+
+    matches = list(re.finditer(r"\.species\s*=\s*(SPECIES_[A-Z0-9_]+)", block))
+    current_species = [match.group(1) for match in matches]
+    if len(current_species) < 2 or any(is_gen3_4_species(species, species_numbers) for species in current_species):
+        return block, []
+
+    options = REGULAR_VARIETY_REPLACEMENTS.get(entry.trainer_class)
+    if not options:
+        return block, []
+
+    levels = [int(value) for value in re.findall(r"\.level\s*=\s*(\d+)", block)]
+    if not levels or max(levels) < 6:
+        return block, []
+
+    replacement_limit = 2 if len(current_species) >= 4 and max(levels) >= 20 else 1
+    current = set(current_species)
+    replacements: list[tuple[int, int, str, str]] = []
+    notes: list[str] = []
+
+    for match in matches:
+        old_species = match.group(1)
+        if old_species not in options:
+            continue
+        for new_species in options[old_species]:
+            if (
+                new_species in defined_species
+                and new_species not in current
+                and is_gen3_4_species(new_species, species_numbers)
+            ):
+                replacements.append((match.start(1), match.end(1), old_species, new_species))
+                current.add(new_species)
+                notes.append(f"{old_species}->{new_species}")
+                break
+        if len(replacements) >= replacement_limit:
+            break
+
+    if not replacements:
+        return block, []
+
+    new_block = block
+    for start, end, _old, new in reversed(replacements):
+        new_block = new_block[:start] + new + new_block[end:]
+    return new_block, notes
 
 
 def validate(text: str) -> list[str]:
@@ -928,6 +1179,7 @@ def write_report(
     level_only: dict[int, list[int]],
     scaled_regulars: list[tuple[int, str, str, int, int]],
     diversified: list[tuple[int, str, list[str]]],
+    regular_variety: list[tuple[int, str, list[str]]],
     errors: list[str],
     already_applied: bool = False,
 ) -> None:
@@ -1036,6 +1288,7 @@ def write_report(
                 if already_applied
                 else f"- Duplicate no-custom-move parties diversified: {len(diversified)}"
             ),
+            f"- Regular trainers given semantic Gen 3-4 variety replacements: {len(regular_variety)}",
         ]
     )
     if diversified:
@@ -1044,6 +1297,12 @@ def write_report(
             lines.append(f"  - {trainer_id} {name}: {', '.join(notes)}")
         if len(diversified) > 80:
             lines.append(f"  - ...and {len(diversified) - 80} more.")
+    if regular_variety:
+        lines.append("- Semantic later-gen replacements:")
+        for trainer_id, name, notes in regular_variety[:100]:
+            lines.append(f"  - {trainer_id} {name}: {', '.join(notes)}")
+        if len(regular_variety) > 100:
+            lines.append(f"  - ...and {len(regular_variety) - 100} more.")
 
     lines.extend(
         [
@@ -1061,7 +1320,7 @@ def write_report(
             "- Johto leaders: Falkner 13-14, Bugsy 18-20, Whitney 23-25, Morty 29-31, Chuck 34-38, Jasmine 38-42, Pryce 40-43, Clair 46-50.",
             "- First League: Will 50-54, Koga 52-56, Bruno 54-58, Karen 56-58, Lance 58-60.",
             "- Kanto leaders: early Kanto 58-66, mid Kanto 65-72, Blaine 72-76, Blue 78-82.",
-            "- Rematches/postgame: Elite Four rematches 78-84, Lance rematch 82-88, Gym Leader rematches 66-90, Red 88-100.",
+            "- Rematches/postgame: Elite Four rematches 78-84, legacy Lance rematch 82-88, Gym Leader rematches 66-90, Champion Circuit trainers 92-96.",
             "",
             "## Later-generation exception usage",
             "",
@@ -1085,6 +1344,7 @@ def write_report(
                 "- Six-Pokemon mandatory boss validation passed.",
                 "- Major rival/Rocket size validation passed.",
                 "- Approved Pokemon scope validation passed; no unrelated later-generation species found.",
+                "- Regular-trainer Gen 3-4 variety pass is replacement-only and leaves party sizes unchanged.",
             ]
         )
 
@@ -1095,19 +1355,44 @@ def run(write: bool) -> None:
     before_text = TRAINERS.read_text(encoding="utf-8", errors="replace")
     entries = parse_entries(before_text)
     defined_species = read_defined_symbols(ENGINE / "include" / "constants" / "species.h")
+    species_numbers = read_species_numbers(ENGINE / "include" / "constants" / "species.h")
 
     if phase7_already_applied(entries):
-        errors = validate(before_text)
-        write_report(before_text, before_text, TEAM_UPDATES, LEVEL_ONLY_UPDATES, [], [], errors, already_applied=True)
+        replacements: dict[int, str] = {}
+        regular_variety: list[tuple[int, str, list[str]]] = []
+        for entry in entries:
+            block, notes = regular_later_gen_variety(entry.block, entry, defined_species, species_numbers)
+            if notes:
+                replacements[entry.trainer_id] = block
+                regular_variety.append((entry.trainer_id, entry.name, notes))
+
+        after_parts: list[str] = []
+        cursor = 0
+        for entry in entries:
+            after_parts.append(before_text[cursor : entry.start])
+            after_parts.append(replacements.get(entry.trainer_id, entry.block))
+            cursor = entry.end
+        after_parts.append(before_text[cursor:])
+        after_text = "".join(after_parts)
+
+        errors = validate(after_text)
+        write_report(before_text, after_text, TEAM_UPDATES, LEVEL_ONLY_UPDATES, [], [], regular_variety, errors, already_applied=True)
         if errors:
             raise SystemExit("\n".join(errors))
-        print("Phase 7 trainer data is already applied; validation passed.")
+        if write and replacements:
+            TRAINERS.write_text(after_text, encoding="utf-8")
+            print(f"Updated {TRAINERS}")
+        elif replacements:
+            print("Phase 7 trainer data is already applied; semantic variety changes are pending. Re-run with --write to update Trainers.c.")
+        else:
+            print("Phase 7 trainer data is already applied; validation passed.")
         print(f"Wrote {REPORT}")
         return
 
     replacements: dict[int, str] = {}
     scaled_regulars: list[tuple[int, str, str, int, int]] = []
     diversified: list[tuple[int, str, list[str]]] = []
+    regular_variety: list[tuple[int, str, list[str]]] = []
 
     for entry in entries:
         block = entry.block
@@ -1125,6 +1410,9 @@ def run(write: bool) -> None:
             block, notes = diversify_duplicates(block, defined_species)
             if notes:
                 diversified.append((entry.trainer_id, entry.name, notes))
+            block, notes = regular_later_gen_variety(block, entry, defined_species, species_numbers)
+            if notes:
+                regular_variety.append((entry.trainer_id, entry.name, notes))
         if block != entry.block:
             replacements[entry.trainer_id] = block
 
@@ -1138,7 +1426,7 @@ def run(write: bool) -> None:
     after_text = "".join(after_parts)
 
     errors = validate(after_text)
-    write_report(before_text, after_text, TEAM_UPDATES, LEVEL_ONLY_UPDATES, scaled_regulars, diversified, errors)
+    write_report(before_text, after_text, TEAM_UPDATES, LEVEL_ONLY_UPDATES, scaled_regulars, diversified, regular_variety, errors)
     if errors:
         raise SystemExit("\n".join(errors))
 

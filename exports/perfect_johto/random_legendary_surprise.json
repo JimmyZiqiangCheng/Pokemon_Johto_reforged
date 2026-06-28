@@ -7,6 +7,7 @@
     "BATTLE_TYPE_CATCHING_DEMO",
     "BATTLE_TYPE_BUG_CONTEST"
   ],
+  "flee_behavior": "Generated surprise legendaries receive Teleport in move slot 4, giving wild AI a move-based chance to flee each turn.",
   "level_clamps": [
     {
       "badges": "4",
@@ -258,29 +259,10 @@
       "description": "disabled"
     },
     {
-      "badges": "4",
-      "denominator": 4096,
-      "description": "1/4096"
-    },
-    {
-      "badges": "5",
-      "denominator": 3072,
-      "description": "1/3072"
-    },
-    {
-      "badges": "6-7",
-      "denominator": 2048,
-      "description": "1/2048"
-    },
-    {
-      "badges": "8-15",
-      "denominator": 1536,
-      "description": "1/1536"
-    },
-    {
-      "badges": "16",
-      "denominator": 1024,
-      "description": "1/1024"
+      "badges": "4+",
+      "denominator": 100,
+      "description": "1/100 aggregate unlocked-pool roll"
     }
-  ]
+  ],
+  "roll_model": "One 1/100 overlay roll is made after a normal eligible wild encounter succeeds, then one species is selected from the unlocked pool."
 }

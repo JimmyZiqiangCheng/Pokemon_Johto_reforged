@@ -22,10 +22,10 @@
       "hide_flags": [
         "FLAG_HIDE_SEAFOAM_ISLAND_ARTICUNO"
       ],
-      "level": 70,
+      "level": 60,
       "location": "Seafoam dossier, Saffron Fighting Dojo",
       "name": "Articuno",
-      "prerequisites": "16 badges",
+      "prerequisites": "8 badges",
       "species": "SPECIES_ARTICUNO"
     },
     {
@@ -35,10 +35,10 @@
       "hide_flags": [
         "FLAG_HIDE_ROUTE_10_ZAPDOS"
       ],
-      "level": 70,
+      "level": 60,
       "location": "Power Plant dossier, Saffron Fighting Dojo",
       "name": "Zapdos",
-      "prerequisites": "16 badges",
+      "prerequisites": "8 badges",
       "species": "SPECIES_ZAPDOS"
     },
     {
@@ -107,10 +107,10 @@
         "FLAG_HIDE_ROUTE_25_SUICUNE",
         "FLAG_HIDE_BURNED_TOWER_STATIC_SUICUNE"
       ],
-      "level": 65,
+      "level": 55,
       "location": "Eusine dossier, Saffron Fighting Dojo",
       "name": "Suicune",
-      "prerequisites": "16 badges",
+      "prerequisites": "8 badges",
       "species": "SPECIES_SUICUNE"
     },
     {

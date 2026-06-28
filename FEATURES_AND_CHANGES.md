@@ -221,11 +221,12 @@ Scope:
   repeatable and statically validated.
 - Added rare encounter placements to every meaningful non-Safari main encounter
   area where the table structure supports a below-5% rare slot.
-- Used land slots 10 and 11 as 1% slots, surf slot 4 as a 1% slot, and changed
-  fishing slot 4 to 4% so fishing can support true below-5% rare encounters.
-- Raised Kanto route, cave, city-water, and postgame encounter levels so Kanto
-  wild Pokemon are useful after the Johto League instead of vanilla low-level
-  filler.
+- Used land slot 8 as the 4% rare slot, surf slot 3 as the 4% rare slot, and
+  changed fishing slot 4 to 4% so fishing can support true below-5% rare
+  encounters.
+- Raised late-Johto plus Kanto route, cave, city-water, and postgame encounter
+  levels so wild Pokemon are useful alongside the smoother trainer curve instead
+  of vanilla low-level filler.
 - Added late-game and postgame starter access through semantic wild placements,
   not early route clutter.
 - Added or preserved one-save wild/Safari/Headbutt coverage for all
@@ -274,7 +275,7 @@ Scope:
   now has 6 Pokemon.
 - Raised the first-clear Johto curve through Clair 46-50, the first League
   through Lance 58-60, Kanto Gym Leaders through Blue 78-82, Elite Four
-  rematches to 78-88 overall, and Red to 88-100.
+  rematches to 78-88 overall, and late Champion Circuit records to 92-96.
 - Applied a controlled regular-trainer level pass and diversified obvious
   duplicate no-custom-move parties without turning every route trainer into a
   six-Pokemon boss.
@@ -1144,20 +1145,33 @@ Encounter changes:
 - Phase 6 regenerated the main wild encounter archive with a repeatable
   project-local tool and added a rare encounter layer to 132/132 meaningful
   non-Safari main encounter areas.
-- Phase 6 rare land encounters use slots 10 and/or 11, each 1%; rare surf
-  encounters use surf slot 4 at 1%; rare fishing encounters use fishing slot 4,
-  now 4% after the Phase 6 fishing slot-rate adjustment.
+- Phase 6 now keeps morning and day land tables merged into one daytime pool,
+  while preserving night-specific flavor.
+- Phase 6 rare land encounters use land slot 8 at 4%; rare surf encounters use
+  surf slot 3 at 4%; rare fishing encounters use fishing slot 4, now 4% after
+  the Phase 6 fishing slot-rate adjustment. Every rare placement is validated
+  to stay in the 3-5% band.
+- Phase 6 rare species are reserved for strong current forms, lines whose final
+  form reaches 500+ BST, or approved regional forms. Ordinary later-gen ecology
+  Pokemon are demoted into common slots instead of being mislabeled as rare.
+- Phase 6 enforces at least six encounter species and one to three rare species
+  for every meaningful non-Safari main encounter area.
 - Phase 6 added full non-legendary Gen 1-4 evolution-family coverage across
   main wild encounters plus existing Safari and Headbutt data. The generated
   report records 211/211 non-legendary family components covered.
+- Phase 6 added Gen 3-4 common-route variety to early Johto and broader Johto
+  ecology, including Zigzagoon, Starly, Bidoof, Taillow, Wurmple, Poochyena,
+  Lotad, Seedot, Shinx, Buizel, Shellos, Hippopotas, Rotom, and similar
+  non-rare base forms. Every non-legendary Gen 3-4 base/pre-evolution form is
+  represented in the main Johto encounter set.
 - Phase 6 added late-game/postgame wild starter access: Johto starters are
   placed in late Johto/Kanto contexts, Hoenn and Sinnoh starters are placed in
   late Johto/postgame Kanto contexts, and no starter family was added as early
   route clutter.
 - Phase 6 notable rare placements include Larvitar in Dark Cave Route 31
-  entrance at 1%, Dratini/Bagon in dragon and sea-cave areas, Beldum/Gible/Bagon
-  in mineral or rugged late caves, Feebas in limited water locations, Rotom near
-  the Power Plant route context, and fossil lines in ruins/caves.
+  entrance at 4%, Dratini/Bagon in dragon and sea-cave areas, Beldum/Gible/Bagon
+  in mineral or rugged late caves, Feebas in limited water locations, and fossil
+  lines in ruins/caves.
 - Phase 6 added selected approved regional-form wild placements only for Gen
   1-4 families, such as Alolan Sandshrew/Vulpix/Diglett, Galarian Slowpoke,
   Galarian Farfetch'd, Galarian Corsola, Hisuian Voltorb/Qwilfish/Sneasel, and
@@ -1181,7 +1195,7 @@ Trainer changes:
 - Phase 7 rebuilt Kanto Gym Leaders into six-Pokemon teams and raised them into
   the post-League curve: Lt. Surge/Janine/Brock/Misty in the 58-66 range,
   Erika/Sabrina in the 65-72 range, Blaine 72-76, and Blue 78-82.
-- Phase 7 raised Red to an 88-100 superboss team with his iconic six Pokemon.
+- Red's iconic six-Pokemon superboss record is now rebalanced to 92-96 for Champion Circuit parity.
 - Phase 7 expanded major Silver fights from mid-game onward to six Pokemon
   where appropriate, including Pokemon League, post-League, and postgame
   special records.
@@ -1191,16 +1205,22 @@ Trainer changes:
 - Phase 7 applied a regular-trainer pass that raised non-boss trainer levels
   across the game and diversified obvious duplicate no-custom-move parties with
   semantic Gen 1-4 alternatives.
+- Phase 7 now also applies an idempotent regular-trainer variety pass that
+  replaces one to two ordinary species on no-custom-move non-boss trainers with
+  semantic Gen 3-4 alternatives. This covers roadside trainers, gym
+  non-leaders, Team Rocket grunts, swimmers, hikers, psychics, and similar
+  regular classes without increasing party sizes.
 
 Level curve changes:
 
 - None in Phase 1.
 - None in Phase 2.
-- Phase 6 raised Kanto wild route, cave, city-water, and postgame encounter
-  levels into useful post-League ranges. Standard Kanto routes generally now use
-  high-30s to low-40s land levels, Victory Road/Tohjo use low-to-high 40s,
-  Mt. Silver uses low-to-high 50s, and Cerulean Cave reaches the mid-50s to
-  mid-60s.
+- Phase 6 raised late-Johto and Kanto wild encounter levels into useful ranges
+  for the smoother trainer curve. Standard Kanto routes generally now use
+  high-40s to low-50s land levels, Kanto caves use high-40s through low-60s
+  depending on access timing, Victory Road/Tohjo stay low-to-high 40s before
+  the League, Mt. Silver uses high-50s to mid-60s, and Cerulean Cave reaches
+  the low-to-high 60s.
 - Phase 7 raised trainer progression to match the new encounter and boss
   expectations. The final trainer curve is:
   - Johto Leaders: Falkner 13-14, Bugsy 18-20, Whitney 23-25, Morty 29-31,
@@ -1209,10 +1229,10 @@ Level curve changes:
     58-60.
   - Kanto Leaders: early Kanto 58-66, mid Kanto 65-72, Blaine 72-76, Blue
     78-82.
-  - Rematches/postgame: Elite Four rematches 78-84, Lance rematch 82-88, Gym
-    Leader rematches 66-90, Red 88-100.
-- Phase 8 added Champion Circuit exhibition battles for Steven and Wallace at
-  90-96 and Cynthia at 92-98.
+  - Rematches/postgame: Elite Four rematches 78-84, legacy Lance rematch
+    82-88, Gym Leader rematches 66-90, Champion Circuit trainers 92-96.
+- Phase 8 added Champion Circuit exhibition battles; all six Champion Circuit
+  trainers now sit at 92-96.
 
 Legendary/mythical event changes:
 
@@ -1251,11 +1271,12 @@ Random legendary surprise encounter system changes:
 - Random surprise encounters are repeatable and not flag-limited.
 - Random surprise rate by badge count:
   - 0-3 badges: disabled.
-  - 4 badges: 1/4096.
-  - 5 badges: 1/3072.
-  - 6-7 badges: 1/2048.
-  - 8-15 badges: 1/1536.
-  - 16 badges: 1/1024.
+  - 4+ badges: one aggregate 1/100 roll against the currently unlocked pool.
+- The 1/100 roll happens before choosing the species, so each eligible wild
+  encounter has a 1% chance to become one random unlocked legendary/mythical;
+  it is not 1% per legendary species.
+- Surprise legendaries receive Teleport in move slot 4, giving the wild AI a
+  move-based chance to flee each turn.
 - Random surprise pool by badge gate:
   - 4 badges: Articuno, Zapdos, Moltres, Raikou, Entei, Suicune.
   - 5 badges: Regirock, Regice, Registeel, Latias, Latios, Uxie, Mesprit,
@@ -1273,11 +1294,12 @@ Kanto postgame changes:
 
 - None in Phase 1.
 - None in Phase 2.
-- Phase 6 raised Kanto wild encounter levels so post-League routes and caves
-  are no longer vanilla low-level filler.
+- Phase 6 raised late-Johto and Kanto wild encounter levels so post-League
+  routes and caves are no longer vanilla low-level filler.
 - Phase 7 raised Kanto trainer progression. First-clear Kanto Gym Leaders now
   start in the high 50s/low 60s, Blue is 78-82, Gym Leader rematches reach
-  66-90, Elite Four rematches reach 78-88 overall, and Red is 88-100.
+  66-90, Elite Four rematches reach 78-88 overall, and Champion Circuit
+  trainers sit at 92-96.
 - Phase 8 turns the Saffron Fighting Dojo into the post-16-badge Kanto
   postgame hub for Champion Circuit battles and legendary/mythical dossiers.
 - Phase 8 adds higher-level Kanto legendary dossier battles for Seafoam
@@ -1289,12 +1311,12 @@ Rematch/champion/superboss content:
 - None in Phase 2.
 - Phase 7 updated Champion Lance's first-clear team to a six-Pokemon 58-60
   roster: Gyarados, Aerodactyl, Kingdra, Charizard, Aggron, and Dragonite.
-- Phase 7 raised Lance's rematch Champion team to 82-88.
+- A legacy Lance rematch remains at 82-88; Champion Circuit Lance is now 92-96.
 - Phase 7 raised Elite Four rematches to 78-84 and Gym Leader rematches to
-  66-90, including a Blue rematch at 84-90.
+  66-90; Champion Circuit Blue is now 92-96.
 - Phase 7 expanded special postgame Lance, Clair, and Silver records to
   six-Pokemon teams.
-- Phase 7 raised Red to an 88-100 superboss team.
+- Red's rematch/superboss record is now 92-96.
 - Phase 8 added repeatable Champion Circuit battles in the Saffron Fighting
   Dojo: Lance, Blue, Red rematch, Steven, Wallace, and Cynthia.
 - Phase 8 added Steven, Wallace, and Cynthia as six-Pokemon Champion-class

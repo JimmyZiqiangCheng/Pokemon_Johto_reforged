@@ -1,9 +1,8 @@
 {
   "build_readiness": {
     "armips_dojo_assembly": {
-      "details": "completed",
-      "name": "armips armips/scr_seq/scr_seq_00832_phase8_dojo.s",
-      "status": "PASS"
+      "details": "armips is not available on PATH",
+      "status": "SKIP"
     },
     "baserom_nds": {
       "exists": false,
@@ -11,9 +10,8 @@
     },
     "docker_route": "docker missing",
     "make_dry_run": {
-      "details": "echo \"Done.  See output test.nds.\"",
-      "name": "make -n",
-      "status": "PASS"
+      "details": "make is not available on PATH",
+      "status": "SKIP"
     },
     "rom_nds": {
       "exists": true,
@@ -21,28 +19,28 @@
     },
     "tools": {
       "arm-none-eabi-gcc": {
-        "available": true,
-        "path": "C:\\msys64\\ucrt64\\bin\\arm-none-eabi-gcc.EXE"
+        "available": false,
+        "path": null
       },
       "armips": {
-        "available": true,
-        "path": "C:\\Users\\jimmy\\Documents\\pokemon_romhacks\\perfect_johto\\hg-engine-main\\hg-engine-main\\tools\\armips.EXE"
+        "available": false,
+        "path": null
       },
       "cmake": {
-        "available": true,
-        "path": "C:\\msys64\\ucrt64\\bin\\cmake.EXE"
+        "available": false,
+        "path": null
       },
       "docker": {
         "available": false,
         "path": null
       },
       "git": {
-        "available": true,
-        "path": "C:\\msys64\\usr\\bin\\git.EXE"
+        "available": false,
+        "path": null
       },
       "make": {
-        "available": true,
-        "path": "C:\\msys64\\usr\\bin\\make.EXE"
+        "available": false,
+        "path": null
       },
       "python": {
         "available": true,
@@ -126,7 +124,7 @@
       "status": "PASS"
     },
     {
-      "details": "35 Gen 1-4 legendary/mythical pool entries; badge rates and exclusions present",
+      "details": "35 Gen 1-4 legendary/mythical pool entries; aggregate 1% roll, flee move, and exclusions present",
       "name": "Random legendary validation",
       "status": "PASS"
     },
@@ -141,6 +139,11 @@
       "status": "PASS"
     },
     {
+      "details": "104 badge-mart item icons exist and are not placeholders",
+      "name": "Badge mart item icon validation",
+      "status": "PASS"
+    },
+    {
       "details": "no trade-only approved-scope evolutions; evolution items and known-move methods validated; Dudunsparce Three-Segment special access is not implemented; Ursaluna Bloodmoon special access is not implemented",
       "name": "Evolution and form validation",
       "status": "WARN"
@@ -151,7 +154,7 @@
       "status": "WARN"
     },
     {
-      "details": "missing requirements: docker",
+      "details": "missing requirements: git, make, cmake, armips, docker, arm-none-eabi-gcc",
       "name": "Build readiness",
       "status": "WARN"
     }

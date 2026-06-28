@@ -114,6 +114,7 @@ TEXT = {
     "NOT_CAUGHT": 96,
     "CHAMPION_WIN": 97,
     "SEALED": 98,
+    "NEED_SIXTEEN_BADGES": 99,
 }
 
 
@@ -149,6 +150,7 @@ class LegendaryEvent:
     encounter_type: str = "stationary scripted Dojo dossier"
     hide_flags: tuple[str, ...] = ()
     prelude: tuple[str, ...] = ()
+    minimum_badges: int = 16
 
 
 def mon(species: str, level: int, moves: tuple[str, str, str, str], item: str = "ITEM_NONE", ivs: int = 250) -> Mon:
@@ -161,12 +163,12 @@ CHAMPIONS = (
         "Steven",
         "TRAINERCLASS_CHAMPION",
         (
-            mon("SKARMORY", 90, ("STEEL_WING", "AIR_SLASH", "NIGHT_SLASH", "SPIKES")),
-            mon("CLAYDOL", 90, ("EARTH_POWER", "PSYCHIC", "ANCIENT_POWER", "LIGHT_SCREEN")),
-            mon("CRADILY", 91, ("ENERGY_BALL", "STONE_EDGE", "CONFUSE_RAY", "RECOVER")),
-            mon("ARMALDO", 91, ("X_SCISSOR", "ROCK_SLIDE", "AQUA_TAIL", "CRUSH_CLAW")),
-            mon("AGGRON", 93, ("IRON_HEAD", "STONE_EDGE", "EARTHQUAKE", "DRAGON_CLAW")),
-            mon("METAGROSS", 96, ("METEOR_MASH", "ZEN_HEADBUTT", "EARTHQUAKE", "BULLET_PUNCH"), "ITEM_SITRUS_BERRY", 255),
+            mon("SKARMORY", 92, ("STEEL_WING", "AIR_SLASH", "NIGHT_SLASH", "SPIKES"), "ITEM_ROCKY_HELMET"),
+            mon("CLAYDOL", 92, ("EARTH_POWER", "PSYCHIC", "ANCIENT_POWER", "LIGHT_SCREEN"), "ITEM_LIGHT_CLAY"),
+            mon("CRADILY", 93, ("ENERGY_BALL", "STONE_EDGE", "CONFUSE_RAY", "RECOVER"), "ITEM_LEFTOVERS"),
+            mon("ARMALDO", 94, ("X_SCISSOR", "ROCK_SLIDE", "AQUA_TAIL", "CRUSH_CLAW"), "ITEM_LIFE_ORB"),
+            mon("AGGRON", 95, ("IRON_HEAD", "STONE_EDGE", "EARTHQUAKE", "DRAGON_CLAW"), "ITEM_CHOICE_BAND"),
+            mon("METAGROSS", 96, ("METEOR_MASH", "ZEN_HEADBUTT", "EARTHQUAKE", "BULLET_PUNCH"), "ITEM_ASSAULT_VEST", 255),
         ),
         "Your bond with your Pokemon is stronger than any stone.\\n",
     ),
@@ -175,12 +177,12 @@ CHAMPIONS = (
         "Wallace",
         "TRAINERCLASS_CHAMPION",
         (
-            mon("WAILORD", 90, ("WATER_SPOUT", "ICE_BEAM", "AMNESIA", "REST")),
-            mon("TENTACRUEL", 90, ("SURF", "SLUDGE_BOMB", "ICE_BEAM", "TOXIC_SPIKES")),
-            mon("GYARADOS", 91, ("WATERFALL", "ICE_FANG", "DRAGON_DANCE", "CRUNCH")),
-            mon("LUDICOLO", 92, ("SURF", "ENERGY_BALL", "ICE_BEAM", "RAIN_DANCE")),
-            mon("WHISCASH", 92, ("EARTHQUAKE", "AQUA_TAIL", "ZEN_HEADBUTT", "REST")),
-            mon("MILOTIC", 96, ("SURF", "ICE_BEAM", "AQUA_RING", "RECOVER"), "ITEM_SITRUS_BERRY", 255),
+            mon("WAILORD", 92, ("WATER_SPOUT", "ICE_BEAM", "AMNESIA", "REST"), "ITEM_LEFTOVERS"),
+            mon("TENTACRUEL", 92, ("SURF", "SLUDGE_BOMB", "ICE_BEAM", "TOXIC_SPIKES"), "ITEM_BLACK_SLUDGE"),
+            mon("GYARADOS", 93, ("WATERFALL", "ICE_FANG", "DRAGON_DANCE", "CRUNCH"), "ITEM_HEAVY_DUTY_BOOTS"),
+            mon("LUDICOLO", 94, ("SURF", "ENERGY_BALL", "ICE_BEAM", "RAIN_DANCE"), "ITEM_LIFE_ORB"),
+            mon("WHISCASH", 95, ("EARTHQUAKE", "AQUA_TAIL", "ZEN_HEADBUTT", "REST"), "ITEM_LEFTOVERS"),
+            mon("MILOTIC", 96, ("SURF", "ICE_BEAM", "AQUA_RING", "RECOVER"), "ITEM_LEFTOVERS", 255),
         ),
         "A splendid battle. Beauty and strength in full measure.\\n",
     ),
@@ -189,12 +191,12 @@ CHAMPIONS = (
         "Cynthia",
         "TRAINERCLASS_CHAMPION",
         (
-            mon("SPIRITOMB", 92, ("DARK_PULSE", "SHADOW_BALL", "WILL_O_WISP", "SILVER_WIND")),
-            mon("ROSERADE", 92, ("ENERGY_BALL", "SLUDGE_BOMB", "SHADOW_BALL", "STUN_SPORE")),
-            mon("TOGEKISS", 93, ("AIR_SLASH", "AURA_SPHERE", "EXTREME_SPEED", "ROOST")),
-            mon("LUCARIO", 94, ("AURA_SPHERE", "DRAGON_PULSE", "EXTREME_SPEED", "DARK_PULSE")),
-            mon("MILOTIC", 94, ("SURF", "ICE_BEAM", "MIRROR_COAT", "RECOVER")),
-            mon("GARCHOMP", 98, ("DRAGON_RUSH", "EARTHQUAKE", "STONE_EDGE", "SWORDS_DANCE"), "ITEM_SITRUS_BERRY", 255),
+            mon("SPIRITOMB", 92, ("DARK_PULSE", "SHADOW_BALL", "WILL_O_WISP", "SILVER_WIND"), "ITEM_LEFTOVERS"),
+            mon("ROSERADE", 92, ("ENERGY_BALL", "SLUDGE_BOMB", "SHADOW_BALL", "STUN_SPORE"), "ITEM_BLACK_SLUDGE"),
+            mon("TOGEKISS", 93, ("AIR_SLASH", "AURA_SPHERE", "EXTREME_SPEED", "ROOST"), "ITEM_HEAVY_DUTY_BOOTS"),
+            mon("LUCARIO", 94, ("AURA_SPHERE", "DRAGON_PULSE", "EXTREME_SPEED", "DARK_PULSE"), "ITEM_LIFE_ORB"),
+            mon("MILOTIC", 95, ("SURF", "ICE_BEAM", "MIRROR_COAT", "RECOVER"), "ITEM_LEFTOVERS"),
+            mon("GARCHOMP", 96, ("DRAGON_RUSH", "EARTHQUAKE", "STONE_EDGE", "SWORDS_DANCE"), "ITEM_CLEAR_AMULET", 255),
         ),
         "There are still more myths for us to investigate.\\n",
     ),
@@ -202,8 +204,8 @@ CHAMPIONS = (
 
 
 LEGENDARIES = (
-    LegendaryEvent("Articuno", "SPECIES_ARTICUNO", 70, "FLAG_CAUGHT_ARTICUNO", TEXT["ARTICUNO"], "kanto", "Seafoam dossier, Saffron Fighting Dojo", "16 badges", hide_flags=("FLAG_HIDE_SEAFOAM_ISLAND_ARTICUNO",)),
-    LegendaryEvent("Zapdos", "SPECIES_ZAPDOS", 70, "FLAG_CAUGHT_ZAPDOS", TEXT["ZAPDOS"], "kanto", "Power Plant dossier, Saffron Fighting Dojo", "16 badges", hide_flags=("FLAG_HIDE_ROUTE_10_ZAPDOS",)),
+    LegendaryEvent("Articuno", "SPECIES_ARTICUNO", 60, "FLAG_CAUGHT_ARTICUNO", TEXT["ARTICUNO"], "kanto", "Seafoam dossier, Saffron Fighting Dojo", "8 badges", hide_flags=("FLAG_HIDE_SEAFOAM_ISLAND_ARTICUNO",), minimum_badges=8),
+    LegendaryEvent("Zapdos", "SPECIES_ZAPDOS", 60, "FLAG_CAUGHT_ZAPDOS", TEXT["ZAPDOS"], "kanto", "Power Plant dossier, Saffron Fighting Dojo", "8 badges", hide_flags=("FLAG_HIDE_ROUTE_10_ZAPDOS",), minimum_badges=8),
     LegendaryEvent("Moltres", "SPECIES_MOLTRES", 72, "FLAG_CAUGHT_MOLTRES", TEXT["MOLTRES"], "kanto", "Mt. Silver dossier, Saffron Fighting Dojo", "16 badges", hide_flags=("FLAG_HIDE_MT_SILVER_CAVE_MOLTRES",)),
     LegendaryEvent("Mewtwo", "SPECIES_MEWTWO", 80, "FLAG_CAUGHT_MEWTWO", TEXT["MEWTWO"], "kanto", "Cerulean Cave dossier, Saffron Fighting Dojo", "16 badges", hide_flags=("FLAG_HIDE_CERULEAN_CAVE_MEWTWO",)),
     LegendaryEvent("Lugia", "SPECIES_LUGIA", 75, "FLAG_CAUGHT_LUGIA", TEXT["LUGIA"], "kanto", "Whirl Islands dossier, Saffron Fighting Dojo", "16 badges", hide_flags=("FLAG_HIDE_WHIRL_ISLAND_LUGIA",)),
@@ -211,12 +213,12 @@ LEGENDARIES = (
     LegendaryEvent(
         "Suicune",
         "SPECIES_SUICUNE",
-        65,
+        55,
         "FLAG_CAUGHT_SUICUNE",
         TEXT["SUICUNE"],
         "kanto",
         "Eusine dossier, Saffron Fighting Dojo",
-        "16 badges",
+        "8 badges",
         hide_flags=(
             "FLAG_HIDE_BURNED_TOWER_B1F_SUICUNE",
             "FLAG_HIDE_BURNED_TOWER_1F_SUICUNE",
@@ -227,6 +229,7 @@ LEGENDARIES = (
             "FLAG_HIDE_ROUTE_25_SUICUNE",
             "FLAG_HIDE_BURNED_TOWER_STATIC_SUICUNE",
         ),
+        minimum_badges=8,
     ),
     LegendaryEvent("Latias", "SPECIES_LATIAS", 68, "FLAG_PHASE8_CAUGHT_LATIAS", TEXT["LATIAS"], "kanto", "Kanto roaming dossier, Saffron Fighting Dojo", "16 badges", hide_flags=("FLAG_HIDE_PEWTER_CITY_LATIAS",)),
     LegendaryEvent("Latios", "SPECIES_LATIOS", 68, "FLAG_PHASE8_CAUGHT_LATIOS", TEXT["LATIOS"], "kanto", "Kanto roaming dossier, Saffron Fighting Dojo", "16 badges", hide_flags=("FLAG_HIDE_PEWTER_CITY_LATIOS",)),
@@ -361,7 +364,7 @@ DOJO_TEXT_LINES = [
     "Blaine: Burned out again! Hah!\\n",
     "Blue: A real challenger? Fine. Show me what you have got.\\n",
     "Blue: Not bad. I can see why the League keeps talking about you.\\n",
-    "Earn all sixteen badges first. Kanto has deeper challenges for a proven Champion.\\n",
+    "Earn eight badges first. The Dojo dossiers open once you reach Kanto.\\n",
     "The Dojo now keeps postgame battle records and legendary dossiers. Choose a challenge.\\n",
     "Articuno\\n",
     "Zapdos\\n",
@@ -424,6 +427,7 @@ DOJO_TEXT_LINES = [
     "The presence withdraws. The dossier remains active for another attempt.\\n",
     "The Champion Circuit records your victory.\\n",
     "The seal is not ready to open.\\n",
+    "Earn all sixteen badges first. Advanced dossiers and Champion Circuit records open after Kanto is complete.\\n",
 ]
 
 
@@ -581,13 +585,25 @@ def transform_base_dojo_rematches() -> str:
     return body.strip() + "\n"
 
 
-def menu(label: str, prompt: int, items: list[tuple[int, str]], fallback: str) -> str:
-    lines = [
-        f"{label}:",
-        f"    npc_msg {prompt}",
-        "    touchscreen_menu_hide",
-        "    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT",
+def badge_gate(minimum_badges: int, failure_label: str) -> list[str]:
+    return [
+        "    count_badges VAR_SPECIAL_RESULT",
+        f"    compare VAR_SPECIAL_RESULT, {minimum_badges}",
+        f"    goto_if_lt {failure_label}",
     ]
+
+
+def menu(label: str, prompt: int, items: list[tuple[int, str]], fallback: str, prelude: list[str] | None = None) -> str:
+    lines = [f"{label}:"]
+    if prelude:
+        lines.extend(prelude)
+    lines.extend(
+        [
+            f"    npc_msg {prompt}",
+            "    touchscreen_menu_hide",
+            "    menu_init 1, 1, 0, 1, VAR_SPECIAL_RESULT",
+        ]
+    )
     for value, (msg_id, _target) in enumerate(items):
         lines.append(f"    menu_item_add {msg_id}, 255, {value}")
     lines.extend(["    menu_exec", "    touchscreen_menu_show"])
@@ -621,6 +637,8 @@ def champion_battle(label: str, trainer_id: int, require_red: bool = False) -> s
 def encounter_label(event: LegendaryEvent) -> str:
     label = "_p8_" + event.name.lower().replace("-", "_")
     lines = [f"{label}:"]
+    if event.minimum_badges > 8:
+        lines.extend(badge_gate(event.minimum_badges, "_p8_need_sixteen_badges"))
     lines.extend(f"    {line}" for line in event.prelude)
     lines.extend(
         [
@@ -678,7 +696,7 @@ def generate_dojo_script() -> str:
         "    lockall",
         "    faceplayer",
         "    count_badges VAR_SPECIAL_RESULT",
-        "    compare VAR_SPECIAL_RESULT, 16",
+        "    compare VAR_SPECIAL_RESULT, 8",
         "    goto_if_lt _p8_need_badges",
     ]
     script0.append(
@@ -710,11 +728,12 @@ def generate_dojo_script() -> str:
                 (TEXT["BACK"], "_p8_main_menu"),
             ],
             "_p8_main_menu",
+            badge_gate(16, "_p8_need_sixteen_badges"),
         ),
         menu("_p8_kanto_legends", TEXT["KANTO_PROMPT"], category_items("kanto") + [(TEXT["BACK"], "_p8_main_menu")], "_p8_main_menu"),
-        menu("_p8_ancient_seals", TEXT["ANCIENT_PROMPT"], category_items("ancient") + [(TEXT["BACK"], "_p8_main_menu")], "_p8_main_menu"),
-        menu("_p8_mythic_dossiers", TEXT["MYTHIC_PROMPT"], category_items("mythic") + [(TEXT["BACK"], "_p8_main_menu")], "_p8_main_menu"),
-        menu("_p8_creation_echoes", TEXT["CREATION_PROMPT"], category_items("creation") + [(TEXT["BACK"], "_p8_main_menu")], "_p8_main_menu"),
+        menu("_p8_ancient_seals", TEXT["ANCIENT_PROMPT"], category_items("ancient") + [(TEXT["BACK"], "_p8_main_menu")], "_p8_main_menu", badge_gate(16, "_p8_need_sixteen_badges")),
+        menu("_p8_mythic_dossiers", TEXT["MYTHIC_PROMPT"], category_items("mythic") + [(TEXT["BACK"], "_p8_main_menu")], "_p8_main_menu", badge_gate(16, "_p8_need_sixteen_badges")),
+        menu("_p8_creation_echoes", TEXT["CREATION_PROMPT"], category_items("creation") + [(TEXT["BACK"], "_p8_main_menu")], "_p8_main_menu", badge_gate(16, "_p8_need_sixteen_badges")),
     ]
     champions = [
         champion_battle("_p8_champion_lance", 733),
@@ -727,6 +746,12 @@ def generate_dojo_script() -> str:
     common = [
         "_p8_need_badges:",
         f"    npc_msg {TEXT['NEED_BADGES']}",
+        "    wait_button",
+        "    closemsg",
+        "    releaseall",
+        "    end",
+        "_p8_need_sixteen_badges:",
+        f"    npc_msg {TEXT['NEED_SIXTEEN_BADGES']}",
         "    wait_button",
         "    closemsg",
         "    releaseall",
@@ -825,9 +850,10 @@ def generate_report() -> str:
         "",
         "## Kanto Postgame Hub",
         "",
-        "- Saffron Fighting Dojo karate master is repurposed after all 16 badges as a postgame hub.",
+        "- Saffron Fighting Dojo karate master is repurposed after 8 badges as a postgame hub for early legendary dossiers.",
         "- Existing 16 Gym Leader phone-rematch scripts remain intact and still use the visible leader NPCs.",
-        "- Blue remains the late Kanto boss through the existing level 84-90 six-Pokemon rematch and is repeatable from the Champion Circuit.",
+        "- Blue remains the late Kanto boss through the level 92-96 six-Pokemon Champion Circuit rematch.",
+        "- Champion Circuit, Ancient Seals, Mythic Dossiers, Creation Echoes, and deeper Kanto/Johto legends remain gated at 16 badges.",
         "- Lance and Blue are repeatable from the Champion Circuit after 16 badges; Red rematch and visiting champions unlock after Red is defeated.",
         "",
         "## Legendary And Mythical Availability",

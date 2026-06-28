@@ -2,9 +2,10 @@
 
 ## Kanto Postgame Hub
 
-- Saffron Fighting Dojo karate master is repurposed after all 16 badges as a postgame hub.
+- Saffron Fighting Dojo karate master is repurposed after 8 badges as a postgame hub for early legendary dossiers.
 - Existing 16 Gym Leader phone-rematch scripts remain intact and still use the visible leader NPCs.
-- Blue remains the late Kanto boss through the existing level 84-90 six-Pokemon rematch and is repeatable from the Champion Circuit.
+- Blue remains the late Kanto boss through the level 92-96 six-Pokemon Champion Circuit rematch.
+- Champion Circuit, Ancient Seals, Mythic Dossiers, Creation Echoes, and deeper Kanto/Johto legends remain gated at 16 badges.
 - Lance and Blue are repeatable from the Champion Circuit after 16 badges; Red rematch and visiting champions unlock after Red is defeated.
 
 ## Legendary And Mythical Availability
@@ -13,13 +14,13 @@
 | --- | --- | ---: | --- | --- | --- |
 | Raikou | Burned Tower release | 40 | Burned Tower event releases the Johto roamer | roaming | native roamer |
 | Entei | Burned Tower release | 40 | Burned Tower event releases the Johto roamer | roaming | native roamer |
-| Articuno | Seafoam dossier, Saffron Fighting Dojo | 70 | 16 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_ARTICUNO` |
-| Zapdos | Power Plant dossier, Saffron Fighting Dojo | 70 | 16 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_ZAPDOS` |
+| Articuno | Seafoam dossier, Saffron Fighting Dojo | 60 | 8 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_ARTICUNO` |
+| Zapdos | Power Plant dossier, Saffron Fighting Dojo | 60 | 8 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_ZAPDOS` |
 | Moltres | Mt. Silver dossier, Saffron Fighting Dojo | 72 | 16 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_MOLTRES` |
 | Mewtwo | Cerulean Cave dossier, Saffron Fighting Dojo | 80 | 16 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_MEWTWO` |
 | Lugia | Whirl Islands dossier, Saffron Fighting Dojo | 75 | 16 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_LUGIA` |
 | Ho-Oh | Bell Tower dossier, Saffron Fighting Dojo | 75 | 16 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_HO_OH` |
-| Suicune | Eusine dossier, Saffron Fighting Dojo | 65 | 16 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_SUICUNE` |
+| Suicune | Eusine dossier, Saffron Fighting Dojo | 55 | 8 badges | stationary scripted Dojo dossier | `FLAG_CAUGHT_SUICUNE` |
 | Latias | Kanto roaming dossier, Saffron Fighting Dojo | 68 | 16 badges | stationary scripted Dojo dossier | `FLAG_PHASE8_CAUGHT_LATIAS` |
 | Latios | Kanto roaming dossier, Saffron Fighting Dojo | 68 | 16 badges | stationary scripted Dojo dossier | `FLAG_PHASE8_CAUGHT_LATIOS` |
 | Regirock | Ruins of Alph seal dossier, Saffron Fighting Dojo | 70 | 16 badges | stationary scripted Dojo dossier | `FLAG_PHASE8_CAUGHT_REGIROCK` |
@@ -59,9 +60,9 @@ Failed or fled static dossier battles remain retryable because caught flags are 
 
 | Trainer ID | Trainer | Levels | Notes |
 | ---: | --- | --- | --- |
-| 738 | Steven | 90-96 | Six-Pokemon Champion Circuit team |
-| 739 | Wallace | 90-96 | Six-Pokemon Champion Circuit team |
-| 740 | Cynthia | 92-98 | Six-Pokemon Champion Circuit team |
+| 738 | Steven | 92-96 | Six-Pokemon Champion Circuit team |
+| 739 | Wallace | 92-96 | Six-Pokemon Champion Circuit team |
+| 740 | Cynthia | 92-96 | Six-Pokemon Champion Circuit team |
 
 ## Scope Validation
 

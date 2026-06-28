@@ -347,50 +347,20 @@
   },
   {
     "id": 12,
-    "max_level": 11,
-    "min_level": 7,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 7,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 11,
-        "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 11,
-        "moves": [],
-        "name": "Spinarak",
-        "species": "SPECIES_SPINARAK"
-      }
-    ],
-    "party_size": 3,
-    "species": [
-      "SPECIES_RATTATA",
-      "SPECIES_ZUBAT",
-      "SPECIES_SPINARAK"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 13,
     "max_level": 13,
-    "min_level": 11,
+    "min_level": 12,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 11,
+        "level": 12,
+        "moves": [],
+        "name": "Poochyena",
+        "species": "SPECIES_POOCHYENA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 12,
         "moves": [],
         "name": "Zubat",
         "species": "SPECIES_ZUBAT"
@@ -399,14 +369,52 @@
         "item": "ITEM_NONE",
         "level": 13,
         "moves": [],
-        "name": "Ekans",
-        "species": "SPECIES_EKANS"
+        "name": "Spinarak",
+        "species": "SPECIES_SPINARAK"
       }
     ],
-    "party_size": 2,
+    "party_size": 3,
     "species": [
+      "SPECIES_POOCHYENA",
       "SPECIES_ZUBAT",
-      "SPECIES_EKANS"
+      "SPECIES_SPINARAK"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 13,
+    "max_level": 14,
+    "min_level": 13,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 13,
+        "moves": [],
+        "name": "Croagunk",
+        "species": "SPECIES_CROAGUNK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 13,
+        "moves": [],
+        "name": "Zubat",
+        "species": "SPECIES_ZUBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 14,
+        "moves": [],
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
+      }
+    ],
+    "party_size": 3,
+    "species": [
+      "SPECIES_CROAGUNK",
+      "SPECIES_ZUBAT",
+      "SPECIES_KOFFING"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET_F",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -495,8 +503,8 @@
         "item": "ITEM_NONE",
         "level": 24,
         "moves": [],
-        "name": "Tentacool",
-        "species": "SPECIES_TENTACOOL"
+        "name": "Wingull",
+        "species": "SPECIES_WINGULL"
       },
       {
         "item": "ITEM_NONE",
@@ -508,7 +516,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_TENTACOOL",
+      "SPECIES_WINGULL",
       "SPECIES_TENTACOOL"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_M",
@@ -590,8 +598,8 @@
         "item": "ITEM_NONE",
         "level": 24,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       },
       {
         "item": "ITEM_NONE",
@@ -610,7 +618,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_STUNKY",
       "SPECIES_GRIMER",
       "SPECIES_ZUBAT"
     ],
@@ -660,7 +668,7 @@
         "species": "SPECIES_CHATOT"
       },
       {
-        "item": "ITEM_ORAN_BERRY",
+        "item": "ITEM_NONE",
         "level": 14,
         "moves": [
           "MOVE_WING_ATTACK",
@@ -775,7 +783,7 @@
         "species": "SPECIES_PINSIR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_SILVER_POWDER",
         "level": 20,
         "moves": [
           "MOVE_QUICK_ATTACK",
@@ -1008,8 +1016,8 @@
         "item": "ITEM_NONE",
         "level": 7,
         "moves": [],
-        "name": "Pidgey",
-        "species": "SPECIES_PIDGEY"
+        "name": "Starly",
+        "species": "SPECIES_STARLY"
       },
       {
         "item": "ITEM_NONE",
@@ -1021,7 +1029,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_PIDGEY",
+      "SPECIES_STARLY",
       "SPECIES_PIDGEY"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
@@ -1082,7 +1090,7 @@
         "species": "SPECIES_WIGGLYTUFF"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SITRUS_BERRY",
         "level": 24,
         "moves": [
           "MOVE_METRONOME",
@@ -1094,7 +1102,7 @@
         "species": "SPECIES_CLEFABLE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 25,
         "moves": [
           "MOVE_STOMP",
@@ -1161,7 +1169,7 @@
         "species": "SPECIES_HAUNTER"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 30,
         "moves": [
           "MOVE_SHADOW_BALL",
@@ -1185,7 +1193,7 @@
         "species": "SPECIES_SABLEYE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_WIDE_LENS",
         "level": 31,
         "moves": [
           "MOVE_SHADOW_BALL",
@@ -1216,7 +1224,7 @@
     "name": "Pryce",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ICY_ROCK",
         "level": 40,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -1228,7 +1236,7 @@
         "species": "SPECIES_ABOMASNOW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 41,
         "moves": [
           "MOVE_ICE_BEAM",
@@ -1264,7 +1272,7 @@
         "species": "SPECIES_DEWGONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 42,
         "moves": [
           "MOVE_SURF",
@@ -1276,7 +1284,7 @@
         "species": "SPECIES_LAPRAS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 43,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -1331,7 +1339,7 @@
         "species": "SPECIES_FORRETRESS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 39,
         "moves": [
           "MOVE_REFLECT",
@@ -1343,7 +1351,7 @@
         "species": "SPECIES_BRONZONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 40,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -1355,7 +1363,7 @@
         "species": "SPECIES_MAGNETON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ROCKY_HELMET",
         "level": 40,
         "moves": [
           "MOVE_AIR_SLASH",
@@ -1367,7 +1375,7 @@
         "species": "SPECIES_SKARMORY"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 42,
         "moves": [
           "MOVE_IRON_TAIL",
@@ -1410,7 +1418,7 @@
         "species": "SPECIES_PRIMEAPE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_BELT",
         "level": 35,
         "moves": [
           "MOVE_MACH_PUNCH",
@@ -1446,7 +1454,7 @@
         "species": "SPECIES_HITMONLEE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 36,
         "moves": [
           "MOVE_DRAIN_PUNCH",
@@ -1458,7 +1466,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 38,
         "moves": [
           "MOVE_SURF",
@@ -1489,7 +1497,7 @@
     "name": "Clair",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LUM_BERRY",
         "level": 46,
         "moves": [
           "MOVE_WATERFALL",
@@ -1501,7 +1509,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 47,
         "moves": [
           "MOVE_DRAGON_PULSE",
@@ -1513,7 +1521,7 @@
         "species": "SPECIES_DRAGONAIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 48,
         "moves": [
           "MOVE_DRAGON_PULSE",
@@ -1537,7 +1545,7 @@
         "species": "SPECIES_FLYGON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 49,
         "moves": [
           "MOVE_SURF",
@@ -1549,7 +1557,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 50,
         "moves": [
           "MOVE_DRAGON_RUSH",
@@ -1861,8 +1869,8 @@
         "item": "ITEM_NONE",
         "level": 20,
         "moves": [],
-        "name": "Gastly",
-        "species": "SPECIES_GASTLY"
+        "name": "Shuppet",
+        "species": "SPECIES_SHUPPET"
       },
       {
         "item": "ITEM_NONE",
@@ -1881,7 +1889,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GASTLY",
+      "SPECIES_SHUPPET",
       "SPECIES_HAUNTER",
       "SPECIES_GASTLY"
     ],
@@ -1927,8 +1935,8 @@
         "item": "ITEM_NONE",
         "level": 52,
         "moves": [],
-        "name": "Beedrill",
-        "species": "SPECIES_BEEDRILL"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -1940,7 +1948,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BEEDRILL",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_BUTTERFREE"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -1956,8 +1964,8 @@
         "item": "ITEM_NONE",
         "level": 6,
         "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
+        "name": "Zigzagoon",
+        "species": "SPECIES_ZIGZAGOON"
       },
       {
         "item": "ITEM_NONE",
@@ -1969,7 +1977,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_RATTATA",
+      "SPECIES_ZIGZAGOON",
       "SPECIES_ZUBAT"
     ],
     "trainer_class": "TRAINERCLASS_YOUNGSTER",
@@ -2101,8 +2109,8 @@
         "item": "ITEM_NONE",
         "level": 7,
         "moves": [],
-        "name": "Bellsprout",
-        "species": "SPECIES_BELLSPROUT"
+        "name": "Budew",
+        "species": "SPECIES_BUDEW"
       },
       {
         "item": "ITEM_NONE",
@@ -2114,7 +2122,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BELLSPROUT",
+      "SPECIES_BUDEW",
       "SPECIES_HOOTHOOT"
     ],
     "trainer_class": "TRAINERCLASS_SAGE",
@@ -2214,8 +2222,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Goldeen",
-        "species": "SPECIES_GOLDEEN"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -2234,7 +2242,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GOLDEEN",
+      "SPECIES_FINNEON",
       "SPECIES_QWILFISH",
       "SPECIES_GOLDEEN"
     ],
@@ -2251,8 +2259,8 @@
         "item": "ITEM_NONE",
         "level": 10,
         "moves": [],
-        "name": "Poliwag",
-        "species": "SPECIES_POLIWAG"
+        "name": "Lotad",
+        "species": "SPECIES_LOTAD"
       },
       {
         "item": "ITEM_NONE",
@@ -2264,7 +2272,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_POLIWAG",
+      "SPECIES_LOTAD",
       "SPECIES_POLIWAG"
     ],
     "trainer_class": "TRAINERCLASS_FISHERMAN",
@@ -2280,8 +2288,8 @@
         "item": "ITEM_NONE",
         "level": 13,
         "moves": [],
-        "name": "Geodude",
-        "species": "SPECIES_GEODUDE"
+        "name": "Nosepass",
+        "species": "SPECIES_NOSEPASS"
       },
       {
         "item": "ITEM_NONE",
@@ -2293,7 +2301,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_GEODUDE",
+      "SPECIES_NOSEPASS",
       "SPECIES_MACHOP"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
@@ -2309,8 +2317,8 @@
         "item": "ITEM_NONE",
         "level": 7,
         "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
+        "name": "Zigzagoon",
+        "species": "SPECIES_ZIGZAGOON"
       },
       {
         "item": "ITEM_NONE",
@@ -2336,7 +2344,7 @@
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_RATTATA",
+      "SPECIES_ZIGZAGOON",
       "SPECIES_SANDSHREW",
       "SPECIES_SPEAROW",
       "SPECIES_SPEAROW"
@@ -2347,20 +2355,36 @@
   {
     "id": 63,
     "max_level": 16,
-    "min_level": 16,
+    "min_level": 15,
     "name": "Mickey",
     "party": [
       {
         "item": "ITEM_NONE",
+        "level": 15,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 15,
+        "moves": [],
+        "name": "Rattata",
+        "species": "SPECIES_RATTATA"
+      },
+      {
+        "item": "ITEM_NONE",
         "level": 16,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Zubat",
+        "species": "SPECIES_ZUBAT"
       }
     ],
-    "party_size": 1,
+    "party_size": 3,
     "species": [
-      "SPECIES_KOFFING"
+      "SPECIES_STUNKY",
+      "SPECIES_RATTATA",
+      "SPECIES_ZUBAT"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -2472,8 +2496,8 @@
         "item": "ITEM_NONE",
         "level": 7,
         "moves": [],
-        "name": "Weedle",
-        "species": "SPECIES_WEEDLE"
+        "name": "Wurmple",
+        "species": "SPECIES_WURMPLE"
       },
       {
         "item": "ITEM_NONE",
@@ -2492,7 +2516,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_WEEDLE",
+      "SPECIES_WURMPLE",
       "SPECIES_KAKUNA",
       "SPECIES_BEEDRILL"
     ],
@@ -2509,8 +2533,8 @@
         "item": "ITEM_NONE",
         "level": 14,
         "moves": [],
-        "name": "Caterpie",
-        "species": "SPECIES_CATERPIE"
+        "name": "Wurmple",
+        "species": "SPECIES_WURMPLE"
       },
       {
         "item": "ITEM_NONE",
@@ -2522,7 +2546,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_CATERPIE",
+      "SPECIES_WURMPLE",
       "SPECIES_WEEDLE"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -2598,8 +2622,8 @@
         "item": "ITEM_NONE",
         "level": 17,
         "moves": [],
-        "name": "Jigglypuff",
-        "species": "SPECIES_JIGGLYPUFF"
+        "name": "Skitty",
+        "species": "SPECIES_SKITTY"
       },
       {
         "item": "ITEM_NONE",
@@ -2618,7 +2642,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_JIGGLYPUFF",
+      "SPECIES_SKITTY",
       "SPECIES_JIGGLYPUFF",
       "SPECIES_JIGGLYPUFF"
     ],
@@ -2635,8 +2659,8 @@
         "item": "ITEM_NONE",
         "level": 14,
         "moves": [],
-        "name": "Pidgey",
-        "species": "SPECIES_PIDGEY"
+        "name": "Starly",
+        "species": "SPECIES_STARLY"
       },
       {
         "item": "ITEM_NONE",
@@ -2648,7 +2672,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_PIDGEY",
+      "SPECIES_STARLY",
       "SPECIES_PIDGEOTTO"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
@@ -2664,15 +2688,15 @@
         "item": "ITEM_NONE",
         "level": 19,
         "moves": [],
-        "name": "Pidgey",
-        "species": "SPECIES_PIDGEY"
+        "name": "Starly",
+        "species": "SPECIES_STARLY"
       },
       {
         "item": "ITEM_NONE",
         "level": 17,
         "moves": [],
-        "name": "Pidgey",
-        "species": "SPECIES_PIDGEY"
+        "name": "Taillow",
+        "species": "SPECIES_TAILLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -2698,8 +2722,8 @@
     ],
     "party_size": 5,
     "species": [
-      "SPECIES_PIDGEY",
-      "SPECIES_PIDGEY",
+      "SPECIES_STARLY",
+      "SPECIES_TAILLOW",
       "SPECIES_PIDGEY",
       "SPECIES_PIDGEY",
       "SPECIES_PIDGEY"
@@ -2754,8 +2778,8 @@
         "item": "ITEM_NONE",
         "level": 15,
         "moves": [],
-        "name": "Sandshrew",
-        "species": "SPECIES_SANDSHREW"
+        "name": "Trapinch",
+        "species": "SPECIES_TRAPINCH"
       },
       {
         "item": "ITEM_NONE",
@@ -2767,7 +2791,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_SANDSHREW",
+      "SPECIES_TRAPINCH",
       "SPECIES_MARILL"
     ],
     "trainer_class": "TRAINERCLASS_CAMPER",
@@ -2938,8 +2962,8 @@
         "item": "ITEM_NONE",
         "level": 18,
         "moves": [],
-        "name": "Doduo",
-        "species": "SPECIES_DODUO"
+        "name": "Taillow",
+        "species": "SPECIES_TAILLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -2958,7 +2982,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_DODUO",
+      "SPECIES_TAILLOW",
       "SPECIES_DODUO",
       "SPECIES_DODUO"
     ],
@@ -3027,8 +3051,8 @@
         "item": "ITEM_NONE",
         "level": 22,
         "moves": [],
-        "name": "Staryu",
-        "species": "SPECIES_STARYU"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -3040,7 +3064,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_STARYU",
+      "SPECIES_FINNEON",
       "SPECIES_SHELLDER"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_F",
@@ -3182,8 +3206,8 @@
         "item": "ITEM_NONE",
         "level": 24,
         "moves": [],
-        "name": "Haunter",
-        "species": "SPECIES_HAUNTER"
+        "name": "Banette",
+        "species": "SPECIES_BANETTE"
       },
       {
         "item": "ITEM_NONE",
@@ -3195,7 +3219,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_HAUNTER",
+      "SPECIES_BANETTE",
       "SPECIES_HAUNTER"
     ],
     "trainer_class": "TRAINERCLASS_MEDIUM",
@@ -3323,8 +3347,8 @@
         "item": "ITEM_NONE",
         "level": 24,
         "moves": [],
-        "name": "Staryu",
-        "species": "SPECIES_STARYU"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -3336,7 +3360,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_STARYU",
+      "SPECIES_FINNEON",
       "SPECIES_STARMIE"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_F",
@@ -3391,8 +3415,8 @@
         "item": "ITEM_NONE",
         "level": 25,
         "moves": [],
-        "name": "Shellder",
-        "species": "SPECIES_SHELLDER"
+        "name": "Clamperl",
+        "species": "SPECIES_CLAMPERL"
       },
       {
         "item": "ITEM_NONE",
@@ -3411,7 +3435,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_SHELLDER",
+      "SPECIES_CLAMPERL",
       "SPECIES_TENTACOOL",
       "SPECIES_TENTACRUEL"
     ],
@@ -3428,15 +3452,15 @@
         "item": "ITEM_NONE",
         "level": 18,
         "moves": [],
-        "name": "Tentacool",
-        "species": "SPECIES_TENTACOOL"
+        "name": "Wingull",
+        "species": "SPECIES_WINGULL"
       },
       {
         "item": "ITEM_NONE",
         "level": 19,
         "moves": [],
-        "name": "Tentacool",
-        "species": "SPECIES_TENTACOOL"
+        "name": "Shellos",
+        "species": "SPECIES_SHELLOS"
       },
       {
         "item": "ITEM_NONE",
@@ -3469,8 +3493,8 @@
     ],
     "party_size": 6,
     "species": [
-      "SPECIES_TENTACOOL",
-      "SPECIES_TENTACOOL",
+      "SPECIES_WINGULL",
+      "SPECIES_SHELLOS",
       "SPECIES_TENTACOOL",
       "SPECIES_STARYU",
       "SPECIES_TENTACOOL",
@@ -3560,8 +3584,8 @@
         "item": "ITEM_NONE",
         "level": 39,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -3573,7 +3597,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_MACHOKE"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
@@ -3581,29 +3605,37 @@
   },
   {
     "id": 101,
-    "max_level": 11,
-    "min_level": 11,
+    "max_level": 14,
+    "min_level": 13,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 11,
+        "level": 13,
         "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
+        "name": "Poochyena",
+        "species": "SPECIES_POOCHYENA"
       },
       {
         "item": "ITEM_NONE",
-        "level": 11,
+        "level": 13,
         "moves": [],
         "name": "Sentret",
         "species": "SPECIES_SENTRET"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 14,
+        "moves": [],
+        "name": "Zubat",
+        "species": "SPECIES_ZUBAT"
       }
     ],
-    "party_size": 2,
+    "party_size": 3,
     "species": [
-      "SPECIES_RATTATA",
-      "SPECIES_SENTRET"
+      "SPECIES_POOCHYENA",
+      "SPECIES_SENTRET",
+      "SPECIES_ZUBAT"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -4407,8 +4439,8 @@
         "item": "ITEM_NONE",
         "level": 30,
         "moves": [],
-        "name": "Goldeen",
-        "species": "SPECIES_GOLDEEN"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -4427,7 +4459,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GOLDEEN",
+      "SPECIES_FINNEON",
       "SPECIES_GOLDEEN",
       "SPECIES_SEAKING"
     ],
@@ -4723,8 +4755,8 @@
         "item": "ITEM_NONE",
         "level": 17,
         "moves": [],
-        "name": "Diglett",
-        "species": "SPECIES_DIGLETT"
+        "name": "Trapinch",
+        "species": "SPECIES_TRAPINCH"
       },
       {
         "item": "ITEM_NONE",
@@ -4743,7 +4775,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_DIGLETT",
+      "SPECIES_TRAPINCH",
       "SPECIES_GEODUDE",
       "SPECIES_DUGTRIO"
     ],
@@ -4760,8 +4792,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Bellsprout",
-        "species": "SPECIES_BELLSPROUT"
+        "name": "Budew",
+        "species": "SPECIES_BUDEW"
       },
       {
         "item": "ITEM_NONE",
@@ -4780,7 +4812,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_BELLSPROUT",
+      "SPECIES_BUDEW",
       "SPECIES_WEEPINBELL",
       "SPECIES_VICTREEBEL"
     ],
@@ -4856,14 +4888,14 @@
         "item": "ITEM_NONE",
         "level": 33,
         "moves": [],
-        "name": "Pidgeotto",
-        "species": "SPECIES_PIDGEOTTO"
+        "name": "Staravia",
+        "species": "SPECIES_STARAVIA"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_HOOTHOOT",
-      "SPECIES_PIDGEOTTO"
+      "SPECIES_STARAVIA"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -4920,8 +4952,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Butterfree",
-        "species": "SPECIES_BUTTERFREE"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -4933,7 +4965,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BUTTERFREE",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_ARIADOS"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -5007,8 +5039,8 @@
         "item": "ITEM_NONE",
         "level": 28,
         "moves": [],
-        "name": "Machop",
-        "species": "SPECIES_MACHOP"
+        "name": "Makuhita",
+        "species": "SPECIES_MAKUHITA"
       },
       {
         "item": "ITEM_NONE",
@@ -5027,7 +5059,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_MACHOP",
+      "SPECIES_MAKUHITA",
       "SPECIES_GRAVELER",
       "SPECIES_MACHOP"
     ],
@@ -5044,8 +5076,8 @@
         "item": "ITEM_NONE",
         "level": 29,
         "moves": [],
-        "name": "Geodude",
-        "species": "SPECIES_GEODUDE"
+        "name": "Nosepass",
+        "species": "SPECIES_NOSEPASS"
       },
       {
         "item": "ITEM_NONE",
@@ -5064,7 +5096,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GEODUDE",
+      "SPECIES_NOSEPASS",
       "SPECIES_GRAVELER",
       "SPECIES_GOLEM"
     ],
@@ -5256,14 +5288,14 @@
         "item": "ITEM_NONE",
         "level": 16,
         "moves": [],
-        "name": "Oddish",
-        "species": "SPECIES_ODDISH"
+        "name": "Budew",
+        "species": "SPECIES_BUDEW"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_PONYTA",
-      "SPECIES_ODDISH"
+      "SPECIES_BUDEW"
     ],
     "trainer_class": "TRAINERCLASS_PICNICKER",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -5381,8 +5413,8 @@
         "item": "ITEM_NONE",
         "level": 46,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -5401,7 +5433,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_GRAVELER",
       "SPECIES_MACHOKE"
     ],
@@ -5499,8 +5531,8 @@
         "item": "ITEM_NONE",
         "level": 27,
         "moves": [],
-        "name": "Mankey",
-        "species": "SPECIES_MANKEY"
+        "name": "Makuhita",
+        "species": "SPECIES_MAKUHITA"
       },
       {
         "item": "ITEM_NONE",
@@ -5519,7 +5551,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_MANKEY",
+      "SPECIES_MAKUHITA",
       "SPECIES_MANKEY",
       "SPECIES_PRIMEAPE"
     ],
@@ -5743,15 +5775,15 @@
         "item": "ITEM_NONE",
         "level": 29,
         "moves": [],
-        "name": "Shellder",
-        "species": "SPECIES_SHELLDER"
+        "name": "Clamperl",
+        "species": "SPECIES_CLAMPERL"
       }
     ],
     "party_size": 3,
     "species": [
       "SPECIES_SEEL",
       "SPECIES_DEWGONG",
-      "SPECIES_SHELLDER"
+      "SPECIES_CLAMPERL"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_M",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -5795,8 +5827,8 @@
         "item": "ITEM_NONE",
         "level": 28,
         "moves": [],
-        "name": "Shellder",
-        "species": "SPECIES_SHELLDER"
+        "name": "Clamperl",
+        "species": "SPECIES_CLAMPERL"
       },
       {
         "item": "ITEM_NONE",
@@ -5815,7 +5847,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_SHELLDER",
+      "SPECIES_CLAMPERL",
       "SPECIES_CLOYSTER",
       "SPECIES_SHELLDER"
     ],
@@ -5951,8 +5983,8 @@
         "item": "ITEM_NONE",
         "level": 24,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       },
       {
         "item": "ITEM_NONE",
@@ -5971,7 +6003,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_STUNKY",
       "SPECIES_GRIMER",
       "SPECIES_ZUBAT"
     ],
@@ -6051,8 +6083,8 @@
         "item": "ITEM_NONE",
         "level": 14,
         "moves": [],
-        "name": "Oddish",
-        "species": "SPECIES_ODDISH"
+        "name": "Budew",
+        "species": "SPECIES_BUDEW"
       },
       {
         "item": "ITEM_NONE",
@@ -6064,7 +6096,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_ODDISH",
+      "SPECIES_BUDEW",
       "SPECIES_VOLTORB"
     ],
     "trainer_class": "TRAINERCLASS_SCHOOL_KID_M",
@@ -6240,8 +6272,8 @@
         "item": "ITEM_NONE",
         "level": 16,
         "moves": [],
-        "name": "Oddish",
-        "species": "SPECIES_ODDISH"
+        "name": "Budew",
+        "species": "SPECIES_BUDEW"
       },
       {
         "item": "ITEM_NONE",
@@ -6253,7 +6285,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_ODDISH",
+      "SPECIES_BUDEW",
       "SPECIES_CUBONE"
     ],
     "trainer_class": "TRAINERCLASS_LASS",
@@ -6261,65 +6293,89 @@
   },
   {
     "id": 185,
-    "max_level": 28,
-    "min_level": 28,
+    "max_level": 31,
+    "min_level": 30,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 28,
+        "level": 30,
         "moves": [],
-        "name": "Raticate",
-        "species": "SPECIES_RATICATE"
+        "name": "Mightyena",
+        "species": "SPECIES_MIGHTYENA"
       },
       {
         "item": "ITEM_NONE",
-        "level": 28,
+        "level": 30,
         "moves": [],
-        "name": "Raticate",
-        "species": "SPECIES_RATICATE"
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Arbok",
+        "species": "SPECIES_ARBOK"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
-      "SPECIES_RATICATE",
-      "SPECIES_RATICATE"
+      "SPECIES_MIGHTYENA",
+      "SPECIES_SKUNTANK",
+      "SPECIES_KOFFING",
+      "SPECIES_ARBOK"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 186,
-    "max_level": 29,
-    "min_level": 27,
+    "max_level": 32,
+    "min_level": 30,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 27,
+        "level": 30,
         "moves": [],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       },
       {
         "item": "ITEM_NONE",
-        "level": 27,
+        "level": 30,
         "moves": [],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
       },
       {
         "item": "ITEM_NONE",
-        "level": 29,
+        "level": 31,
+        "moves": [],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
         "moves": [],
         "name": "Muk",
         "species": "SPECIES_MUK"
       }
     ],
-    "party_size": 3,
+    "party_size": 4,
     "species": [
-      "SPECIES_GRIMER",
-      "SPECIES_GRIMER",
+      "SPECIES_STUNKY",
+      "SPECIES_SKUNTANK",
+      "SPECIES_WEEZING",
       "SPECIES_MUK"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
@@ -6327,154 +6383,6 @@
   },
   {
     "id": 187,
-    "max_level": 27,
-    "min_level": 25,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 25,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 25,
-        "moves": [],
-        "name": "Sentret",
-        "species": "SPECIES_SENTRET"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Zigzagoon",
-        "species": "SPECIES_ZIGZAGOON"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      }
-    ],
-    "party_size": 5,
-    "species": [
-      "SPECIES_RATTATA",
-      "SPECIES_SENTRET",
-      "SPECIES_ZIGZAGOON",
-      "SPECIES_RATTATA",
-      "SPECIES_RATTATA"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 188,
-    "max_level": 30,
-    "min_level": 30,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 30,
-        "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 30,
-        "moves": [],
-        "name": "Spinarak",
-        "species": "SPECIES_SPINARAK"
-      }
-    ],
-    "party_size": 2,
-    "species": [
-      "SPECIES_ZUBAT",
-      "SPECIES_SPINARAK"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 189,
-    "max_level": 27,
-    "min_level": 27,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      }
-    ],
-    "party_size": 4,
-    "species": [
-      "SPECIES_KOFFING",
-      "SPECIES_GRIMER",
-      "SPECIES_ZUBAT",
-      "SPECIES_RATTATA"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 190,
-    "max_level": 30,
-    "min_level": 30,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 30,
-        "moves": [],
-        "name": "Weezing",
-        "species": "SPECIES_WEEZING"
-      }
-    ],
-    "party_size": 1,
-    "species": [
-      "SPECIES_WEEZING"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 191,
     "max_level": 30,
     "min_level": 28,
     "name": "Grunt",
@@ -6488,118 +6396,92 @@
       },
       {
         "item": "ITEM_NONE",
-        "level": 30,
+        "level": 28,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
-      }
-    ],
-    "party_size": 2,
-    "species": [
-      "SPECIES_RATICATE",
-      "SPECIES_KOFFING"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 192,
-    "max_level": 28,
-    "min_level": 26,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 26,
-        "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
+        "name": "Linoone",
+        "species": "SPECIES_LINOONE"
       },
       {
         "item": "ITEM_NONE",
-        "level": 28,
+        "level": 29,
         "moves": [],
         "name": "Golbat",
         "species": "SPECIES_GOLBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 26,
-        "moves": [],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
-      }
-    ],
-    "party_size": 3,
-    "species": [
-      "SPECIES_ZUBAT",
-      "SPECIES_GOLBAT",
-      "SPECIES_GRIMER"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 193,
-    "max_level": 29,
-    "min_level": 27,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Muk",
-        "species": "SPECIES_MUK"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
+        "level": 29,
         "moves": [],
         "name": "Koffing",
         "species": "SPECIES_KOFFING"
       },
       {
         "item": "ITEM_NONE",
-        "level": 29,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      }
-    ],
-    "party_size": 3,
-    "species": [
-      "SPECIES_MUK",
-      "SPECIES_KOFFING",
-      "SPECIES_RATTATA"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 194,
-    "max_level": 39,
-    "min_level": 39,
-    "name": "Mickey",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 39,
+        "level": 30,
         "moves": [],
         "name": "Houndour",
         "species": "SPECIES_HOUNDOUR"
       }
     ],
-    "party_size": 1,
+    "party_size": 5,
     "species": [
+      "SPECIES_RATICATE",
+      "SPECIES_LINOONE",
+      "SPECIES_GOLBAT",
+      "SPECIES_KOFFING",
       "SPECIES_HOUNDOUR"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
-    "id": 195,
-    "max_level": 31,
+    "id": 188,
+    "max_level": 33,
+    "min_level": 32,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Ariados",
+        "species": "SPECIES_ARIADOS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_SKUNTANK",
+      "SPECIES_ARIADOS",
+      "SPECIES_STUNKY",
+      "SPECIES_MURKROW"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 189,
+    "max_level": 33,
     "min_level": 31,
     "name": "Grunt",
     "party": [
@@ -6607,50 +6489,352 @@
         "item": "ITEM_NONE",
         "level": 31,
         "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      }
-    ],
-    "party_size": 1,
-    "species": [
-      "SPECIES_RATTATA"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 196,
-    "max_level": 28,
-    "min_level": 28,
-    "name": "Grunt",
-    "party": [
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
       {
         "item": "ITEM_NONE",
-        "level": 28,
+        "level": 31,
+        "moves": [],
+        "name": "Gulpin",
+        "species": "SPECIES_GULPIN"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
         "moves": [],
         "name": "Raticate",
         "species": "SPECIES_RATICATE"
       },
       {
         "item": "ITEM_NONE",
-        "level": 28,
+        "level": 33,
+        "moves": [],
+        "name": "Arbok",
+        "species": "SPECIES_ARBOK"
+      }
+    ],
+    "party_size": 5,
+    "species": [
+      "SPECIES_STUNKY",
+      "SPECIES_GULPIN",
+      "SPECIES_GOLBAT",
+      "SPECIES_RATICATE",
+      "SPECIES_ARBOK"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 190,
+    "max_level": 33,
+    "min_level": 32,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
         "moves": [],
         "name": "Golbat",
         "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Muk",
+        "species": "SPECIES_MUK"
       }
     ],
-    "party_size": 2,
+    "party_size": 3,
     "species": [
+      "SPECIES_SKUNTANK",
+      "SPECIES_GOLBAT",
+      "SPECIES_MUK"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 191,
+    "max_level": 33,
+    "min_level": 31,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Mightyena",
+        "species": "SPECIES_MIGHTYENA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Houndour",
+        "species": "SPECIES_HOUNDOUR"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_MIGHTYENA",
+      "SPECIES_STUNKY",
+      "SPECIES_GOLBAT",
+      "SPECIES_HOUNDOUR"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 192,
+    "max_level": 31,
+    "min_level": 29,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 29,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 30,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 30,
+        "moves": [],
+        "name": "Grimer",
+        "species": "SPECIES_GRIMER"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_STUNKY",
+      "SPECIES_SKUNTANK",
+      "SPECIES_GRIMER",
+      "SPECIES_KOFFING"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 193,
+    "max_level": 33,
+    "min_level": 31,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_SKUNTANK",
+      "SPECIES_STUNKY",
       "SPECIES_RATICATE",
-      "SPECIES_GOLBAT"
+      "SPECIES_MURKROW"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 194,
+    "max_level": 43,
+    "min_level": 42,
+    "name": "Mickey",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 42,
+        "moves": [],
+        "name": "Houndour",
+        "species": "SPECIES_HOUNDOUR"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 42,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 43,
+        "moves": [],
+        "name": "Sneasel",
+        "species": "SPECIES_SNEASEL"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 43,
+        "moves": [],
+        "name": "Swalot",
+        "species": "SPECIES_SWALOT"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_HOUNDOUR",
+      "SPECIES_SKUNTANK",
+      "SPECIES_SNEASEL",
+      "SPECIES_SWALOT"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 195,
+    "max_level": 34,
+    "min_level": 33,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Mightyena",
+        "species": "SPECIES_MIGHTYENA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
+      }
+    ],
+    "party_size": 3,
+    "species": [
+      "SPECIES_MIGHTYENA",
+      "SPECIES_GOLBAT",
+      "SPECIES_KOFFING"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 196,
+    "max_level": 32,
+    "min_level": 31,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Mightyena",
+        "species": "SPECIES_MIGHTYENA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Grimer",
+        "species": "SPECIES_GRIMER"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_MIGHTYENA",
+      "SPECIES_SKUNTANK",
+      "SPECIES_GRIMER",
+      "SPECIES_MURKROW"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 197,
-    "max_level": 30,
-    "min_level": 27,
+    "max_level": 32,
+    "min_level": 30,
     "name": "Grunt",
     "party": [
       {
@@ -6662,93 +6846,135 @@
       },
       {
         "item": "ITEM_NONE",
-        "level": 27,
+        "level": 31,
         "moves": [],
         "name": "Weezing",
         "species": "SPECIES_WEEZING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Skorupi",
+        "species": "SPECIES_SKORUPI"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
       "SPECIES_GRIMER",
-      "SPECIES_WEEZING"
+      "SPECIES_WEEZING",
+      "SPECIES_GOLBAT",
+      "SPECIES_SKORUPI"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 198,
-    "max_level": 30,
-    "min_level": 30,
+    "max_level": 34,
+    "min_level": 32,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 30,
+        "level": 33,
         "moves": [],
-        "name": "Arbok",
-        "species": "SPECIES_ARBOK"
+        "name": "Toxicroak",
+        "species": "SPECIES_TOXICROAK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Gloom",
+        "species": "SPECIES_GLOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
       }
     ],
-    "party_size": 1,
+    "party_size": 4,
     "species": [
-      "SPECIES_ARBOK"
+      "SPECIES_TOXICROAK",
+      "SPECIES_GLOOM",
+      "SPECIES_MURKROW",
+      "SPECIES_SKUNTANK"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET_F",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 199,
-    "max_level": 29,
-    "min_level": 29,
+    "max_level": 34,
+    "min_level": 32,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 29,
+        "level": 32,
         "moves": [],
         "name": "Gloom",
         "species": "SPECIES_GLOOM"
       },
       {
         "item": "ITEM_NONE",
-        "level": 29,
+        "level": 32,
         "moves": [],
-        "name": "Gloom",
-        "species": "SPECIES_GLOOM"
+        "name": "Toxicroak",
+        "species": "SPECIES_TOXICROAK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Vileplume",
+        "species": "SPECIES_VILEPLUME"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
       "SPECIES_GLOOM",
-      "SPECIES_GLOOM"
+      "SPECIES_TOXICROAK",
+      "SPECIES_STUNKY",
+      "SPECIES_VILEPLUME"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET_F",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 200,
-    "max_level": 28,
-    "min_level": 25,
+    "max_level": 29,
+    "min_level": 28,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 25,
-        "moves": [],
-        "name": "Ekans",
-        "species": "SPECIES_EKANS"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [],
-        "name": "Oddish",
-        "species": "SPECIES_ODDISH"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 25,
+        "level": 28,
         "moves": [],
         "name": "Ekans",
         "species": "SPECIES_EKANS"
@@ -6759,14 +6985,28 @@
         "moves": [],
         "name": "Gloom",
         "species": "SPECIES_GLOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 29,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 29,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       }
     ],
     "party_size": 4,
     "species": [
       "SPECIES_EKANS",
-      "SPECIES_ODDISH",
-      "SPECIES_EKANS",
-      "SPECIES_GLOOM"
+      "SPECIES_GLOOM",
+      "SPECIES_MURKROW",
+      "SPECIES_STUNKY"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET_F",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -6831,8 +7071,8 @@
         "item": "ITEM_NONE",
         "level": 27,
         "moves": [],
-        "name": "Geodude",
-        "species": "SPECIES_GEODUDE"
+        "name": "Nosepass",
+        "species": "SPECIES_NOSEPASS"
       },
       {
         "item": "ITEM_NONE",
@@ -6844,7 +7084,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_GEODUDE",
+      "SPECIES_NOSEPASS",
       "SPECIES_GRAVELER"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
@@ -6860,8 +7100,8 @@
         "item": "ITEM_NONE",
         "level": 27,
         "moves": [],
-        "name": "Geodude",
-        "species": "SPECIES_GEODUDE"
+        "name": "Nosepass",
+        "species": "SPECIES_NOSEPASS"
       },
       {
         "item": "ITEM_NONE",
@@ -6873,7 +7113,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_GEODUDE",
+      "SPECIES_NOSEPASS",
       "SPECIES_MACHOP"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
@@ -7094,8 +7334,8 @@
         "item": "ITEM_NONE",
         "level": 20,
         "moves": [],
-        "name": "Poliwag",
-        "species": "SPECIES_POLIWAG"
+        "name": "Lotad",
+        "species": "SPECIES_LOTAD"
       },
       {
         "item": "ITEM_NONE",
@@ -7107,7 +7347,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_POLIWAG",
+      "SPECIES_LOTAD",
       "SPECIES_POLIWHIRL"
     ],
     "trainer_class": "TRAINERCLASS_SAILOR",
@@ -7183,8 +7423,8 @@
         "item": "ITEM_NONE",
         "level": 20,
         "moves": [],
-        "name": "Machop",
-        "species": "SPECIES_MACHOP"
+        "name": "Makuhita",
+        "species": "SPECIES_MAKUHITA"
       },
       {
         "item": "ITEM_NONE",
@@ -7203,7 +7443,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_MACHOP",
+      "SPECIES_MAKUHITA",
       "SPECIES_MACHOP",
       "SPECIES_POLIWHIRL"
     ],
@@ -7233,45 +7473,45 @@
   },
   {
     "id": 216,
-    "max_level": 18,
-    "min_level": 18,
+    "max_level": 23,
+    "min_level": 22,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 18,
+        "level": 22,
         "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
       },
       {
         "item": "ITEM_NONE",
-        "level": 18,
+        "level": 22,
         "moves": [],
-        "name": "Sentret",
-        "species": "SPECIES_SENTRET"
+        "name": "Zubat",
+        "species": "SPECIES_ZUBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 18,
+        "level": 23,
         "moves": [],
-        "name": "Zigzagoon",
-        "species": "SPECIES_ZIGZAGOON"
+        "name": "Linoone",
+        "species": "SPECIES_LINOONE"
       },
       {
         "item": "ITEM_NONE",
-        "level": 18,
+        "level": 23,
         "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
       }
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_RATTATA",
-      "SPECIES_SENTRET",
-      "SPECIES_ZIGZAGOON",
-      "SPECIES_RATTATA"
+      "SPECIES_RATICATE",
+      "SPECIES_ZUBAT",
+      "SPECIES_LINOONE",
+      "SPECIES_KOFFING"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -7286,8 +7526,8 @@
         "item": "ITEM_NONE",
         "level": 20,
         "moves": [],
-        "name": "Spearow",
-        "species": "SPECIES_SPEAROW"
+        "name": "Taillow",
+        "species": "SPECIES_TAILLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -7306,7 +7546,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_SPEAROW",
+      "SPECIES_TAILLOW",
       "SPECIES_FEAROW",
       "SPECIES_SPEAROW"
     ],
@@ -7315,115 +7555,44 @@
   },
   {
     "id": 218,
-    "max_level": 20,
-    "min_level": 20,
+    "max_level": 23,
+    "min_level": 22,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 20,
+        "level": 23,
         "moves": [],
-        "name": "Golbat",
-        "species": "SPECIES_GOLBAT"
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 22,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Grimer",
+        "species": "SPECIES_GRIMER"
       }
     ],
-    "party_size": 1,
+    "party_size": 3,
     "species": [
-      "SPECIES_GOLBAT"
+      "SPECIES_SKUNTANK",
+      "SPECIES_RATICATE",
+      "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 219,
-    "max_level": 19,
-    "min_level": 19,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 19,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 19,
-        "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 19,
-        "moves": [],
-        "name": "Sentret",
-        "species": "SPECIES_SENTRET"
-      }
-    ],
-    "party_size": 3,
-    "species": [
-      "SPECIES_RATTATA",
-      "SPECIES_ZUBAT",
-      "SPECIES_SENTRET"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 220,
-    "max_level": 20,
-    "min_level": 20,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 20,
-        "moves": [],
-        "name": "Venonat",
-        "species": "SPECIES_VENONAT"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 20,
-        "moves": [],
-        "name": "Venonat",
-        "species": "SPECIES_VENONAT"
-      }
-    ],
-    "party_size": 2,
-    "species": [
-      "SPECIES_VENONAT",
-      "SPECIES_VENONAT"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 221,
-    "max_level": 26,
-    "min_level": 26,
-    "name": "Mickey",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 26,
-        "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
-      }
-    ],
-    "party_size": 1,
-    "species": [
-      "SPECIES_ZUBAT"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 222,
-    "max_level": 22,
+    "max_level": 24,
     "min_level": 22,
     "name": "Grunt",
     "party": [
@@ -7431,208 +7600,471 @@
         "item": "ITEM_NONE",
         "level": 22,
         "moves": [],
-        "name": "Raticate",
-        "species": "SPECIES_RATICATE"
+        "name": "Mightyena",
+        "species": "SPECIES_MIGHTYENA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 24,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
       }
     ],
-    "party_size": 1,
+    "party_size": 4,
     "species": [
-      "SPECIES_RATICATE"
+      "SPECIES_MIGHTYENA",
+      "SPECIES_SKUNTANK",
+      "SPECIES_KOFFING",
+      "SPECIES_MURKROW"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
-    "id": 223,
-    "max_level": 22,
-    "min_level": 19,
+    "id": 220,
+    "max_level": 24,
+    "min_level": 22,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 19,
+        "level": 22,
         "moves": [],
-        "name": "Drowzee",
-        "species": "SPECIES_DROWZEE"
+        "name": "Venonat",
+        "species": "SPECIES_VENONAT"
       },
       {
         "item": "ITEM_NONE",
         "level": 22,
         "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
+        "name": "Spinarak",
+        "species": "SPECIES_SPINARAK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 24,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
-      "SPECIES_DROWZEE",
-      "SPECIES_ZUBAT"
+      "SPECIES_VENONAT",
+      "SPECIES_SPINARAK",
+      "SPECIES_STUNKY",
+      "SPECIES_SKUNTANK"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
-    "id": 224,
-    "max_level": 20,
-    "min_level": 18,
-    "name": "Grunt",
-    "party": [
-      {
-        "item": "ITEM_NONE",
-        "level": 18,
-        "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 19,
-        "moves": [],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
-      },
-      {
-        "item": "ITEM_NONE",
-        "level": 20,
-        "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
-      }
-    ],
-    "party_size": 3,
-    "species": [
-      "SPECIES_ZUBAT",
-      "SPECIES_GRIMER",
-      "SPECIES_RATTATA"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 225,
-    "max_level": 42,
-    "min_level": 42,
+    "id": 221,
+    "max_level": 29,
+    "min_level": 28,
     "name": "Mickey",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 42,
+        "level": 28,
         "moves": [],
-        "name": "Golbat",
-        "species": "SPECIES_GOLBAT"
-      }
-    ],
-    "party_size": 1,
-    "species": [
-      "SPECIES_GOLBAT"
-    ],
-    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
-  },
-  {
-    "id": 226,
-    "max_level": 36,
-    "min_level": 36,
-    "name": "Mickey",
-    "party": [
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
       {
         "item": "ITEM_NONE",
-        "level": 36,
+        "level": 28,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 29,
         "moves": [],
         "name": "Koffing",
         "species": "SPECIES_KOFFING"
       }
     ],
-    "party_size": 1,
+    "party_size": 3,
     "species": [
+      "SPECIES_SKUNTANK",
+      "SPECIES_RATICATE",
       "SPECIES_KOFFING"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
-    "id": 227,
-    "max_level": 29,
-    "min_level": 29,
+    "id": 222,
+    "max_level": 25,
+    "min_level": 24,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 29,
+        "level": 24,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Mightyena",
+        "species": "SPECIES_MIGHTYENA"
       },
       {
         "item": "ITEM_NONE",
-        "level": 29,
+        "level": 24,
+        "moves": [],
+        "name": "Zubat",
+        "species": "SPECIES_ZUBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 25,
         "moves": [],
         "name": "Grimer",
         "species": "SPECIES_GRIMER"
       }
     ],
-    "party_size": 2,
+    "party_size": 3,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_MIGHTYENA",
+      "SPECIES_ZUBAT",
       "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
-    "id": 228,
-    "max_level": 28,
-    "min_level": 28,
+    "id": 223,
+    "max_level": 25,
+    "min_level": 23,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 28,
+        "level": 23,
+        "moves": [],
+        "name": "Drowzee",
+        "species": "SPECIES_DROWZEE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 24,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 24,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 25,
+        "moves": [],
+        "name": "Grimer",
+        "species": "SPECIES_GRIMER"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_DROWZEE",
+      "SPECIES_SKUNTANK",
+      "SPECIES_STUNKY",
+      "SPECIES_GRIMER"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 224,
+    "max_level": 24,
+    "min_level": 22,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 22,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Gulpin",
+        "species": "SPECIES_GULPIN"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 24,
+        "moves": [],
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_STUNKY",
+      "SPECIES_GULPIN",
+      "SPECIES_RATICATE",
+      "SPECIES_KOFFING"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 225,
+    "max_level": 45,
+    "min_level": 44,
+    "name": "Mickey",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 44,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 44,
+        "moves": [],
+        "name": "Houndoom",
+        "species": "SPECIES_HOUNDOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 45,
+        "moves": [],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 45,
+        "moves": [],
+        "name": "Drapion",
+        "species": "SPECIES_DRAPION"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_GOLBAT",
+      "SPECIES_HOUNDOOM",
+      "SPECIES_WEEZING",
+      "SPECIES_DRAPION"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 226,
+    "max_level": 40,
+    "min_level": 38,
+    "name": "Mickey",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 38,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 38,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 39,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 40,
+        "moves": [],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_STUNKY",
+      "SPECIES_SKUNTANK",
+      "SPECIES_RATICATE",
+      "SPECIES_WEEZING"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 227,
+    "max_level": 33,
+    "min_level": 31,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 31,
         "moves": [],
         "name": "Koffing",
         "species": "SPECIES_KOFFING"
       },
       {
         "item": "ITEM_NONE",
-        "level": 28,
+        "level": 31,
         "moves": [],
-        "name": "Muk",
-        "species": "SPECIES_MUK"
+        "name": "Grimer",
+        "species": "SPECIES_GRIMER"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
       "SPECIES_KOFFING",
-      "SPECIES_MUK"
+      "SPECIES_GRIMER",
+      "SPECIES_GOLBAT",
+      "SPECIES_SKUNTANK"
+    ],
+    "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
+  },
+  {
+    "id": 228,
+    "max_level": 34,
+    "min_level": 32,
+    "name": "Grunt",
+    "party": [
+      {
+        "item": "ITEM_NONE",
+        "level": 32,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
+      }
+    ],
+    "party_size": 4,
+    "species": [
+      "SPECIES_STUNKY",
+      "SPECIES_SKUNTANK",
+      "SPECIES_GOLBAT",
+      "SPECIES_WEEZING"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 229,
-    "max_level": 17,
-    "min_level": 17,
+    "max_level": 19,
+    "min_level": 18,
     "name": "Mickey",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 17,
+        "level": 18,
         "moves": [],
-        "name": "Rattata",
-        "species": "SPECIES_RATTATA"
+        "name": "Poochyena",
+        "species": "SPECIES_POOCHYENA"
       },
       {
         "item": "ITEM_NONE",
-        "level": 17,
+        "level": 18,
         "moves": [],
         "name": "Sentret",
         "species": "SPECIES_SENTRET"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 19,
+        "moves": [],
+        "name": "Zubat",
+        "species": "SPECIES_ZUBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 19,
+        "moves": [],
+        "name": "Koffing",
+        "species": "SPECIES_KOFFING"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
-      "SPECIES_RATTATA",
-      "SPECIES_SENTRET"
+      "SPECIES_POOCHYENA",
+      "SPECIES_SENTRET",
+      "SPECIES_ZUBAT",
+      "SPECIES_KOFFING"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -7759,8 +8191,8 @@
         "item": "ITEM_NONE",
         "level": 13,
         "moves": [],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
+        "name": "Gulpin",
+        "species": "SPECIES_GULPIN"
       },
       {
         "item": "ITEM_NONE",
@@ -7772,7 +8204,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_GRIMER",
+      "SPECIES_GULPIN",
       "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_SUPER_NERD",
@@ -7788,8 +8220,8 @@
         "item": "ITEM_NONE",
         "level": 54,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -7808,7 +8240,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_GRAVELER",
       "SPECIES_GRAVELER"
     ],
@@ -7958,8 +8390,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Machop",
-        "species": "SPECIES_MACHOP"
+        "name": "Makuhita",
+        "species": "SPECIES_MAKUHITA"
       },
       {
         "item": "ITEM_NONE",
@@ -7978,7 +8410,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_MACHOP",
+      "SPECIES_MAKUHITA",
       "SPECIES_MACHOKE",
       "SPECIES_PSYDUCK"
     ],
@@ -8045,15 +8477,15 @@
         "item": "ITEM_NONE",
         "level": 42,
         "moves": [],
-        "name": "Machop",
-        "species": "SPECIES_MACHOP"
+        "name": "Makuhita",
+        "species": "SPECIES_MAKUHITA"
       },
       {
         "item": "ITEM_NONE",
         "level": 42,
         "moves": [],
-        "name": "Machop",
-        "species": "SPECIES_MACHOP"
+        "name": "Meditite",
+        "species": "SPECIES_MEDITITE"
       },
       {
         "item": "ITEM_NONE",
@@ -8072,8 +8504,8 @@
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_MACHOP",
-      "SPECIES_MACHOP",
+      "SPECIES_MAKUHITA",
+      "SPECIES_MEDITITE",
       "SPECIES_POLIWRATH",
       "SPECIES_MACHOP"
     ],
@@ -8160,7 +8592,7 @@
     "name": "Lance",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 58,
         "moves": [
           "MOVE_WATERFALL",
@@ -8172,7 +8604,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 58,
         "moves": [
           "MOVE_AERIAL_ACE",
@@ -8184,7 +8616,7 @@
         "species": "SPECIES_AERODACTYL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 59,
         "moves": [
           "MOVE_SURF",
@@ -8196,7 +8628,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 59,
         "moves": [
           "MOVE_FLAMETHROWER",
@@ -8208,7 +8640,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 59,
         "moves": [
           "MOVE_IRON_HEAD",
@@ -8220,7 +8652,7 @@
         "species": "SPECIES_AGGRON"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LUM_BERRY",
         "level": 60,
         "moves": [
           "MOVE_DRAGON_RUSH",
@@ -8251,7 +8683,7 @@
     "name": "Will",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 50,
         "moves": [
           "MOVE_ICE_PUNCH",
@@ -8263,7 +8695,7 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 51,
         "moves": [
           "MOVE_PSYCHIC",
@@ -8275,7 +8707,7 @@
         "species": "SPECIES_LUNATONE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 51,
         "moves": [
           "MOVE_PSYCHIC",
@@ -8287,7 +8719,7 @@
         "species": "SPECIES_SOLROCK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 52,
         "moves": [
           "MOVE_SURF",
@@ -8299,7 +8731,7 @@
         "species": "SPECIES_SLOWBRO"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 53,
         "moves": [
           "MOVE_PSYCHIC",
@@ -8311,7 +8743,7 @@
         "species": "SPECIES_GARDEVOIR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 54,
         "moves": [
           "MOVE_PSYCHIC",
@@ -8342,7 +8774,7 @@
     "name": "Karen",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 56,
         "moves": [
           "MOVE_PAYBACK",
@@ -8354,7 +8786,7 @@
         "species": "SPECIES_UMBREON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 56,
         "moves": [
           "MOVE_DARK_PULSE",
@@ -8366,7 +8798,7 @@
         "species": "SPECIES_SPIRITOMB"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SCOPE_LENS",
         "level": 57,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -8378,7 +8810,7 @@
         "species": "SPECIES_ABSOL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 57,
         "moves": [
           "MOVE_DRILL_PECK",
@@ -8390,7 +8822,7 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 58,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -8402,7 +8834,7 @@
         "species": "SPECIES_WEAVILE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 58,
         "moves": [
           "MOVE_NASTY_PLOT",
@@ -8433,7 +8865,7 @@
     "name": "Koga",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 52,
         "moves": [
           "MOVE_PSYCHIC",
@@ -8445,7 +8877,7 @@
         "species": "SPECIES_VENOMOTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 52,
         "moves": [
           "MOVE_SLUDGE_BOMB",
@@ -8457,7 +8889,7 @@
         "species": "SPECIES_WEEZING"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 53,
         "moves": [
           "MOVE_POISON_JAB",
@@ -8469,7 +8901,7 @@
         "species": "SPECIES_TOXICROAK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 54,
         "moves": [
           "MOVE_SURF",
@@ -8493,7 +8925,7 @@
         "species": "SPECIES_MUK"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 56,
         "moves": [
           "MOVE_CROSS_POISON",
@@ -8614,8 +9046,8 @@
         "item": "ITEM_NONE",
         "level": 38,
         "moves": [],
-        "name": "Machoke",
-        "species": "SPECIES_MACHOKE"
+        "name": "Hariyama",
+        "species": "SPECIES_HARIYAMA"
       }
     ],
     "party_size": 4,
@@ -8623,7 +9055,7 @@
       "SPECIES_ONIX",
       "SPECIES_HITMONLEE",
       "SPECIES_ONIX",
-      "SPECIES_MACHOKE"
+      "SPECIES_HARIYAMA"
     ],
     "trainer_class": "TRAINERCLASS_BLACK_BELT",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -8677,8 +9109,8 @@
         "item": "ITEM_NONE",
         "level": 54,
         "moves": [],
-        "name": "Remoraid",
-        "species": "SPECIES_REMORAID"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -8690,7 +9122,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_REMORAID",
+      "SPECIES_FINNEON",
       "SPECIES_SEADRA"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_M",
@@ -9335,13 +9767,13 @@
   },
   {
     "id": 260,
-    "max_level": 100,
-    "min_level": 88,
+    "max_level": 96,
+    "min_level": 92,
     "name": "Red",
     "party": [
       {
         "item": "ITEM_LIGHT_BALL",
-        "level": 100,
+        "level": 96,
         "moves": [
           "MOVE_VOLT_TACKLE",
           "MOVE_IRON_TAIL",
@@ -9353,7 +9785,7 @@
       },
       {
         "item": "ITEM_LEFTOVERS",
-        "level": 88,
+        "level": 92,
         "moves": [
           "MOVE_SURF",
           "MOVE_BLIZZARD",
@@ -9365,7 +9797,7 @@
       },
       {
         "item": "ITEM_LEFTOVERS",
-        "level": 90,
+        "level": 93,
         "moves": [
           "MOVE_BODY_SLAM",
           "MOVE_CRUNCH",
@@ -9376,8 +9808,8 @@
         "species": "SPECIES_SNORLAX"
       },
       {
-        "item": "ITEM_MIRACLE_SEED",
-        "level": 92,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 94,
         "moves": [
           "MOVE_FRENZY_PLANT",
           "MOVE_SLUDGE_BOMB",
@@ -9388,8 +9820,8 @@
         "species": "SPECIES_VENUSAUR"
       },
       {
-        "item": "ITEM_CHARCOAL",
-        "level": 94,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 95,
         "moves": [
           "MOVE_BLAST_BURN",
           "MOVE_AIR_SLASH",
@@ -9400,8 +9832,8 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_MYSTIC_WATER",
-        "level": 94,
+        "item": "ITEM_LIFE_ORB",
+        "level": 95,
         "moves": [
           "MOVE_HYDRO_CANNON",
           "MOVE_SURF",
@@ -9517,37 +9949,45 @@
   },
   {
     "id": 262,
-    "max_level": 36,
-    "min_level": 29,
+    "max_level": 41,
+    "min_level": 38,
     "name": "Mickey",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 29,
+        "level": 38,
         "moves": [],
-        "name": "Golbat",
-        "species": "SPECIES_GOLBAT"
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
       },
       {
         "item": "ITEM_NONE",
-        "level": 29,
+        "level": 39,
         "moves": [],
-        "name": "Golbat",
-        "species": "SPECIES_GOLBAT"
+        "name": "Toxicroak",
+        "species": "SPECIES_TOXICROAK"
       },
       {
         "item": "ITEM_NONE",
-        "level": 36,
+        "level": 40,
         "moves": [],
-        "name": "Arbok",
-        "species": "SPECIES_ARBOK"
+        "name": "Houndoom",
+        "species": "SPECIES_HOUNDOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 41,
+        "moves": [],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
       }
     ],
-    "party_size": 3,
+    "party_size": 4,
     "species": [
-      "SPECIES_GOLBAT",
-      "SPECIES_GOLBAT",
-      "SPECIES_ARBOK"
+      "SPECIES_SKUNTANK",
+      "SPECIES_TOXICROAK",
+      "SPECIES_HOUNDOOM",
+      "SPECIES_WEEZING"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -10216,8 +10656,8 @@
         "item": "ITEM_NONE",
         "level": 15,
         "moves": [],
-        "name": "Staryu",
-        "species": "SPECIES_STARYU"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -10236,7 +10676,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_STARYU",
+      "SPECIES_FINNEON",
       "SPECIES_STARMIE",
       "SPECIES_HORSEA"
     ],
@@ -10514,8 +10954,8 @@
         "item": "ITEM_NONE",
         "level": 18,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Numel",
+        "species": "SPECIES_NUMEL"
       },
       {
         "item": "ITEM_NONE",
@@ -10534,7 +10974,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_NUMEL",
       "SPECIES_GROWLITHE",
       "SPECIES_GRIMER"
     ],
@@ -11090,8 +11530,8 @@
         "item": "ITEM_NONE",
         "level": 7,
         "moves": [],
-        "name": "Bellsprout",
-        "species": "SPECIES_BELLSPROUT"
+        "name": "Budew",
+        "species": "SPECIES_BUDEW"
       },
       {
         "item": "ITEM_NONE",
@@ -11110,7 +11550,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_BELLSPROUT",
+      "SPECIES_BUDEW",
       "SPECIES_BELLSPROUT",
       "SPECIES_HOOTHOOT"
     ],
@@ -11373,8 +11813,8 @@
         "item": "ITEM_NONE",
         "level": 15,
         "moves": [],
-        "name": "Pidgey",
-        "species": "SPECIES_PIDGEY"
+        "name": "Starly",
+        "species": "SPECIES_STARLY"
       },
       {
         "item": "ITEM_NONE",
@@ -11386,7 +11826,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_PIDGEY",
+      "SPECIES_STARLY",
       "SPECIES_PIDGEOT"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
@@ -11402,8 +11842,8 @@
         "item": "ITEM_NONE",
         "level": 47,
         "moves": [],
-        "name": "Fearow",
-        "species": "SPECIES_FEAROW"
+        "name": "Swellow",
+        "species": "SPECIES_SWELLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -11415,7 +11855,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_FEAROW",
+      "SPECIES_SWELLOW",
       "SPECIES_FEAROW"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
@@ -11431,8 +11871,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Doduo",
-        "species": "SPECIES_DODUO"
+        "name": "Taillow",
+        "species": "SPECIES_TAILLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -11451,7 +11891,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_DODUO",
+      "SPECIES_TAILLOW",
       "SPECIES_DODUO",
       "SPECIES_DODRIO"
     ],
@@ -11716,15 +12156,15 @@
         "item": "ITEM_NONE",
         "level": 47,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       },
       {
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
+        "name": "Gulpin",
+        "species": "SPECIES_GULPIN"
       },
       {
         "item": "ITEM_NONE",
@@ -11743,8 +12183,8 @@
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_KOFFING",
-      "SPECIES_GRIMER",
+      "SPECIES_STUNKY",
+      "SPECIES_GULPIN",
       "SPECIES_ZUBAT",
       "SPECIES_KOFFING"
     ],
@@ -11782,8 +12222,8 @@
         "item": "ITEM_NONE",
         "level": 55,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       },
       {
         "item": "ITEM_NONE",
@@ -11795,7 +12235,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_STUNKY",
       "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_BIKER",
@@ -11811,8 +12251,8 @@
         "item": "ITEM_NONE",
         "level": 53,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       },
       {
         "item": "ITEM_NONE",
@@ -11831,7 +12271,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_STUNKY",
       "SPECIES_CHARMELEON",
       "SPECIES_WEEZING"
     ],
@@ -11898,8 +12338,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       },
       {
         "item": "ITEM_NONE",
@@ -11918,7 +12358,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_STUNKY",
       "SPECIES_MAGMAR",
       "SPECIES_WEEZING"
     ],
@@ -12052,8 +12492,8 @@
         "item": "ITEM_NONE",
         "level": 6,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Numel",
+        "species": "SPECIES_NUMEL"
       },
       {
         "item": "ITEM_NONE",
@@ -12065,7 +12505,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_NUMEL",
       "SPECIES_KOFFING"
     ],
     "trainer_class": "TRAINERCLASS_FIREBREATHER",
@@ -12117,8 +12557,8 @@
         "item": "ITEM_NONE",
         "level": 47,
         "moves": [],
-        "name": "Qwilfish",
-        "species": "SPECIES_QWILFISH"
+        "name": "Carvanha",
+        "species": "SPECIES_CARVANHA"
       },
       {
         "item": "ITEM_NONE",
@@ -12131,7 +12571,7 @@
     "party_size": 3,
     "species": [
       "SPECIES_QUAGSIRE",
-      "SPECIES_QWILFISH",
+      "SPECIES_CARVANHA",
       "SPECIES_TENTACRUEL"
     ],
     "trainer_class": "TRAINERCLASS_FISHERMAN",
@@ -12205,8 +12645,8 @@
         "item": "ITEM_NONE",
         "level": 36,
         "moves": [],
-        "name": "Goldeen",
-        "species": "SPECIES_GOLDEEN"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -12225,7 +12665,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GOLDEEN",
+      "SPECIES_FINNEON",
       "SPECIES_GOLDEEN",
       "SPECIES_QWILFISH"
     ],
@@ -12242,8 +12682,8 @@
         "item": "ITEM_NONE",
         "level": 38,
         "moves": [],
-        "name": "Goldeen",
-        "species": "SPECIES_GOLDEEN"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -12262,7 +12702,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GOLDEEN",
+      "SPECIES_FINNEON",
       "SPECIES_GOLDEEN",
       "SPECIES_SEAKING"
     ],
@@ -12961,15 +13401,15 @@
         "item": "ITEM_NONE",
         "level": 38,
         "moves": [],
-        "name": "Pikachu",
-        "species": "SPECIES_PIKACHU"
+        "name": "Plusle",
+        "species": "SPECIES_PLUSLE"
       },
       {
         "item": "ITEM_NONE",
         "level": 38,
         "moves": [],
-        "name": "Pikachu",
-        "species": "SPECIES_PIKACHU"
+        "name": "Minun",
+        "species": "SPECIES_MINUN"
       },
       {
         "item": "ITEM_NONE",
@@ -13002,8 +13442,8 @@
     ],
     "party_size": 6,
     "species": [
-      "SPECIES_PIKACHU",
-      "SPECIES_PIKACHU",
+      "SPECIES_PLUSLE",
+      "SPECIES_MINUN",
       "SPECIES_PIKACHU",
       "SPECIES_PIKACHU",
       "SPECIES_PIKACHU",
@@ -13125,21 +13565,45 @@
   },
   {
     "id": 353,
-    "max_level": 48,
-    "min_level": 48,
+    "max_level": 52,
+    "min_level": 50,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 48,
+        "level": 50,
         "moves": [],
         "name": "Golbat",
         "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 50,
+        "moves": [],
+        "name": "Houndoom",
+        "species": "SPECIES_HOUNDOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 51,
+        "moves": [],
+        "name": "Weezing",
+        "species": "SPECIES_WEEZING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 52,
+        "moves": [],
+        "name": "Drapion",
+        "species": "SPECIES_DRAPION"
       }
     ],
-    "party_size": 1,
+    "party_size": 4,
     "species": [
-      "SPECIES_GOLBAT"
+      "SPECIES_GOLBAT",
+      "SPECIES_HOUNDOOM",
+      "SPECIES_WEEZING",
+      "SPECIES_DRAPION"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -13280,8 +13744,8 @@
         "item": "ITEM_NONE",
         "level": 55,
         "moves": [],
-        "name": "Onix",
-        "species": "SPECIES_ONIX"
+        "name": "Aron",
+        "species": "SPECIES_ARON"
       },
       {
         "item": "ITEM_NONE",
@@ -13293,7 +13757,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_ONIX",
+      "SPECIES_ARON",
       "SPECIES_DUGTRIO"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
@@ -13316,8 +13780,8 @@
         "item": "ITEM_NONE",
         "level": 34,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -13330,7 +13794,7 @@
     "party_size": 3,
     "species": [
       "SPECIES_SANDSLASH",
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_GOLEM"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
@@ -13714,15 +14178,15 @@
         "item": "ITEM_NONE",
         "level": 47,
         "moves": [],
-        "name": "Tentacool",
-        "species": "SPECIES_TENTACOOL"
+        "name": "Wingull",
+        "species": "SPECIES_WINGULL"
       },
       {
         "item": "ITEM_NONE",
         "level": 52,
         "moves": [],
-        "name": "Tentacruel",
-        "species": "SPECIES_TENTACRUEL"
+        "name": "Pelipper",
+        "species": "SPECIES_PELIPPER"
       },
       {
         "item": "ITEM_NONE",
@@ -13735,8 +14199,8 @@
     "party_size": 4,
     "species": [
       "SPECIES_SEADRA",
-      "SPECIES_TENTACOOL",
-      "SPECIES_TENTACRUEL",
+      "SPECIES_WINGULL",
+      "SPECIES_PELIPPER",
       "SPECIES_GOLDEEN"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_M",
@@ -13752,8 +14216,8 @@
         "item": "ITEM_NONE",
         "level": 52,
         "moves": [],
-        "name": "Shellder",
-        "species": "SPECIES_SHELLDER"
+        "name": "Clamperl",
+        "species": "SPECIES_CLAMPERL"
       },
       {
         "item": "ITEM_NONE",
@@ -13765,7 +14229,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_SHELLDER",
+      "SPECIES_CLAMPERL",
       "SPECIES_CLOYSTER"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_M",
@@ -13781,8 +14245,8 @@
         "item": "ITEM_NONE",
         "level": 15,
         "moves": [],
-        "name": "Staryu",
-        "species": "SPECIES_STARYU"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -13801,7 +14265,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_STARYU",
+      "SPECIES_FINNEON",
       "SPECIES_STARMIE",
       "SPECIES_HORSEA"
     ],
@@ -13878,8 +14342,8 @@
         "item": "ITEM_NONE",
         "level": 15,
         "moves": [],
-        "name": "Staryu",
-        "species": "SPECIES_STARYU"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -13898,7 +14362,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_STARYU",
+      "SPECIES_FINNEON",
       "SPECIES_STARMIE",
       "SPECIES_HORSEA"
     ],
@@ -13915,8 +14379,8 @@
         "item": "ITEM_NONE",
         "level": 15,
         "moves": [],
-        "name": "Staryu",
-        "species": "SPECIES_STARYU"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -13935,7 +14399,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_STARYU",
+      "SPECIES_FINNEON",
       "SPECIES_STARMIE",
       "SPECIES_HORSEA"
     ],
@@ -13998,14 +14462,14 @@
         "item": "ITEM_NONE",
         "level": 54,
         "moves": [],
-        "name": "Raticate",
-        "species": "SPECIES_RATICATE"
+        "name": "Linoone",
+        "species": "SPECIES_LINOONE"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_FEAROW",
-      "SPECIES_RATICATE"
+      "SPECIES_LINOONE"
     ],
     "trainer_class": "TRAINERCLASS_YOUNGSTER",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -14020,8 +14484,8 @@
         "item": "ITEM_NONE",
         "level": 54,
         "moves": [],
-        "name": "Raticate",
-        "species": "SPECIES_RATICATE"
+        "name": "Linoone",
+        "species": "SPECIES_LINOONE"
       },
       {
         "item": "ITEM_NONE",
@@ -14040,7 +14504,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_RATICATE",
+      "SPECIES_LINOONE",
       "SPECIES_ARBOK",
       "SPECIES_PARASECT"
     ],
@@ -14136,8 +14600,8 @@
         "item": "ITEM_NONE",
         "level": 6,
         "moves": [],
-        "name": "Pidgey",
-        "species": "SPECIES_PIDGEY"
+        "name": "Starly",
+        "species": "SPECIES_STARLY"
       },
       {
         "item": "ITEM_NONE",
@@ -14156,7 +14620,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_PIDGEY",
+      "SPECIES_STARLY",
       "SPECIES_PIDGEY",
       "SPECIES_SPEAROW"
     ],
@@ -14278,8 +14742,8 @@
         "item": "ITEM_NONE",
         "level": 13,
         "moves": [],
-        "name": "Magmar",
-        "species": "SPECIES_MAGMAR"
+        "name": "Numel",
+        "species": "SPECIES_NUMEL"
       },
       {
         "item": "ITEM_NONE",
@@ -14291,7 +14755,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_MAGMAR",
+      "SPECIES_NUMEL",
       "SPECIES_MAGMAR"
     ],
     "trainer_class": "TRAINERCLASS_FIREBREATHER",
@@ -14668,8 +15132,8 @@
         "item": "ITEM_NONE",
         "level": 42,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Numel",
+        "species": "SPECIES_NUMEL"
       },
       {
         "item": "ITEM_NONE",
@@ -14688,7 +15152,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_NUMEL",
       "SPECIES_FLAREON",
       "SPECIES_GRIMER"
     ],
@@ -14791,8 +15255,8 @@
         "item": "ITEM_NONE",
         "level": 20,
         "moves": [],
-        "name": "Sandshrew",
-        "species": "SPECIES_SANDSHREW"
+        "name": "Trapinch",
+        "species": "SPECIES_TRAPINCH"
       },
       {
         "item": "ITEM_NONE",
@@ -14811,7 +15275,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_SANDSHREW",
+      "SPECIES_TRAPINCH",
       "SPECIES_SANDSLASH",
       "SPECIES_ZUBAT"
     ],
@@ -14820,42 +15284,48 @@
   },
   {
     "id": 404,
-    "max_level": 20,
-    "min_level": 20,
+    "max_level": 23,
+    "min_level": 22,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 20,
-        "moves": [
-          "MOVE_WRAP",
-          "MOVE_LEER",
-          "MOVE_POISON_STING",
-          "MOVE_BITE"
-        ],
-        "name": "Ekans",
-        "species": "SPECIES_EKANS"
+        "level": 22,
+        "moves": [],
+        "name": "Croagunk",
+        "species": "SPECIES_CROAGUNK"
       },
       {
         "item": "ITEM_NONE",
-        "level": 20,
-        "moves": [
-          "MOVE_ABSORB",
-          "MOVE_SWEET_SCENT",
-          "MOVE_STUN_SPORE",
-          "MOVE_SLEEP_POWDER"
-        ],
+        "level": 22,
+        "moves": [],
         "name": "Gloom",
         "species": "SPECIES_GLOOM"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 23,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
-      "SPECIES_EKANS",
-      "SPECIES_GLOOM"
+      "SPECIES_CROAGUNK",
+      "SPECIES_GLOOM",
+      "SPECIES_MURKROW",
+      "SPECIES_STUNKY"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET_F",
-    "trainer_type": "TRAINER_DATA_TYPE_MOVES"
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 405,
@@ -15005,8 +15475,8 @@
         "item": "ITEM_NONE",
         "level": 15,
         "moves": [],
-        "name": "Snubbull",
-        "species": "SPECIES_SNUBBULL"
+        "name": "Skitty",
+        "species": "SPECIES_SKITTY"
       },
       {
         "item": "ITEM_NONE",
@@ -15018,7 +15488,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_SNUBBULL",
+      "SPECIES_SKITTY",
       "SPECIES_MAREEP"
     ],
     "trainer_class": "TRAINERCLASS_POKEFAN_M",
@@ -15088,8 +15558,8 @@
         "item": "ITEM_NONE",
         "level": 36,
         "moves": [],
-        "name": "Exeggcute",
-        "species": "SPECIES_EXEGGCUTE"
+        "name": "Baltoy",
+        "species": "SPECIES_BALTOY"
       },
       {
         "item": "ITEM_NONE",
@@ -15102,7 +15572,7 @@
     "party_size": 3,
     "species": [
       "SPECIES_STARMIE",
-      "SPECIES_EXEGGCUTE",
+      "SPECIES_BALTOY",
       "SPECIES_GIRAFARIG"
     ],
     "trainer_class": "TRAINERCLASS_PSYCHIC_M",
@@ -15308,7 +15778,7 @@
     "name": "Bruno",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 54,
         "moves": [
           "MOVE_FAKE_OUT",
@@ -15320,7 +15790,7 @@
         "species": "SPECIES_HITMONTOP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 54,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -15332,7 +15802,7 @@
         "species": "SPECIES_HITMONLEE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 54,
         "moves": [
           "MOVE_DRAIN_PUNCH",
@@ -15344,7 +15814,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 56,
         "moves": [
           "MOVE_AURA_SPHERE",
@@ -15356,7 +15826,7 @@
         "species": "SPECIES_LUCARIO"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 57,
         "moves": [
           "MOVE_FAKE_OUT",
@@ -15368,7 +15838,7 @@
         "species": "SPECIES_HARIYAMA"
       },
       {
-        "item": "ITEM_BLACK_BELT",
+        "item": "ITEM_LUM_BERRY",
         "level": 58,
         "moves": [
           "MOVE_DYNAMIC_PUNCH",
@@ -15725,14 +16195,14 @@
         "item": "ITEM_NONE",
         "level": 19,
         "moves": [],
-        "name": "Voltorb",
-        "species": "SPECIES_VOLTORB"
+        "name": "Electrike",
+        "species": "SPECIES_ELECTRIKE"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_GLOOM",
-      "SPECIES_VOLTORB"
+      "SPECIES_ELECTRIKE"
     ],
     "trainer_class": "TRAINERCLASS_SCHOOL_KID_M",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -15857,14 +16327,14 @@
         "item": "ITEM_NONE",
         "level": 36,
         "moves": [],
-        "name": "Magnemite",
-        "species": "SPECIES_MAGNEMITE"
+        "name": "Electrike",
+        "species": "SPECIES_ELECTRIKE"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_MR_MIME",
-      "SPECIES_MAGNEMITE"
+      "SPECIES_ELECTRIKE"
     ],
     "trainer_class": "TRAINERCLASS_SCHOOL_KID_M",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -15957,14 +16427,14 @@
         "item": "ITEM_NONE",
         "level": 36,
         "moves": [],
-        "name": "Pikachu",
-        "species": "SPECIES_PIKACHU"
+        "name": "Plusle",
+        "species": "SPECIES_PLUSLE"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_TEDDIURSA",
-      "SPECIES_PIKACHU"
+      "SPECIES_PLUSLE"
     ],
     "trainer_class": "TRAINERCLASS_POKEFAN_M",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -15993,8 +16463,8 @@
         "item": "ITEM_NONE",
         "level": 46,
         "moves": [],
-        "name": "Pikachu",
-        "species": "SPECIES_PIKACHU"
+        "name": "Plusle",
+        "species": "SPECIES_PLUSLE"
       },
       {
         "item": "ITEM_NONE",
@@ -16008,7 +16478,7 @@
     "species": [
       "SPECIES_PICHU",
       "SPECIES_TEDDIURSA",
-      "SPECIES_PIKACHU",
+      "SPECIES_PLUSLE",
       "SPECIES_TEDDIURSA"
     ],
     "trainer_class": "TRAINERCLASS_POKEFAN_M",
@@ -16234,14 +16704,14 @@
         "item": "ITEM_NONE",
         "level": 38,
         "moves": [],
-        "name": "Pidgeotto",
-        "species": "SPECIES_PIDGEOTTO"
+        "name": "Staravia",
+        "species": "SPECIES_STARAVIA"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_HOOTHOOT",
-      "SPECIES_PIDGEOTTO"
+      "SPECIES_STARAVIA"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -16256,8 +16726,8 @@
         "item": "ITEM_NONE",
         "level": 46,
         "moves": [],
-        "name": "Pidgeotto",
-        "species": "SPECIES_PIDGEOTTO"
+        "name": "Staravia",
+        "species": "SPECIES_STARAVIA"
       },
       {
         "item": "ITEM_NONE",
@@ -16276,7 +16746,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_PIDGEOTTO",
+      "SPECIES_STARAVIA",
       "SPECIES_PIDGEOT",
       "SPECIES_NOCTOWL"
     ],
@@ -16319,8 +16789,8 @@
         "item": "ITEM_NONE",
         "level": 38,
         "moves": [],
-        "name": "Goldeen",
-        "species": "SPECIES_GOLDEEN"
+        "name": "Finneon",
+        "species": "SPECIES_FINNEON"
       },
       {
         "item": "ITEM_NONE",
@@ -16339,7 +16809,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GOLDEEN",
+      "SPECIES_FINNEON",
       "SPECIES_SEAKING",
       "SPECIES_SEAKING"
     ],
@@ -16356,8 +16826,8 @@
         "item": "ITEM_NONE",
         "level": 47,
         "moves": [],
-        "name": "Onix",
-        "species": "SPECIES_ONIX"
+        "name": "Aron",
+        "species": "SPECIES_ARON"
       },
       {
         "item": "ITEM_NONE",
@@ -16369,7 +16839,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_ONIX",
+      "SPECIES_ARON",
       "SPECIES_GRAVELER"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
@@ -16392,14 +16862,14 @@
         "item": "ITEM_NONE",
         "level": 46,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_STEELIX",
-      "SPECIES_GRAVELER"
+      "SPECIES_LAIRON"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -16874,8 +17344,8 @@
         "item": "ITEM_NONE",
         "level": 57,
         "moves": [],
-        "name": "Qwilfish",
-        "species": "SPECIES_QWILFISH"
+        "name": "Carvanha",
+        "species": "SPECIES_CARVANHA"
       },
       {
         "item": "ITEM_NONE",
@@ -16887,7 +17357,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_QWILFISH",
+      "SPECIES_CARVANHA",
       "SPECIES_SEAKING"
     ],
     "trainer_class": "TRAINERCLASS_FISHERMAN",
@@ -17033,8 +17503,8 @@
         "item": "ITEM_NONE",
         "level": 26,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Gulpin",
+        "species": "SPECIES_GULPIN"
       },
       {
         "item": "ITEM_NONE",
@@ -17046,7 +17516,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_GULPIN",
       "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_SCIENTIST_GS",
@@ -17183,8 +17653,8 @@
         "item": "ITEM_NONE",
         "level": 26,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Gulpin",
+        "species": "SPECIES_GULPIN"
       },
       {
         "item": "ITEM_NONE",
@@ -17196,7 +17666,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_KOFFING",
+      "SPECIES_GULPIN",
       "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_SUPER_NERD",
@@ -17325,13 +17795,13 @@
   },
   {
     "id": 478,
-    "max_level": 47,
-    "min_level": 45,
+    "max_level": 52,
+    "min_level": 48,
     "name": "Ariana",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 45,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 48,
         "moves": [
           "MOVE_POISON_JAB",
           "MOVE_CRUNCH",
@@ -17342,8 +17812,8 @@
         "species": "SPECIES_ARBOK"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 45,
+        "item": "ITEM_FOCUS_SASH",
+        "level": 48,
         "moves": [
           "MOVE_ICE_BEAM",
           "MOVE_PSYCHIC",
@@ -17354,8 +17824,8 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 45,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 49,
         "moves": [
           "MOVE_GIGA_DRAIN",
           "MOVE_SLUDGE_BOMB",
@@ -17366,8 +17836,8 @@
         "species": "SPECIES_VILEPLUME"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_LIFE_ORB",
+        "level": 50,
         "moves": [
           "MOVE_FAKE_OUT",
           "MOVE_BODY_SLAM",
@@ -17378,8 +17848,8 @@
         "species": "SPECIES_PURUGLY"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_LEFTOVERS",
+        "level": 51,
         "moves": [
           "MOVE_SURF",
           "MOVE_RECOVER",
@@ -17390,8 +17860,8 @@
         "species": "SPECIES_MILOTIC"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 47,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 52,
         "moves": [
           "MOVE_DRILL_PECK",
           "MOVE_SUCKER_PUNCH",
@@ -17416,55 +17886,64 @@
   },
   {
     "id": 479,
-    "max_level": 27,
-    "min_level": 25,
+    "max_level": 34,
+    "min_level": 31,
     "name": "Ariana",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 25,
-        "moves": [
-          "MOVE_WRAP",
-          "MOVE_POISON_STING",
-          "MOVE_CRUNCH",
-          "MOVE_GLARE"
-        ],
+        "level": 32,
+        "moves": [],
         "name": "Arbok",
         "species": "SPECIES_ARBOK"
       },
       {
         "item": "ITEM_NONE",
-        "level": 25,
-        "moves": [
-          "MOVE_MEGA_DRAIN",
-          "MOVE_SWEET_SCENT",
-          "MOVE_SLEEP_POWDER",
-          "MOVE_ACID"
-        ],
+        "level": 31,
+        "moves": [],
         "name": "Gloom",
         "species": "SPECIES_GLOOM"
       },
       {
         "item": "ITEM_NONE",
-        "level": 27,
-        "moves": [
-          "MOVE_WING_ATTACK",
-          "MOVE_PURSUIT",
-          "MOVE_ASTONISH",
-          "MOVE_NIGHT_SHADE"
-        ],
+        "level": 32,
+        "moves": [],
         "name": "Murkrow",
         "species": "SPECIES_MURKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 33,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Vileplume",
+        "species": "SPECIES_VILEPLUME"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Honchkrow",
+        "species": "SPECIES_HONCHKROW"
       }
     ],
-    "party_size": 3,
+    "party_size": 6,
     "species": [
       "SPECIES_ARBOK",
       "SPECIES_GLOOM",
-      "SPECIES_MURKROW"
+      "SPECIES_MURKROW",
+      "SPECIES_GOLBAT",
+      "SPECIES_VILEPLUME",
+      "SPECIES_HONCHKROW"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_ARIANA",
-    "trainer_type": "TRAINER_DATA_TYPE_MOVES"
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 480,
@@ -17628,13 +18107,13 @@
   },
   {
     "id": 485,
-    "max_level": 48,
-    "min_level": 46,
+    "max_level": 54,
+    "min_level": 50,
     "name": "Archer",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_TOXIC_ORB",
+        "level": 50,
         "moves": [
           "MOVE_CRUSH_CLAW",
           "MOVE_X_SCISSOR",
@@ -17645,8 +18124,8 @@
         "species": "SPECIES_ZANGOOSE"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_SCOPE_LENS",
+        "level": 50,
         "moves": [
           "MOVE_CROSS_POISON",
           "MOVE_CRUNCH",
@@ -17657,8 +18136,8 @@
         "species": "SPECIES_DRAPION"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 46,
+        "item": "ITEM_LIFE_ORB",
+        "level": 51,
         "moves": [
           "MOVE_X_SCISSOR",
           "MOVE_IRON_HEAD",
@@ -17669,8 +18148,8 @@
         "species": "SPECIES_SCIZOR"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 47,
+        "item": "ITEM_LUM_BERRY",
+        "level": 52,
         "moves": [
           "MOVE_DYNAMIC_PUNCH",
           "MOVE_STONE_EDGE",
@@ -17681,8 +18160,8 @@
         "species": "SPECIES_MACHAMP"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 47,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 53,
         "moves": [
           "MOVE_WATERFALL",
           "MOVE_ICE_FANG",
@@ -17693,8 +18172,8 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 48,
+        "item": "ITEM_LIFE_ORB",
+        "level": 54,
         "moves": [
           "MOVE_NASTY_PLOT",
           "MOVE_DARK_PULSE",
@@ -17719,42 +18198,58 @@
   },
   {
     "id": 486,
-    "max_level": 12,
-    "min_level": 8,
+    "max_level": 16,
+    "min_level": 14,
     "name": "Proton",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 8,
+        "level": 14,
         "moves": [],
         "name": "Zubat",
         "species": "SPECIES_ZUBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 12,
+        "level": 15,
         "moves": [],
         "name": "Koffing",
         "species": "SPECIES_KOFFING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 15,
+        "moves": [],
+        "name": "Ekans",
+        "species": "SPECIES_EKANS"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 16,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
       }
     ],
-    "party_size": 2,
+    "party_size": 4,
     "species": [
       "SPECIES_ZUBAT",
-      "SPECIES_KOFFING"
+      "SPECIES_KOFFING",
+      "SPECIES_EKANS",
+      "SPECIES_RATICATE"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_PROTON",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 487,
-    "max_level": 45,
-    "min_level": 42,
+    "max_level": 52,
+    "min_level": 48,
     "name": "Petrel",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 42,
+        "item": "ITEM_LIFE_ORB",
+        "level": 48,
         "moves": [
           "MOVE_SUPER_FANG",
           "MOVE_CRUNCH",
@@ -17765,8 +18260,8 @@
         "species": "SPECIES_RATICATE"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 42,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 48,
         "moves": [
           "MOVE_NIGHT_SLASH",
           "MOVE_POISON_JAB",
@@ -17777,8 +18272,8 @@
         "species": "SPECIES_SKUNTANK"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 43,
+        "item": "ITEM_LEFTOVERS",
+        "level": 49,
         "moves": [
           "MOVE_POWER_WHIP",
           "MOVE_ANCIENT_POWER",
@@ -17789,8 +18284,8 @@
         "species": "SPECIES_TANGROWTH"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 43,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 50,
         "moves": [
           "MOVE_POISON_JAB",
           "MOVE_CROSS_CHOP",
@@ -17801,8 +18296,8 @@
         "species": "SPECIES_TOXICROAK"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 44,
+        "item": "ITEM_LEFTOVERS",
+        "level": 51,
         "moves": [
           "MOVE_PSYCHIC",
           "MOVE_HYPNOSIS",
@@ -17813,8 +18308,8 @@
         "species": "SPECIES_HYPNO"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 45,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 52,
         "moves": [
           "MOVE_SLUDGE_BOMB",
           "MOVE_THUNDERBOLT",
@@ -17839,37 +18334,45 @@
   },
   {
     "id": 488,
-    "max_level": 24,
-    "min_level": 22,
+    "max_level": 27,
+    "min_level": 26,
     "name": "Petrel",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 22,
+        "level": 26,
         "moves": [],
-        "name": "Zubat",
-        "species": "SPECIES_ZUBAT"
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 24,
+        "level": 26,
         "moves": [],
         "name": "Raticate",
         "species": "SPECIES_RATICATE"
       },
       {
         "item": "ITEM_NONE",
-        "level": 22,
+        "level": 27,
         "moves": [],
         "name": "Koffing",
         "species": "SPECIES_KOFFING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 27,
+        "moves": [],
+        "name": "Grimer",
+        "species": "SPECIES_GRIMER"
       }
     ],
-    "party_size": 3,
+    "party_size": 4,
     "species": [
-      "SPECIES_ZUBAT",
+      "SPECIES_GOLBAT",
       "SPECIES_RATICATE",
-      "SPECIES_KOFFING"
+      "SPECIES_KOFFING",
+      "SPECIES_GRIMER"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_PETREL",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -18215,8 +18718,8 @@
         "item": "ITEM_NONE",
         "level": 18,
         "moves": [],
-        "name": "Gastly",
-        "species": "SPECIES_GASTLY"
+        "name": "Shuppet",
+        "species": "SPECIES_SHUPPET"
       },
       {
         "item": "ITEM_NONE",
@@ -18249,7 +18752,7 @@
     ],
     "party_size": 5,
     "species": [
-      "SPECIES_GASTLY",
+      "SPECIES_SHUPPET",
       "SPECIES_GASTLY",
       "SPECIES_GASTLY",
       "SPECIES_GASTLY",
@@ -18375,42 +18878,40 @@
   },
   {
     "id": 499,
-    "max_level": 24,
-    "min_level": 20,
+    "max_level": 26,
+    "min_level": 25,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 20,
-        "moves": [
-          "MOVE_HYPNOSIS",
-          "MOVE_DISABLE",
-          "MOVE_CONFUSION",
-          "MOVE_HEADBUTT"
-        ],
+        "level": 25,
+        "moves": [],
         "name": "Drowzee",
         "species": "SPECIES_DROWZEE"
       },
       {
         "item": "ITEM_NONE",
-        "level": 24,
-        "moves": [
-          "MOVE_SLUDGE",
-          "MOVE_DISABLE",
-          "MOVE_MUD_SLAP",
-          "MOVE_MINIMIZE"
-        ],
-        "name": "Grimer",
-        "species": "SPECIES_GRIMER"
+        "level": 25,
+        "moves": [],
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 26,
+        "moves": [],
+        "name": "Golbat",
+        "species": "SPECIES_GOLBAT"
       }
     ],
-    "party_size": 2,
+    "party_size": 3,
     "species": [
       "SPECIES_DROWZEE",
-      "SPECIES_GRIMER"
+      "SPECIES_STUNKY",
+      "SPECIES_GOLBAT"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
-    "trainer_type": "TRAINER_DATA_TYPE_MOVES"
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 500,
@@ -19052,8 +19553,8 @@
         "item": "ITEM_NONE",
         "level": 63,
         "moves": [],
-        "name": "Qwilfish",
-        "species": "SPECIES_QWILFISH"
+        "name": "Carvanha",
+        "species": "SPECIES_CARVANHA"
       },
       {
         "item": "ITEM_NONE",
@@ -19065,7 +19566,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_QWILFISH",
+      "SPECIES_CARVANHA",
       "SPECIES_SEAKING"
     ],
     "trainer_class": "TRAINERCLASS_FISHERMAN",
@@ -19376,8 +19877,8 @@
         "item": "ITEM_NONE",
         "level": 53,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -19396,7 +19897,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_GOLEM",
       "SPECIES_MACHAMP"
     ],
@@ -19874,14 +20375,14 @@
         "item": "ITEM_NONE",
         "level": 12,
         "moves": [],
-        "name": "Paras",
-        "species": "SPECIES_PARAS"
+        "name": "Shroomish",
+        "species": "SPECIES_SHROOMISH"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_LEDYBA",
-      "SPECIES_PARAS"
+      "SPECIES_SHROOMISH"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -20293,8 +20794,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -20313,7 +20814,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_RHYDON",
       "SPECIES_CLEFAIRY"
     ],
@@ -20395,8 +20896,8 @@
         "item": "ITEM_NONE",
         "level": 55,
         "moves": [],
-        "name": "Primeape",
-        "species": "SPECIES_PRIMEAPE"
+        "name": "Hariyama",
+        "species": "SPECIES_HARIYAMA"
       },
       {
         "item": "ITEM_NONE",
@@ -20415,7 +20916,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_PRIMEAPE",
+      "SPECIES_HARIYAMA",
       "SPECIES_GRAVELER",
       "SPECIES_MACHOKE"
     ],
@@ -20547,14 +21048,14 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Noctowl",
-        "species": "SPECIES_NOCTOWL"
+        "name": "Chatot",
+        "species": "SPECIES_CHATOT"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_XATU",
-      "SPECIES_NOCTOWL"
+      "SPECIES_CHATOT"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -20569,8 +21070,8 @@
         "item": "ITEM_NONE",
         "level": 54,
         "moves": [],
-        "name": "Fearow",
-        "species": "SPECIES_FEAROW"
+        "name": "Swellow",
+        "species": "SPECIES_SWELLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -20582,7 +21083,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_FEAROW",
+      "SPECIES_SWELLOW",
       "SPECIES_SPEAROW"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
@@ -21350,14 +21851,14 @@
         "item": "ITEM_NONE",
         "level": 54,
         "moves": [],
-        "name": "Tentacruel",
-        "species": "SPECIES_TENTACRUEL"
+        "name": "Pelipper",
+        "species": "SPECIES_PELIPPER"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_POLIWHIRL",
-      "SPECIES_TENTACRUEL"
+      "SPECIES_PELIPPER"
     ],
     "trainer_class": "TRAINERCLASS_SWIMMER_M",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -21676,8 +22177,8 @@
         "item": "ITEM_NONE",
         "level": 42,
         "moves": [],
-        "name": "Fearow",
-        "species": "SPECIES_FEAROW"
+        "name": "Swellow",
+        "species": "SPECIES_SWELLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -21690,7 +22191,7 @@
     "party_size": 3,
     "species": [
       "SPECIES_FARFETCHD",
-      "SPECIES_FEAROW",
+      "SPECIES_SWELLOW",
       "SPECIES_PIDGEOTTO"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
@@ -21706,15 +22207,15 @@
         "item": "ITEM_NONE",
         "level": 41,
         "moves": [],
-        "name": "Doduo",
-        "species": "SPECIES_DODUO"
+        "name": "Taillow",
+        "species": "SPECIES_TAILLOW"
       },
       {
         "item": "ITEM_NONE",
         "level": 41,
         "moves": [],
-        "name": "Doduo",
-        "species": "SPECIES_DODUO"
+        "name": "Starly",
+        "species": "SPECIES_STARLY"
       },
       {
         "item": "ITEM_NONE",
@@ -21733,8 +22234,8 @@
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_DODUO",
-      "SPECIES_DODUO",
+      "SPECIES_TAILLOW",
+      "SPECIES_STARLY",
       "SPECIES_DODRIO",
       "SPECIES_DODRIO"
     ],
@@ -21814,21 +22315,37 @@
   },
   {
     "id": 601,
-    "max_level": 14,
-    "min_level": 14,
+    "max_level": 16,
+    "min_level": 15,
     "name": "Grunt",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 14,
+        "level": 15,
         "moves": [],
-        "name": "Koffing",
-        "species": "SPECIES_KOFFING"
+        "name": "Stunky",
+        "species": "SPECIES_STUNKY"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 15,
+        "moves": [],
+        "name": "Rattata",
+        "species": "SPECIES_RATTATA"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 16,
+        "moves": [],
+        "name": "Zubat",
+        "species": "SPECIES_ZUBAT"
       }
     ],
-    "party_size": 1,
+    "party_size": 3,
     "species": [
-      "SPECIES_KOFFING"
+      "SPECIES_STUNKY",
+      "SPECIES_RATTATA",
+      "SPECIES_ZUBAT"
     ],
     "trainer_class": "TRAINERCLASS_TEAM_ROCKET",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -22103,8 +22620,8 @@
         "item": "ITEM_NONE",
         "level": 54,
         "moves": [],
-        "name": "Seaking",
-        "species": "SPECIES_SEAKING"
+        "name": "Lumineon",
+        "species": "SPECIES_LUMINEON"
       },
       {
         "item": "ITEM_NONE",
@@ -22123,7 +22640,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_SEAKING",
+      "SPECIES_LUMINEON",
       "SPECIES_SEAKING",
       "SPECIES_SEAKING"
     ],
@@ -22193,8 +22710,8 @@
         "item": "ITEM_NONE",
         "level": 48,
         "moves": [],
-        "name": "Pikachu",
-        "species": "SPECIES_PIKACHU"
+        "name": "Plusle",
+        "species": "SPECIES_PLUSLE"
       },
       {
         "item": "ITEM_NONE",
@@ -22208,7 +22725,7 @@
     "species": [
       "SPECIES_PICHU",
       "SPECIES_TEDDIURSA",
-      "SPECIES_PIKACHU",
+      "SPECIES_PLUSLE",
       "SPECIES_URSARING"
     ],
     "trainer_class": "TRAINERCLASS_POKEFAN_M",
@@ -22259,15 +22776,15 @@
         "item": "ITEM_NONE",
         "level": 64,
         "moves": [],
-        "name": "Noctowl",
-        "species": "SPECIES_NOCTOWL"
+        "name": "Chatot",
+        "species": "SPECIES_CHATOT"
       }
     ],
     "party_size": 3,
     "species": [
       "SPECIES_PIDGEOT",
       "SPECIES_PIDGEOT",
-      "SPECIES_NOCTOWL"
+      "SPECIES_CHATOT"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -22282,8 +22799,8 @@
         "item": "ITEM_NONE",
         "level": 25,
         "moves": [],
-        "name": "Oddish",
-        "species": "SPECIES_ODDISH"
+        "name": "Budew",
+        "species": "SPECIES_BUDEW"
       },
       {
         "item": "ITEM_NONE",
@@ -22295,7 +22812,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_ODDISH",
+      "SPECIES_BUDEW",
       "SPECIES_CUBONE"
     ],
     "trainer_class": "TRAINERCLASS_LASS",
@@ -22311,8 +22828,8 @@
         "item": "ITEM_NONE",
         "level": 38,
         "moves": [],
-        "name": "Gloom",
-        "species": "SPECIES_GLOOM"
+        "name": "Roselia",
+        "species": "SPECIES_ROSELIA"
       },
       {
         "item": "ITEM_NONE",
@@ -22324,7 +22841,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_GLOOM",
+      "SPECIES_ROSELIA",
       "SPECIES_MAROWAK"
     ],
     "trainer_class": "TRAINERCLASS_LASS",
@@ -22456,8 +22973,8 @@
         "item": "ITEM_NONE",
         "level": 29,
         "moves": [],
-        "name": "Magmar",
-        "species": "SPECIES_MAGMAR"
+        "name": "Numel",
+        "species": "SPECIES_NUMEL"
       },
       {
         "item": "ITEM_NONE",
@@ -22469,7 +22986,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_MAGMAR",
+      "SPECIES_NUMEL",
       "SPECIES_MAGMAR"
     ],
     "trainer_class": "TRAINERCLASS_FIREBREATHER",
@@ -22485,8 +23002,8 @@
         "item": "ITEM_NONE",
         "level": 40,
         "moves": [],
-        "name": "Magmar",
-        "species": "SPECIES_MAGMAR"
+        "name": "Numel",
+        "species": "SPECIES_NUMEL"
       },
       {
         "item": "ITEM_NONE",
@@ -22498,7 +23015,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_MAGMAR",
+      "SPECIES_NUMEL",
       "SPECIES_MAGMAR"
     ],
     "trainer_class": "TRAINERCLASS_FIREBREATHER",
@@ -22551,8 +23068,8 @@
         "item": "ITEM_NONE",
         "level": 52,
         "moves": [],
-        "name": "Butterfree",
-        "species": "SPECIES_BUTTERFREE"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -22564,7 +23081,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BUTTERFREE",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_ARIADOS"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -22580,8 +23097,8 @@
         "item": "ITEM_NONE",
         "level": 59,
         "moves": [],
-        "name": "Butterfree",
-        "species": "SPECIES_BUTTERFREE"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -22593,7 +23110,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BUTTERFREE",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_ARIADOS"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -22609,8 +23126,8 @@
         "item": "ITEM_NONE",
         "level": 62,
         "moves": [],
-        "name": "Butterfree",
-        "species": "SPECIES_BUTTERFREE"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -22622,7 +23139,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BUTTERFREE",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_ARIADOS"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -22638,8 +23155,8 @@
         "item": "ITEM_NONE",
         "level": 57,
         "moves": [],
-        "name": "Beedrill",
-        "species": "SPECIES_BEEDRILL"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -22651,7 +23168,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BEEDRILL",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_BUTTERFREE"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -22667,8 +23184,8 @@
         "item": "ITEM_NONE",
         "level": 62,
         "moves": [],
-        "name": "Beedrill",
-        "species": "SPECIES_BEEDRILL"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -22680,7 +23197,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BEEDRILL",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_BUTTERFREE"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -22696,8 +23213,8 @@
         "item": "ITEM_NONE",
         "level": 66,
         "moves": [],
-        "name": "Beedrill",
-        "species": "SPECIES_BEEDRILL"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -22709,7 +23226,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BEEDRILL",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_BUTTERFREE"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -23367,8 +23884,8 @@
         "item": "ITEM_NONE",
         "level": 59,
         "moves": [],
-        "name": "Fearow",
-        "species": "SPECIES_FEAROW"
+        "name": "Swellow",
+        "species": "SPECIES_SWELLOW"
       },
       {
         "item": "ITEM_NONE",
@@ -23380,7 +23897,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_FEAROW",
+      "SPECIES_SWELLOW",
       "SPECIES_SKARMORY"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
@@ -23403,14 +23920,14 @@
         "item": "ITEM_NONE",
         "level": 63,
         "moves": [],
-        "name": "Fearow",
-        "species": "SPECIES_FEAROW"
+        "name": "Swellow",
+        "species": "SPECIES_SWELLOW"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_SKARMORY",
-      "SPECIES_FEAROW"
+      "SPECIES_SWELLOW"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -23432,14 +23949,14 @@
         "item": "ITEM_NONE",
         "level": 65,
         "moves": [],
-        "name": "Fearow",
-        "species": "SPECIES_FEAROW"
+        "name": "Swellow",
+        "species": "SPECIES_SWELLOW"
       }
     ],
     "party_size": 2,
     "species": [
       "SPECIES_SKARMORY",
-      "SPECIES_FEAROW"
+      "SPECIES_SWELLOW"
     ],
     "trainer_class": "TRAINERCLASS_BIRD_KEEPER_GS",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -23672,15 +24189,15 @@
         "item": "ITEM_NONE",
         "level": 18,
         "moves": [],
-        "name": "Onix",
-        "species": "SPECIES_ONIX"
+        "name": "Aron",
+        "species": "SPECIES_ARON"
       },
       {
         "item": "ITEM_NONE",
         "level": 39,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -23699,8 +24216,8 @@
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_ONIX",
-      "SPECIES_GRAVELER",
+      "SPECIES_ARON",
+      "SPECIES_LAIRON",
       "SPECIES_GOLEM",
       "SPECIES_SANDSLASH"
     ],
@@ -23724,8 +24241,8 @@
         "item": "ITEM_NONE",
         "level": 46,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -23738,16 +24255,16 @@
         "item": "ITEM_NONE",
         "level": 58,
         "moves": [],
-        "name": "Onix",
-        "species": "SPECIES_ONIX"
+        "name": "Aron",
+        "species": "SPECIES_ARON"
       }
     ],
     "party_size": 4,
     "species": [
       "SPECIES_SANDSLASH",
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_GOLEM",
-      "SPECIES_ONIX"
+      "SPECIES_ARON"
     ],
     "trainer_class": "TRAINERCLASS_HIKER",
     "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
@@ -23769,8 +24286,8 @@
         "item": "ITEM_NONE",
         "level": 56,
         "moves": [],
-        "name": "Graveler",
-        "species": "SPECIES_GRAVELER"
+        "name": "Lairon",
+        "species": "SPECIES_LAIRON"
       },
       {
         "item": "ITEM_NONE",
@@ -23790,7 +24307,7 @@
     "party_size": 4,
     "species": [
       "SPECIES_SANDSLASH",
-      "SPECIES_GRAVELER",
+      "SPECIES_LAIRON",
       "SPECIES_GOLEM",
       "SPECIES_STEELIX"
     ],
@@ -23910,8 +24427,8 @@
         "item": "ITEM_NONE",
         "level": 52,
         "moves": [],
-        "name": "Seaking",
-        "species": "SPECIES_SEAKING"
+        "name": "Lumineon",
+        "species": "SPECIES_LUMINEON"
       },
       {
         "item": "ITEM_NONE",
@@ -23930,7 +24447,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_SEAKING",
+      "SPECIES_LUMINEON",
       "SPECIES_QWILFISH",
       "SPECIES_SEAKING"
     ],
@@ -23947,15 +24464,15 @@
         "item": "ITEM_NONE",
         "level": 55,
         "moves": [],
-        "name": "Seaking",
-        "species": "SPECIES_SEAKING"
+        "name": "Lumineon",
+        "species": "SPECIES_LUMINEON"
       },
       {
         "item": "ITEM_NONE",
         "level": 53,
         "moves": [],
-        "name": "Qwilfish",
-        "species": "SPECIES_QWILFISH"
+        "name": "Carvanha",
+        "species": "SPECIES_CARVANHA"
       },
       {
         "item": "ITEM_NONE",
@@ -23974,8 +24491,8 @@
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_SEAKING",
-      "SPECIES_QWILFISH",
+      "SPECIES_LUMINEON",
+      "SPECIES_CARVANHA",
       "SPECIES_SEAKING",
       "SPECIES_KRABBY"
     ],
@@ -23992,15 +24509,15 @@
         "item": "ITEM_NONE",
         "level": 60,
         "moves": [],
-        "name": "Seaking",
-        "species": "SPECIES_SEAKING"
+        "name": "Lumineon",
+        "species": "SPECIES_LUMINEON"
       },
       {
         "item": "ITEM_NONE",
         "level": 61,
         "moves": [],
-        "name": "Qwilfish",
-        "species": "SPECIES_QWILFISH"
+        "name": "Carvanha",
+        "species": "SPECIES_CARVANHA"
       },
       {
         "item": "ITEM_NONE",
@@ -24019,8 +24536,8 @@
     ],
     "party_size": 4,
     "species": [
-      "SPECIES_SEAKING",
-      "SPECIES_QWILFISH",
+      "SPECIES_LUMINEON",
+      "SPECIES_CARVANHA",
       "SPECIES_SEAKING",
       "SPECIES_KINGLER"
     ],
@@ -25266,8 +25783,8 @@
         "item": "ITEM_NONE",
         "level": 56,
         "moves": [],
-        "name": "Beedrill",
-        "species": "SPECIES_BEEDRILL"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -25279,7 +25796,7 @@
     ],
     "party_size": 2,
     "species": [
-      "SPECIES_BEEDRILL",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_BUTTERFREE"
     ],
     "trainer_class": "TRAINERCLASS_BUG_CATCHER",
@@ -25316,8 +25833,8 @@
         "item": "ITEM_NONE",
         "level": 62,
         "moves": [],
-        "name": "Metapod",
-        "species": "SPECIES_METAPOD"
+        "name": "Silcoon",
+        "species": "SPECIES_SILCOON"
       },
       {
         "item": "ITEM_NONE",
@@ -25336,7 +25853,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_METAPOD",
+      "SPECIES_SILCOON",
       "SPECIES_METAPOD",
       "SPECIES_METAPOD"
     ],
@@ -25353,8 +25870,8 @@
         "item": "ITEM_NONE",
         "level": 33,
         "moves": [],
-        "name": "Weedle",
-        "species": "SPECIES_WEEDLE"
+        "name": "Wurmple",
+        "species": "SPECIES_WURMPLE"
       },
       {
         "item": "ITEM_NONE",
@@ -25373,7 +25890,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_WEEDLE",
+      "SPECIES_WURMPLE",
       "SPECIES_KAKUNA",
       "SPECIES_BEEDRILL"
     ],
@@ -25390,8 +25907,8 @@
         "item": "ITEM_NONE",
         "level": 56,
         "moves": [],
-        "name": "Butterfree",
-        "species": "SPECIES_BUTTERFREE"
+        "name": "Beautifly",
+        "species": "SPECIES_BEAUTIFLY"
       },
       {
         "item": "ITEM_NONE",
@@ -25410,7 +25927,7 @@
     ],
     "party_size": 3,
     "species": [
-      "SPECIES_BUTTERFREE",
+      "SPECIES_BEAUTIFLY",
       "SPECIES_BEEDRILL",
       "SPECIES_PIKACHU"
     ],
@@ -25419,13 +25936,13 @@
   },
   {
     "id": 700,
-    "max_level": 64,
-    "min_level": 58,
+    "max_level": 68,
+    "min_level": 62,
     "name": "Giovanni",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 58,
+        "item": "ITEM_LIFE_ORB",
+        "level": 62,
         "moves": [
           "MOVE_EARTH_POWER",
           "MOVE_POISON_JAB",
@@ -25436,8 +25953,8 @@
         "species": "SPECIES_NIDOKING"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 59,
+        "item": "ITEM_SILK_SCARF",
+        "level": 63,
         "moves": [
           "MOVE_DIZZY_PUNCH",
           "MOVE_SUCKER_PUNCH",
@@ -25448,8 +25965,8 @@
         "species": "SPECIES_KANGASKHAN"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 60,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 64,
         "moves": [
           "MOVE_DARK_PULSE",
           "MOVE_NASTY_PLOT",
@@ -25460,8 +25977,8 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 61,
+        "item": "ITEM_ASSAULT_VEST",
+        "level": 65,
         "moves": [
           "MOVE_EARTHQUAKE",
           "MOVE_STONE_EDGE",
@@ -25472,8 +25989,8 @@
         "species": "SPECIES_RHYPERIOR"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 62,
+        "item": "ITEM_FOCUS_SASH",
+        "level": 66,
         "moves": [
           "MOVE_FAKE_OUT",
           "MOVE_SLASH",
@@ -25484,8 +26001,8 @@
         "species": "SPECIES_PERSIAN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 64,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 68,
         "moves": [
           "MOVE_EARTH_POWER",
           "MOVE_SUPERPOWER",
@@ -25527,7 +26044,7 @@
         "species": "SPECIES_SALAMENCE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -25539,7 +26056,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CLEAR_AMULET",
         "level": 84,
         "moves": [
           "MOVE_SWORDS_DANCE",
@@ -25551,7 +26068,7 @@
         "species": "SPECIES_GARCHOMP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 84,
         "moves": [
           "MOVE_PERISH_SONG",
@@ -25563,7 +26080,7 @@
         "species": "SPECIES_ALTARIA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 84,
         "moves": [
           "MOVE_FLAMETHROWER",
@@ -25575,7 +26092,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 88,
         "moves": [
           "MOVE_FIRE_BLAST",
@@ -25606,7 +26123,7 @@
     "name": "Will",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 78,
         "moves": [
           "MOVE_REFLECT",
@@ -25618,7 +26135,7 @@
         "species": "SPECIES_BRONZONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 80,
         "moves": [
           "MOVE_FAKE_TEARS",
@@ -25630,7 +26147,7 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_CONFUSE_RAY",
@@ -25642,7 +26159,7 @@
         "species": "SPECIES_GRUMPIG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 80,
         "moves": [
           "MOVE_CURSE",
@@ -25654,7 +26171,7 @@
         "species": "SPECIES_SLOWBRO"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 82,
         "moves": [
           "MOVE_FOCUS_BLAST",
@@ -25666,7 +26183,7 @@
         "species": "SPECIES_GARDEVOIR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 84,
         "moves": [
           "MOVE_QUICK_ATTACK",
@@ -25697,7 +26214,7 @@
     "name": "Koga",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 78,
         "moves": [
           "MOVE_SUCKER_PUNCH",
@@ -25709,7 +26226,7 @@
         "species": "SPECIES_SKUNTANK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 80,
         "moves": [
           "MOVE_DOUBLE_TEAM",
@@ -25721,7 +26238,7 @@
         "species": "SPECIES_VENOMOTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 78,
         "moves": [
           "MOVE_CROSS_CHOP",
@@ -25745,7 +26262,7 @@
         "species": "SPECIES_MUK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_TOXIC",
@@ -25788,7 +26305,7 @@
     "name": "Bruno",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 78,
         "moves": [
           "MOVE_COUNTER",
@@ -25800,7 +26317,7 @@
         "species": "SPECIES_HITMONTOP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 78,
         "moves": [
           "MOVE_SWAGGER",
@@ -25812,7 +26329,7 @@
         "species": "SPECIES_HITMONLEE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 78,
         "moves": [
           "MOVE_SUBSTITUTE",
@@ -25824,7 +26341,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 80,
         "moves": [
           "MOVE_LOW_KICK",
@@ -25836,7 +26353,7 @@
         "species": "SPECIES_HARIYAMA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LUM_BERRY",
         "level": 82,
         "moves": [
           "MOVE_BULLET_PUNCH",
@@ -25848,7 +26365,7 @@
         "species": "SPECIES_MACHAMP"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 84,
         "moves": [
           "MOVE_EXTREME_SPEED",
@@ -25879,7 +26396,7 @@
     "name": "Karen",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 78,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -25891,7 +26408,7 @@
         "species": "SPECIES_WEAVILE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_CURSE",
@@ -25903,7 +26420,7 @@
         "species": "SPECIES_SPIRITOMB"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SCOPE_LENS",
         "level": 80,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -25915,7 +26432,7 @@
         "species": "SPECIES_ABSOL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_DRILL_PECK",
@@ -25927,7 +26444,7 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 82,
         "moves": [
           "MOVE_NASTY_PLOT",
@@ -25939,7 +26456,7 @@
         "species": "SPECIES_HOUNDOOM"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 84,
         "moves": [
           "MOVE_CURSE",
@@ -25965,42 +26482,64 @@
   },
   {
     "id": 706,
-    "max_level": 33,
-    "min_level": 28,
+    "max_level": 36,
+    "min_level": 34,
     "name": "Proton",
     "party": [
       {
         "item": "ITEM_NONE",
-        "level": 28,
-        "moves": [
-          "MOVE_LEECH_LIFE",
-          "MOVE_BITE",
-          "MOVE_CONFUSE_RAY",
-          "MOVE_WING_ATTACK"
-        ],
+        "level": 34,
+        "moves": [],
         "name": "Golbat",
         "species": "SPECIES_GOLBAT"
       },
       {
         "item": "ITEM_NONE",
-        "level": 33,
-        "moves": [
-          "MOVE_DOUBLE_HIT",
-          "MOVE_SLUDGE",
-          "MOVE_SMOKESCREEN",
-          "MOVE_SMOG"
-        ],
+        "level": 35,
+        "moves": [],
         "name": "Weezing",
         "species": "SPECIES_WEEZING"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 34,
+        "moves": [],
+        "name": "Raticate",
+        "species": "SPECIES_RATICATE"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 35,
+        "moves": [],
+        "name": "Arbok",
+        "species": "SPECIES_ARBOK"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 35,
+        "moves": [],
+        "name": "Murkrow",
+        "species": "SPECIES_MURKROW"
+      },
+      {
+        "item": "ITEM_NONE",
+        "level": 36,
+        "moves": [],
+        "name": "Skuntank",
+        "species": "SPECIES_SKUNTANK"
       }
     ],
-    "party_size": 2,
+    "party_size": 6,
     "species": [
       "SPECIES_GOLBAT",
-      "SPECIES_WEEZING"
+      "SPECIES_WEEZING",
+      "SPECIES_RATICATE",
+      "SPECIES_ARBOK",
+      "SPECIES_MURKROW",
+      "SPECIES_SKUNTANK"
     ],
     "trainer_class": "TRAINERCLASS_EXECUTIVE_PROTON",
-    "trainer_type": "TRAINER_DATA_TYPE_MOVES"
+    "trainer_type": "TRAINER_DATA_TYPE_NOTHING"
   },
   {
     "id": 707,
@@ -26114,7 +26653,7 @@
     "name": "Falkner",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 68,
         "moves": [
           "MOVE_ATTRACT",
@@ -26126,7 +26665,7 @@
         "species": "SPECIES_STARAPTOR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 66,
         "moves": [
           "MOVE_ROOST",
@@ -26150,7 +26689,7 @@
         "species": "SPECIES_SWELLOW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 70,
         "moves": [
           "MOVE_NIGHT_SLASH",
@@ -26162,7 +26701,7 @@
         "species": "SPECIES_HONCHKROW"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 70,
         "moves": [
           "MOVE_SURF",
@@ -26174,7 +26713,7 @@
         "species": "SPECIES_PELIPPER"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 72,
         "moves": [
           "MOVE_RETURN",
@@ -26205,7 +26744,7 @@
     "name": "Bugsy",
     "party": [
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 70,
         "moves": [
           "MOVE_BULLET_PUNCH",
@@ -26217,7 +26756,7 @@
         "species": "SPECIES_SCIZOR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 68,
         "moves": [
           "MOVE_TOXIC",
@@ -26229,7 +26768,7 @@
         "species": "SPECIES_SHEDINJA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 68,
         "moves": [
           "MOVE_DETECT",
@@ -26241,7 +26780,7 @@
         "species": "SPECIES_YANMEGA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 69,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -26253,7 +26792,7 @@
         "species": "SPECIES_PINSIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SCARF",
         "level": 70,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -26265,7 +26804,7 @@
         "species": "SPECIES_HERACROSS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 72,
         "moves": [
           "MOVE_PROTECT",
@@ -26296,7 +26835,7 @@
     "name": "Whitney",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 71,
         "moves": [
           "MOVE_PSYCHIC",
@@ -26308,7 +26847,7 @@
         "species": "SPECIES_GIRAFARIG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 69,
         "moves": [
           "MOVE_WRING_OUT",
@@ -26320,7 +26859,7 @@
         "species": "SPECIES_LICKILICKY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 69,
         "moves": [
           "MOVE_DOUBLE_TEAM",
@@ -26332,7 +26871,7 @@
         "species": "SPECIES_BIBAREL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 70,
         "moves": [
           "MOVE_FAKE_OUT",
@@ -26344,7 +26883,7 @@
         "species": "SPECIES_DELCATTY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 72,
         "moves": [
           "MOVE_BLIZZARD",
@@ -26356,7 +26895,7 @@
         "species": "SPECIES_CLEFABLE"
       },
       {
-        "item": "ITEM_LUM_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 73,
         "moves": [
           "MOVE_BODY_SLAM",
@@ -26399,7 +26938,7 @@
         "species": "SPECIES_DRIFBLIM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 68,
         "moves": [
           "MOVE_PAIN_SPLIT",
@@ -26411,7 +26950,7 @@
         "species": "SPECIES_DUSKNOIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 70,
         "moves": [
           "MOVE_SUCKER_PUNCH",
@@ -26423,7 +26962,7 @@
         "species": "SPECIES_SABLEYE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 70,
         "moves": [
           "MOVE_PERISH_SONG",
@@ -26435,7 +26974,7 @@
         "species": "SPECIES_MISMAGIUS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 72,
         "moves": [
           "MOVE_HYPNOSIS",
@@ -26447,7 +26986,7 @@
         "species": "SPECIES_GENGAR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 74,
         "moves": [
           "MOVE_SUBSTITUTE",
@@ -26478,7 +27017,7 @@
     "name": "Pryce",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 72,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -26502,7 +27041,7 @@
         "species": "SPECIES_DEWGONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 72,
         "moves": [
           "MOVE_PAYBACK",
@@ -26514,7 +27053,7 @@
         "species": "SPECIES_GLALIE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 74,
         "moves": [
           "MOVE_ICE_SHARD",
@@ -26526,7 +27065,7 @@
         "species": "SPECIES_FROSLASS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_HAIL",
@@ -26538,7 +27077,7 @@
         "species": "SPECIES_WALREIN"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -26569,7 +27108,7 @@
     "name": "Jasmine",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 72,
         "moves": [
           "MOVE_METEOR_MASH",
@@ -26581,7 +27120,7 @@
         "species": "SPECIES_METAGROSS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SPECS",
         "level": 74,
         "moves": [
           "MOVE_ZAP_CANNON",
@@ -26593,7 +27132,7 @@
         "species": "SPECIES_MAGNEZONE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ROCKY_HELMET",
         "level": 70,
         "moves": [
           "MOVE_AIR_SLASH",
@@ -26605,7 +27144,7 @@
         "species": "SPECIES_SKARMORY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 72,
         "moves": [
           "MOVE_GYRO_BALL",
@@ -26617,7 +27156,7 @@
         "species": "SPECIES_BRONZONG"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_ASSAULT_VEST",
         "level": 76,
         "moves": [
           "MOVE_HYDRO_PUMP",
@@ -26629,7 +27168,7 @@
         "species": "SPECIES_EMPOLEON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_STONE_EDGE",
@@ -26660,7 +27199,7 @@
     "name": "Chuck",
     "party": [
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 73,
         "moves": [
           "MOVE_HIGH_JUMP_KICK",
@@ -26672,7 +27211,7 @@
         "species": "SPECIES_MEDICHAM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 70,
         "moves": [
           "MOVE_MACH_PUNCH",
@@ -26684,7 +27223,7 @@
         "species": "SPECIES_HITMONCHAN"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 70,
         "moves": [
           "MOVE_HIGH_JUMP_KICK",
@@ -26708,7 +27247,7 @@
         "species": "SPECIES_BRELOOM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SCARF",
         "level": 73,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -26720,7 +27259,7 @@
         "species": "SPECIES_PRIMEAPE"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 75,
         "moves": [
           "MOVE_DOUBLE_TEAM",
@@ -26751,7 +27290,7 @@
     "name": "Clair",
     "party": [
       {
-        "item": "ITEM_WACAN_BERRY",
+        "item": "ITEM_LUM_BERRY",
         "level": 72,
         "moves": [
           "MOVE_DRAGON_DANCE",
@@ -26763,7 +27302,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 72,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -26775,7 +27314,7 @@
         "species": "SPECIES_DRAGONAIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 74,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -26787,7 +27326,7 @@
         "species": "SPECIES_AERODACTYL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_YAWN",
@@ -26799,7 +27338,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 76,
         "moves": [
           "MOVE_SHADOW_CLAW",
@@ -26811,7 +27350,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 78,
         "moves": [
           "MOVE_THUNDER",
@@ -26842,7 +27381,7 @@
     "name": "Brock",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_WEAKNESS_POLICY",
         "level": 74,
         "moves": [
           "MOVE_SANDSTORM",
@@ -26866,7 +27405,7 @@
         "species": "SPECIES_RELICANTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_ANCIENT_POWER",
@@ -26878,7 +27417,7 @@
         "species": "SPECIES_OMASTAR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_EVIOLITE",
         "level": 76,
         "moves": [
           "MOVE_STEALTH_ROCK",
@@ -26890,7 +27429,7 @@
         "species": "SPECIES_ONIX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_ROCK_SLIDE",
@@ -26902,7 +27441,7 @@
         "species": "SPECIES_KABUTOPS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 78,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -26933,7 +27472,7 @@
     "name": "Misty",
     "party": [
       {
-        "item": "ITEM_COLBUR_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -26945,7 +27484,7 @@
         "species": "SPECIES_STARMIE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 72,
         "moves": [
           "MOVE_WATER_PULSE",
@@ -26957,7 +27496,7 @@
         "species": "SPECIES_QUAGSIRE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_SURF",
@@ -26969,7 +27508,7 @@
         "species": "SPECIES_LAPRAS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 74,
         "moves": [
           "MOVE_CONFUSE_RAY",
@@ -26981,7 +27520,7 @@
         "species": "SPECIES_LANTURN"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_AGILITY",
@@ -26993,7 +27532,7 @@
         "species": "SPECIES_FLOATZEL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_HYDRO_PUMP",
@@ -27024,7 +27563,7 @@
     "name": "Lt. Surge",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -27036,7 +27575,7 @@
         "species": "SPECIES_RAICHU"
       },
       {
-        "item": "ITEM_PINAP_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 74,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -27048,7 +27587,7 @@
         "species": "SPECIES_MANECTRIC"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_SPECS",
         "level": 76,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -27060,7 +27599,7 @@
         "species": "SPECIES_MAGNEZONE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -27072,7 +27611,7 @@
         "species": "SPECIES_ELECTRODE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_QUICK_ATTACK",
@@ -27084,7 +27623,7 @@
         "species": "SPECIES_PACHIRISU"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_EXPERT_BELT",
         "level": 80,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -27115,7 +27654,7 @@
     "name": "Erika",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_LEAF_STORM",
@@ -27127,7 +27666,7 @@
         "species": "SPECIES_SHIFTRY"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 74,
         "moves": [
           "MOVE_U_TURN",
@@ -27139,7 +27678,7 @@
         "species": "SPECIES_JUMPLUFF"
       },
       {
-        "item": "ITEM_KELPSY_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 76,
         "moves": [
           "MOVE_NATURAL_GIFT",
@@ -27151,7 +27690,7 @@
         "species": "SPECIES_VICTREEBEL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAT_ROCK",
         "level": 78,
         "moves": [
           "MOVE_SUNNY_DAY",
@@ -27163,7 +27702,7 @@
         "species": "SPECIES_BELLOSSOM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 78,
         "moves": [
           "MOVE_SWORDS_DANCE",
@@ -27175,7 +27714,7 @@
         "species": "SPECIES_TANGROWTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 80,
         "moves": [
           "MOVE_WEATHER_BALL",
@@ -27206,7 +27745,7 @@
     "name": "Janine",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 74,
         "moves": [
           "MOVE_HEAT_WAVE",
@@ -27218,7 +27757,7 @@
         "species": "SPECIES_CROBAT"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 72,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -27230,7 +27769,7 @@
         "species": "SPECIES_WEEZING"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 74,
         "moves": [
           "MOVE_CROSS_CHOP",
@@ -27242,7 +27781,7 @@
         "species": "SPECIES_TOXICROAK"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_TOXIC",
@@ -27254,7 +27793,7 @@
         "species": "SPECIES_ARIADOS"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_SLEEP_POWDER",
@@ -27266,7 +27805,7 @@
         "species": "SPECIES_VENOMOTH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_SCOPE_LENS",
         "level": 78,
         "moves": [
           "MOVE_CROSS_POISON",
@@ -27297,7 +27836,7 @@
     "name": "Sabrina",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 78,
         "moves": [
           "MOVE_GRAVITY",
@@ -27309,7 +27848,7 @@
         "species": "SPECIES_ALAKAZAM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 76,
         "moves": [
           "MOVE_CALM_MIND",
@@ -27321,7 +27860,7 @@
         "species": "SPECIES_ESPEON"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIGHT_CLAY",
         "level": 76,
         "moves": [
           "MOVE_REFLECT",
@@ -27333,7 +27872,7 @@
         "species": "SPECIES_MR_MIME"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_FOCUS_SASH",
         "level": 76,
         "moves": [
           "MOVE_BLIZZARD",
@@ -27345,7 +27884,7 @@
         "species": "SPECIES_JYNX"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_COUNTER",
@@ -27357,7 +27896,7 @@
         "species": "SPECIES_WOBBUFFET"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LIFE_ORB",
         "level": 80,
         "moves": [
           "MOVE_CLOSE_COMBAT",
@@ -27388,7 +27927,7 @@
     "name": "Blaine",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAT_ROCK",
         "level": 80,
         "moves": [
           "MOVE_SUNNY_DAY",
@@ -27400,7 +27939,7 @@
         "species": "SPECIES_TORKOAL"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 78,
         "moves": [
           "MOVE_EARTHQUAKE",
@@ -27412,7 +27951,7 @@
         "species": "SPECIES_CAMERUPT"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_CHOICE_BAND",
         "level": 78,
         "moves": [
           "MOVE_MEGAHORN",
@@ -27424,7 +27963,7 @@
         "species": "SPECIES_RAPIDASH"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_CURSE",
@@ -27436,7 +27975,7 @@
         "species": "SPECIES_MAGCARGO"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 80,
         "moves": [
           "MOVE_SHADOW_BALL",
@@ -27448,7 +27987,7 @@
         "species": "SPECIES_HOUNDOOM"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EXPERT_BELT",
         "level": 82,
         "moves": [
           "MOVE_THUNDERBOLT",
@@ -27474,13 +28013,13 @@
   },
   {
     "id": 727,
-    "max_level": 90,
-    "min_level": 84,
+    "max_level": 96,
+    "min_level": 92,
     "name": "Blue",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 84,
+        "item": "ITEM_LIFE_ORB",
+        "level": 92,
         "moves": [
           "MOVE_LEAF_STORM",
           "MOVE_PSYCHIC",
@@ -27492,7 +28031,7 @@
       },
       {
         "item": "ITEM_IRON_BALL",
-        "level": 84,
+        "level": 92,
         "moves": [
           "MOVE_DYNAMIC_PUNCH",
           "MOVE_STONE_EDGE",
@@ -27503,8 +28042,8 @@
         "species": "SPECIES_MACHAMP"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 86,
+        "item": "ITEM_ASSAULT_VEST",
+        "level": 93,
         "moves": [
           "MOVE_MEGAHORN",
           "MOVE_STONE_EDGE",
@@ -27515,8 +28054,8 @@
         "species": "SPECIES_RHYPERIOR"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 86,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 94,
         "moves": [
           "MOVE_FLARE_BLITZ",
           "MOVE_EXTREME_SPEED",
@@ -27527,8 +28066,8 @@
         "species": "SPECIES_ARCANINE"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 88,
+        "item": "ITEM_CHOICE_BAND",
+        "level": 95,
         "moves": [
           "MOVE_LOW_KICK",
           "MOVE_FIRE_FANG",
@@ -27539,8 +28078,8 @@
         "species": "SPECIES_TYRANITAR"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 90,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 96,
         "moves": [
           "MOVE_RETURN",
           "MOVE_DOUBLE_TEAM",
@@ -27720,13 +28259,13 @@
   },
   {
     "id": 733,
-    "max_level": 88,
-    "min_level": 82,
+    "max_level": 96,
+    "min_level": 92,
     "name": "Lance",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 82,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 92,
         "moves": [
           "MOVE_WATERFALL",
           "MOVE_ICE_FANG",
@@ -27737,8 +28276,8 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 82,
+        "item": "ITEM_FOCUS_SASH",
+        "level": 92,
         "moves": [
           "MOVE_AERIAL_ACE",
           "MOVE_ROCK_SLIDE",
@@ -27749,8 +28288,8 @@
         "species": "SPECIES_AERODACTYL"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 84,
+        "item": "ITEM_LIFE_ORB",
+        "level": 93,
         "moves": [
           "MOVE_SURF",
           "MOVE_DRAGON_PULSE",
@@ -27761,8 +28300,8 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 84,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 94,
         "moves": [
           "MOVE_FLAMETHROWER",
           "MOVE_AIR_SLASH",
@@ -27773,8 +28312,8 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 86,
+        "item": "ITEM_CHOICE_BAND",
+        "level": 95,
         "moves": [
           "MOVE_IRON_HEAD",
           "MOVE_DRAGON_CLAW",
@@ -27785,8 +28324,8 @@
         "species": "SPECIES_AGGRON"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 88,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 96,
         "moves": [
           "MOVE_FIRE_PUNCH",
           "MOVE_SAFEGUARD",
@@ -27816,7 +28355,7 @@
     "name": "Clair",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 76,
         "moves": [
           "MOVE_WATERFALL",
@@ -27828,7 +28367,7 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_EVIOLITE",
         "level": 76,
         "moves": [
           "MOVE_THUNDER_WAVE",
@@ -27840,7 +28379,7 @@
         "species": "SPECIES_DRAGONAIR"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 78,
         "moves": [
           "MOVE_DRAGON_PULSE",
@@ -27852,7 +28391,7 @@
         "species": "SPECIES_ALTARIA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 80,
         "moves": [
           "MOVE_HYDRO_PUMP",
@@ -27864,7 +28403,7 @@
         "species": "SPECIES_KINGDRA"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 82,
         "moves": [
           "MOVE_FLAMETHROWER",
@@ -27876,7 +28415,7 @@
         "species": "SPECIES_CHARIZARD"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 84,
         "moves": [
           "MOVE_THUNDER",
@@ -28176,12 +28715,12 @@
   {
     "id": 738,
     "max_level": 96,
-    "min_level": 90,
+    "min_level": 92,
     "name": "Steven",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_ROCKY_HELMET",
+        "level": 92,
         "moves": [
           "MOVE_STEEL_WING",
           "MOVE_AIR_SLASH",
@@ -28192,8 +28731,8 @@
         "species": "SPECIES_SKARMORY"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_LIGHT_CLAY",
+        "level": 92,
         "moves": [
           "MOVE_EARTH_POWER",
           "MOVE_PSYCHIC",
@@ -28204,8 +28743,8 @@
         "species": "SPECIES_CLAYDOL"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 91,
+        "item": "ITEM_LEFTOVERS",
+        "level": 93,
         "moves": [
           "MOVE_ENERGY_BALL",
           "MOVE_STONE_EDGE",
@@ -28216,8 +28755,8 @@
         "species": "SPECIES_CRADILY"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 91,
+        "item": "ITEM_LIFE_ORB",
+        "level": 94,
         "moves": [
           "MOVE_X_SCISSOR",
           "MOVE_ROCK_SLIDE",
@@ -28228,8 +28767,8 @@
         "species": "SPECIES_ARMALDO"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 93,
+        "item": "ITEM_CHOICE_BAND",
+        "level": 95,
         "moves": [
           "MOVE_IRON_HEAD",
           "MOVE_STONE_EDGE",
@@ -28240,7 +28779,7 @@
         "species": "SPECIES_AGGRON"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_ASSAULT_VEST",
         "level": 96,
         "moves": [
           "MOVE_METEOR_MASH",
@@ -28267,12 +28806,12 @@
   {
     "id": 739,
     "max_level": 96,
-    "min_level": 90,
+    "min_level": 92,
     "name": "Wallace",
     "party": [
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_LEFTOVERS",
+        "level": 92,
         "moves": [
           "MOVE_WATER_SPOUT",
           "MOVE_ICE_BEAM",
@@ -28283,8 +28822,8 @@
         "species": "SPECIES_WAILORD"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 90,
+        "item": "ITEM_BLACK_SLUDGE",
+        "level": 92,
         "moves": [
           "MOVE_SURF",
           "MOVE_SLUDGE_BOMB",
@@ -28295,8 +28834,8 @@
         "species": "SPECIES_TENTACRUEL"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 91,
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
+        "level": 93,
         "moves": [
           "MOVE_WATERFALL",
           "MOVE_ICE_FANG",
@@ -28307,8 +28846,8 @@
         "species": "SPECIES_GYARADOS"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 92,
+        "item": "ITEM_LIFE_ORB",
+        "level": 94,
         "moves": [
           "MOVE_SURF",
           "MOVE_ENERGY_BALL",
@@ -28319,8 +28858,8 @@
         "species": "SPECIES_LUDICOLO"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 92,
+        "item": "ITEM_LEFTOVERS",
+        "level": 95,
         "moves": [
           "MOVE_EARTHQUAKE",
           "MOVE_AQUA_TAIL",
@@ -28331,7 +28870,7 @@
         "species": "SPECIES_WHISCASH"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
+        "item": "ITEM_LEFTOVERS",
         "level": 96,
         "moves": [
           "MOVE_SURF",
@@ -28357,12 +28896,12 @@
   },
   {
     "id": 740,
-    "max_level": 98,
+    "max_level": 96,
     "min_level": 92,
     "name": "Cynthia",
     "party": [
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LEFTOVERS",
         "level": 92,
         "moves": [
           "MOVE_DARK_PULSE",
@@ -28374,7 +28913,7 @@
         "species": "SPECIES_SPIRITOMB"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_BLACK_SLUDGE",
         "level": 92,
         "moves": [
           "MOVE_ENERGY_BALL",
@@ -28386,7 +28925,7 @@
         "species": "SPECIES_ROSERADE"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_HEAVY_DUTY_BOOTS",
         "level": 93,
         "moves": [
           "MOVE_AIR_SLASH",
@@ -28398,7 +28937,7 @@
         "species": "SPECIES_TOGEKISS"
       },
       {
-        "item": "ITEM_NONE",
+        "item": "ITEM_LIFE_ORB",
         "level": 94,
         "moves": [
           "MOVE_AURA_SPHERE",
@@ -28410,8 +28949,8 @@
         "species": "SPECIES_LUCARIO"
       },
       {
-        "item": "ITEM_NONE",
-        "level": 94,
+        "item": "ITEM_LEFTOVERS",
+        "level": 95,
         "moves": [
           "MOVE_SURF",
           "MOVE_ICE_BEAM",
@@ -28422,8 +28961,8 @@
         "species": "SPECIES_MILOTIC"
       },
       {
-        "item": "ITEM_SITRUS_BERRY",
-        "level": 98,
+        "item": "ITEM_CLEAR_AMULET",
+        "level": 96,
         "moves": [
           "MOVE_DRAGON_RUSH",
           "MOVE_EARTHQUAKE",

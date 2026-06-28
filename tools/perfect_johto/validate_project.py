@@ -120,11 +120,7 @@ EV_ITEMS = [
 
 EXPECTED_RANDOM_LEGENDARY_RATES = [
     {"badges": "0-3", "denominator": 0, "description": "disabled"},
-    {"badges": "4", "denominator": 4096, "description": "1/4096"},
-    {"badges": "5", "denominator": 3072, "description": "1/3072"},
-    {"badges": "6-7", "denominator": 2048, "description": "1/2048"},
-    {"badges": "8-15", "denominator": 1536, "description": "1/1536"},
-    {"badges": "16", "denominator": 1024, "description": "1/1024"},
+    {"badges": "4+", "denominator": 100, "description": "1/100 aggregate unlocked-pool roll"},
 ]
 
 
@@ -266,6 +262,10 @@ def parse_badge_mart() -> list[dict[str, Any]]:
             }
         )
     return rows
+
+
+def item_icon_path(item: str) -> pathlib.Path:
+    return ENGINE / "data" / "graphics" / "item" / f"{item.removeprefix('ITEM_').lower()}.png"
 
 
 def parse_evolutions() -> list[dict[str, Any]]:
@@ -436,6 +436,7 @@ def encounter_to_dict(entry: phase6.Encounter) -> dict[str, Any]:
         "good_rod": [encounter_slot_dict(slot, phase6.FISH_RATES_PHASE6[index]) for index, slot in enumerate(entry.good_rod)],
         "super_rod": [encounter_slot_dict(slot, phase6.FISH_RATES_PHASE6[index]) for index, slot in enumerate(entry.super_rod)],
         "rare_notes": entry.rare_notes,
+        "common_notes": entry.common_notes,
     }
 
 
@@ -596,11 +597,9 @@ def validate_random_legendary() -> CheckResult:
     text = (ENGINE / "src" / "field" / "enemy_party.c").read_text(encoding="utf-8", errors="replace")
     required_fragments = [
         "if (badgeCount < 4)",
-        "return 4096;",
-        "return 3072;",
-        "return 2048;",
-        "return 1536;",
-        "return 1024;",
+        "return 100;",
+        "MOVE_TELEPORT",
+        "PerfectJohto_SetRandomLegendaryFleeMove(encounterPartyPokemon);",
         "BATTLE_TYPE_SAFARI",
         "BATTLE_TYPE_ROAMER",
         "BATTLE_TYPE_PAL_PARK",
@@ -615,7 +614,7 @@ def validate_random_legendary() -> CheckResult:
         errors.append("random legendary source appears to touch roamer save state")
     if errors:
         return CheckResult("Random legendary validation", "FAIL", "; ".join(errors))
-    return CheckResult("Random legendary validation", "PASS", f"{len(pool)} Gen 1-4 legendary/mythical pool entries; badge rates and exclusions present")
+    return CheckResult("Random legendary validation", "PASS", f"{len(pool)} Gen 1-4 legendary/mythical pool entries; aggregate 1% roll, flee move, and exclusions present")
 
 
 def validate_dojo_flags_and_script() -> CheckResult:
@@ -696,6 +695,23 @@ def validate_marts_and_items() -> CheckResult:
     if errors:
         return CheckResult("Item, mart, and Max Candy validation", "FAIL", "; ".join(errors))
     return CheckResult("Item, mart, and Max Candy validation", "PASS", f"{len(mart)} badge-mart entries; Max Candy/IV candy/customization gates validated")
+
+
+def validate_badge_mart_item_icons() -> CheckResult:
+    errors: list[str] = []
+    placeholder = ENGINE / "data" / "graphics" / "item" / "unknown_7a.png"
+    placeholder_bytes = placeholder.read_bytes() if placeholder.exists() else b""
+    for row in parse_badge_mart():
+        item = row["item"]
+        icon_path = item_icon_path(item)
+        if not icon_path.exists():
+            errors.append(f"{item} missing icon {rel(icon_path)}")
+            continue
+        if placeholder_bytes and icon_path.read_bytes() == placeholder_bytes:
+            errors.append(f"{item} still uses placeholder icon {rel(icon_path)}")
+    if errors:
+        return CheckResult("Badge mart item icon validation", "FAIL", "; ".join(errors[:20]))
+    return CheckResult("Badge mart item icon validation", "PASS", f"{len(parse_badge_mart())} badge-mart item icons exist and are not placeholders")
 
 
 def validate_evolutions_and_forms() -> CheckResult:
@@ -803,6 +819,7 @@ def run_validations() -> tuple[list[CheckResult], dict[str, Any]]:
     results.append(validate_random_legendary())
     results.append(validate_dojo_flags_and_script())
     results.append(validate_marts_and_items())
+    results.append(validate_badge_mart_item_icons())
     results.append(validate_evolutions_and_forms())
     results.append(validate_pokedex_area_status())
     build_result, build_details = validate_build_readiness()
@@ -883,7 +900,7 @@ def build_exports(build_details: dict[str, Any], results: list[CheckResult]) -> 
             "johto_leaders": "Falkner 13-14 through Clair 46-50",
             "first_league": "Will 50-54 through Lance 58-60",
             "kanto_leaders": "early Kanto 58-66 through Blue 78-82",
-            "postgame": "Elite Four rematches 78-84, Lance rematch 82-88, Gym rematches 66-90, Red 88-100",
+            "postgame": "Elite Four rematches 78-84, legacy Lance rematch 82-88, Gym rematches 66-90, Champion Circuit trainers 92-96",
         },
         "bosses": boss_trainers,
     }
@@ -937,6 +954,8 @@ def build_exports(build_details: dict[str, Any], results: list[CheckResult]) -> 
         "random_legendary_surprise.json": {
             "pool": random_pool,
             "rates": EXPECTED_RANDOM_LEGENDARY_RATES,
+            "roll_model": "One 1/100 overlay roll is made after a normal eligible wild encounter succeeds, then one species is selected from the unlocked pool.",
+            "flee_behavior": "Generated surprise legendaries receive Teleport in move slot 4, giving wild AI a move-based chance to flee each turn.",
             "blocked_battle_types": [
                 "BATTLE_TYPE_TRAINER",
                 "BATTLE_TYPE_SAFARI",
@@ -1211,7 +1230,9 @@ Known limitation: Dudunsparce Three-Segment and Ursaluna Bloodmoon special form 
 
 Wild encounters are generated from `data/Encounters.c` and summarized in `exports/perfect_johto/wild_encounters.json`.
 
-Static validation confirms Phase 6 encounter structure, approved-scope species use, Kanto level raises, starter late/postgame access, and rare-slot coverage. See `docs/phase6_obtainability_report.md` for the detailed area list.
+Main land encounters use a shared daytime pool: the engine-facing morning and day arrays are kept identical, while night remains separate.
+
+Static validation confirms Phase 6 encounter structure, approved-scope species use, late-Johto and Kanto level raises, starter late/postgame access, six-species minimum area variety, Gen 3-4 Johto-main base-form coverage, and rare-slot coverage. See `docs/phase6_obtainability_report.md` for the detailed area list.
 """
 
     docs["RARE_ENCOUNTERS.md"] = f"""
@@ -1219,9 +1240,11 @@ Static validation confirms Phase 6 encounter structure, approved-scope species u
 
 - Export: `exports/perfect_johto/rare_encounters.json`
 - Meaningful non-Safari areas with rare notes: {len(rare)}
-- Land rare slots use 1% slots 10 and/or 11.
-- Surf rare slots use 1% slot 4.
+- Land rare slots use the 4% slot 8.
+- Surf rare slots use the 4% slot 3.
 - Fishing rare slots use the Phase 6 4% slot 4.
+- Every meaningful non-Safari encounter area has 1-3 rare species.
+- Rare species are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.
 
 Rare pseudo-legendary initial forms are intentionally sparse and semantically placed, including Larvitar, Bagon, Gible, Beldum, and Riolu in cave, mountain, dragon, or expert-training contexts.
 """
@@ -1234,6 +1257,10 @@ The random legendary surprise overlay is implemented in `src/field/enemy_party.c
 ## Rates
 
 {markdown_list([f"{row['badges']} badges: {row['description']}" for row in random_legendary['rates']])}
+
+The 1/100 rate is an aggregate overlay roll, not one independent roll per legendary. After the roll succeeds, one species is selected from the currently unlocked pool.
+
+Surprise legendaries receive Teleport in move slot 4, giving the wild AI a move-based chance to flee each turn.
 
 ## Exclusions
 
@@ -1250,7 +1277,7 @@ Trainer teams are exported from `data/Trainers.c`.
 - Full export: `exports/perfect_johto/trainer_teams.json`
 - Phase 7 report: `docs/phase7_trainer_report.md`
 
-Static validation checks trainer species, moves, items, ability slots, approved Pokemon scope, major rival/Rocket sizes, and mandatory six-Pokemon boss rules.
+Static validation checks trainer species, moves, items, ability slots, approved Pokemon scope, regular-trainer Gen 3-4 variety, major rival/Rocket sizes, and mandatory six-Pokemon boss rules.
 """
 
     docs["BOSS_BATTLES.md"] = f"""
