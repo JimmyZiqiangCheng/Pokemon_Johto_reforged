@@ -5,6 +5,7 @@
 - Land rare slots use the 4% slot 8.
 - Surf rare slots use the 4% slot 3.
 - Fishing rare slots use the Phase 6 4% slot 4.
+- Legacy land/surf filler slots and non-rare rod filler slots duplicate common species and are not treated as rare finds.
 - Every meaningful non-Safari encounter area has 1-3 rare species.
 - Rare species are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.
 

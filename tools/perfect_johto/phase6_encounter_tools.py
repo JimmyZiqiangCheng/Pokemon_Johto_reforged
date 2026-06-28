@@ -508,7 +508,11 @@ def choose_common_slot(slots: list[Slot], preferred_slots: tuple[int, ...]) -> i
     real_slots = [slot for slot, value in enumerate(slots) if value.species != "SPECIES_NONE"]
     if not real_slots:
         return None
-    counts = Counter(value.species for value in slots if value.species != "SPECIES_NONE")
+    counts = Counter(
+        slots[slot].species
+        for slot in preferred_slots
+        if slot < len(slots) and slots[slot].species != "SPECIES_NONE"
+    )
     for slot in preferred_slots:
         if slot < len(slots) and slots[slot].species == "SPECIES_NONE":
             return slot
@@ -517,8 +521,6 @@ def choose_common_slot(slots: list[Slot], preferred_slots: tuple[int, ...]) -> i
         for slot in preferred_slots
         if slot < len(slots) and slots[slot].species != "SPECIES_NONE" and counts[slots[slot].species] > 1
     ]
-    if not candidates:
-        candidates = [slot for slot in real_slots if counts[slots[slot].species] > 1]
     if not candidates:
         return None
     return max(candidates, key=lambda slot: (counts[slots[slot].species], -slot))
@@ -534,8 +536,9 @@ def set_slot_common(
 ) -> str | None:
     if not slots or all(slot.species == "SPECIES_NONE" for slot in slots):
         return None
-    if species_in_common_slots(slots, species, len(slots)):
-        existing_slots = [idx for idx, slot in enumerate(slots) if slot.species == species]
+    common_limit = max(preferred_slots) + 1 if preferred_slots else len(slots)
+    if species_in_common_slots(slots, species, common_limit):
+        existing_slots = [idx for idx, slot in enumerate(slots[:common_limit]) if slot.species == species]
         rate = sum(rates[idx] for idx in existing_slots if idx < len(rates))
         min_level = min(slots[idx].min_level for idx in existing_slots)
         max_level = max(slots[idx].max_level for idx in existing_slots)
@@ -562,6 +565,14 @@ def set_fish_common(entry: Encounter, species: str, level: int | None = None, ro
     placed = set_slot_common(slots, species, level, (1, 2, 3, 0), FISH_RATES_PHASE6, note)
     if placed:
         append_common_note(entry, f"{rod} rod common " + placed)
+
+
+def set_any_fish_common(entry: Encounter, species: str, level: int | None = None, note: str | None = None) -> None:
+    for rod in ("super", "good", "old"):
+        before = water_pool_species(entry)
+        set_fish_common(entry, species, level, rod, note)
+        if len(water_pool_species(entry)) > len(before):
+            return
 
 
 def set_special_common(entry: Encounter, species: str, note: str | None = None) -> bool:
@@ -845,6 +856,34 @@ def entry_by_key(entries: list[Encounter]) -> dict[str, Encounter]:
 
 def add_explicit_placements(entries: list[Encounter]) -> None:
     e = entry_by_key(entries)
+    if "ENCDATA_T07_CELADON_CITY" in e:
+        celadon = e["ENCDATA_T07_CELADON_CITY"]
+        celadon.rate_old_rod = 25
+        celadon.rate_good_rod = 50
+        celadon.rate_super_rod = 75
+        celadon.old_rod = [
+            Slot(10, 10, "SPECIES_MAGIKARP"),
+            Slot(10, 10, "SPECIES_MAGIKARP"),
+            Slot(10, 10, "SPECIES_MAGIKARP"),
+            Slot(10, 10, "SPECIES_POLIWAG"),
+            Slot(10, 10, "SPECIES_POLIWAG"),
+        ]
+        celadon.good_rod = [
+            Slot(46, 48, "SPECIES_MAGIKARP"),
+            Slot(46, 49, "SPECIES_POLIWAG"),
+            Slot(48, 54, "SPECIES_POLIWAG"),
+            Slot(49, 55, "SPECIES_GRIMER"),
+            Slot(54, 56, "SPECIES_POLIWAG"),
+        ]
+        celadon.super_rod = [
+            Slot(46, 48, "SPECIES_POLIWAG"),
+            Slot(46, 49, "SPECIES_GRIMER"),
+            Slot(48, 54, "SPECIES_MAGIKARP"),
+            Slot(49, 55, "SPECIES_MUK"),
+            Slot(54, 56, "SPECIES_MAGIKARP"),
+        ]
+        append_common_note(celadon, "Celadon pond fishing enabled for six-species surf/fishing variety")
+
     land = [
         ("ENCDATA_R29_ROUTE_29", "SPECIES_SHINX", 4, (8,), "early electric variety without starter clutter"),
         ("ENCDATA_R30_ROUTE_30", "SPECIES_RALTS", 4, (8,), "quiet wooded-route empath line"),
@@ -862,7 +901,7 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_D26R0103_SLOWPOKE_WELL_B2F", "SPECIES_MUDKIP", 15, (8,), "wet cave Hoenn starter rare"),
         ("ENCDATA_D22R0101_NATIONAL_PARK", "SPECIES_SCYTHER", 16, (8,), "classic park rare"),
         ("ENCDATA_D22R0102_NATIONAL_PARK_BUG_CATCHING_CONTEST", "SPECIES_PINSIR", 16, (8,), "contest counterpart rare"),
-        ("ENCDATA_D18R0102_BURNED_TOWER_B1F", "SPECIES_DUSKULL", 19, (8,), "haunted basement rare"),
+        ("ENCDATA_D18R0102_BURNED_TOWER_B1F", "SPECIES_TORCHIC", 19, (8,), "haunted burned-basement fire starter access"),
         ("ENCDATA_D17R0102_BELL_TOWER_2F", "SPECIES_TOGEPI", 22, (8,), "sacred tower line"),
         ("ENCDATA_D17R0103_BELL_TOWER_3F", "SPECIES_CHIMECHO", 23, (8,), "bell-themed rare"),
         ("ENCDATA_D17R0104_BELL_TOWER_4F", "SPECIES_DRIFLOON", 24, (8,), "windborne tower rare"),
@@ -952,11 +991,11 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_R34_ROUTE_34", "SPECIES_RIOLU", "SPECIES_IGGLYBUFF", "SPECIES_WYNAUT", 15, "Day-Care route friendship and baby-form surprises"),
         ("ENCDATA_R35_ROUTE_35", "SPECIES_PICHU", "SPECIES_EEVEE", "SPECIES_HAPPINY", 16, "city-edge happiness-line rare split"),
         ("ENCDATA_R36_ROUTE_36", "SPECIES_BONSLY", "SPECIES_MEDITITE", "SPECIES_BONSLY", 17, "Sudowoodo-route baby form and meditation rare"),
-        ("ENCDATA_R37_ROUTE_37", "SPECIES_CHARMANDER", "SPECIES_VULPIX", "SPECIES_MISDREAVUS", 18, "morning Kanto fire starter, day fox-fire, night ghost flavor"),
+        ("ENCDATA_R37_ROUTE_37", "SPECIES_VULPIX", "SPECIES_VULPIX", "SPECIES_CHARMANDER", 18, "daytime fox-fire and night Kanto fire-starter split"),
         ("ENCDATA_R38_ROUTE_38", "SPECIES_MEOWTH_GALARIAN", "SPECIES_MEOWTH_GALARIAN", "SPECIES_MEOWTH_ALOLAN", 26, "Meowth-family regional split by time"),
-        ("ENCDATA_D18R0101_BURNED_TOWER_1F", "SPECIES_TORCHIC", "SPECIES_HOUNDOUR", "SPECIES_MAGBY", 18, "burned ruins fire-line split"),
-        ("ENCDATA_D17R0112_BELL_TOWER_10F", "SPECIES_CYNDAQUIL", "SPECIES_TORCHIC", "SPECIES_CHIMCHAR", 32, "sacred tower fire-starter split"),
-        ("ENCDATA_R39_ROUTE_39", "SPECIES_FARFETCHD_GALARIAN", "SPECIES_FARFETCHD_GALARIAN", "SPECIES_ELEKID", 27, "farm-route regional bird with electric baby night rare"),
+        ("ENCDATA_D18R0101_BURNED_TOWER_1F", "SPECIES_HOUNDOUR", "SPECIES_HOUNDOUR", "SPECIES_MAGBY", 18, "burned ruins dark/fire line and night Magby split"),
+        ("ENCDATA_D17R0112_BELL_TOWER_10F", "SPECIES_CYNDAQUIL", "SPECIES_CYNDAQUIL", "SPECIES_CHIMCHAR", 32, "sacred tower Johto/Sinnoh fire-starter split"),
+        ("ENCDATA_R39_ROUTE_39", "SPECIES_FARFETCHD_GALARIAN", "SPECIES_FARFETCHD_GALARIAN", "SPECIES_ELEKID", 27, "farm-route regional bird and night electric baby split"),
         ("ENCDATA_R42_ROUTE_42", "SPECIES_TURTWIG", "SPECIES_TEDDIURSA", "SPECIES_TEDDIURSA", 28, "mountain-edge Sinnoh starter and bear-line split"),
         ("ENCDATA_D39R0101_ICE_PATH_1F", "SPECIES_SNORUNT", "SPECIES_SMOOCHUM", "SPECIES_SNORUNT", 34, "cold-cave Hoenn ice and baby ice split"),
         ("ENCDATA_D02R0101_MT_MOON_1F", "SPECIES_CHARMANDER", "SPECIES_CHARMANDER", "SPECIES_CLEFFA", 53, "Kanto fire starter by day, moon baby at night"),
@@ -966,6 +1005,11 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
     for key, morning, day, night, level, note in timed:
         if key in e:
             set_time_land_rare(e[key], morning, day, night, level, (8,), note)
+
+    if "ENCDATA_R34_ROUTE_34" in e:
+        set_land_common(e["ENCDATA_R34_ROUTE_34"], "SPECIES_IGGLYBUFF", 15, "Day-Care route baby-form common", (3,))
+    if "ENCDATA_R39_ROUTE_39" in e:
+        set_land_common(e["ENCDATA_R39_ROUTE_39"], "SPECIES_MILTANK", 27, "farm-route signature dairy cow common", (5,))
 
     surf = [
         ("ENCDATA_T20_NEW_BARK_TOWN", "SPECIES_CLAMPERL", 18, "coastal pearl-line rare"),
@@ -1034,6 +1078,22 @@ def encounter_species(entry: Encounter) -> set[str]:
     return species
 
 
+def land_pool_species(entry: Encounter) -> set[str]:
+    species = set(entry.morning + entry.day + entry.night)
+    species.discard("SPECIES_NONE")
+    return species
+
+
+def water_pool_species(entry: Encounter) -> set[str]:
+    species = {
+        slot.species
+        for slots in [entry.surf, entry.old_rod, entry.good_rod, entry.super_rod]
+        for slot in slots
+    }
+    species.discard("SPECIES_NONE")
+    return species
+
+
 def encounter_rare_species(entry: Encounter) -> list[str]:
     species: list[str] = []
     for note in entry.rare_notes:
@@ -1084,6 +1144,14 @@ def default_rares(entries: list[Encounter]) -> None:
             set_fish_rare(entry, water_cycle[idx % len(water_cycle)], None, "super", "default fishing rare layer")
 
 
+def apply_post_rare_common_pins(entries: list[Encounter]) -> None:
+    e = entry_by_key(entries)
+    if "ENCDATA_W40_ROUTE_40" in e and has_real_surf(e["ENCDATA_W40_ROUTE_40"]):
+        entry = e["ENCDATA_W40_ROUTE_40"]
+        entry.surf[2] = Slot(27, 29, "SPECIES_MANTYKE")
+        append_common_note(entry, "surf common SPECIES_MANTYKE 5% lv27-29 - open-sea Sinnoh ray common")
+
+
 def apply_featured_common_placements(entries: list[Encounter]) -> None:
     e = entry_by_key(entries)
     for key, species_list in FEATURED_COMMON_LAND_PLACEMENTS.items():
@@ -1120,24 +1188,131 @@ def ensure_minimum_species_variety(entries: list[Encounter]) -> None:
     for entry in entries:
         if not is_meaningful(entry):
             continue
-        pools = [filler_pool_for_entry(entry), MIN_VARIETY_FILLERS["water"], MIN_VARIETY_FILLERS["route"]]
-        for pool in pools:
-            for species in pool:
-                if len(encounter_species(entry)) >= 6:
+        if has_real_land(entry):
+            pools = [filler_pool_for_entry(entry), MIN_VARIETY_FILLERS["route"], MIN_VARIETY_FILLERS["cave"]]
+            for pool in pools:
+                for species in pool:
+                    if len(land_pool_species(entry)) >= 6:
+                        break
+                    if species in land_pool_species(entry):
+                        continue
+                    set_land_common(entry, species, None, "minimum six-species land/cave variety")
+                if len(land_pool_species(entry)) >= 6:
                     break
-                if species in encounter_species(entry):
-                    continue
-                before = len(encounter_species(entry))
-                if has_real_land(entry):
-                    set_land_common(entry, species, None, "minimum six-species area variety")
-                if len(encounter_species(entry)) <= before and has_real_surf(entry):
-                    set_surf_common(entry, species, None, "minimum six-species area variety")
-                if len(encounter_species(entry)) <= before and has_real_fish(entry):
-                    set_fish_common(entry, species, None, "super", "minimum six-species area variety")
-                if len(encounter_species(entry)) <= before:
-                    set_special_common(entry, species, "minimum six-species area variety")
-            if len(encounter_species(entry)) >= 6:
-                break
+        if has_real_surf(entry) or has_real_fish(entry):
+            pools = [MIN_VARIETY_FILLERS["water"], MIN_VARIETY_FILLERS["route"]]
+            for pool in pools:
+                for species in pool:
+                    if len(water_pool_species(entry)) >= 6:
+                        break
+                    if species in water_pool_species(entry):
+                        continue
+                    before = len(water_pool_species(entry))
+                    if has_real_surf(entry):
+                        set_surf_common(entry, species, None, "minimum six-species surf/fishing variety")
+                    if len(water_pool_species(entry)) <= before and has_real_fish(entry):
+                        set_any_fish_common(entry, species, None, "minimum six-species surf/fishing variety")
+                if len(water_pool_species(entry)) >= 6:
+                    break
+
+
+def first_real_land_slot(entry: Encounter, preferred: tuple[int, ...]) -> int | None:
+    for slot in preferred:
+        if slot < len(entry.day) and entry.day[slot] != "SPECIES_NONE":
+            return slot
+    for slot, species in enumerate(entry.day[:8]):
+        if species != "SPECIES_NONE":
+            return slot
+    return None
+
+
+def duplicate_land_low_rate_fillers(entry: Encounter) -> None:
+    if not has_real_land(entry):
+        return
+    for target, preferred in [(9, (0, 1, 2, 3)), (10, (0, 2, 4, 6)), (11, (1, 3, 5, 7))]:
+        source = first_real_land_slot(entry, preferred)
+        if source is not None:
+            copy_land_slot(entry, source, target)
+
+
+def first_real_slot(slots: list[Slot], preferred: tuple[int, ...]) -> Slot | None:
+    for slot in preferred:
+        if slot < len(slots) and slots[slot].species != "SPECIES_NONE":
+            return slots[slot]
+    for slot in slots:
+        if slot.species != "SPECIES_NONE":
+            return slot
+    return None
+
+
+def has_surf_rare(entry: Encounter) -> bool:
+    return any("surf " in note for note in entry.rare_notes)
+
+
+def duplicate_surf_low_rate_filler(entry: Encounter) -> None:
+    if not has_real_surf(entry):
+        return
+    source = first_real_slot(entry.surf, (0, 1, 2))
+    if source is not None and len(entry.surf) > 3 and not has_surf_rare(entry):
+        entry.surf[3] = source
+    if source is not None:
+        entry.surf[4] = source
+
+
+def has_super_rod_rare(entry: Encounter) -> bool:
+    return any("super rod " in note for note in entry.rare_notes)
+
+
+def duplicate_rod_low_rate_filler(slots: list[Slot]) -> None:
+    if len(slots) <= 4:
+        return
+    source = first_real_slot(slots, (0, 1, 2, 3))
+    if source is not None:
+        slots[4] = source
+
+
+def duplicate_fish_low_rate_fillers(entry: Encounter) -> None:
+    if not has_real_fish(entry):
+        return
+    duplicate_rod_low_rate_filler(entry.old_rod)
+    duplicate_rod_low_rate_filler(entry.good_rod)
+    if not has_super_rod_rare(entry):
+        duplicate_rod_low_rate_filler(entry.super_rod)
+
+
+def normalize_low_rate_fillers(entries: list[Encounter]) -> None:
+    for entry in entries:
+        duplicate_land_low_rate_fillers(entry)
+        duplicate_surf_low_rate_filler(entry)
+        duplicate_fish_low_rate_fillers(entry)
+
+
+def validate_low_rate_fillers(entry: Encounter) -> list[str]:
+    errors: list[str] = []
+    if has_real_land(entry):
+        common = set(entry.morning[:8] + entry.day[:8] + entry.night[:8])
+        common.discard("SPECIES_NONE")
+        for slot in (9, 10, 11):
+            low = {entry.morning[slot], entry.day[slot], entry.night[slot]} - {"SPECIES_NONE"}
+            if not low <= common:
+                errors.append(f"{entry.key}: land low-rate slot {slot} has unique species {', '.join(sorted(low - common))}")
+    if has_real_surf(entry):
+        common = {slot.species for slot in entry.surf[:3] if slot.species != "SPECIES_NONE"}
+        if len(entry.surf) > 3 and not has_surf_rare(entry) and entry.surf[3].species != "SPECIES_NONE" and entry.surf[3].species not in common:
+            errors.append(f"{entry.key}: non-rare surf 4% slot has unique species {entry.surf[3].species}")
+        if len(entry.surf) > 4 and entry.surf[4].species != "SPECIES_NONE" and entry.surf[4].species not in common:
+            errors.append(f"{entry.key}: surf 1% slot has unique species {entry.surf[4].species}")
+    for rod_name, slots, preserve_rare in [
+        ("old rod", entry.old_rod, False),
+        ("good rod", entry.good_rod, False),
+        ("super rod", entry.super_rod, has_super_rod_rare(entry)),
+    ]:
+        if len(slots) <= 4 or preserve_rare:
+            continue
+        common = {slot.species for slot in slots[:4] if slot.species != "SPECIES_NONE"}
+        if slots[4].species != "SPECIES_NONE" and slots[4].species not in common:
+            errors.append(f"{entry.key}: {rod_name} 4% filler slot has unique species {slots[4].species}")
+    return errors
 
 
 def ordered_unique_species(values: list[str]) -> list[str]:
@@ -1222,7 +1397,12 @@ def apply_phase6(entries: list[Encounter]) -> None:
     add_explicit_placements(entries)
     ensure_minimum_species_variety(entries)
     default_rares(entries)
+    apply_post_rare_common_pins(entries)
     merge_daytime_encounters(entries)
+    normalize_low_rate_fillers(entries)
+    ensure_minimum_species_variety(entries)
+    merge_daytime_encounters(entries)
+    normalize_low_rate_fillers(entries)
 
 
 def fmt_species_array(values: list[str], indent: str) -> str:
@@ -1540,6 +1720,11 @@ def validate(entries: list[Encounter]) -> list[str]:
             errors.append(f"{entry.key}: no rare layer placement")
         if is_meaningful(entry) and len(encounter_species(entry)) < 6:
             errors.append(f"{entry.key}: fewer than 6 encounter species")
+        if is_meaningful(entry) and has_real_land(entry) and len(land_pool_species(entry)) < 6:
+            errors.append(f"{entry.key}: fewer than 6 land/cave encounter species")
+        if is_meaningful(entry) and (has_real_surf(entry) or has_real_fish(entry)) and len(water_pool_species(entry)) < 6:
+            errors.append(f"{entry.key}: fewer than 6 surf/fishing encounter species")
+        errors.extend(validate_low_rate_fillers(entry))
         rare_species = encounter_rare_species(entry)
         if is_meaningful(entry) and not 1 <= len(rare_species) <= 3:
             errors.append(f"{entry.key}: rare species count {len(rare_species)} is outside 1-3")
@@ -1589,6 +1774,10 @@ def make_report(entries: list[Encounter]) -> str:
     meaningful = [entry for entry in entries if is_meaningful(entry)]
     with_rares = [entry for entry in meaningful if entry.rare_notes]
     with_six_species = [entry for entry in meaningful if len(encounter_species(entry)) >= 6]
+    land_meaningful = [entry for entry in meaningful if has_real_land(entry)]
+    water_meaningful = [entry for entry in meaningful if has_real_surf(entry) or has_real_fish(entry)]
+    with_six_land_species = [entry for entry in land_meaningful if len(land_pool_species(entry)) >= 6]
+    with_six_water_species = [entry for entry in water_meaningful if len(water_pool_species(entry)) >= 6]
     rare_count_ok = [entry for entry in meaningful if 1 <= len(encounter_rare_species(entry)) <= 3]
     johto_gen3_4_bases = gen3_4_base_forms(name_to_num)
     johto_gen3_4_covered = [species for species in johto_gen3_4_bases if species in johto_main_species(entries)]
@@ -1607,7 +1796,7 @@ def make_report(entries: list[Encounter]) -> str:
         "- Johto routes and dungeons use Gen 3-4 Pokemon as ordinary ecological encounters at common rates where slot space allows, not only as rare prizes.",
         "- Every non-legendary Gen 3-4 base/pre-evolution form is represented in the main Johto encounter set.",
         "- Rare encounter slots are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.",
-        "- Every meaningful non-Safari encounter area has at least six encounter species and one to three rare encounter species.",
+        "- Land/cave and surf/fishing pools are now each filled to at least six species when that encounter mode exists.",
         "- Route 31, Ilex Forest, Route 37, Slowpoke Well, Route 42, Cherrygrove, and Violet: earlier Johto access to Gen 1/3/4 starter lines.",
         "- Dark Cave Route 31 entrance: Larvitar at 4%, level 7.",
         "- Union Cave B1F/B2F: Gible and Bagon become early cave pseudo-legendary surprises.",
@@ -1640,6 +1829,8 @@ def make_report(entries: list[Encounter]) -> str:
             "",
             f"- Meaningful non-Safari encounter areas with rare layer placements: {len(with_rares)} / {len(meaningful)}.",
             f"- Meaningful non-Safari encounter areas with at least six encounter species: {len(with_six_species)} / {len(meaningful)}.",
+            f"- Meaningful land/cave encounter pools with at least six species: {len(with_six_land_species)} / {len(land_meaningful)}.",
+            f"- Meaningful surf/fishing encounter pools with at least six species: {len(with_six_water_species)} / {len(water_meaningful)}.",
             f"- Meaningful non-Safari encounter areas with 1-3 rare species: {len(rare_count_ok)} / {len(meaningful)}.",
             f"- Non-legendary Gen 1-4 evolution-family components with wild encounter coverage: {len(wild_covered)} / {len(wild_covered) + len(wild_missing)}.",
             f"- Non-legendary Gen 1-4 family components still missing from wild tables: {missing_text}",
@@ -1663,12 +1854,12 @@ def make_report(entries: list[Encounter]) -> str:
             "",
             "## Validation Notes",
             "",
-            "- Land rare slots use HGSS slot 8, a 4% slot; old 1% slots are kept as ordinary filler.",
+            "- Land rare slots use HGSS slot 8, a 4% slot; land slots 9-11 duplicate common species so old low-rate filler does not create separate rare finds.",
             "- Main land encounter tables merge morning and day into one daytime table; night remains separate.",
-            "- Surf rare slots use slot 3, a 4% slot; old 1% surf slots are kept as ordinary filler.",
-            "- Fishing rare slots use slot 4, which Phase 6 changes from 5% to 4%.",
+            "- Surf rare slots use slot 3, a 4% slot; non-rare surf 4% slots and old 1% surf slots duplicate common surf species.",
+            "- Fishing rare slots use slot 4, which Phase 6 changes from 5% to 4%; non-rare old/good/super rod 4% filler slots duplicate common rod species.",
             "- Rare species validation allows only strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.",
-            "- Common Gen 3-4 ecology placements can use 10-20% land slots, surf/fishing duplicate slots, or swarm/sound fallback slots when a map physically has fewer than six normal slots.",
+            "- Common Gen 3-4 ecology placements use normal land, surf, and fishing slots; land/cave and surf/fishing minimums are validated separately.",
             "- Rock Smash has only 80%/20% slots and is not used for 3-5% rare placement.",
             "- Safari Zone tables already contain broad Gen 1-4 variety and are excluded from the random legendary overlay.",
             "",

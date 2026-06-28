@@ -13,6 +13,7 @@ This folder contains static documentation for Pokemon Johto Reforged. The intera
 ## Generated Data Summaries
 
 - `POKEMON_AVAILABILITY.md`
+- `TYPE_AND_LEARNSET_CHANGES.md`
 - `WILD_ENCOUNTERS.md`
 - `RARE_ENCOUNTERS.md`
 - `TRAINER_TEAMS.md`

@@ -1,6 +1,6 @@
 # Pokemon Johto Reforged - Features and Changes
 
-Document version: v2026.06.28-consolidated
+Document version: v2026.06.28-encounter-type-learnset-balance
 Last updated: 2026-06-28
 
 This is the current feature/change index for Pokemon Johto Reforged. The older
@@ -13,6 +13,7 @@ preserving history.
 | --- | --- | --- |
 | v2026.06.27-long-ledger | 2026-06-27 | Original detailed phase-by-phase project ledger. Archived at `docs/history/FEATURES_AND_CHANGES_v2026-06-27.md`. |
 | v2026.06.28-consolidated | 2026-06-28 | Consolidated current-state doc. Added early Running Shoes QOL implementation and documented the Cherrygrove Guide skip. |
+| v2026.06.28-encounter-type-learnset-balance | 2026-06-28 | Rebalanced rare/common encounter slots, separated land/cave and surf/fishing variety validation, re-audited progression, and added Gen 3-4 semantic type plus learnset support. |
 
 ## Project Goals
 
@@ -55,6 +56,10 @@ preserving history.
 ### Pokemon Data, Evolutions, and Learnsets
 
 - Selected approved-scope Pokemon received restrained type modernization.
+- Generation 3-4 semantic type updates now include Chingling/Chimecho,
+  Huntail/Gorebyss, Cranidos/Rampardos, Carnivine, and Finneon/Lumineon.
+- Custom or modernized typings were audited so project-added secondary types
+  have suitable level-up attacking moves.
 - Trade-only evolutions and trade-with-item evolutions were replaced with
   item-use methods where appropriate.
 - Stantler, Primeape, and Galarian Farfetch'd use known-move evolutions for
@@ -78,6 +83,11 @@ preserving history.
 - Main wild encounters were rebuilt for broader Generation 1-4 availability.
 - Rare encounter layer adds low-rate area-specific Pokemon without replacing
   the main encounter identity.
+- Low-rate filler slots now duplicate normal common species unless they are a
+  deliberate rare placement, keeping ordinary filler out of future rare-find
+  wiki views.
+- Land/cave and surf/fishing encounter pools are validated separately; each
+  meaningful mode now has at least six species when that mode exists.
 - Kanto wild levels were raised for a stronger postgame.
 - Random legendary surprise encounters are badge-gated, low-rate, Repel-aware,
   Safari-excluded, and separate from native roamer save state.
@@ -86,6 +96,8 @@ preserving history.
 
 - Trainer rosters and levels were rebuilt for smoother but stronger
   progression.
+- The trainer and boss level curve was re-audited after the encounter and
+  regular-trainer variety passes; no additional trainer-level raise was needed.
 - Gym Leaders, Elite Four, Champions, Red, and other major bosses use full
   six-Pokemon teams.
 - Rematch and late-game trainer records were updated.
@@ -133,7 +145,11 @@ Still deferred:
 - Structured JSON exports live in `exports/perfect_johto/`.
 - Generated Markdown summaries live in `docs/`.
 - The latest known validation state from the archived ledger: static checks and
-  local native ROM build passed; runtime playtesting is still required.
+  local native ROM build passed. Current static validation passes with three
+  known environment/release warnings: Dudunsparce Three-Segment and Ursaluna
+  Bloodmoon special-form access are still deferred, Pokedex area data still
+  needs release confirmation, and this machine is missing several build tools
+  on `PATH`.
 
 Common commands:
 
@@ -147,6 +163,7 @@ python tools/perfect_johto/validate_project.py --write
 - `docs/PROJECT_SCOPE.md`
 - `docs/QOL_FEATURES.md`
 - `docs/POKEMON_AVAILABILITY.md`
+- `docs/TYPE_AND_LEARNSET_CHANGES.md`
 - `docs/EVOLUTIONS.md`
 - `docs/WILD_ENCOUNTERS.md`
 - `docs/RARE_ENCOUNTERS.md`
@@ -180,6 +197,8 @@ python tools/perfect_johto/validate_project.py --write
 - Phase 9: validation, static exports, generated docs, build readiness, and
   playtest package preparation.
 - Phase 10: early Running Shoes QOL and documentation consolidation.
+- Phase 11: encounter-rate cleanup, separated land/water variety validation,
+  progression re-audit, and Gen 3-4 type/learnset polish.
 
 ## Known Limitations and TODO
 

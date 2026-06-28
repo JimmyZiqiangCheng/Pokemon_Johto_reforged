@@ -38,7 +38,7 @@
   {
     "area": "ENCDATA_D15R0102_SPROUT_TOWER_2F",
     "rare_notes": [
-      "land SPECIES_SPIRITOMB 4% lv5 - default cave/dungeon rare layer"
+      "land SPECIES_SPIRITOMB 4% lv4 - default cave/dungeon rare layer"
     ]
   },
   {
@@ -140,13 +140,13 @@
   {
     "area": "ENCDATA_R36_ROUTE_36",
     "rare_notes": [
-      "land SPECIES_RIOLU 4% lv14 - default route rare layer"
+      "land SPECIES_RIOLU 4% lv15 - default route rare layer"
     ]
   },
   {
     "area": "ENCDATA_R37_ROUTE_37",
     "rare_notes": [
-      "land timed rare SPECIES_CHARMANDER/SPECIES_VULPIX/SPECIES_CHARMANDER 4% lv18 - morning Kanto fire starter, day fox-fire, night ghost flavor"
+      "land timed rare SPECIES_VULPIX/SPECIES_VULPIX/SPECIES_CHARMANDER 4% lv18 - daytime fox-fire and night Kanto fire-starter split"
     ]
   },
   {
@@ -158,13 +158,13 @@
   {
     "area": "ENCDATA_D18R0101_BURNED_TOWER_1F",
     "rare_notes": [
-      "land timed rare SPECIES_TORCHIC/SPECIES_HOUNDOUR/SPECIES_MAGBY 4% lv18 - burned ruins fire-line split"
+      "land timed rare SPECIES_HOUNDOUR/SPECIES_HOUNDOUR/SPECIES_MAGBY 4% lv18 - burned ruins dark/fire line and night Magby split"
     ]
   },
   {
     "area": "ENCDATA_D18R0102_BURNED_TOWER_B1F",
     "rare_notes": [
-      "land SPECIES_DUSKULL 4% lv19 - haunted basement rare"
+      "land SPECIES_TORCHIC 4% lv19 - haunted burned-basement fire starter access"
     ]
   },
   {
@@ -176,13 +176,13 @@
   {
     "area": "ENCDATA_D17R0103_BELL_TOWER_3F",
     "rare_notes": [
-      "land SPECIES_AERODACTYL 4% lv23 - default cave/dungeon rare layer"
+      "land SPECIES_AERODACTYL 4% lv22 - default cave/dungeon rare layer"
     ]
   },
   {
     "area": "ENCDATA_D17R0104_BELL_TOWER_4F",
     "rare_notes": [
-      "land SPECIES_ARON 4% lv23 - default cave/dungeon rare layer"
+      "land SPECIES_ARON 4% lv22 - default cave/dungeon rare layer"
     ]
   },
   {
@@ -224,7 +224,7 @@
   {
     "area": "ENCDATA_R39_ROUTE_39",
     "rare_notes": [
-      "land timed rare SPECIES_FARFETCHD_GALARIAN/SPECIES_FARFETCHD_GALARIAN/SPECIES_ELEKID 4% lv27 - farm-route regional bird with electric baby night rare"
+      "land timed rare SPECIES_FARFETCHD_GALARIAN/SPECIES_FARFETCHD_GALARIAN/SPECIES_ELEKID 4% lv27 - farm-route regional bird and night electric baby split"
     ]
   },
   {
@@ -465,7 +465,7 @@
   {
     "area": "ENCDATA_D17R0112_BELL_TOWER_10F",
     "rare_notes": [
-      "land timed rare SPECIES_CYNDAQUIL/SPECIES_TORCHIC/SPECIES_CHIMCHAR 4% lv32 - sacred tower fire-starter split"
+      "land timed rare SPECIES_CYNDAQUIL/SPECIES_CYNDAQUIL/SPECIES_CHIMCHAR 4% lv32 - sacred tower Johto/Sinnoh fire-starter split"
     ]
   },
   {
@@ -513,7 +513,7 @@
   {
     "area": "ENCDATA_W20_ROUTE_20",
     "rare_notes": [
-      "surf SPECIES_PIPLUP 4% lv53-55 - default surf rare layer"
+      "surf SPECIES_PIPLUP 4% lv54-56 - default surf rare layer"
     ]
   },
   {
@@ -555,7 +555,7 @@
   {
     "area": "ENCDATA_T09_CINNABAR_ISLAND",
     "rare_notes": [
-      "surf SPECIES_RELICANTH 4% lv53-55 - default surf rare layer"
+      "surf SPECIES_RELICANTH 4% lv54-56 - default surf rare layer"
     ]
   },
   {

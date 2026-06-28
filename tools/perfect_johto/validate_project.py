@@ -1106,6 +1106,7 @@ This folder contains static documentation for {PROJECT_NAME}. The interactive we
 ## Generated Data Summaries
 
 - `POKEMON_AVAILABILITY.md`
+- `TYPE_AND_LEARNSET_CHANGES.md`
 - `WILD_ENCOUNTERS.md`
 - `RARE_ENCOUNTERS.md`
 - `TRAINER_TEAMS.md`
@@ -1202,6 +1203,43 @@ All Gen 1-4 Pokemon are intended to be obtainable in one save file. Phase 6 stat
 Release blocker/TODO: confirm whether Pokedex area data is derived from encounter tables or needs a separate regeneration step.
 """
 
+    docs["TYPE_AND_LEARNSET_CHANGES.md"] = """
+# Type And Learnset Changes
+
+## Type Modernization
+
+Earlier phases already included restrained type modernization for selected approved-scope Pokemon. This update extends the same standard to high-confidence Generation 3-4 candidates whose flavor strongly supports a second type:
+
+- Chingling and Chimecho: Psychic/Fairy.
+- Huntail: Water/Dark.
+- Gorebyss: Water/Psychic.
+- Cranidos and Rampardos: Rock/Dragon.
+- Carnivine: Grass/Dark.
+- Finneon and Lumineon: Water/Fairy.
+
+These are flavor/type changes only; base stats, evolution methods, and encounter scope are not changed by this document.
+
+## Level-Up STAB Support
+
+Custom or modernized typings were audited for level-up attacking moves. The following lines now have direct level-up attack support for their added or previously unsupported type:
+
+- Fairy support: Meganium, Rapidash, Azurill, Misdreavus, Mismagius, Chingling, Chimecho, Togetic, Finneon, and Lumineon.
+- Dragon support: Sceptile, Cranidos, and Rampardos.
+- Bug support: Surskit, Nincada, Shedinja, and Trapinch.
+- Electric support: Volbeat.
+- Rock support: Glalie.
+- Ground support: Typhlosion, Gligar, and Gliscor.
+- Steel support: Probopass.
+- Ghost support: Ninetales and Noctowl.
+- Grass support: Politoed.
+- Fire support: Sunflora and Octillery.
+- Ice support: Delibird.
+
+Huntail, Gorebyss, and Carnivine already had appropriate Dark/Psychic/Dark level-up attacks after the type change and did not need extra moves.
+
+Remaining no-level-up attacking STAB cases are canonical or status-oriented exceptions such as the Bulbasaur, Gastly, and Budew poison lines, plus Beldum's one-move identity. No project-added custom secondary type is intentionally left without a level-up attacking move.
+"""
+
     docs["APPROVED_LATER_EXCEPTIONS.md"] = f"""
 # Approved Later Exceptions
 
@@ -1234,7 +1272,7 @@ Wild encounters are generated from `data/Encounters.c` and summarized in `export
 
 Main land encounters use a shared daytime pool: the engine-facing morning and day arrays are kept identical, while night remains separate.
 
-Static validation confirms Phase 6 encounter structure, approved-scope species use, late-Johto and Kanto level raises, starter late/postgame access, six-species minimum area variety, Gen 3-4 Johto-main base-form coverage, and rare-slot coverage. See `docs/phase6_obtainability_report.md` for the detailed area list.
+Static validation confirms Phase 6 encounter structure, approved-scope species use, late-Johto and Kanto level raises, starter late/postgame access, separate six-species minimums for land/cave pools and surf/fishing pools, Gen 3-4 Johto-main base-form coverage, and rare-slot coverage. Low-rate land, surf, and non-rare rod filler slots duplicate normal common species so ordinary Pokemon do not appear as separate wiki rare finds. See `docs/phase6_obtainability_report.md` for the detailed area list.
 """
 
     docs["RARE_ENCOUNTERS.md"] = f"""
@@ -1245,6 +1283,7 @@ Static validation confirms Phase 6 encounter structure, approved-scope species u
 - Land rare slots use the 4% slot 8.
 - Surf rare slots use the 4% slot 3.
 - Fishing rare slots use the Phase 6 4% slot 4.
+- Legacy land/surf filler slots and non-rare rod filler slots duplicate common species and are not treated as rare finds.
 - Every meaningful non-Safari encounter area has 1-3 rare species.
 - Rare species are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.
 
@@ -1280,6 +1319,8 @@ Trainer teams are exported from `data/Trainers.c`.
 - Phase 7 report: `docs/phase7_trainer_report.md`
 
 Static validation checks trainer species, moves, items, ability slots, approved Pokemon scope, regular-trainer Gen 3-4 variety, major rival/Rocket sizes, and mandatory six-Pokemon boss rules.
+
+The Phase 7 curve was re-audited after the regular-trainer variety pass. Boss and route bands still progress smoothly from early Johto through Red; no additional trainer level raise was needed for this update.
 """
 
     docs["BOSS_BATTLES.md"] = f"""
