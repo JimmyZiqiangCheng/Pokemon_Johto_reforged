@@ -5,9 +5,10 @@ The random legendary surprise overlay is implemented in `src/field/enemy_party.c
 ## Rates
 
 - 0-3 badges: disabled
-- 4+ badges: 1/100 aggregate unlocked-pool roll
+- 4+ badges: 1/500 aggregate unlocked weaker-legendary pool roll
+- 6+ badges when true-tier species are unlocked: 1/1000 aggregate unlocked true/cover-story legendary pool roll
 
-The 1/100 rate is an aggregate overlay roll, not one independent roll per legendary. After the roll succeeds, one species is selected from the currently unlocked pool.
+These rates are aggregate tier rolls, not independent rolls per legendary. After a tier roll succeeds, one species is selected from the currently unlocked matching tier.
 
 Surprise legendaries receive Teleport in move slot 4, giving the wild AI a move-based chance to flee each turn.
 

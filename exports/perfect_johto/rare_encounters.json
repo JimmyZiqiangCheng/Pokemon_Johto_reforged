@@ -50,6 +50,7 @@
   {
     "area": "ENCDATA_R32_ROUTE_32",
     "rare_notes": [
+      "land SPECIES_WOOPER_PALDEAN 4% lv8 - muddy route-bank regional Wooper rare",
       "surf SPECIES_FEEBAS 4% lv11-13 - very early but weak beauty-line rare"
     ]
   },
@@ -86,13 +87,14 @@
   {
     "area": "ENCDATA_D25R0103_UNION_CAVE_B2F",
     "rare_notes": [
-      "land timed rare SPECIES_BAGON/SPECIES_BAGON/SPECIES_BAGON 4% lv22 - deeper cave Bagon with fossil-line daytime echo"
+      "land timed rare SPECIES_BAGON/SPECIES_LILEEP/SPECIES_BAGON 4% lv22 - deeper cave Bagon with fossil-line daytime echo",
+      "surf SPECIES_LAPRAS 4% lv21-23 - deep Union Cave water rare outside Safari"
     ]
   },
   {
     "area": "ENCDATA_R33_ROUTE_33",
     "rare_notes": [
-      "land SPECIES_RIOLU 4% lv6 - default route rare layer"
+      "land SPECIES_ZIGZAGOON_GALARIAN 4% lv11 - rainy lowland regional dark-line rare"
     ]
   },
   {
@@ -122,6 +124,7 @@
   {
     "area": "ENCDATA_R35_ROUTE_35",
     "rare_notes": [
+      "land SPECIES_KANGASKHAN 4% lv18 - early family-route guardian rare outside Safari",
       "land timed rare SPECIES_EEVEE/SPECIES_EEVEE/SPECIES_HAPPINY 4% lv16 - city-edge happiness-line rare split"
     ]
   },
@@ -182,7 +185,7 @@
   {
     "area": "ENCDATA_D17R0104_BELL_TOWER_4F",
     "rare_notes": [
-      "land SPECIES_ARON 4% lv22 - default cave/dungeon rare layer"
+      "land SPECIES_DRIFLOON 4% lv24 - windborne tower rare"
     ]
   },
   {
@@ -200,7 +203,7 @@
   {
     "area": "ENCDATA_D17R0107_BELL_TOWER_7F",
     "rare_notes": [
-      "land SPECIES_GIBLE 4% lv23 - default cave/dungeon rare layer"
+      "land SPECIES_SWABLU 4% lv27 - sky-tower cloud dragon line"
     ]
   },
   {
@@ -218,12 +221,14 @@
   {
     "area": "ENCDATA_R38_ROUTE_38",
     "rare_notes": [
+      "land SPECIES_SNEASEL 4% lv24 - early west-Johto nocturnal dark/ice rare",
       "land timed rare SPECIES_MEOWTH_GALARIAN/SPECIES_MEOWTH_GALARIAN/SPECIES_MEOWTH_ALOLAN 4% lv26 - Meowth-family regional split by time"
     ]
   },
   {
     "area": "ENCDATA_R39_ROUTE_39",
     "rare_notes": [
+      "land SPECIES_TAUROS 4% lv25 - farm-route herd bull rare before Kanto",
       "land timed rare SPECIES_FARFETCHD_GALARIAN/SPECIES_FARFETCHD_GALARIAN/SPECIES_ELEKID 4% lv27 - farm-route regional bird and night electric baby split"
     ]
   },
@@ -296,13 +301,13 @@
   {
     "area": "ENCDATA_D38R0103_MT_MORTAR_ROOM_ABOVE_WATERFALL",
     "rare_notes": [
-      "land SPECIES_AERODACTYL 4% lv31 - default cave/dungeon rare layer"
+      "land SPECIES_CRANIDOS 4% lv34 - rugged fossil-line rare"
     ]
   },
   {
     "area": "ENCDATA_D38R0104_MT_MORTAR_B1F",
     "rare_notes": [
-      "land SPECIES_ARON 4% lv31 - default cave/dungeon rare layer"
+      "land SPECIES_SHIELDON 4% lv34 - deep fossil-line counterpart"
     ]
   },
   {
@@ -327,7 +332,7 @@
   {
     "area": "ENCDATA_D39R0101_ICE_PATH_1F",
     "rare_notes": [
-      "land SPECIES_BELDUM 4% lv35 - default cave/dungeon rare layer"
+      "land SPECIES_SNEASEL 4% lv35 - early Ice Path dark/ice rare while keeping late Sneasel locations"
     ]
   },
   {
@@ -459,7 +464,7 @@
   {
     "area": "ENCDATA_D50R0101_CLIFF_CAVE",
     "rare_notes": [
-      "land SPECIES_GIBLE 4% lv39 - default cave/dungeon rare layer"
+      "land SPECIES_ANORITH 4% lv40 - cliff fossil-line rare"
     ]
   },
   {
@@ -603,7 +608,7 @@
   {
     "area": "ENCDATA_D05R0102_ROCK_TUNNEL_B1F",
     "rare_notes": [
-      "land SPECIES_BRONZOR 4% lv53 - default cave/dungeon rare layer"
+      "land SPECIES_GEODUDE_ALOLAN 4% lv54 - magnetized Rock Tunnel regional Geodude rare"
     ]
   },
   {
@@ -681,13 +686,13 @@
   {
     "area": "ENCDATA_R13_ROUTE_13",
     "rare_notes": [
-      "land SPECIES_EEVEE 4% lv49 - default route rare layer"
+      "land SPECIES_KANGASKHAN 4% lv50 - southern Kanto guardian rare outside Safari"
     ]
   },
   {
     "area": "ENCDATA_R14_ROUTE_14",
     "rare_notes": [
-      "land SPECIES_MUNCHLAX 4% lv49 - default route rare layer"
+      "land SPECIES_TAUROS 4% lv50 - southern Kanto herd bull rare outside Safari"
     ]
   },
   {

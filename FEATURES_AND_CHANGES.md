@@ -1,7 +1,7 @@
 # Pokemon Johto Reforged - Features and Changes
 
-Document version: v2026.06.28-encounter-type-learnset-balance
-Last updated: 2026-06-28
+Document version: v2026.06.29-learnset-accessibility-refresh
+Last updated: 2026-06-29
 
 This is the current feature/change index for Pokemon Johto Reforged. The older
 long-form phase ledger was archived so this file can stay readable while still
@@ -14,6 +14,10 @@ preserving history.
 | v2026.06.27-long-ledger | 2026-06-27 | Original detailed phase-by-phase project ledger. Archived at `docs/history/FEATURES_AND_CHANGES_v2026-06-27.md`. |
 | v2026.06.28-consolidated | 2026-06-28 | Consolidated current-state doc. Added early Running Shoes QOL implementation and documented the Cherrygrove Guide skip. |
 | v2026.06.28-encounter-type-learnset-balance | 2026-06-28 | Rebalanced rare/common encounter slots, separated land/cave and surf/fishing variety validation, re-audited progression, and added Gen 3-4 semantic type plus learnset support. |
+| v2026.06.28-random-legendary-rate-balance | 2026-06-28 | Reduced random legendary surprise rates to 1/500 for weaker legends and 1/1000 for true/cover-story legends. |
+| v2026.06.29-luminescent-ability-refresh | 2026-06-29 | Refreshed Gen 1-4 base and relevant Gen 3-4 form ability slots against Luminescent Platinum 3.0, with Renegade Platinum and Polished Crystal kept as secondary design references. Hidden ability slots now participate in normal wild ability rolls. |
+| v2026.06.29-luminescent-data-refresh | 2026-06-29 | Extended the Luminescent Platinum 3.0 source-of-truth pass to Gen 1-4 base stats and level-up learnsets. Local extra moves are preserved, missing Luminescent level-up moves are appended at Luminescent levels, and move IDs are mapped by Luminescent move names before resolving local constants. |
+| v2026.06.29-learnset-accessibility-refresh | 2026-06-29 | Made every egg move in the active learnset data level-up accessible, cleaned duplicate level-up moves, and re-applied the non-legendary pre-level-60 learnset philosophy across the full shared learnset file. |
 
 ## Project Goals
 
@@ -56,6 +60,27 @@ preserving history.
 ### Pokemon Data, Evolutions, and Learnsets
 
 - Selected approved-scope Pokemon received restrained type modernization.
+- Generation 1-4 base species and relevant native Gen 3-4 form rows now use
+  Luminescent Platinum 3.0 ability slot and base-stat data as the primary
+  standard, with Renegade Platinum and Polished Crystal treated as secondary
+  design references.
+- Ability modernization is allowed when it supports Pokemon identity, role
+  variety, and Johto replayability; later-generation abilities are acceptable
+  data modernization, while later battle gimmicks remain out of scope.
+- Hidden abilities are treated as normal encounter variety for wild Pokemon:
+  wild generation rolls across non-empty slot 1, slot 2, and hidden ability
+  slots, preserving Luminescent duplicate slots as intentional weighting.
+- Level-up learnsets preserve existing local extras and append missing
+  Luminescent Platinum 3.0 moves at their Luminescent levels. Luminescent move
+  IDs are resolved through Luminescent move-name text before mapping to local
+  `MOVE_*` constants because this engine's post-Gen 4 numeric move IDs do not
+  fully match Luminescent's table.
+- Egg moves are also level-up accessible for every Pokemon. Missing egg moves
+  are inserted across levels 5-55 in egg-list order, keeping inherited moves
+  available without front-loading every inherited option at level 1.
+- Non-legendary level-up learnsets are compressed below level 60. Legendary,
+  mythical, Ultra Beast, and comparable special one-off Pokemon keep their
+  late-level pacing.
 - Generation 3-4 semantic type updates now include Chingling/Chimecho,
   Huntail/Gorebyss, Cranidos/Rampardos, Carnivine, and Finneon/Lumineon.
 - Custom or modernized typings were audited so project-added secondary types
@@ -65,8 +90,6 @@ preserving history.
 - Stantler, Primeape, and Galarian Farfetch'd use known-move evolutions for
   Wyrdeer, Annihilape, and Sirfetch'd.
 - Evolved forms inherit earlier-form level-up moves more consistently.
-- Non-legendary late level-up moves were compressed so key moves arrive before
-  level 60.
 
 ### Items, Marts, and Customization
 
@@ -89,8 +112,9 @@ preserving history.
 - Land/cave and surf/fishing encounter pools are validated separately; each
   meaningful mode now has at least six species when that mode exists.
 - Kanto wild levels were raised for a stronger postgame.
-- Random legendary surprise encounters are badge-gated, low-rate, Repel-aware,
-  Safari-excluded, and separate from native roamer save state.
+- Random legendary surprise encounters are badge-gated, Repel-aware,
+  Safari-excluded, separate from native roamer save state, and tiered at
+  1/500 for weaker legends versus 1/1000 for true/cover-story legends.
 
 ### Trainers and Bosses
 
@@ -126,6 +150,8 @@ Implemented:
 - Reusable Repels, capture EXP, critical captures, EV/IV viewer, nature stat
   indicators, expanded PC boxes, updated vitamin EV caps, Hidden Abilities, and
   disabled overworld poison damage are preserved.
+- Hidden ability slots are obtainable through ordinary wild encounters in
+  addition to Ability Patch/scripted hidden-ability support.
 - Max Candy and IV stat candies are party-use convenience items.
 
 Still deferred:
@@ -161,6 +187,8 @@ python tools/perfect_johto/validate_project.py --write
 ## Key Docs
 
 - `docs/PROJECT_SCOPE.md`
+- `docs/LUMINESCENT_DATA_REFRESH.md`
+- `docs/LEARNSET_ACCESSIBILITY.md`
 - `docs/QOL_FEATURES.md`
 - `docs/POKEMON_AVAILABILITY.md`
 - `docs/TYPE_AND_LEARNSET_CHANGES.md`
@@ -199,6 +227,10 @@ python tools/perfect_johto/validate_project.py --write
 - Phase 10: early Running Shoes QOL and documentation consolidation.
 - Phase 11: encounter-rate cleanup, separated land/water variety validation,
   progression re-audit, and Gen 3-4 type/learnset polish.
+- Phase 12: random legendary surprise rates reduced from the old 1/100
+  aggregate roll to tiered 1/500 and 1/1000 rolls.
+- Phase 13: Luminescent Platinum 3.0 ability refresh for Generation 1-4 Pokemon
+  and relevant native forms, plus natural wild hidden-ability rolls.
 
 ## Known Limitations and TODO
 

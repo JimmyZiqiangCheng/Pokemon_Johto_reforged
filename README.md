@@ -49,7 +49,8 @@ repository. Building requires a legally obtained US Pokemon HeartGold ROM named
   level curve.
 - Saffron Fighting Dojo postgame hub with Champion Circuit battles and
   legendary/mythical dossier encounters.
-- Aggregate 1% random legendary surprise encounters with badge-gated pools.
+- Tiered random legendary surprise encounters with badge-gated pools:
+  weaker legends at 1/500 and true/cover-story legends at 1/1000.
 
 ## Validation
 

@@ -422,44 +422,55 @@ extern u32 space_for_setmondata;
 typedef struct PerfectJohtoRandomLegendary {
     u16 species;
     u8 minBadges;
+    u8 tier;
 } PerfectJohtoRandomLegendary;
 
+enum {
+    PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_NONE,
+    PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER,
+    PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE,
+};
+
+#define PERFECT_JOHTO_RANDOM_LEGENDARY_ROLL_DENOMINATOR 1000
+#define PERFECT_JOHTO_RANDOM_LEGENDARY_WEAKER_HITS 2
+#define PERFECT_JOHTO_RANDOM_LEGENDARY_TRUE_HITS 1
+
 static const PerfectJohtoRandomLegendary sPerfectJohtoRandomLegendaryPool[] = {
-    { SPECIES_ARTICUNO, 4 },
-    { SPECIES_ZAPDOS, 4 },
-    { SPECIES_MOLTRES, 4 },
-    { SPECIES_RAIKOU, 4 },
-    { SPECIES_ENTEI, 4 },
-    { SPECIES_SUICUNE, 4 },
-    { SPECIES_REGIROCK, 5 },
-    { SPECIES_REGICE, 5 },
-    { SPECIES_REGISTEEL, 5 },
-    { SPECIES_LATIAS, 5 },
-    { SPECIES_LATIOS, 5 },
-    { SPECIES_UXIE, 5 },
-    { SPECIES_MESPRIT, 5 },
-    { SPECIES_AZELF, 5 },
-    { SPECIES_HEATRAN, 5 },
-    { SPECIES_CRESSELIA, 5 },
-    { SPECIES_MEWTWO, 6 },
-    { SPECIES_LUGIA, 6 },
-    { SPECIES_HO_OH, 6 },
-    { SPECIES_KYOGRE, 6 },
-    { SPECIES_GROUDON, 6 },
-    { SPECIES_RAYQUAZA, 6 },
-    { SPECIES_DIALGA, 6 },
-    { SPECIES_PALKIA, 6 },
-    { SPECIES_GIRATINA, 6 },
-    { SPECIES_REGIGIGAS, 6 },
-    { SPECIES_MEW, 16 },
-    { SPECIES_CELEBI, 16 },
-    { SPECIES_JIRACHI, 16 },
-    { SPECIES_DEOXYS, 16 },
-    { SPECIES_PHIONE, 16 },
-    { SPECIES_MANAPHY, 16 },
-    { SPECIES_DARKRAI, 16 },
-    { SPECIES_SHAYMIN, 16 },
-    { SPECIES_ARCEUS, 16 },
+    { SPECIES_ARTICUNO, 4, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_ZAPDOS, 4, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_MOLTRES, 4, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_RAIKOU, 4, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_ENTEI, 4, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_SUICUNE, 4, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_REGIROCK, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_REGICE, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_REGISTEEL, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_LATIAS, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_LATIOS, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_UXIE, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_MESPRIT, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_AZELF, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_HEATRAN, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_CRESSELIA, 5, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_MEWTWO, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_LUGIA, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_HO_OH, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_KYOGRE, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_GROUDON, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_RAYQUAZA, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_DIALGA, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_PALKIA, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_GIRATINA, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_REGIGIGAS, 6, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
+    { SPECIES_MEW, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_CELEBI, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_JIRACHI, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_DEOXYS, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_PHIONE, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_MANAPHY, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_DARKRAI, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_SHAYMIN, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER },
+    { SPECIES_ARCEUS, 16, PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE },
 };
 
 static u8 PerfectJohto_CountBadges(void *saveData)
@@ -483,12 +494,22 @@ static u8 PerfectJohto_CountBadges(void *saveData)
     return badgeCount;
 }
 
-static u16 PerfectJohto_RandomLegendaryRateDenominator(u8 badgeCount)
+static u8 PerfectJohto_RandomLegendaryRollTier(u8 badgeCount)
 {
+    u16 roll;
+
     if (badgeCount < 4) {
-        return 0;
+        return PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_NONE;
     }
-    return 100;
+
+    roll = gf_rand() % PERFECT_JOHTO_RANDOM_LEGENDARY_ROLL_DENOMINATOR;
+    if (roll < PERFECT_JOHTO_RANDOM_LEGENDARY_TRUE_HITS) {
+        return PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE;
+    }
+    if (roll < PERFECT_JOHTO_RANDOM_LEGENDARY_TRUE_HITS + PERFECT_JOHTO_RANDOM_LEGENDARY_WEAKER_HITS) {
+        return PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER;
+    }
+    return PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_NONE;
 }
 
 static u8 PerfectJohto_RandomLegendaryLevel(u8 badgeCount, u8 mapLevel)
@@ -539,13 +560,102 @@ static void PerfectJohto_SetRandomLegendaryFleeMove(struct PartyPokemon *mon)
     SetMonData(mon, MON_DATA_MOVE4PP, &pp);
 }
 
+enum {
+    PERFECT_JOHTO_ABILITY_SLOT_1,
+    PERFECT_JOHTO_ABILITY_SLOT_2,
+    PERFECT_JOHTO_ABILITY_SLOT_HIDDEN,
+};
+
+static void PerfectJohto_SetMonHiddenAbilityBit(struct PartyPokemon *mon, BOOL enabled)
+{
+    u8 flags = GetMonData(mon, MON_DATA_RESERVED_113, NULL);
+
+    if (enabled == TRUE) {
+        flags |= DUMMY_P2_1_HIDDEN_ABILITY_MASK;
+    } else {
+        flags &= ~DUMMY_P2_1_HIDDEN_ABILITY_MASK;
+    }
+    SetMonData(mon, MON_DATA_RESERVED_113, &flags);
+}
+
+static void PerfectJohto_SetMonSwapAbilitySlotBit(struct PartyPokemon *mon, BOOL enabled)
+{
+    u16 flags = GetMonData(mon, MON_DATA_RESERVED_114, NULL);
+
+    if (enabled == TRUE) {
+        flags |= DUMMY_P2_2_CHANGE_ABILITY_SLOT;
+    } else {
+        flags &= ~DUMMY_P2_2_CHANGE_ABILITY_SLOT;
+    }
+    SetMonData(mon, MON_DATA_RESERVED_114, &flags);
+}
+
+static void PerfectJohto_SetWildNaturalAbility(struct PartyPokemon *mon)
+{
+    u8 slots[3];
+    u8 slotCount = 0;
+    u8 selectedSlot;
+    u16 ability;
+    u16 species;
+    u32 form;
+    u32 pid;
+    u16 ability1;
+    u16 ability2;
+    u16 hiddenAbility;
+
+    if (mon == NULL) {
+        return;
+    }
+
+    species = GetMonData(mon, MON_DATA_SPECIES, NULL);
+    if (species == SPECIES_NONE || species == SPECIES_EGG || species == SPECIES_BAD_EGG) {
+        return;
+    }
+
+    form = GetMonData(mon, MON_DATA_FORM, NULL);
+    pid = GetMonData(mon, MON_DATA_PERSONALITY, NULL);
+    ability1 = PokeFormNoPersonalParaGet(species, form, PERSONAL_ABILITY_1);
+    ability2 = PokeFormNoPersonalParaGet(species, form, PERSONAL_ABILITY_2);
+    hiddenAbility = GetMonHiddenAbility(species, form);
+
+    if (ability1 != ABILITY_NONE) {
+        slots[slotCount++] = PERFECT_JOHTO_ABILITY_SLOT_1;
+    }
+    if (ability2 != ABILITY_NONE) {
+        slots[slotCount++] = PERFECT_JOHTO_ABILITY_SLOT_2;
+    }
+    if (hiddenAbility != ABILITY_NONE) {
+        slots[slotCount++] = PERFECT_JOHTO_ABILITY_SLOT_HIDDEN;
+    }
+    if (slotCount == 0) {
+        return;
+    }
+
+    selectedSlot = slots[gf_rand() % slotCount];
+    PerfectJohto_SetMonHiddenAbilityBit(mon, FALSE);
+
+    if (selectedSlot == PERFECT_JOHTO_ABILITY_SLOT_HIDDEN) {
+        ability = hiddenAbility;
+        PerfectJohto_SetMonSwapAbilitySlotBit(mon, FALSE);
+        PerfectJohto_SetMonHiddenAbilityBit(mon, TRUE);
+    } else if (selectedSlot == PERFECT_JOHTO_ABILITY_SLOT_2) {
+        ability = ability2;
+        PerfectJohto_SetMonSwapAbilitySlotBit(mon, (pid & 1) == 0);
+    } else {
+        ability = ability1;
+        PerfectJohto_SetMonSwapAbilitySlotBit(mon, (pid & 1) != 0);
+    }
+
+    SetMonData(mon, MON_DATA_ABILITY, &ability);
+}
+
 static BOOL PerfectJohto_TryRandomLegendary(
     EncounterInfo *encounterInfo,
     struct PartyPokemon *encounterPartyPokemon,
     struct BATTLE_PARAM *encounterBattleParam)
 {
     u8 badgeCount;
-    u16 denominator;
+    u8 tier;
     u16 candidates[NELEMS(sPerfectJohtoRandomLegendaryPool)];
     u8 candidateCount = 0;
     u16 species;
@@ -565,13 +675,16 @@ static BOOL PerfectJohto_TryRandomLegendary(
     }
 
     badgeCount = PerfectJohto_CountBadges(encounterBattleParam->savedata);
-    denominator = PerfectJohto_RandomLegendaryRateDenominator(badgeCount);
-    if (denominator == 0 || (gf_rand() % denominator) != 0) {
+    tier = PerfectJohto_RandomLegendaryRollTier(badgeCount);
+    if (tier == PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_NONE) {
         return FALSE;
     }
 
     for (u8 i = 0; i < NELEMS(sPerfectJohtoRandomLegendaryPool); i++) {
-        if (badgeCount >= sPerfectJohtoRandomLegendaryPool[i].minBadges) {
+        if (
+            badgeCount >= sPerfectJohtoRandomLegendaryPool[i].minBadges
+            && tier == sPerfectJohtoRandomLegendaryPool[i].tier
+        ) {
             candidates[candidateCount++] = sPerfectJohtoRandomLegendaryPool[i].species;
         }
     }
@@ -603,6 +716,7 @@ BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, s
     u8 change_form = 0;
     u8 form_no;
     u16 species;
+    BOOL forcedHiddenAbility = FALSE;
 
     if (encounterInfo->isEgg == 0 && encounterInfo->ability == ABILITY_COMPOUND_EYES) {
         range = 1;
@@ -631,6 +745,7 @@ BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, s
         SET_MON_HIDDEN_ABILITY_BIT(encounterPartyPokemon)
         ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
         ResetPartyPokemonAbility(encounterPartyPokemon);
+        forcedHiddenAbility = TRUE;
     }
 
     if (change_form) {
@@ -638,6 +753,10 @@ BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, s
         RecalcPartyPokemonStats(encounterPartyPokemon);
         ResetPartyPokemonAbility(encounterPartyPokemon);
         InitBoxMonMoveset(&encounterPartyPokemon->box);
+    }
+
+    if (forcedHiddenAbility == FALSE) {
+        PerfectJohto_SetWildNaturalAbility(encounterPartyPokemon);
     }
 
     ChangeToBattleForm(encounterPartyPokemon);

@@ -891,12 +891,14 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_D15R0102_SPROUT_TOWER_2F", "SPECIES_SHUPPET", 6, (8,), "restless ghost in the quiet tower"),
         ("ENCDATA_D15R0103_SPROUT_TOWER_3F", "SPECIES_DUSKULL", 7, (8,), "watchful tower ghost rare"),
         ("ENCDATA_R32_ROUTE_32", "SPECIES_ELECTRIKE", 8, (8,), "Mareep-route electric Hoenn rare"),
+        ("ENCDATA_R32_ROUTE_32", "SPECIES_WOOPER_PALDEAN", 8, (8,), "muddy route-bank regional Wooper rare"),
         ("ENCDATA_D24R0101_RUINS_OF_ALPH_OUTSIDE", "SPECIES_BALTOY", 12, (8,), "ancient clay guardian rare"),
         ("ENCDATA_D24R0205_RUINS_OF_ALPH_INSIDE_MAIN_ROOM", "SPECIES_SPIRITOMB", 16, (8,), "ancient sealed-spirit rare"),
         ("ENCDATA_D24R0217_RUINS_OF_ALPH_INSIDE_LADDER_ROOM", "SPECIES_MAWILE", 5, (8,), "sealed ladder-room steel-line rare"),
         ("ENCDATA_D25R0101_UNION_CAVE_1F", "SPECIES_ARON", 9, (8,), "mineral cave line"),
         ("ENCDATA_D25R0102_UNION_CAVE_B1F", "SPECIES_GIBLE", 10, (8,), "early rocky cave pseudo rare"),
         ("ENCDATA_R33_ROUTE_33", "SPECIES_CROAGUNK", 11, (8,), "rainy lowland poison/fighting rare"),
+        ("ENCDATA_R33_ROUTE_33", "SPECIES_ZIGZAGOON_GALARIAN", 11, (8,), "rainy lowland regional dark-line rare"),
         ("ENCDATA_D26R0102_SLOWPOKE_WELL_1F", "SPECIES_SLOWPOKE_GALARIAN", 12, (8,), "approved Slowpoke-family regional form"),
         ("ENCDATA_D26R0103_SLOWPOKE_WELL_B2F", "SPECIES_MUDKIP", 15, (8,), "wet cave Hoenn starter rare"),
         ("ENCDATA_D22R0101_NATIONAL_PARK", "SPECIES_SCYTHER", 16, (8,), "classic park rare"),
@@ -910,6 +912,9 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_D17R0107_BELL_TOWER_7F", "SPECIES_SWABLU", 27, (8,), "sky-tower cloud dragon line"),
         ("ENCDATA_D17R0108_BELL_TOWER_8F", "SPECIES_RALTS", 28, (8,), "sacred tower psychic-line rare"),
         ("ENCDATA_D17R0109_BELL_TOWER_9F", "SPECIES_RIOLU", 29, (8,), "aura-sensitive tower rare"),
+        ("ENCDATA_R35_ROUTE_35", "SPECIES_KANGASKHAN", 18, (9,), "early family-route guardian rare outside Safari"),
+        ("ENCDATA_R38_ROUTE_38", "SPECIES_SNEASEL", 24, (9,), "early west-Johto nocturnal dark/ice rare"),
+        ("ENCDATA_R39_ROUTE_39", "SPECIES_TAUROS", 25, (9,), "farm-route herd bull rare before Kanto"),
         ("ENCDATA_D40R0101_WHIRL_ISLANDS_1F", "SPECIES_BAGON", 28, (8,), "rugged sea-cave dragon rare"),
         ("ENCDATA_D40R0102_WHIRL_ISLANDS_B1F", "SPECIES_QWILFISH_HISUIAN", 30, (8,), "approved Qwilfish regional form"),
         ("ENCDATA_D40R0104_WHIRL_ISLANDS_B2F", "SPECIES_CORSOLA_GALARIAN", 31, (8,), "deep ghostly coral form"),
@@ -922,6 +927,7 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_R44_ROUTE_44", "SPECIES_KECLEON", 34, (8,), "concealed roadside rare"),
         ("ENCDATA_D39R0102_ICE_PATH_B1F", "SPECIES_SANDSHREW_ALOLAN", 35, (8,), "approved cold regional form"),
         ("ENCDATA_D39R0103_ICE_PATH_B2F", "SPECIES_VULPIX_ALOLAN", 36, (8,), "stronger cold regional rare"),
+        ("ENCDATA_D39R0101_ICE_PATH_1F", "SPECIES_SNEASEL", 35, (8,), "early Ice Path dark/ice rare while keeping late Sneasel locations"),
         ("ENCDATA_D39R0104_ICE_PATH_B3F", "SPECIES_SNOVER", 37, (8,), "deep ice forest line"),
         ("ENCDATA_D44R0102_DRAGONS_DEN", "SPECIES_DRATINI", 40, (8,), "Johto dragon identity"),
         ("ENCDATA_R45_ROUTE_45", "SPECIES_SKARMORY", 38, (8,), "cliffside steel bird"),
@@ -951,6 +957,7 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_R28_ROUTE_28", "SPECIES_SNORLAX", 62, (8,), "postgame mountain-gate rare"),
         ("ENCDATA_D05R0101_ROCK_TUNNEL_1F", "SPECIES_OMANYTE", 52, (8,), "ancient damp cave fossil"),
         ("ENCDATA_D05R0102_ROCK_TUNNEL_B1F", "SPECIES_KABUTO", 54, (8,), "ancient damp cave counterpart"),
+        ("ENCDATA_D05R0102_ROCK_TUNNEL_B1F", "SPECIES_GEODUDE_ALOLAN", 54, (8,), "magnetized Rock Tunnel regional Geodude rare"),
         ("ENCDATA_D43R0101_VICTORY_ROAD_1F", "SPECIES_BAGON", 45, (8,), "late rugged dragon rare"),
         ("ENCDATA_D43R0102_VICTORY_ROAD_2F", "SPECIES_GIBLE", 46, (8,), "late tunnel pseudo rare"),
         ("ENCDATA_D43R0103_VICTORY_ROAD_3F", "SPECIES_BELDUM", 47, (8,), "late mineral pseudo rare"),
@@ -968,7 +975,9 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_R11_ROUTE_11", "SPECIES_MUNCHLAX", 51, (8,), "Snorlax-route family access"),
         ("ENCDATA_R12_ROUTE_12", "SPECIES_TOTODILE", 50, (8,), "postgame water starter access"),
         ("ENCDATA_R13_ROUTE_13", "SPECIES_CARNIVINE", 50, (8,), "marsh-edge Sinnoh rare"),
+        ("ENCDATA_R13_ROUTE_13", "SPECIES_KANGASKHAN", 50, (8,), "southern Kanto guardian rare outside Safari"),
         ("ENCDATA_R14_ROUTE_14", "SPECIES_TROPIUS", 51, (8,), "warm southern Kanto rare"),
+        ("ENCDATA_R14_ROUTE_14", "SPECIES_TAUROS", 50, (8,), "southern Kanto herd bull rare outside Safari"),
         ("ENCDATA_R15_ROUTE_15", "SPECIES_BURMY", 50, (8,), "tree-lined route Sinnoh line"),
         ("ENCDATA_R17_ROUTE_17", "SPECIES_HIPPOPOTAS", 51, (8,), "dusty Cycling Road ground rare"),
         ("ENCDATA_R18_ROUTE_18", "SPECIES_PONYTA_GALARIAN", 51, (8,), "quiet western-route regional form"),
@@ -1019,6 +1028,7 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_T22_VIOLET_CITY", "SPECIES_PIPLUP", 18, "quiet city-pond Sinnoh water starter rare"),
         ("ENCDATA_R32_ROUTE_32", "SPECIES_FEEBAS", 12, "very early but weak beauty-line rare"),
         ("ENCDATA_R34_ROUTE_34", "SPECIES_CLAMPERL", 22, "coastal pearl rare"),
+        ("ENCDATA_D25R0103_UNION_CAVE_B2F", "SPECIES_LAPRAS", 22, "deep Union Cave water rare outside Safari"),
         ("ENCDATA_T27_ECRUTEAK_CITY", "SPECIES_SURSKIT", 19, "old-city pond bug/water rare"),
         ("ENCDATA_T26_OLIVINE_CITY", "SPECIES_WAILMER", 30, "port-city whale line"),
         ("ENCDATA_W40_ROUTE_40", "SPECIES_MANTYKE", 28, "open-sea Sinnoh ray"),
@@ -1230,6 +1240,8 @@ def duplicate_land_low_rate_fillers(entry: Encounter) -> None:
     if not has_real_land(entry):
         return
     for target, preferred in [(9, (0, 1, 2, 3)), (10, (0, 2, 4, 6)), (11, (1, 3, 5, 7))]:
+        if target == 9 and land_slot_has_explicit_rare(entry, target):
+            continue
         source = first_real_land_slot(entry, preferred)
         if source is not None:
             copy_land_slot(entry, source, target)
@@ -1294,6 +1306,8 @@ def validate_low_rate_fillers(entry: Encounter) -> list[str]:
         common.discard("SPECIES_NONE")
         for slot in (9, 10, 11):
             low = {entry.morning[slot], entry.day[slot], entry.night[slot]} - {"SPECIES_NONE"}
+            if slot == 9:
+                low -= explicit_land_rare_species(entry, slot)
             if not low <= common:
                 errors.append(f"{entry.key}: land low-rate slot {slot} has unique species {', '.join(sorted(low - common))}")
     if has_real_surf(entry):
@@ -1313,6 +1327,19 @@ def validate_low_rate_fillers(entry: Encounter) -> list[str]:
         if slots[4].species != "SPECIES_NONE" and slots[4].species not in common:
             errors.append(f"{entry.key}: {rod_name} 4% filler slot has unique species {slots[4].species}")
     return errors
+
+
+def explicit_land_rare_species(entry: Encounter, slot: int) -> set[str]:
+    rare = set(encounter_rare_species(entry))
+    return {
+        species
+        for species in {entry.morning[slot], entry.day[slot], entry.night[slot]} - {"SPECIES_NONE"}
+        if species in rare and is_rare_species(species)
+    }
+
+
+def land_slot_has_explicit_rare(entry: Encounter, slot: int) -> bool:
+    return bool(explicit_land_rare_species(entry, slot))
 
 
 def ordered_unique_species(values: list[str]) -> list[str]:
@@ -1796,6 +1823,7 @@ def make_report(entries: list[Encounter]) -> str:
         "- Johto routes and dungeons use Gen 3-4 Pokemon as ordinary ecological encounters at common rates where slot space allows, not only as rare prizes.",
         "- Every non-legendary Gen 3-4 base/pre-evolution form is represented in the main Johto encounter set.",
         "- Rare encounter slots are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.",
+        "- Rare Finds now explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean Wooper, Lapras, Kangaskhan, Tauros, and an earlier Ice Path Sneasel placement.",
         "- Land/cave and surf/fishing pools are now each filled to at least six species when that encounter mode exists.",
         "- Route 31, Ilex Forest, Route 37, Slowpoke Well, Route 42, Cherrygrove, and Violet: earlier Johto access to Gen 1/3/4 starter lines.",
         "- Dark Cave Route 31 entrance: Larvitar at 4%, level 7.",
@@ -1837,7 +1865,7 @@ def make_report(entries: list[Encounter]) -> str:
             f"- Non-legendary Gen 1-4 base/pre-evolution species still missing from wild tables: {missing_bases_text}",
             f"- Non-legendary Gen 3-4 base/pre-evolution species covered in Johto main encounters: {len(johto_gen3_4_covered)} / {len(johto_gen3_4_bases)}.",
             f"- Unrelated later-generation species found in encounter tables: {forbidden_text}",
-            "- Gen 1-4 non-mythical legendaries are covered by one aggregate 1% random surprise overlay beginning at 4 badges and expanding through 8 badges.",
+            "- Gen 1-4 non-mythical legendaries are covered by low-rate random surprise overlays: weaker-tier legends at 1/500 beginning at 4 badges and true/cover-story legends at 1/1000 once unlocked.",
             "- Gen 1-4 mythicals are included only in the 16-badge surprise pool, following the personalized tweak file's permissive direction while preserving proper events as future official encounters.",
             "",
             "## Featured Common Variety",
@@ -1854,7 +1882,7 @@ def make_report(entries: list[Encounter]) -> str:
             "",
             "## Validation Notes",
             "",
-            "- Land rare slots use HGSS slot 8, a 4% slot; land slots 9-11 duplicate common species so old low-rate filler does not create separate rare finds.",
+            "- Primary land rare slots use HGSS slot 8, a 4% slot; curated secondary land rares may use slot 9 at 4%, while non-rare land low-rate filler still duplicates common species.",
             "- Main land encounter tables merge morning and day into one daytime table; night remains separate.",
             "- Surf rare slots use slot 3, a 4% slot; non-rare surf 4% slots and old 1% surf slots duplicate common surf species.",
             "- Fishing rare slots use slot 4, which Phase 6 changes from 5% to 4%; non-rare old/good/super rod 4% filler slots duplicate common rod species.",

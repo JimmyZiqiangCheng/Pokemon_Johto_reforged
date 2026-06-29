@@ -119,9 +119,136 @@ EV_ITEMS = [
 ]
 
 EXPECTED_RANDOM_LEGENDARY_RATES = [
-    {"badges": "0-3", "denominator": 0, "description": "disabled"},
-    {"badges": "4+", "denominator": 100, "description": "1/100 aggregate unlocked-pool roll"},
+    {"badges": "0-3 badges", "denominator": 0, "description": "disabled"},
+    {
+        "badges": "4+ badges",
+        "tier": "weaker",
+        "denominator": 500,
+        "description": "1/500 aggregate unlocked weaker-legendary pool roll",
+    },
+    {
+        "badges": "6+ badges when true-tier species are unlocked",
+        "tier": "true",
+        "denominator": 1000,
+        "description": "1/1000 aggregate unlocked true/cover-story legendary pool roll",
+    },
 ]
+
+LATE_LEVEL_EXEMPT_SPECIES_ROOTS = {
+    "ARTICUNO",
+    "ZAPDOS",
+    "MOLTRES",
+    "MEWTWO",
+    "MEW",
+    "RAIKOU",
+    "ENTEI",
+    "SUICUNE",
+    "LUGIA",
+    "HO_OH",
+    "CELEBI",
+    "REGIROCK",
+    "REGICE",
+    "REGISTEEL",
+    "LATIAS",
+    "LATIOS",
+    "KYOGRE",
+    "GROUDON",
+    "RAYQUAZA",
+    "JIRACHI",
+    "DEOXYS",
+    "UXIE",
+    "MESPRIT",
+    "AZELF",
+    "DIALGA",
+    "PALKIA",
+    "HEATRAN",
+    "REGIGIGAS",
+    "GIRATINA",
+    "CRESSELIA",
+    "PHIONE",
+    "MANAPHY",
+    "DARKRAI",
+    "SHAYMIN",
+    "ARCEUS",
+    "VICTINI",
+    "COBALION",
+    "TERRAKION",
+    "VIRIZION",
+    "TORNADUS",
+    "THUNDURUS",
+    "RESHIRAM",
+    "ZEKROM",
+    "LANDORUS",
+    "KYUREM",
+    "KELDEO",
+    "MELOETTA",
+    "GENESECT",
+    "XERNEAS",
+    "YVELTAL",
+    "ZYGARDE",
+    "DIANCIE",
+    "HOOPA",
+    "VOLCANION",
+    "TYPE_NULL",
+    "SILVALLY",
+    "TAPU_KOKO",
+    "TAPU_LELE",
+    "TAPU_BULU",
+    "TAPU_FINI",
+    "COSMOG",
+    "COSMOEM",
+    "SOLGALEO",
+    "LUNALA",
+    "NIHILEGO",
+    "BUZZWOLE",
+    "PHEROMOSA",
+    "XURKITREE",
+    "CELESTEELA",
+    "KARTANA",
+    "GUZZLORD",
+    "NECROZMA",
+    "MAGEARNA",
+    "MARSHADOW",
+    "POIPOLE",
+    "NAGANADEL",
+    "STAKATAKA",
+    "BLACEPHALON",
+    "ZERAORA",
+    "MELTAN",
+    "MELMETAL",
+    "ZACIAN",
+    "ZAMAZENTA",
+    "ETERNATUS",
+    "KUBFU",
+    "URSHIFU",
+    "ZARUDE",
+    "REGIELEKI",
+    "REGIDRAGO",
+    "GLASTRIER",
+    "SPECTRIER",
+    "CALYREX",
+    "ENAMORUS",
+    "WO_CHIEN",
+    "CHIEN_PAO",
+    "TING_LU",
+    "CHI_YU",
+    "KORAIDON",
+    "MIRAIDON",
+    "OKIDOGI",
+    "MUNKIDORI",
+    "FEZANDIPITI",
+    "OGERPON",
+    "TERAPAGOS",
+    "PECHARUNT",
+}
+
+LATE_LEVEL_EXEMPT_FORM_ROWS = {
+    "SPECIES_496",
+    "SPECIES_497",
+    "SPECIES_498",
+    "SPECIES_501",
+    "SPECIES_502",
+}
 
 
 @dataclasses.dataclass
@@ -140,6 +267,16 @@ def rel(path: pathlib.Path) -> str:
 
 def symbol_name(symbol: str) -> str:
     return symbol.replace("SPECIES_", "").replace("ITEM_", "").replace("MOVE_", "").replace("_", " ").title()
+
+
+def is_late_level_exempt_species(species: str) -> bool:
+    if species in phase6.LEGENDARY_OR_MYTHICAL or species in LATE_LEVEL_EXEMPT_FORM_ROWS:
+        return True
+    for root in LATE_LEVEL_EXEMPT_SPECIES_ROOTS:
+        base = f"SPECIES_{root}"
+        if species == base or species.startswith(base + "_"):
+            return True
+    return False
 
 
 def normalize_species_token(token: str) -> str:
@@ -350,14 +487,23 @@ def parse_random_legendary_pool() -> list[dict[str, Any]]:
     start = text.index("{", text.index(marker))
     block, _ = extract_braced(text, start)
     species_numbers = read_species_numbers()
+    tier_names = {
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER": "weaker",
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE": "true",
+    }
     return [
         {
             "species": species,
             "name": symbol_name(species),
             "species_id": species_numbers.get(species),
             "min_badges": int(badges),
+            "tier": tier_names.get(tier, tier),
+            "rate_denominator": 1000 if tier.endswith("_TRUE") else 500,
         }
-        for species, badges in re.findall(r"\{\s*(SPECIES_[A-Z0-9_]+)\s*,\s*(\d+)\s*\}", block)
+        for species, badges, tier in re.findall(
+            r"\{\s*(SPECIES_[A-Z0-9_]+)\s*,\s*(\d+)\s*,\s*(PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_[A-Z]+)\s*\}",
+            block,
+        )
     ]
 
 
@@ -505,6 +651,46 @@ def validate_learnsets_generation() -> CheckResult:
         return dataclasses.replace(result, name="Learnset generation")
 
 
+def validate_learnset_accessibility() -> CheckResult:
+    learnsets = json.loads((ENGINE / "data" / "learnsets" / "learnsets.json").read_text(encoding="utf-8"))
+    errors: list[str] = []
+    rows_with_egg_moves = 0
+    total_egg_moves = 0
+    legendary_late_entries = 0
+
+    for species, learnset in learnsets.items():
+        level_moves = learnset.get("LevelMoves", [])
+        egg_moves = learnset.get("EggMoves", [])
+        level_move_names = [entry.get("Move") for entry in level_moves]
+        level_move_set = set(level_move_names)
+
+        if egg_moves:
+            rows_with_egg_moves += 1
+            total_egg_moves += len(egg_moves)
+            missing_egg_moves = [move for move in egg_moves if move not in level_move_set]
+            if missing_egg_moves:
+                errors.append(f"{species} egg moves missing from level-up: {', '.join(missing_egg_moves[:8])}")
+
+        duplicates = [move for move, count in Counter(level_move_names).items() if count > 1]
+        if duplicates:
+            errors.append(f"{species} duplicate level-up moves: {', '.join(duplicates[:8])}")
+
+        late_moves = [entry for entry in level_moves if int(entry.get("Level", 0)) >= 60]
+        if is_late_level_exempt_species(species):
+            legendary_late_entries += len(late_moves)
+        elif late_moves:
+            formatted = ", ".join(f"{entry.get('Move')}@{entry.get('Level')}" for entry in late_moves[:8])
+            errors.append(f"{species} non-legendary level 60+ moves: {formatted}")
+
+    if errors:
+        return CheckResult("Learnset accessibility validation", "FAIL", "; ".join(errors[:20]))
+    return CheckResult(
+        "Learnset accessibility validation",
+        "PASS",
+        f"{rows_with_egg_moves} egg-move rows/{total_egg_moves} egg moves are level-up accessible; non-legendary moves stay below 60; {legendary_late_entries} legendary late moves preserved",
+    )
+
+
 def validate_phase6() -> CheckResult:
     entries = phase6.parse_encounters(phase6.ENCOUNTERS)
     phase6.apply_phase6(entries)
@@ -597,7 +783,11 @@ def validate_random_legendary() -> CheckResult:
     text = (ENGINE / "src" / "field" / "enemy_party.c").read_text(encoding="utf-8", errors="replace")
     required_fragments = [
         "if (badgeCount < 4)",
-        "return 100;",
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_ROLL_DENOMINATOR 1000",
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_WEAKER_HITS 2",
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_TRUE_HITS 1",
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER",
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_TRUE",
         "MOVE_TELEPORT",
         "PerfectJohto_SetRandomLegendaryFleeMove(encounterPartyPokemon);",
         "BATTLE_TYPE_SAFARI",
@@ -614,7 +804,13 @@ def validate_random_legendary() -> CheckResult:
         errors.append("random legendary source appears to touch roamer save state")
     if errors:
         return CheckResult("Random legendary validation", "FAIL", "; ".join(errors))
-    return CheckResult("Random legendary validation", "PASS", f"{len(pool)} Gen 1-4 legendary/mythical pool entries; aggregate 1% roll, flee move, and exclusions present")
+    weaker_count = sum(1 for entry in pool if entry.get("tier") == "weaker")
+    true_count = sum(1 for entry in pool if entry.get("tier") == "true")
+    return CheckResult(
+        "Random legendary validation",
+        "PASS",
+        f"{len(pool)} Gen 1-4 legendary/mythical pool entries; {weaker_count} weaker at 1/500 and {true_count} true-tier at 1/1000; flee move and exclusions present",
+    )
 
 
 def validate_dojo_flags_and_script() -> CheckResult:
@@ -810,6 +1006,7 @@ def run_validations() -> tuple[list[CheckResult], dict[str, Any]]:
     except Exception as exc:  # noqa: BLE001
         results.append(CheckResult("Learnset JSON parse", "FAIL", str(exc)))
     results.append(validate_learnsets_generation())
+    results.append(validate_learnset_accessibility())
     results.append(validate_phase6())
     results.append(validate_phase7())
     results.append(validate_phase8())
@@ -954,7 +1151,7 @@ def build_exports(build_details: dict[str, Any], results: list[CheckResult]) -> 
         "random_legendary_surprise.json": {
             "pool": random_pool,
             "rates": EXPECTED_RANDOM_LEGENDARY_RATES,
-            "roll_model": "One 1/100 overlay roll is made after a normal eligible wild encounter succeeds, then one species is selected from the unlocked pool.",
+            "roll_model": "One tier roll is made after a normal eligible wild encounter succeeds: weaker-tier species have two hits in 1000 (1/500 aggregate), true/cover-story species have one hit in 1000 (1/1000 aggregate), then one species is selected from the matching unlocked tier.",
             "flee_behavior": "Generated surprise legendaries receive Teleport in move slot 4, giving wild AI a move-based chance to flee each turn.",
             "blocked_battle_types": [
                 "BATTLE_TYPE_TRAINER",
@@ -1089,6 +1286,16 @@ def generate_docs(exports: dict[str, Any], results: list[CheckResult], build_det
         if name != "python" and not info.get("available")
     ]
     docs: dict[str, str] = {}
+    learnsets = json.loads((ENGINE / "data" / "learnsets" / "learnsets.json").read_text(encoding="utf-8"))
+    egg_move_rows = sum(1 for learnset in learnsets.values() if learnset.get("EggMoves"))
+    egg_move_count = sum(len(learnset.get("EggMoves", [])) for learnset in learnsets.values())
+    legendary_late_count = sum(
+        1
+        for species, learnset in learnsets.items()
+        if is_late_level_exempt_species(species)
+        for move in learnset.get("LevelMoves", [])
+        if int(move.get("Level", 0)) >= 60
+    )
 
     docs["README.md"] = f"""
 # {PROJECT_NAME} Documentation
@@ -1107,6 +1314,7 @@ This folder contains static documentation for {PROJECT_NAME}. The interactive we
 
 - `POKEMON_AVAILABILITY.md`
 - `TYPE_AND_LEARNSET_CHANGES.md`
+- `LEARNSET_ACCESSIBILITY.md`
 - `WILD_ENCOUNTERS.md`
 - `RARE_ENCOUNTERS.md`
 - `TRAINER_TEAMS.md`
@@ -1238,6 +1446,36 @@ Custom or modernized typings were audited for level-up attacking moves. The foll
 Huntail, Gorebyss, and Carnivine already had appropriate Dark/Psychic/Dark level-up attacks after the type change and did not need extra moves.
 
 Remaining no-level-up attacking STAB cases are canonical or status-oriented exceptions such as the Bulbasaur, Gastly, and Budew poison lines, plus Beldum's one-move identity. No project-added custom secondary type is intentionally left without a level-up attacking move.
+
+## Egg Move Accessibility And Late-Move Compression
+
+Egg moves are also level-up accessible for every Pokemon that has egg moves. Missing egg moves are placed into the level-up curve across early-to-late-midgame levels instead of being front-loaded at level 1.
+
+Non-legendary level-up moves are compressed below level 60. Legendary, mythical, and comparable special one-off Pokemon keep their late-level pacing.
+"""
+
+    docs["LEARNSET_ACCESSIBILITY.md"] = f"""
+# Learnset Accessibility
+
+The active learnset source is `hg-engine-main/hg-engine-main/data/learnsets/learnsets.json`.
+
+## Rules
+
+- Every egg move listed for a Pokemon must also be learnable through that Pokemon's level-up learnset.
+- Missing egg moves are inserted across levels 5-55 in egg-list order, keeping inherited moves naturally accessible without putting every inherited move at level 1.
+- Non-legendary level-up moves must occur before level 60.
+- Legendary, mythical, Ultra Beast, and comparable special one-off Pokemon are exempt from the pre-60 compression rule so their late signature pacing can remain intact.
+- Duplicate level-up move names are removed, keeping the earliest occurrence.
+
+## Current Audit
+
+- Learnset rows with egg moves: {egg_move_rows}.
+- Egg move entries covered by level-up learnsets: {egg_move_count}.
+- Non-legendary level 60+ moves after compression: 0.
+- Duplicate level-up move names after cleanup: 0.
+- Legendary/special level 60+ entries intentionally preserved: {legendary_late_count}.
+
+`tools/perfect_johto/validate_project.py` enforces these rules through the Learnset accessibility validation check.
 """
 
     docs["APPROVED_LATER_EXCEPTIONS.md"] = f"""
@@ -1272,7 +1510,7 @@ Wild encounters are generated from `data/Encounters.c` and summarized in `export
 
 Main land encounters use a shared daytime pool: the engine-facing morning and day arrays are kept identical, while night remains separate.
 
-Static validation confirms Phase 6 encounter structure, approved-scope species use, late-Johto and Kanto level raises, starter late/postgame access, separate six-species minimums for land/cave pools and surf/fishing pools, Gen 3-4 Johto-main base-form coverage, and rare-slot coverage. Low-rate land, surf, and non-rare rod filler slots duplicate normal common species so ordinary Pokemon do not appear as separate wiki rare finds. See `docs/phase6_obtainability_report.md` for the detailed area list.
+Static validation confirms Phase 6 encounter structure, approved-scope species use, late-Johto and Kanto level raises, starter late/postgame access, separate six-species minimums for land/cave pools and surf/fishing pools, Gen 3-4 Johto-main base-form coverage, and rare-slot coverage. Non-rare low-rate land, surf, and rod filler slots duplicate normal common species so ordinary Pokemon do not appear as separate wiki rare finds. See `docs/phase6_obtainability_report.md` for the detailed area list.
 """
 
     docs["RARE_ENCOUNTERS.md"] = f"""
@@ -1280,12 +1518,13 @@ Static validation confirms Phase 6 encounter structure, approved-scope species u
 
 - Export: `exports/perfect_johto/rare_encounters.json`
 - Meaningful non-Safari areas with rare notes: {len(rare)}
-- Land rare slots use the 4% slot 8.
+- Primary land rare slots use the 4% slot 8; curated secondary land rares may use the 4% slot 9.
 - Surf rare slots use the 4% slot 3.
 - Fishing rare slots use the Phase 6 4% slot 4.
-- Legacy land/surf filler slots and non-rare rod filler slots duplicate common species and are not treated as rare finds.
+- Legacy non-rare land/surf filler slots and non-rare rod filler slots duplicate common species and are not treated as rare finds.
 - Every meaningful non-Safari encounter area has 1-3 rare species.
 - Rare species are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.
+- Rare Finds explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean Wooper, Lapras, Kangaskhan, Tauros, and pre-League Ice Path Sneasel.
 
 Rare pseudo-legendary initial forms are intentionally sparse and semantically placed, including Larvitar, Bagon, Gible, Beldum, and Riolu in cave, mountain, dragon, or expert-training contexts.
 """
@@ -1297,9 +1536,9 @@ The random legendary surprise overlay is implemented in `src/field/enemy_party.c
 
 ## Rates
 
-{markdown_list([f"{row['badges']} badges: {row['description']}" for row in random_legendary['rates']])}
+{markdown_list([f"{row['badges']}: {row['description']}" for row in random_legendary['rates']])}
 
-The 1/100 rate is an aggregate overlay roll, not one independent roll per legendary. After the roll succeeds, one species is selected from the currently unlocked pool.
+These rates are aggregate tier rolls, not independent rolls per legendary. After a tier roll succeeds, one species is selected from the currently unlocked matching tier.
 
 Surprise legendaries receive Teleport in move slot 4, giving the wild AI a move-based chance to flee each turn.
 

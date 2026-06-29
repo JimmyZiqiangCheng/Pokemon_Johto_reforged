@@ -32,3 +32,9 @@ Custom or modernized typings were audited for level-up attacking moves. The foll
 Huntail, Gorebyss, and Carnivine already had appropriate Dark/Psychic/Dark level-up attacks after the type change and did not need extra moves.
 
 Remaining no-level-up attacking STAB cases are canonical or status-oriented exceptions such as the Bulbasaur, Gastly, and Budew poison lines, plus Beldum's one-move identity. No project-added custom secondary type is intentionally left without a level-up attacking move.
+
+## Egg Move Accessibility And Late-Move Compression
+
+Egg moves are also level-up accessible for every Pokemon that has egg moves. Missing egg moves are placed into the level-up curve across early-to-late-midgame levels instead of being front-loaded at level 1.
+
+Non-legendary level-up moves are compressed below level 60. Legendary, mythical, and comparable special one-off Pokemon keep their late-level pacing.

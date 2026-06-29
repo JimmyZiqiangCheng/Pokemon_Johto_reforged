@@ -2356,10 +2356,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_ELECTRIKE",
+        "day": "SPECIES_WOOPER_PALDEAN",
         "level": 8,
-        "morning": "SPECIES_ELECTRIKE",
-        "night": "SPECIES_ELECTRIKE",
+        "morning": "SPECIES_WOOPER_PALDEAN",
+        "night": "SPECIES_WOOPER_PALDEAN",
         "rate_percent": 4,
         "slot": 8
       },
@@ -2426,6 +2426,7 @@
       }
     ],
     "rare_notes": [
+      "land SPECIES_WOOPER_PALDEAN 4% lv8 - muddy route-bank regional Wooper rare",
       "surf SPECIES_FEEBAS 4% lv11-13 - very early but weak beauty-line rare"
     ],
     "rates": {
@@ -4487,8 +4488,7 @@
     "area": "ENCDATA_D25R0103_UNION_CAVE_B2F",
     "common_notes": [
       "land common SPECIES_LILEEP 20% lv22 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_WHISMUR 20% lv22 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_LILEEP 20% lv22 - deeper cave Bagon with fossil-line daytime echo"
+      "land common SPECIES_WHISMUR 20% lv22 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -4663,7 +4663,8 @@
       }
     ],
     "rare_notes": [
-      "land timed rare SPECIES_BAGON/SPECIES_BAGON/SPECIES_BAGON 4% lv22 - deeper cave Bagon with fossil-line daytime echo"
+      "land timed rare SPECIES_BAGON/SPECIES_LILEEP/SPECIES_BAGON 4% lv22 - deeper cave Bagon with fossil-line daytime echo",
+      "surf SPECIES_LAPRAS 4% lv21-23 - deep Union Cave water rare outside Safari"
     ],
     "rates": {
       "good_rod": 50,
@@ -4749,11 +4750,11 @@
         "species": "SPECIES_TENTACRUEL"
       },
       {
-        "max_level": 20,
-        "min_level": 10,
-        "name": "Tentacool",
+        "max_level": 23,
+        "min_level": 21,
+        "name": "Lapras",
         "rate_percent": 4,
-        "species": "SPECIES_TENTACOOL"
+        "species": "SPECIES_LAPRAS"
       },
       {
         "max_level": 20,
@@ -4874,10 +4875,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_RIOLU",
-        "level": 6,
-        "morning": "SPECIES_RIOLU",
-        "night": "SPECIES_RIOLU",
+        "day": "SPECIES_ZIGZAGOON_GALARIAN",
+        "level": 11,
+        "morning": "SPECIES_ZIGZAGOON_GALARIAN",
+        "night": "SPECIES_ZIGZAGOON_GALARIAN",
         "rate_percent": 4,
         "slot": 8
       },
@@ -4944,7 +4945,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_RIOLU 4% lv6 - default route rare layer"
+      "land SPECIES_ZIGZAGOON_GALARIAN 4% lv11 - rainy lowland regional dark-line rare"
     ],
     "rates": {
       "good_rod": 0,
@@ -6182,7 +6183,7 @@
   {
     "area": "ENCDATA_R35_ROUTE_35",
     "common_notes": [
-      "land common SPECIES_PACHIRISU 20% lv13 - featured Gen 3-4 common Johto variety",
+      "land common SPECIES_PACHIRISU 20% lv14 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_BUNEARY 20% lv12 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_BUDEW 10% lv12 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_KRICKETOT 5% lv12 - featured Gen 3-4 common Johto variety",
@@ -6299,10 +6300,10 @@
         "slot": 8
       },
       {
-        "day": "SPECIES_PICHU",
-        "level": 16,
-        "morning": "SPECIES_PICHU",
-        "night": "SPECIES_PICHU",
+        "day": "SPECIES_KANGASKHAN",
+        "level": 18,
+        "morning": "SPECIES_KANGASKHAN",
+        "night": "SPECIES_KANGASKHAN",
         "rate_percent": 4,
         "slot": 9
       },
@@ -6361,6 +6362,7 @@
       }
     ],
     "rare_notes": [
+      "land SPECIES_KANGASKHAN 4% lv18 - early family-route guardian rare outside Safari",
       "land timed rare SPECIES_EEVEE/SPECIES_EEVEE/SPECIES_HAPPINY 4% lv16 - city-edge happiness-line rare split"
     ],
     "rates": {
@@ -9000,8 +9002,7 @@
     "common_notes": [
       "land common SPECIES_NATU 20% lv22 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_SWABLU 20% lv22 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_TOGEPI 10% lv22 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_DRIFLOON 10% lv24 - windborne tower common"
+      "land common SPECIES_TOGEPI 10% lv22 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -9106,10 +9107,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_ARON",
-        "level": 22,
-        "morning": "SPECIES_ARON",
-        "night": "SPECIES_ARON",
+        "day": "SPECIES_DRIFLOON",
+        "level": 24,
+        "morning": "SPECIES_DRIFLOON",
+        "night": "SPECIES_DRIFLOON",
         "rate_percent": 4,
         "slot": 8
       },
@@ -9176,7 +9177,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_ARON 4% lv22 - default cave/dungeon rare layer"
+      "land SPECIES_DRIFLOON 4% lv24 - windborne tower rare"
     ],
     "rates": {
       "good_rod": 0,
@@ -9844,8 +9845,7 @@
     "common_notes": [
       "land common SPECIES_NATU 20% lv22 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_DRIFLOON 20% lv22 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_CHINGLING 10% lv23 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_SWABLU 10% lv27 - sky-tower cloud dragon line"
+      "land common SPECIES_CHINGLING 10% lv23 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -9950,10 +9950,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_GIBLE",
-        "level": 23,
-        "morning": "SPECIES_GIBLE",
-        "night": "SPECIES_GIBLE",
+        "day": "SPECIES_SWABLU",
+        "level": 27,
+        "morning": "SPECIES_SWABLU",
+        "night": "SPECIES_SWABLU",
         "rate_percent": 4,
         "slot": 8
       },
@@ -10020,7 +10020,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_GIBLE 4% lv23 - default cave/dungeon rare layer"
+      "land SPECIES_SWABLU 4% lv27 - sky-tower cloud dragon line"
     ],
     "rates": {
       "good_rod": 0,
@@ -10801,10 +10801,10 @@
         "slot": 8
       },
       {
-        "day": "SPECIES_SKITTY",
+        "day": "SPECIES_SNEASEL",
         "level": 24,
-        "morning": "SPECIES_SKITTY",
-        "night": "SPECIES_SKITTY",
+        "morning": "SPECIES_SNEASEL",
+        "night": "SPECIES_SNEASEL",
         "rate_percent": 4,
         "slot": 9
       },
@@ -10863,6 +10863,7 @@
       }
     ],
     "rare_notes": [
+      "land SPECIES_SNEASEL 4% lv24 - early west-Johto nocturnal dark/ice rare",
       "land timed rare SPECIES_MEOWTH_GALARIAN/SPECIES_MEOWTH_GALARIAN/SPECIES_MEOWTH_ALOLAN 4% lv26 - Meowth-family regional split by time"
     ],
     "rates": {
@@ -11083,10 +11084,10 @@
         "slot": 8
       },
       {
-        "day": "SPECIES_SKITTY",
-        "level": 24,
-        "morning": "SPECIES_SKITTY",
-        "night": "SPECIES_SKITTY",
+        "day": "SPECIES_TAUROS",
+        "level": 25,
+        "morning": "SPECIES_TAUROS",
+        "night": "SPECIES_TAUROS",
         "rate_percent": 4,
         "slot": 9
       },
@@ -11145,6 +11146,7 @@
       }
     ],
     "rare_notes": [
+      "land SPECIES_TAUROS 4% lv25 - farm-route herd bull rare before Kanto",
       "land timed rare SPECIES_FARFETCHD_GALARIAN/SPECIES_FARFETCHD_GALARIAN/SPECIES_ELEKID 4% lv27 - farm-route regional bird and night electric baby split"
     ],
     "rates": {
@@ -14694,9 +14696,9 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_TURTWIG",
+        "day": "SPECIES_TEDDIURSA",
         "level": 28,
-        "morning": "SPECIES_TURTWIG",
+        "morning": "SPECIES_TEDDIURSA",
         "night": "SPECIES_TEDDIURSA",
         "rate_percent": 4,
         "slot": 8
@@ -15433,8 +15435,7 @@
     "common_notes": [
       "land common SPECIES_MAKUHITA 20% lv28 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_WHISMUR 20% lv28 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_NOSEPASS 10% lv30 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_CRANIDOS 5% lv32 - rugged fossil-line common"
+      "land common SPECIES_NOSEPASS 10% lv30 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -15539,10 +15540,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_AERODACTYL",
-        "level": 31,
-        "morning": "SPECIES_AERODACTYL",
-        "night": "SPECIES_AERODACTYL",
+        "day": "SPECIES_CRANIDOS",
+        "level": 34,
+        "morning": "SPECIES_CRANIDOS",
+        "night": "SPECIES_CRANIDOS",
         "rate_percent": 4,
         "slot": 8
       },
@@ -15609,7 +15610,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_AERODACTYL 4% lv31 - default cave/dungeon rare layer"
+      "land SPECIES_CRANIDOS 4% lv34 - rugged fossil-line rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -15715,8 +15716,7 @@
     "common_notes": [
       "land common SPECIES_MAKUHITA 20% lv28 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_WHISMUR 20% lv28 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_NOSEPASS 10% lv29 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_SHIELDON 10% lv30 - deep fossil-line counterpart"
+      "land common SPECIES_NOSEPASS 10% lv29 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -15821,10 +15821,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_ARON",
-        "level": 31,
-        "morning": "SPECIES_ARON",
-        "night": "SPECIES_ARON",
+        "day": "SPECIES_SHIELDON",
+        "level": 34,
+        "morning": "SPECIES_SHIELDON",
+        "night": "SPECIES_SHIELDON",
         "rate_percent": 4,
         "slot": 8
       },
@@ -15891,7 +15891,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_ARON 4% lv31 - default cave/dungeon rare layer"
+      "land SPECIES_SHIELDON 4% lv34 - deep fossil-line counterpart"
     ],
     "rates": {
       "good_rod": 50,
@@ -16952,10 +16952,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_BELDUM",
+        "day": "SPECIES_SNEASEL",
         "level": 35,
-        "morning": "SPECIES_BELDUM",
-        "night": "SPECIES_BELDUM",
+        "morning": "SPECIES_SNEASEL",
+        "night": "SPECIES_SNEASEL",
         "rate_percent": 4,
         "slot": 8
       },
@@ -17022,7 +17022,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_BELDUM 4% lv35 - default cave/dungeon rare layer"
+      "land SPECIES_SNEASEL 4% lv35 - early Ice Path dark/ice rare while keeping late Sneasel locations"
     ],
     "rates": {
       "good_rod": 0,
@@ -23270,11 +23270,10 @@
   {
     "area": "ENCDATA_D50R0101_CLIFF_CAVE",
     "common_notes": [
-      "land common SPECIES_ANORITH 20% lv36 - featured Gen 3-4 common Johto variety",
+      "land common SPECIES_ANORITH 20% lv39 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_SHELLOS 20% lv39 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_BUIZEL 20% lv39 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_SKORUPI 20% lv39 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_ANORITH 20% lv40 - cliff fossil-line common"
+      "land common SPECIES_SKORUPI 20% lv39 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -23315,10 +23314,10 @@
     ],
     "land": [
       {
-        "day": "SPECIES_ANORITH",
-        "level": 40,
-        "morning": "SPECIES_ANORITH",
-        "night": "SPECIES_ANORITH",
+        "day": "SPECIES_SKORUPI",
+        "level": 39,
+        "morning": "SPECIES_SKORUPI",
+        "night": "SPECIES_SKORUPI",
         "rate_percent": 20,
         "slot": 0
       },
@@ -23379,26 +23378,26 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_GIBLE",
-        "level": 39,
-        "morning": "SPECIES_GIBLE",
-        "night": "SPECIES_GIBLE",
+        "day": "SPECIES_ANORITH",
+        "level": 40,
+        "morning": "SPECIES_ANORITH",
+        "night": "SPECIES_ANORITH",
         "rate_percent": 4,
         "slot": 8
       },
       {
-        "day": "SPECIES_ANORITH",
-        "level": 40,
-        "morning": "SPECIES_ANORITH",
-        "night": "SPECIES_ANORITH",
+        "day": "SPECIES_SKORUPI",
+        "level": 39,
+        "morning": "SPECIES_SKORUPI",
+        "night": "SPECIES_SKORUPI",
         "rate_percent": 4,
         "slot": 9
       },
       {
-        "day": "SPECIES_ANORITH",
-        "level": 40,
-        "morning": "SPECIES_ANORITH",
-        "night": "SPECIES_ANORITH",
+        "day": "SPECIES_SKORUPI",
+        "level": 39,
+        "morning": "SPECIES_SKORUPI",
+        "night": "SPECIES_SKORUPI",
         "rate_percent": 1,
         "slot": 10
       },
@@ -23449,7 +23448,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_GIBLE 4% lv39 - default cave/dungeon rare layer"
+      "land SPECIES_ANORITH 4% lv40 - cliff fossil-line rare"
     ],
     "rates": {
       "good_rod": 0,
@@ -30602,10 +30601,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_BRONZOR",
-        "level": 53,
-        "morning": "SPECIES_BRONZOR",
-        "night": "SPECIES_BRONZOR",
+        "day": "SPECIES_GEODUDE_ALOLAN",
+        "level": 54,
+        "morning": "SPECIES_GEODUDE_ALOLAN",
+        "night": "SPECIES_GEODUDE_ALOLAN",
         "rate_percent": 4,
         "slot": 8
       },
@@ -30672,7 +30671,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_BRONZOR 4% lv53 - default cave/dungeon rare layer"
+      "land SPECIES_GEODUDE_ALOLAN 4% lv54 - magnetized Rock Tunnel regional Geodude rare"
     ],
     "rates": {
       "good_rod": 0,
@@ -34214,10 +34213,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_EEVEE",
-        "level": 49,
-        "morning": "SPECIES_EEVEE",
-        "night": "SPECIES_EEVEE",
+        "day": "SPECIES_KANGASKHAN",
+        "level": 50,
+        "morning": "SPECIES_KANGASKHAN",
+        "night": "SPECIES_KANGASKHAN",
         "rate_percent": 4,
         "slot": 8
       },
@@ -34284,7 +34283,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_EEVEE 4% lv49 - default route rare layer"
+      "land SPECIES_KANGASKHAN 4% lv50 - southern Kanto guardian rare outside Safari"
     ],
     "rates": {
       "good_rod": 50,
@@ -34493,10 +34492,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_MUNCHLAX",
-        "level": 49,
-        "morning": "SPECIES_MUNCHLAX",
-        "night": "SPECIES_MUNCHLAX",
+        "day": "SPECIES_TAUROS",
+        "level": 50,
+        "morning": "SPECIES_TAUROS",
+        "night": "SPECIES_TAUROS",
         "rate_percent": 4,
         "slot": 8
       },
@@ -34563,7 +34562,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_MUNCHLAX 4% lv49 - default route rare layer"
+      "land SPECIES_TAUROS 4% lv50 - southern Kanto herd bull rare outside Safari"
     ],
     "rates": {
       "good_rod": 0,
