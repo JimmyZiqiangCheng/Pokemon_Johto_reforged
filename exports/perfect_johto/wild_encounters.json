@@ -14589,7 +14589,8 @@
     "common_notes": [
       "land common SPECIES_NUMEL 10% lv26 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_TORKOAL 20% lv24 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_SPOINK 20% lv24 - featured Gen 3-4 common Johto variety"
+      "land common SPECIES_SPOINK 20% lv24 - featured Gen 3-4 common Johto variety",
+      "land common SPECIES_SHINX 10% lv26 - later electric-line common after Route 29 rebalance"
     ],
     "good_rod": [
       {
@@ -14670,10 +14671,10 @@
         "slot": 4
       },
       {
-        "day": "SPECIES_SPEAROW",
+        "day": "SPECIES_SHINX",
         "level": 26,
-        "morning": "SPECIES_SPEAROW",
-        "night": "SPECIES_ZUBAT",
+        "morning": "SPECIES_SHINX",
+        "night": "SPECIES_SHINX",
         "rate_percent": 10,
         "slot": 5
       },

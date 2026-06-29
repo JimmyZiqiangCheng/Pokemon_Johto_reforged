@@ -113,6 +113,8 @@ preserving history.
 - Teddiursa, Houndour, Hisuian Sneasel, and Ponyta have earlier rare access,
   while Riolu keeps one low-level placement and a few later aura-themed
   placements.
+- Shinx was removed from the Route 29 early-game mix but retained as a later
+  normal Route 42 land encounter.
 - Low-rate filler slots now duplicate normal common species unless they are a
   deliberate rare placement, keeping ordinary filler out of future rare-find
   wiki views.

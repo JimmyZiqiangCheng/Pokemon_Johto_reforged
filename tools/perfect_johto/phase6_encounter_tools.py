@@ -1186,6 +1186,8 @@ def apply_post_rare_common_pins(entries: list[Encounter]) -> None:
         entry = e["ENCDATA_W40_ROUTE_40"]
         entry.surf[2] = Slot(27, 29, "SPECIES_MANTYKE")
         append_common_note(entry, "surf common SPECIES_MANTYKE 5% lv27-29 - open-sea Sinnoh ray common")
+    if "ENCDATA_R42_ROUTE_42" in e and has_real_land(e["ENCDATA_R42_ROUTE_42"]):
+        set_land_common(e["ENCDATA_R42_ROUTE_42"], "SPECIES_SHINX", 26, "later electric-line common after Route 29 rebalance", (5,))
     if "ENCDATA_R43_ROUTE_43" in e and has_real_land(e["ENCDATA_R43_ROUTE_43"]):
         set_land_common(e["ENCDATA_R43_ROUTE_43"], "SPECIES_CASTFORM", 30, "Lake of Rage weather-route common", (0,))
 
