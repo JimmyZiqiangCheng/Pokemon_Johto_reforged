@@ -1144,7 +1144,7 @@ def build_exports(build_details: dict[str, Any], results: list[CheckResult]) -> 
         "trade_evolution_replacements.json": trade_replacements,
         "wild_encounters.json": [encounter_to_dict(entry) for entry in entries],
         "rare_encounters.json": [
-            {"area": entry.key, "rare_notes": entry.rare_notes}
+            {"area": entry.key, "notes": entry.rare_notes}
             for entry in entries
             if phase6.is_meaningful(entry) and entry.rare_notes
         ],
