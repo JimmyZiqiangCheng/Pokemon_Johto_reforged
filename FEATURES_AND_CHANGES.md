@@ -1,6 +1,6 @@
 # Pokemon Johto Reforged - Features and Changes
 
-Document version: v2026.06.29-learnset-accessibility-refresh
+Document version: v2026.06.29-rare-encounter-starter-rebalance
 Last updated: 2026-06-29
 
 This is the current feature/change index for Pokemon Johto Reforged. The older
@@ -18,6 +18,7 @@ preserving history.
 | v2026.06.29-luminescent-ability-refresh | 2026-06-29 | Refreshed Gen 1-4 base and relevant Gen 3-4 form ability slots against Luminescent Platinum 3.0, with Renegade Platinum and Polished Crystal kept as secondary design references. Hidden ability slots now participate in normal wild ability rolls. |
 | v2026.06.29-luminescent-data-refresh | 2026-06-29 | Extended the Luminescent Platinum 3.0 source-of-truth pass to Gen 1-4 base stats and level-up learnsets. Local extra moves are preserved, missing Luminescent level-up moves are appended at Luminescent levels, and move IDs are mapped by Luminescent move names before resolving local constants. |
 | v2026.06.29-learnset-accessibility-refresh | 2026-06-29 | Made every egg move in the active learnset data level-up accessible, cleaned duplicate level-up moves, and re-applied the non-legendary pre-level-60 learnset philosophy across the full shared learnset file. |
+| v2026.06.29-rare-encounter-starter-rebalance | 2026-06-29 | Rebalanced rare encounters so Teddiursa, Houndour, Hisuian Sneasel, and Ponyta appear earlier, reduced early Riolu saturation, and pushed starter rare access back into Kanto/postgame Kanto contexts. |
 
 ## Project Goals
 
@@ -106,6 +107,12 @@ preserving history.
 - Main wild encounters were rebuilt for broader Generation 1-4 availability.
 - Rare encounter layer adds low-rate area-specific Pokemon without replacing
   the main encounter identity.
+- Starter rare access is concentrated in Kanto and postgame Kanto contexts;
+  early Johto rare slots now favor local flavor, regional forms, and strong
+  non-starter lines.
+- Teddiursa, Houndour, Hisuian Sneasel, and Ponyta have earlier rare access,
+  while Riolu keeps one low-level placement and a few later aura-themed
+  placements.
 - Low-rate filler slots now duplicate normal common species unless they are a
   deliberate rare placement, keeping ordinary filler out of future rare-find
   wiki views.

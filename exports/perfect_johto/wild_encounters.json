@@ -284,8 +284,7 @@
     "common_notes": [
       "land common SPECIES_ZIGZAGOON 20% lv3 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_STARLY 20% lv3 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_BIDOOF 10% lv3 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_SHINX 10% lv4 - early electric variety without starter clutter"
+      "land common SPECIES_BIDOOF 20% lv3 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -350,10 +349,10 @@
         "slot": 2
       },
       {
-        "day": "SPECIES_SHINX",
-        "level": 4,
-        "morning": "SPECIES_SHINX",
-        "night": "SPECIES_SHINX",
+        "day": "SPECIES_BIDOOF",
+        "level": 3,
+        "morning": "SPECIES_BIDOOF",
+        "night": "SPECIES_BIDOOF",
         "rate_percent": 10,
         "slot": 3
       },
@@ -390,10 +389,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_RIOLU",
-        "level": 3,
-        "morning": "SPECIES_RIOLU",
-        "night": "SPECIES_RIOLU",
+        "day": "SPECIES_HOUNDOUR",
+        "level": 6,
+        "morning": "SPECIES_HOUNDOUR",
+        "night": "SPECIES_HOUNDOUR",
         "rate_percent": 4,
         "slot": 8
       },
@@ -460,7 +459,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_RIOLU 4% lv3 - default route rare layer"
+      "land SPECIES_HOUNDOUR 4% lv6 - very early dark/fire rare replacing early Shinx pressure"
     ],
     "rates": {
       "good_rod": 0,
@@ -741,7 +740,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_SQUIRTLE 4% lv17-19 - early coastal Kanto water starter rare"
+      "surf SPECIES_FEEBAS 4% lv17-19 - early coastal beauty-line rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -829,9 +828,9 @@
       {
         "max_level": 19,
         "min_level": 17,
-        "name": "Squirtle",
+        "name": "Feebas",
         "rate_percent": 4,
-        "species": "SPECIES_SQUIRTLE"
+        "species": "SPECIES_FEEBAS"
       },
       {
         "max_level": 19,
@@ -1235,10 +1234,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_TREECKO",
-        "level": 5,
-        "morning": "SPECIES_TREECKO",
-        "night": "SPECIES_TREECKO",
+        "day": "SPECIES_HERACROSS",
+        "level": 7,
+        "morning": "SPECIES_HERACROSS",
+        "night": "SPECIES_HERACROSS",
         "rate_percent": 4,
         "slot": 8
       },
@@ -1305,7 +1304,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_TREECKO 4% lv5 - forest-edge Hoenn starter rare"
+      "land SPECIES_HERACROSS 4% lv7 - forest-edge horned beetle rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -1582,7 +1581,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_PIPLUP 4% lv17-19 - quiet city-pond Sinnoh water starter rare"
+      "surf SPECIES_FEEBAS 4% lv17-19 - quiet city-pond beauty-line rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -1670,9 +1669,9 @@
       {
         "max_level": 19,
         "min_level": 17,
-        "name": "Piplup",
+        "name": "Feebas",
         "rate_percent": 4,
-        "species": "SPECIES_PIPLUP"
+        "species": "SPECIES_FEEBAS"
       },
       {
         "max_level": 19,
@@ -5435,10 +5434,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_MUDKIP",
+        "day": "SPECIES_ABSOL",
         "level": 15,
-        "morning": "SPECIES_MUDKIP",
-        "night": "SPECIES_MUDKIP",
+        "morning": "SPECIES_ABSOL",
+        "night": "SPECIES_ABSOL",
         "rate_percent": 4,
         "slot": 8
       },
@@ -5505,7 +5504,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_MUDKIP 4% lv15 - wet cave Hoenn starter rare"
+      "land SPECIES_ABSOL 4% lv15 - deep well omen-line rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -5614,8 +5613,7 @@
       "land common SPECIES_SHROOMISH 20% lv7 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_SLAKOTH 10% lv7 - featured Gen 3-4 common Johto variety",
       "land common SPECIES_LOTAD 10% lv7 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_SEEDOT 5% lv8 - featured Gen 3-4 common Johto variety",
-      "land common SPECIES_NINCADA 20% lv7 - forest starter and hidden molt-line split"
+      "land common SPECIES_SEEDOT 5% lv8 - featured Gen 3-4 common Johto variety"
     ],
     "good_rod": [
       {
@@ -5720,10 +5718,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_BULBASAUR",
-        "level": 14,
-        "morning": "SPECIES_BULBASAUR",
-        "night": "SPECIES_TREECKO",
+        "day": "SPECIES_TEDDIURSA",
+        "level": 8,
+        "morning": "SPECIES_TEDDIURSA",
+        "night": "SPECIES_TEDDIURSA",
         "rate_percent": 4,
         "slot": 8
       },
@@ -5790,7 +5788,7 @@
       }
     ],
     "rare_notes": [
-      "land timed rare SPECIES_BULBASAUR/SPECIES_BULBASAUR/SPECIES_TREECKO 4% lv14 - forest starter and hidden molt-line split"
+      "land SPECIES_TEDDIURSA 4% lv8 - early forest bear-line rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -7141,10 +7139,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_RIOLU",
-        "level": 15,
-        "morning": "SPECIES_RIOLU",
-        "night": "SPECIES_RIOLU",
+        "day": "SPECIES_SNEASEL_HISUIAN",
+        "level": 18,
+        "morning": "SPECIES_SNEASEL_HISUIAN",
+        "night": "SPECIES_SNEASEL_HISUIAN",
         "rate_percent": 4,
         "slot": 8
       },
@@ -7211,7 +7209,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_RIOLU 4% lv15 - default route rare layer"
+      "land SPECIES_SNEASEL_HISUIAN 4% lv18 - early rocky-route Hisuian Sneasel rare"
     ],
     "rates": {
       "good_rod": 0,
@@ -7418,10 +7416,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_VULPIX",
+        "day": "SPECIES_PONYTA",
         "level": 18,
-        "morning": "SPECIES_VULPIX",
-        "night": "SPECIES_CHARMANDER",
+        "morning": "SPECIES_PONYTA",
+        "night": "SPECIES_VULPIX",
         "rate_percent": 4,
         "slot": 8
       },
@@ -7488,7 +7486,7 @@
       }
     ],
     "rare_notes": [
-      "land timed rare SPECIES_VULPIX/SPECIES_VULPIX/SPECIES_CHARMANDER 4% lv18 - daytime fox-fire and night Kanto fire-starter split"
+      "land timed rare SPECIES_PONYTA/SPECIES_PONYTA/SPECIES_VULPIX 4% lv18 - early fire-horse and night fox-fire split"
     ],
     "rates": {
       "good_rod": 0,
@@ -7771,7 +7769,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_TOTODILE 4% lv17-19 - default surf rare layer"
+      "surf SPECIES_FEEBAS 4% lv18-20 - old-city pond beauty-line rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -7857,11 +7855,11 @@
         "species": "SPECIES_BARBOACH"
       },
       {
-        "max_level": 19,
-        "min_level": 17,
-        "name": "Totodile",
+        "max_level": 20,
+        "min_level": 18,
+        "name": "Feebas",
         "rate_percent": 4,
-        "species": "SPECIES_TOTODILE"
+        "species": "SPECIES_FEEBAS"
       },
       {
         "max_level": 20,
@@ -8263,10 +8261,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_TORCHIC",
+        "day": "SPECIES_PONYTA",
         "level": 19,
-        "morning": "SPECIES_TORCHIC",
-        "night": "SPECIES_TORCHIC",
+        "morning": "SPECIES_PONYTA",
+        "night": "SPECIES_PONYTA",
         "rate_percent": 4,
         "slot": 8
       },
@@ -8333,7 +8331,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_TORCHIC 4% lv19 - haunted burned-basement fire starter access"
+      "land SPECIES_PONYTA 4% lv19 - burned-basement fire-horse rare"
     ],
     "rates": {
       "good_rod": 0,
@@ -9670,7 +9668,7 @@
       },
       {
         "day": "SPECIES_PONYTA_GALARIAN",
-        "level": 26,
+        "level": 25,
         "morning": "SPECIES_PONYTA_GALARIAN",
         "night": "SPECIES_PONYTA_GALARIAN",
         "rate_percent": 4,
@@ -9739,7 +9737,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_PONYTA_GALARIAN 4% lv26 - approved mystical regional form"
+      "land SPECIES_PONYTA_GALARIAN 4% lv25 - approved mystical regional form"
     ],
     "rates": {
       "good_rod": 0,
@@ -11707,7 +11705,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_RELICANTH 4% lv27-29 - default surf rare layer"
+      "surf SPECIES_DRATINI 4% lv27-29 - default surf rare layer"
     ],
     "rates": {
       "good_rod": 50,
@@ -11795,9 +11793,9 @@
       {
         "max_level": 29,
         "min_level": 27,
-        "name": "Relicanth",
+        "name": "Dratini",
         "rate_percent": 4,
-        "species": "SPECIES_RELICANTH"
+        "species": "SPECIES_DRATINI"
       },
       {
         "max_level": 29,
@@ -14485,7 +14483,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_TOTODILE 4% lv27-29 - default surf rare layer"
+      "surf SPECIES_RELICANTH 4% lv31-33 - island ancient-fish rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -14571,11 +14569,11 @@
         "species": "SPECIES_TENTACRUEL"
       },
       {
-        "max_level": 29,
-        "min_level": 27,
-        "name": "Totodile",
+        "max_level": 33,
+        "min_level": 31,
+        "name": "Relicanth",
         "rate_percent": 4,
-        "species": "SPECIES_TOTODILE"
+        "species": "SPECIES_RELICANTH"
       },
       {
         "max_level": 29,
@@ -14632,9 +14630,9 @@
     ],
     "land": [
       {
-        "day": "SPECIES_TORKOAL",
+        "day": "SPECIES_MUNCHLAX",
         "level": 24,
-        "morning": "SPECIES_TORKOAL",
+        "morning": "SPECIES_MUNCHLAX",
         "night": "SPECIES_TORKOAL",
         "rate_percent": 20,
         "slot": 0
@@ -14704,17 +14702,17 @@
         "slot": 8
       },
       {
-        "day": "SPECIES_TORKOAL",
-        "level": 24,
-        "morning": "SPECIES_TORKOAL",
+        "day": "SPECIES_MUNCHLAX",
+        "level": 29,
+        "morning": "SPECIES_MUNCHLAX",
         "night": "SPECIES_TORKOAL",
         "rate_percent": 4,
         "slot": 9
       },
       {
-        "day": "SPECIES_TORKOAL",
+        "day": "SPECIES_MUNCHLAX",
         "level": 24,
-        "morning": "SPECIES_TORKOAL",
+        "morning": "SPECIES_MUNCHLAX",
         "night": "SPECIES_TORKOAL",
         "rate_percent": 1,
         "slot": 10
@@ -14766,7 +14764,7 @@
       }
     ],
     "rare_notes": [
-      "land timed rare SPECIES_TURTWIG/SPECIES_TEDDIURSA/SPECIES_TEDDIURSA 4% lv28 - mountain-edge Sinnoh starter and bear-line split"
+      "land timed rare SPECIES_MUNCHLAX/SPECIES_TEDDIURSA/SPECIES_TEDDIURSA 4% lv28 - mountain-edge heavy cub and bear-line split"
     ],
     "rates": {
       "good_rod": 50,
@@ -16175,7 +16173,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_RIOLU 4% lv31 - default route rare layer"
+      "land SPECIES_RIOLU 4% lv31 - Lake of Rage training-route aura rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -16669,10 +16667,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_MUNCHLAX",
+        "day": "SPECIES_ABSOL",
         "level": 33,
-        "morning": "SPECIES_MUNCHLAX",
-        "night": "SPECIES_MUNCHLAX",
+        "morning": "SPECIES_ABSOL",
+        "night": "SPECIES_ABSOL",
         "rate_percent": 4,
         "slot": 8
       },
@@ -16739,7 +16737,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_MUNCHLAX 4% lv33 - default route rare layer"
+      "land SPECIES_ABSOL 4% lv33 - default route rare layer"
     ],
     "rates": {
       "good_rod": 50,
@@ -18919,10 +18917,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_MUNCHLAX",
+        "day": "SPECIES_ABSOL",
         "level": 37,
-        "morning": "SPECIES_MUNCHLAX",
-        "night": "SPECIES_MUNCHLAX",
+        "morning": "SPECIES_ABSOL",
+        "night": "SPECIES_ABSOL",
         "rate_percent": 4,
         "slot": 8
       },
@@ -18989,7 +18987,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_MUNCHLAX 4% lv37 - default route rare layer"
+      "land SPECIES_ABSOL 4% lv37 - default route rare layer"
     ],
     "rates": {
       "good_rod": 50,
@@ -20041,10 +20039,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_TURTWIG",
+        "day": "SPECIES_ABSOL",
         "level": 40,
-        "morning": "SPECIES_TURTWIG",
-        "night": "SPECIES_TURTWIG",
+        "morning": "SPECIES_ABSOL",
+        "night": "SPECIES_ABSOL",
         "rate_percent": 4,
         "slot": 8
       },
@@ -20111,7 +20109,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_TURTWIG 4% lv40 - late Johto starter access"
+      "land SPECIES_ABSOL 4% lv40 - stormy cliffside omen rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -20388,7 +20386,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_FEEBAS 4% lv53-55 - default surf rare layer"
+      "surf SPECIES_LAPRAS 4% lv53-55 - default surf rare layer"
     ],
     "rates": {
       "good_rod": 50,
@@ -20476,9 +20474,9 @@
       {
         "max_level": 55,
         "min_level": 53,
-        "name": "Feebas",
+        "name": "Lapras",
         "rate_percent": 4,
-        "species": "SPECIES_FEEBAS"
+        "species": "SPECIES_LAPRAS"
       },
       {
         "max_level": 52,
@@ -21428,10 +21426,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_ABSOL",
+        "day": "SPECIES_TEDDIURSA",
         "level": 55,
-        "morning": "SPECIES_ABSOL",
-        "night": "SPECIES_ABSOL",
+        "morning": "SPECIES_TEDDIURSA",
+        "night": "SPECIES_TEDDIURSA",
         "rate_percent": 4,
         "slot": 8
       },
@@ -21498,7 +21496,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_ABSOL 4% lv55 - default route rare layer"
+      "land SPECIES_TEDDIURSA 4% lv55 - default route rare layer"
     ],
     "rates": {
       "good_rod": 0,
@@ -22261,10 +22259,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_CHIMCHAR",
+        "day": "SPECIES_MAGBY",
         "level": 62,
-        "morning": "SPECIES_CHIMCHAR",
-        "night": "SPECIES_CHIMCHAR",
+        "morning": "SPECIES_MAGBY",
+        "night": "SPECIES_MAGBY",
         "rate_percent": 4,
         "slot": 8
       },
@@ -22331,7 +22329,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_CHIMCHAR 4% lv62 - postgame fire starter access"
+      "land SPECIES_MAGBY 4% lv62 - Moltres-room fire baby rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -23166,7 +23164,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_PIPLUP 4% lv39-41 - default surf rare layer"
+      "surf SPECIES_RELICANTH 4% lv39-41 - cliffside ancient-fish rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -23254,9 +23252,9 @@
       {
         "max_level": 41,
         "min_level": 39,
-        "name": "Piplup",
+        "name": "Relicanth",
         "rate_percent": 4,
-        "species": "SPECIES_PIPLUP"
+        "species": "SPECIES_RELICANTH"
       },
       {
         "max_level": 41,
@@ -23659,10 +23657,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_CYNDAQUIL",
+        "day": "SPECIES_MAGBY",
         "level": 32,
-        "morning": "SPECIES_CYNDAQUIL",
-        "night": "SPECIES_CHIMCHAR",
+        "morning": "SPECIES_MAGBY",
+        "night": "SPECIES_VULPIX",
         "rate_percent": 4,
         "slot": 8
       },
@@ -23729,7 +23727,7 @@
       }
     ],
     "rare_notes": [
-      "land timed rare SPECIES_CYNDAQUIL/SPECIES_CYNDAQUIL/SPECIES_CHIMCHAR 4% lv32 - sacred tower Johto/Sinnoh fire-starter split"
+      "land timed rare SPECIES_MAGBY/SPECIES_MAGBY/SPECIES_VULPIX 4% lv32 - sacred tower fire-line split without starter pressure"
     ],
     "rates": {
       "good_rod": 0,
@@ -24213,10 +24211,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_TORCHIC",
+        "day": "SPECIES_BELDUM",
         "level": 62,
-        "morning": "SPECIES_TORCHIC",
-        "night": "SPECIES_TORCHIC",
+        "morning": "SPECIES_BELDUM",
+        "night": "SPECIES_BELDUM",
         "rate_percent": 4,
         "slot": 8
       },
@@ -24283,7 +24281,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_TORCHIC 4% lv62 - postgame fire starter access"
+      "land SPECIES_BELDUM 4% lv62 - mineral high-mountain pseudo rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -26323,9 +26321,7 @@
   },
   {
     "area": "ENCDATA_W20_ROUTE_20",
-    "common_notes": [
-      "surf common SPECIES_CARVANHA 60% lv52-54 - rough current predator"
-    ],
+    "common_notes": [],
     "good_rod": [
       {
         "max_level": 52,
@@ -26499,7 +26495,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_PIPLUP 4% lv54-56 - default surf rare layer"
+      "surf SPECIES_PIPLUP 4% lv52-54 - postgame cold-current water starter access"
     ],
     "rates": {
       "good_rod": 50,
@@ -26585,8 +26581,8 @@
         "species": "SPECIES_TENTACRUEL"
       },
       {
-        "max_level": 56,
-        "min_level": 54,
+        "max_level": 54,
+        "min_level": 52,
         "name": "Piplup",
         "rate_percent": 4,
         "species": "SPECIES_PIPLUP"
@@ -27053,7 +27049,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_FEEBAS 4% lv50-52 - default surf rare layer"
+      "surf SPECIES_MUDKIP 4% lv48-50 - postgame Kanto pond Hoenn water starter access"
     ],
     "rates": {
       "good_rod": 50,
@@ -27139,11 +27135,11 @@
         "species": "SPECIES_POLIWHIRL"
       },
       {
-        "max_level": 52,
-        "min_level": 50,
-        "name": "Feebas",
+        "max_level": 50,
+        "min_level": 48,
+        "name": "Mudkip",
         "rate_percent": 4,
-        "species": "SPECIES_FEEBAS"
+        "species": "SPECIES_MUDKIP"
       },
       {
         "max_level": 51,
@@ -27886,7 +27882,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_TOTODILE 4% lv50-52 - default surf rare layer"
+      "surf SPECIES_TOTODILE 4% lv49-51 - postgame garden-city water starter access"
     ],
     "rates": {
       "good_rod": 50,
@@ -27972,8 +27968,8 @@
         "species": "SPECIES_MUK"
       },
       {
-        "max_level": 52,
-        "min_level": 50,
+        "max_level": 51,
+        "min_level": 49,
         "name": "Totodile",
         "rate_percent": 4,
         "species": "SPECIES_TOTODILE"
@@ -28163,7 +28159,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_PIPLUP 4% lv51-53 - default surf rare layer"
+      "surf SPECIES_PIPLUP 4% lv49-51 - postgame southern Kanto water starter access"
     ],
     "rates": {
       "good_rod": 50,
@@ -28249,8 +28245,8 @@
         "species": "SPECIES_MAGIKARP"
       },
       {
-        "max_level": 53,
-        "min_level": 51,
+        "max_level": 51,
+        "min_level": 49,
         "name": "Piplup",
         "rate_percent": 4,
         "species": "SPECIES_PIPLUP"
@@ -28442,7 +28438,7 @@
       }
     ],
     "rare_notes": [
-      "surf SPECIES_RELICANTH 4% lv54-56 - default surf rare layer"
+      "surf SPECIES_DRATINI 4% lv54-56 - default surf rare layer"
     ],
     "rates": {
       "good_rod": 50,
@@ -28530,9 +28526,9 @@
       {
         "max_level": 56,
         "min_level": 54,
-        "name": "Relicanth",
+        "name": "Dratini",
         "rate_percent": 4,
-        "species": "SPECIES_RELICANTH"
+        "species": "SPECIES_DRATINI"
       },
       {
         "max_level": 55,
@@ -28656,10 +28652,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_TREECKO",
+        "day": "SPECIES_SCYTHER",
         "level": 40,
-        "morning": "SPECIES_TREECKO",
-        "night": "SPECIES_TREECKO",
+        "morning": "SPECIES_SCYTHER",
+        "night": "SPECIES_SCYTHER",
         "rate_percent": 4,
         "slot": 8
       },
@@ -28726,7 +28722,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_TREECKO 4% lv40 - Safari-frontier Hoenn starter access"
+      "land SPECIES_SCYTHER 4% lv40 - Safari-frontier bug rare outside Safari"
     ],
     "rates": {
       "good_rod": 0,
@@ -28933,10 +28929,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_MUDKIP",
+        "day": "SPECIES_EEVEE",
         "level": 43,
-        "morning": "SPECIES_MUDKIP",
-        "night": "SPECIES_MUDKIP",
+        "morning": "SPECIES_EEVEE",
+        "night": "SPECIES_EEVEE",
         "rate_percent": 4,
         "slot": 8
       },
@@ -29003,7 +28999,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_MUDKIP 4% lv43 - late pre-League starter access"
+      "land SPECIES_EEVEE 4% lv43 - Tohjo evolution-line rare"
     ],
     "rates": {
       "good_rod": 50,
@@ -31328,9 +31324,7 @@
   },
   {
     "area": "ENCDATA_R02_ROUTE_2_SOUTH_BELOW_VIRIDIAN_FOREST",
-    "common_notes": [
-      "land common SPECIES_COMBEE 20% lv46 - Viridian forest-edge honey-tree common"
-    ],
+    "common_notes": [],
     "good_rod": [
       {
         "max_level": 0,
@@ -31434,10 +31428,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_MUNCHLAX",
+        "day": "SPECIES_TURTWIG",
         "level": 49,
-        "morning": "SPECIES_MUNCHLAX",
-        "night": "SPECIES_MUNCHLAX",
+        "morning": "SPECIES_TURTWIG",
+        "night": "SPECIES_TURTWIG",
         "rate_percent": 4,
         "slot": 8
       },
@@ -31504,7 +31498,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_MUNCHLAX 4% lv49 - default forest rare layer"
+      "land SPECIES_TURTWIG 4% lv49 - postgame Viridian forest-edge Sinnoh grass starter access"
     ],
     "rates": {
       "good_rod": 0,
@@ -31988,10 +31982,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_EEVEE",
+        "day": "SPECIES_CYNDAQUIL",
         "level": 50,
-        "morning": "SPECIES_EEVEE",
-        "night": "SPECIES_EEVEE",
+        "morning": "SPECIES_CYNDAQUIL",
+        "night": "SPECIES_CYNDAQUIL",
         "rate_percent": 4,
         "slot": 8
       },
@@ -32058,7 +32052,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_EEVEE 4% lv50 - Cerulean-edge rare"
+      "land SPECIES_CYNDAQUIL 4% lv50 - postgame rocky Kanto fire starter access"
     ],
     "rates": {
       "good_rod": 50,
@@ -32438,9 +32432,7 @@
   },
   {
     "area": "ENCDATA_R06_ROUTE_6",
-    "common_notes": [
-      "land common SPECIES_GLAMEOW 20% lv46 - urban Sinnoh cat counterpart"
-    ],
+    "common_notes": [],
     "good_rod": [
       {
         "max_level": 48,
@@ -32544,10 +32536,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_ABSOL",
+        "day": "SPECIES_TORCHIC",
         "level": 49,
-        "morning": "SPECIES_ABSOL",
-        "night": "SPECIES_ABSOL",
+        "morning": "SPECIES_TORCHIC",
+        "night": "SPECIES_TORCHIC",
         "rate_percent": 4,
         "slot": 8
       },
@@ -32614,7 +32606,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_ABSOL 4% lv49 - default route rare layer"
+      "land SPECIES_TORCHIC 4% lv49 - postgame warm Kanto fire starter access"
     ],
     "rates": {
       "good_rod": 50,
@@ -33101,10 +33093,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_SCYTHER",
+        "day": "SPECIES_CHIMCHAR",
         "level": 49,
-        "morning": "SPECIES_SCYTHER",
-        "night": "SPECIES_SCYTHER",
+        "morning": "SPECIES_CHIMCHAR",
+        "night": "SPECIES_CHIMCHAR",
         "rate_percent": 4,
         "slot": 8
       },
@@ -33171,7 +33163,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_SCYTHER 4% lv49 - default route rare layer"
+      "land SPECIES_CHIMCHAR 4% lv49 - postgame urban Kanto fire starter access"
     ],
     "rates": {
       "good_rod": 0,
@@ -34771,10 +34763,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_ABSOL",
+        "day": "SPECIES_TEDDIURSA",
         "level": 49,
-        "morning": "SPECIES_ABSOL",
-        "night": "SPECIES_ABSOL",
+        "morning": "SPECIES_TEDDIURSA",
+        "night": "SPECIES_TEDDIURSA",
         "rate_percent": 4,
         "slot": 8
       },
@@ -34841,7 +34833,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_ABSOL 4% lv49 - default route rare layer"
+      "land SPECIES_TEDDIURSA 4% lv49 - default route rare layer"
     ],
     "rates": {
       "good_rod": 0,
@@ -36717,10 +36709,10 @@
         "slot": 7
       },
       {
-        "day": "SPECIES_MUNCHLAX",
+        "day": "SPECIES_ABSOL",
         "level": 49,
-        "morning": "SPECIES_MUNCHLAX",
-        "night": "SPECIES_MUNCHLAX",
+        "morning": "SPECIES_ABSOL",
+        "night": "SPECIES_ABSOL",
         "rate_percent": 4,
         "slot": 8
       },
@@ -36787,7 +36779,7 @@
       }
     ],
     "rare_notes": [
-      "land SPECIES_MUNCHLAX 4% lv49 - default route rare layer"
+      "land SPECIES_ABSOL 4% lv49 - default route rare layer"
     ],
     "rates": {
       "good_rod": 50,

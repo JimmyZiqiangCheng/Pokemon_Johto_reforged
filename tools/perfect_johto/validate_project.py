@@ -1510,7 +1510,7 @@ Wild encounters are generated from `data/Encounters.c` and summarized in `export
 
 Main land encounters use a shared daytime pool: the engine-facing morning and day arrays are kept identical, while night remains separate.
 
-Static validation confirms Phase 6 encounter structure, approved-scope species use, late-Johto and Kanto level raises, starter late/postgame access, separate six-species minimums for land/cave pools and surf/fishing pools, Gen 3-4 Johto-main base-form coverage, and rare-slot coverage. Non-rare low-rate land, surf, and rod filler slots duplicate normal common species so ordinary Pokemon do not appear as separate wiki rare finds. See `docs/phase6_obtainability_report.md` for the detailed area list.
+Static validation confirms Phase 6 encounter structure, approved-scope species use, late-Johto and Kanto level raises, Kanto/postgame starter rare access, separate six-species minimums for land/cave pools and surf/fishing pools, Gen 3-4 non-starter Johto-main base-form coverage, and rare-slot coverage. Non-rare low-rate land, surf, and rod filler slots duplicate normal common species so ordinary Pokemon do not appear as separate wiki rare finds. See `docs/phase6_obtainability_report.md` for the detailed area list.
 """
 
     docs["RARE_ENCOUNTERS.md"] = f"""
@@ -1524,7 +1524,7 @@ Static validation confirms Phase 6 encounter structure, approved-scope species u
 - Legacy non-rare land/surf filler slots and non-rare rod filler slots duplicate common species and are not treated as rare finds.
 - Every meaningful non-Safari encounter area has 1-3 rare species.
 - Rare species are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.
-- Rare Finds explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean Wooper, Lapras, Kangaskhan, Tauros, and pre-League Ice Path Sneasel.
+- Rare Finds explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean Wooper, Lapras, Kangaskhan, Tauros, early Teddiursa, early Houndour, early Hisuian Sneasel, early Ponyta, and pre-League Ice Path Sneasel.
 
 Rare pseudo-legendary initial forms are intentionally sparse and semantically placed, including Larvitar, Bagon, Gible, Beldum, and Riolu in cave, mountain, dragon, or expert-training contexts.
 """

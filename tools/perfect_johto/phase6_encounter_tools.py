@@ -58,6 +58,15 @@ LEGENDARY_OR_MYTHICAL = {
     "SPECIES_ARCEUS",
 }
 
+JOHTO_MAIN_STARTER_EXCEPTIONS = {
+    "SPECIES_TREECKO",
+    "SPECIES_TORCHIC",
+    "SPECIES_MUDKIP",
+    "SPECIES_TURTWIG",
+    "SPECIES_CHIMCHAR",
+    "SPECIES_PIPLUP",
+}
+
 APPROVED_LATER_PLACEMENTS = {
     "SPECIES_RATTATA_ALOLAN",
     "SPECIES_SANDSHREW_ALOLAN",
@@ -500,6 +509,17 @@ def set_land_common(entry: Encounter, species: str, level: int | None = None, no
     append_common_note(entry, f"land common {species} {rate}% lv{level}" + (f" - {note}" if note else ""))
 
 
+def replace_land_species(entry: Encounter, old_species: str, new_species: str, level: int | None = None) -> None:
+    if not has_real_land(entry):
+        return
+    for table in (entry.morning, entry.day, entry.night):
+        for slot, species in enumerate(table[:8]):
+            if species == old_species:
+                table[slot] = new_species
+                if level is not None:
+                    entry.levels[slot] = level
+
+
 def species_in_common_slots(slots: list[Slot], species: str, common_limit: int) -> bool:
     return any(slot.species == species for slot in slots[:common_limit])
 
@@ -856,6 +876,10 @@ def entry_by_key(entries: list[Encounter]) -> dict[str, Encounter]:
 
 def add_explicit_placements(entries: list[Encounter]) -> None:
     e = entry_by_key(entries)
+    if "ENCDATA_R29_ROUTE_29" in e:
+        route29 = e["ENCDATA_R29_ROUTE_29"]
+        replace_land_species(route29, "SPECIES_SHINX", "SPECIES_BIDOOF", 3)
+        route29.sinnoh_sound = ["SPECIES_BIDOOF", "SPECIES_KRICKETOT"]
     if "ENCDATA_T07_CELADON_CITY" in e:
         celadon = e["ENCDATA_T07_CELADON_CITY"]
         celadon.rate_old_rod = 25
@@ -885,9 +909,9 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         append_common_note(celadon, "Celadon pond fishing enabled for six-species surf/fishing variety")
 
     land = [
-        ("ENCDATA_R29_ROUTE_29", "SPECIES_SHINX", 4, (8,), "early electric variety without starter clutter"),
+        ("ENCDATA_R29_ROUTE_29", "SPECIES_HOUNDOUR", 6, (8,), "very early dark/fire rare replacing early Shinx pressure"),
         ("ENCDATA_R30_ROUTE_30", "SPECIES_RALTS", 4, (8,), "quiet wooded-route empath line"),
-        ("ENCDATA_R31_ROUTE_31", "SPECIES_TREECKO", 5, (8,), "forest-edge Hoenn starter rare"),
+        ("ENCDATA_R31_ROUTE_31", "SPECIES_HERACROSS", 7, (8,), "forest-edge horned beetle rare"),
         ("ENCDATA_D15R0102_SPROUT_TOWER_2F", "SPECIES_SHUPPET", 6, (8,), "restless ghost in the quiet tower"),
         ("ENCDATA_D15R0103_SPROUT_TOWER_3F", "SPECIES_DUSKULL", 7, (8,), "watchful tower ghost rare"),
         ("ENCDATA_R32_ROUTE_32", "SPECIES_ELECTRIKE", 8, (8,), "Mareep-route electric Hoenn rare"),
@@ -900,18 +924,20 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_R33_ROUTE_33", "SPECIES_CROAGUNK", 11, (8,), "rainy lowland poison/fighting rare"),
         ("ENCDATA_R33_ROUTE_33", "SPECIES_ZIGZAGOON_GALARIAN", 11, (8,), "rainy lowland regional dark-line rare"),
         ("ENCDATA_D26R0102_SLOWPOKE_WELL_1F", "SPECIES_SLOWPOKE_GALARIAN", 12, (8,), "approved Slowpoke-family regional form"),
-        ("ENCDATA_D26R0103_SLOWPOKE_WELL_B2F", "SPECIES_MUDKIP", 15, (8,), "wet cave Hoenn starter rare"),
+        ("ENCDATA_D26R0103_SLOWPOKE_WELL_B2F", "SPECIES_ABSOL", 15, (8,), "deep well omen-line rare"),
+        ("ENCDATA_D36R0101_ILEX_FOREST", "SPECIES_TEDDIURSA", 8, (8,), "early forest bear-line rare"),
         ("ENCDATA_D22R0101_NATIONAL_PARK", "SPECIES_SCYTHER", 16, (8,), "classic park rare"),
         ("ENCDATA_D22R0102_NATIONAL_PARK_BUG_CATCHING_CONTEST", "SPECIES_PINSIR", 16, (8,), "contest counterpart rare"),
-        ("ENCDATA_D18R0102_BURNED_TOWER_B1F", "SPECIES_TORCHIC", 19, (8,), "haunted burned-basement fire starter access"),
+        ("ENCDATA_D18R0102_BURNED_TOWER_B1F", "SPECIES_PONYTA", 19, (8,), "burned-basement fire-horse rare"),
         ("ENCDATA_D17R0102_BELL_TOWER_2F", "SPECIES_TOGEPI", 22, (8,), "sacred tower line"),
         ("ENCDATA_D17R0103_BELL_TOWER_3F", "SPECIES_CHIMECHO", 23, (8,), "bell-themed rare"),
         ("ENCDATA_D17R0104_BELL_TOWER_4F", "SPECIES_DRIFLOON", 24, (8,), "windborne tower rare"),
         ("ENCDATA_D17R0105_BELL_TOWER_5F", "SPECIES_ABSOL", 25, (8,), "omens near a sacred tower"),
-        ("ENCDATA_D17R0106_BELL_TOWER_6F", "SPECIES_PONYTA_GALARIAN", 26, (8,), "approved mystical regional form"),
+        ("ENCDATA_D17R0106_BELL_TOWER_6F", "SPECIES_PONYTA_GALARIAN", 25, (8,), "approved mystical regional form"),
         ("ENCDATA_D17R0107_BELL_TOWER_7F", "SPECIES_SWABLU", 27, (8,), "sky-tower cloud dragon line"),
         ("ENCDATA_D17R0108_BELL_TOWER_8F", "SPECIES_RALTS", 28, (8,), "sacred tower psychic-line rare"),
         ("ENCDATA_D17R0109_BELL_TOWER_9F", "SPECIES_RIOLU", 29, (8,), "aura-sensitive tower rare"),
+        ("ENCDATA_R36_ROUTE_36", "SPECIES_SNEASEL_HISUIAN", 18, (8,), "early rocky-route Hisuian Sneasel rare"),
         ("ENCDATA_R35_ROUTE_35", "SPECIES_KANGASKHAN", 18, (9,), "early family-route guardian rare outside Safari"),
         ("ENCDATA_R38_ROUTE_38", "SPECIES_SNEASEL", 24, (9,), "early west-Johto nocturnal dark/ice rare"),
         ("ENCDATA_R39_ROUTE_39", "SPECIES_TAUROS", 25, (9,), "farm-route herd bull rare before Kanto"),
@@ -923,7 +949,7 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_D38R0102_MT_MORTAR_CENTRAL_ROOM", "SPECIES_BELDUM", 32, (8,), "mineral/steel pseudo rare"),
         ("ENCDATA_D38R0103_MT_MORTAR_ROOM_ABOVE_WATERFALL", "SPECIES_CRANIDOS", 34, (8,), "rugged fossil-line rare"),
         ("ENCDATA_D38R0104_MT_MORTAR_B1F", "SPECIES_SHIELDON", 34, (8,), "deep fossil-line counterpart"),
-        ("ENCDATA_R43_ROUTE_43", "SPECIES_CASTFORM", 30, (8,), "Lake of Rage weather-route rare"),
+        ("ENCDATA_R43_ROUTE_43", "SPECIES_RIOLU", 31, (8,), "Lake of Rage training-route aura rare"),
         ("ENCDATA_R44_ROUTE_44", "SPECIES_KECLEON", 34, (8,), "concealed roadside rare"),
         ("ENCDATA_D39R0102_ICE_PATH_B1F", "SPECIES_SANDSHREW_ALOLAN", 35, (8,), "approved cold regional form"),
         ("ENCDATA_D39R0103_ICE_PATH_B2F", "SPECIES_VULPIX_ALOLAN", 36, (8,), "stronger cold regional rare"),
@@ -934,8 +960,8 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_R46_ROUTE_46", "SPECIES_TRAPINCH", 10, (8,), "dry cliff rare without early power spike"),
         ("ENCDATA_D42R0102_DARK_CAVE_ROUTE_31_ENTRANCE", "SPECIES_LARVITAR", 7, (8,), "Sacred Gold-style early pseudo surprise"),
         ("ENCDATA_D42R0101_DARK_CAVE_ROUTE_45_ENTRANCE", "SPECIES_GIBLE", 38, (8,), "deep rocky tunnel pseudo rare"),
-        ("ENCDATA_R47_ROUTE_47", "SPECIES_TURTWIG", 40, (8,), "late Johto starter access"),
-        ("ENCDATA_R48_ROUTE_48", "SPECIES_TREECKO", 40, (8,), "Safari-frontier Hoenn starter access"),
+        ("ENCDATA_R47_ROUTE_47", "SPECIES_ABSOL", 40, (8,), "stormy cliffside omen rare"),
+        ("ENCDATA_R48_ROUTE_48", "SPECIES_SCYTHER", 40, (8,), "Safari-frontier bug rare outside Safari"),
         ("ENCDATA_D50R0101_CLIFF_CAVE", "SPECIES_ANORITH", 40, (8,), "cliff fossil-line rare"),
         ("ENCDATA_D02R0103_MT_MOON_OUTSIDE_AREA", "SPECIES_CLEFFA", 52, (8,), "Mt. Moon moonlight rare"),
         ("ENCDATA_D02R0104_MT_MOON_OUTSIDE_CLEFAIRY_ACTIVE", "SPECIES_CLEFAIRY", 54, (8,), "active moonlight table"),
@@ -945,14 +971,14 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_D11R0103_SEAFOAM_ISLANDS_B2F", "SPECIES_SPHEAL", 56, (8,), "deep cold Hoenn ice/water line"),
         ("ENCDATA_D11R0104_SEAFOAM_ISLANDS_B3F", "SPECIES_SNORUNT", 57, (8,), "deep ice family reinforcement"),
         ("ENCDATA_D11R0105_SEAFOAM_ISLANDS_B4F", "SPECIES_VULPIX_ALOLAN", 58, (8,), "deep cold regional rare"),
-        ("ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM", "SPECIES_CHIMCHAR", 62, (8,), "postgame fire starter access"),
+        ("ENCDATA_D41R0105_MT_SILVER_MOLTRES_ROOM", "SPECIES_MAGBY", 62, (8,), "Moltres-room fire baby rare"),
         ("ENCDATA_D41R0106_MT_SILVER_3F", "SPECIES_BAGON", 64, (8,), "high mountain dragon rare"),
         ("ENCDATA_D41R0107_MT_SILVER_4F", "SPECIES_SNEASEL_HISUIAN", 65, (8,), "approved high-cliff regional form"),
-        ("ENCDATA_D41R0101_MT_SILVER_1F", "SPECIES_TORCHIC", 62, (8,), "postgame fire starter access"),
+        ("ENCDATA_D41R0101_MT_SILVER_1F", "SPECIES_BELDUM", 62, (8,), "mineral high-mountain pseudo rare"),
         ("ENCDATA_D41R0103_MT_SILVER_MOUNTAINSIDE", "SPECIES_GROWLITHE_HISUIAN", 64, (8,), "approved volcanic mountain regional form"),
         ("ENCDATA_D41R0104_MT_SILVER_EXPERT_BELT_ROOM", "SPECIES_RIOLU", 64, (8,), "expert training chamber rare"),
         ("ENCDATA_D41R0102_MT_SILVER_TOP_SNOWY_AREA", "SPECIES_SNEASEL_HISUIAN", 66, (8,), "snowy summit form"),
-        ("ENCDATA_R26_ROUTE_26", "SPECIES_MUDKIP", 43, (8,), "late pre-League starter access"),
+        ("ENCDATA_R26_ROUTE_26", "SPECIES_EEVEE", 43, (8,), "Tohjo evolution-line rare"),
         ("ENCDATA_R27_ROUTE_27", "SPECIES_PORYGON", 43, (8,), "Tohjo technical rare"),
         ("ENCDATA_R28_ROUTE_28", "SPECIES_SNORLAX", 62, (8,), "postgame mountain-gate rare"),
         ("ENCDATA_D05R0101_ROCK_TUNNEL_1F", "SPECIES_OMANYTE", 52, (8,), "ancient damp cave fossil"),
@@ -962,14 +988,15 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
         ("ENCDATA_D43R0102_VICTORY_ROAD_2F", "SPECIES_GIBLE", 46, (8,), "late tunnel pseudo rare"),
         ("ENCDATA_D43R0103_VICTORY_ROAD_3F", "SPECIES_BELDUM", 47, (8,), "late mineral pseudo rare"),
         ("ENCDATA_R01_ROUTE_1", "SPECIES_BULBASAUR", 49, (8,), "postgame Kanto starter access"),
-        ("ENCDATA_R02_ROUTE_2_SOUTH_BELOW_VIRIDIAN_FOREST", "SPECIES_COMBEE", 49, (8,), "Viridian forest-edge honey-tree rare"),
+        ("ENCDATA_R02_ROUTE_2_SOUTH_BELOW_VIRIDIAN_FOREST", "SPECIES_TURTWIG", 49, (8,), "postgame Viridian forest-edge Sinnoh grass starter access"),
         ("ENCDATA_R02R0101_ROUTE_2_NORTH_ABOVE_VIRIDIAN_FOREST", "SPECIES_BULBASAUR", 50, (8,), "postgame forest starter access"),
         ("ENCDATA_D46R0101_VIRIDIAN_FOREST", "SPECIES_CHIKORITA", 50, (8,), "postgame forest starter access"),
         ("ENCDATA_R03_ROUTE_3", "SPECIES_CHARMANDER", 50, (8,), "postgame rocky Kanto starter access"),
-        ("ENCDATA_R04_ROUTE_4", "SPECIES_EEVEE", 50, (8,), "Cerulean-edge rare"),
+        ("ENCDATA_R04_ROUTE_4", "SPECIES_CYNDAQUIL", 50, (8,), "postgame rocky Kanto fire starter access"),
         ("ENCDATA_R05_ROUTE_5", "SPECIES_MEOWTH_ALOLAN", 49, (8,), "urban regional dark-cat rare"),
-        ("ENCDATA_R06_ROUTE_6", "SPECIES_GLAMEOW", 49, (8,), "urban Sinnoh cat counterpart"),
+        ("ENCDATA_R06_ROUTE_6", "SPECIES_TORCHIC", 49, (8,), "postgame warm Kanto fire starter access"),
         ("ENCDATA_R07_ROUTE_7", "SPECIES_PORYGON", 51, (8,), "Celadon technical rare"),
+        ("ENCDATA_R08_ROUTE_8", "SPECIES_CHIMCHAR", 49, (8,), "postgame urban Kanto fire starter access"),
         ("ENCDATA_R09_ROUTE_9", "SPECIES_VOLTORB_HISUIAN", 51, (8,), "Power Plant-adjacent regional form"),
         ("ENCDATA_R10_ROUTE_10", "SPECIES_ROTOM", 51, (8,), "Power Plant-adjacent ghost/electric rare"),
         ("ENCDATA_R11_ROUTE_11", "SPECIES_MUNCHLAX", 51, (8,), "Snorlax-route family access"),
@@ -996,16 +1023,15 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
 
     timed = [
         ("ENCDATA_D25R0103_UNION_CAVE_B2F", "SPECIES_BAGON", "SPECIES_LILEEP", "SPECIES_BAGON", 22, "deeper cave Bagon with fossil-line daytime echo"),
-        ("ENCDATA_D36R0101_ILEX_FOREST", "SPECIES_BULBASAUR", "SPECIES_NINCADA", "SPECIES_TREECKO", 14, "forest starter and hidden molt-line split"),
         ("ENCDATA_R34_ROUTE_34", "SPECIES_RIOLU", "SPECIES_IGGLYBUFF", "SPECIES_WYNAUT", 15, "Day-Care route friendship and baby-form surprises"),
         ("ENCDATA_R35_ROUTE_35", "SPECIES_PICHU", "SPECIES_EEVEE", "SPECIES_HAPPINY", 16, "city-edge happiness-line rare split"),
         ("ENCDATA_R36_ROUTE_36", "SPECIES_BONSLY", "SPECIES_MEDITITE", "SPECIES_BONSLY", 17, "Sudowoodo-route baby form and meditation rare"),
-        ("ENCDATA_R37_ROUTE_37", "SPECIES_VULPIX", "SPECIES_VULPIX", "SPECIES_CHARMANDER", 18, "daytime fox-fire and night Kanto fire-starter split"),
+        ("ENCDATA_R37_ROUTE_37", "SPECIES_PONYTA", "SPECIES_PONYTA", "SPECIES_VULPIX", 18, "early fire-horse and night fox-fire split"),
         ("ENCDATA_R38_ROUTE_38", "SPECIES_MEOWTH_GALARIAN", "SPECIES_MEOWTH_GALARIAN", "SPECIES_MEOWTH_ALOLAN", 26, "Meowth-family regional split by time"),
         ("ENCDATA_D18R0101_BURNED_TOWER_1F", "SPECIES_HOUNDOUR", "SPECIES_HOUNDOUR", "SPECIES_MAGBY", 18, "burned ruins dark/fire line and night Magby split"),
-        ("ENCDATA_D17R0112_BELL_TOWER_10F", "SPECIES_CYNDAQUIL", "SPECIES_CYNDAQUIL", "SPECIES_CHIMCHAR", 32, "sacred tower Johto/Sinnoh fire-starter split"),
+        ("ENCDATA_D17R0112_BELL_TOWER_10F", "SPECIES_MAGBY", "SPECIES_MAGBY", "SPECIES_VULPIX", 32, "sacred tower fire-line split without starter pressure"),
         ("ENCDATA_R39_ROUTE_39", "SPECIES_FARFETCHD_GALARIAN", "SPECIES_FARFETCHD_GALARIAN", "SPECIES_ELEKID", 27, "farm-route regional bird and night electric baby split"),
-        ("ENCDATA_R42_ROUTE_42", "SPECIES_TURTWIG", "SPECIES_TEDDIURSA", "SPECIES_TEDDIURSA", 28, "mountain-edge Sinnoh starter and bear-line split"),
+        ("ENCDATA_R42_ROUTE_42", "SPECIES_MUNCHLAX", "SPECIES_TEDDIURSA", "SPECIES_TEDDIURSA", 28, "mountain-edge heavy cub and bear-line split"),
         ("ENCDATA_D39R0101_ICE_PATH_1F", "SPECIES_SNORUNT", "SPECIES_SMOOCHUM", "SPECIES_SNORUNT", 34, "cold-cave Hoenn ice and baby ice split"),
         ("ENCDATA_D02R0101_MT_MOON_1F", "SPECIES_CHARMANDER", "SPECIES_CHARMANDER", "SPECIES_CLEFFA", 53, "Kanto fire starter by day, moon baby at night"),
         ("ENCDATA_R08_ROUTE_8", "SPECIES_STUNKY", "SPECIES_MIME_JR", "SPECIES_STUNKY", 51, "urban poison/dark and performer baby split"),
@@ -1022,35 +1048,35 @@ def add_explicit_placements(entries: list[Encounter]) -> None:
 
     surf = [
         ("ENCDATA_T20_NEW_BARK_TOWN", "SPECIES_CLAMPERL", 18, "coastal pearl-line rare"),
-        ("ENCDATA_T21_CHERRYGROVE_CITY", "SPECIES_SQUIRTLE", 18, "early coastal Kanto water starter rare"),
+        ("ENCDATA_T21_CHERRYGROVE_CITY", "SPECIES_FEEBAS", 18, "early coastal beauty-line rare"),
         ("ENCDATA_R30_ROUTE_30", "SPECIES_SURSKIT", 16, "pond bug/water rare"),
         ("ENCDATA_R31_ROUTE_31", "SPECIES_SURSKIT", 16, "pond bug/water rare"),
-        ("ENCDATA_T22_VIOLET_CITY", "SPECIES_PIPLUP", 18, "quiet city-pond Sinnoh water starter rare"),
+        ("ENCDATA_T22_VIOLET_CITY", "SPECIES_FEEBAS", 18, "quiet city-pond beauty-line rare"),
         ("ENCDATA_R32_ROUTE_32", "SPECIES_FEEBAS", 12, "very early but weak beauty-line rare"),
         ("ENCDATA_R34_ROUTE_34", "SPECIES_CLAMPERL", 22, "coastal pearl rare"),
         ("ENCDATA_D25R0103_UNION_CAVE_B2F", "SPECIES_LAPRAS", 22, "deep Union Cave water rare outside Safari"),
-        ("ENCDATA_T27_ECRUTEAK_CITY", "SPECIES_SURSKIT", 19, "old-city pond bug/water rare"),
+        ("ENCDATA_T27_ECRUTEAK_CITY", "SPECIES_FEEBAS", 19, "old-city pond beauty-line rare"),
         ("ENCDATA_T26_OLIVINE_CITY", "SPECIES_WAILMER", 30, "port-city whale line"),
         ("ENCDATA_W40_ROUTE_40", "SPECIES_MANTYKE", 28, "open-sea Sinnoh ray"),
         ("ENCDATA_W41_ROUTE_41", "SPECIES_CARVANHA", 32, "rough ocean predator"),
-        ("ENCDATA_T24_CIANWOOD_CITY", "SPECIES_CLAMPERL", 32, "island pearl rare"),
+        ("ENCDATA_T24_CIANWOOD_CITY", "SPECIES_RELICANTH", 32, "island ancient-fish rare"),
         ("ENCDATA_T29_LAKE_OF_RAGE", "SPECIES_FEEBAS", 32, "lake beauty-line rare"),
         ("ENCDATA_T30_BLACKTHORN_CITY", "SPECIES_DRATINI", 40, "dragon-city water rare"),
         ("ENCDATA_R47_ROUTE_47", "SPECIES_SHELLOS", 40, "cliffside coastal Sinnoh line"),
         ("ENCDATA_D02R0103_MT_MOON_OUTSIDE_AREA", "SPECIES_CLAMPERL", 54, "moonlit pond pearl-line rare"),
         ("ENCDATA_D02R0104_MT_MOON_OUTSIDE_CLEFAIRY_ACTIVE", "SPECIES_FEEBAS", 54, "moonlit pond beauty-line rare"),
-        ("ENCDATA_D48R0101_CLIFF_EDGE_GATE", "SPECIES_BUIZEL", 40, "cliffside water-route Sinnoh line"),
+        ("ENCDATA_D48R0101_CLIFF_EDGE_GATE", "SPECIES_RELICANTH", 40, "cliffside ancient-fish rare"),
         ("ENCDATA_T31_MT_SILVER_OUTSIDE_POKEMON_CENTER", "SPECIES_DRATINI", 62, "remote mountain water rare"),
         ("ENCDATA_R12_ROUTE_12", "SPECIES_TOTODILE", 50, "postgame water starter access"),
         ("ENCDATA_T01_PALLET_TOWN", "SPECIES_SQUIRTLE", 48, "postgame starter coastal access"),
-        ("ENCDATA_T02_VIRIDIAN_CITY", "SPECIES_LOTAD", 49, "city pond Hoenn water/grass rare"),
+        ("ENCDATA_T02_VIRIDIAN_CITY", "SPECIES_MUDKIP", 49, "postgame Kanto pond Hoenn water starter access"),
         ("ENCDATA_T04_CERULEAN_CITY", "SPECIES_SQUIRTLE", 50, "postgame water-starter city access"),
         ("ENCDATA_T06_VERMILION_CITY", "SPECIES_WAILMER", 50, "major-port whale line"),
-        ("ENCDATA_T07_CELADON_CITY", "SPECIES_LOTAD", 49, "garden-city pond Hoenn water/grass rare"),
-        ("ENCDATA_T08_FUCHSIA_CITY", "SPECIES_FINNEON", 50, "southern water-route fish"),
+        ("ENCDATA_T07_CELADON_CITY", "SPECIES_TOTODILE", 50, "postgame garden-city water starter access"),
+        ("ENCDATA_T08_FUCHSIA_CITY", "SPECIES_PIPLUP", 50, "postgame southern Kanto water starter access"),
         ("ENCDATA_T09_CINNABAR_ISLAND", "SPECIES_CLAMPERL", 54, "island shellfish rare"),
         ("ENCDATA_W19_ROUTE_19", "SPECIES_PIPLUP", 52, "cold sea starter access"),
-        ("ENCDATA_W20_ROUTE_20", "SPECIES_CARVANHA", 53, "rough current predator"),
+        ("ENCDATA_W20_ROUTE_20", "SPECIES_PIPLUP", 53, "postgame cold-current water starter access"),
         ("ENCDATA_W21_ROUTE_21", "SPECIES_WAILMER", 52, "deep ocean-route whale line"),
         ("ENCDATA_R24_ROUTE_24", "SPECIES_SQUIRTLE", 50, "Cerulean cape water starter"),
         ("ENCDATA_R25_ROUTE_25", "SPECIES_SHELLOS", 51, "coastal Sinnoh water line"),
@@ -1116,10 +1142,10 @@ def encounter_rare_species(entry: Encounter) -> list[str]:
 def default_rares(entries: list[Encounter]) -> None:
     route_cycle = [
         "SPECIES_RALTS",
-        "SPECIES_RIOLU",
         "SPECIES_EEVEE",
         "SPECIES_MUNCHLAX",
         "SPECIES_ABSOL",
+        "SPECIES_TEDDIURSA",
         "SPECIES_HERACROSS",
         "SPECIES_SCYTHER",
         "SPECIES_PINSIR",
@@ -1134,8 +1160,8 @@ def default_rares(entries: list[Encounter]) -> None:
         "SPECIES_SPIRITOMB",
         "SPECIES_AERODACTYL",
     ]
-    forest_cycle = ["SPECIES_RALTS", "SPECIES_EEVEE", "SPECIES_MUNCHLAX", "SPECIES_BULBASAUR", "SPECIES_TREECKO"]
-    water_cycle = ["SPECIES_FEEBAS", "SPECIES_DRATINI", "SPECIES_LAPRAS", "SPECIES_TOTODILE", "SPECIES_PIPLUP", "SPECIES_RELICANTH"]
+    forest_cycle = ["SPECIES_RALTS", "SPECIES_EEVEE", "SPECIES_MUNCHLAX", "SPECIES_HERACROSS", "SPECIES_PINSIR"]
+    water_cycle = ["SPECIES_FEEBAS", "SPECIES_DRATINI", "SPECIES_LAPRAS", "SPECIES_RELICANTH", "SPECIES_WAILMER"]
 
     for idx, entry in enumerate(entries):
         if not is_meaningful(entry) or encounter_rare_species(entry):
@@ -1160,6 +1186,8 @@ def apply_post_rare_common_pins(entries: list[Encounter]) -> None:
         entry = e["ENCDATA_W40_ROUTE_40"]
         entry.surf[2] = Slot(27, 29, "SPECIES_MANTYKE")
         append_common_note(entry, "surf common SPECIES_MANTYKE 5% lv27-29 - open-sea Sinnoh ray common")
+    if "ENCDATA_R43_ROUTE_43" in e and has_real_land(e["ENCDATA_R43_ROUTE_43"]):
+        set_land_common(e["ENCDATA_R43_ROUTE_43"], "SPECIES_CASTFORM", 30, "Lake of Rage weather-route common", (0,))
 
 
 def apply_featured_common_placements(entries: list[Encounter]) -> None:
@@ -1728,7 +1756,12 @@ def johto_main_species(entries: list[Encounter]) -> set[str]:
 
 
 def gen3_4_base_forms(name_to_num: dict[str, int]) -> list[str]:
-    return [species for species in evolution_base_forms(name_to_num) if 252 <= name_to_num.get(species, 0) <= 493]
+    return [
+        species
+        for species in evolution_base_forms(name_to_num)
+        if 252 <= name_to_num.get(species, 0) <= 493
+        and species not in JOHTO_MAIN_STARTER_EXCEPTIONS
+    ]
 
 
 def validate(entries: list[Encounter]) -> list[str]:
@@ -1821,13 +1854,15 @@ def make_report(entries: list[Encounter]) -> str:
     notable = [
         "- Routes 29-31 now carry early common-route variety across generations, including Zigzagoon, Starly, Bidoof, Taillow, Wurmple, Poochyena, Lotad, and Seedot.",
         "- Johto routes and dungeons use Gen 3-4 Pokemon as ordinary ecological encounters at common rates where slot space allows, not only as rare prizes.",
-        "- Every non-legendary Gen 3-4 base/pre-evolution form is represented in the main Johto encounter set.",
+        "- Every non-legendary, non-starter Gen 3-4 base/pre-evolution form is represented in the main Johto encounter set.",
         "- Rare encounter slots are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.",
-        "- Rare Finds now explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean Wooper, Lapras, Kangaskhan, Tauros, and an earlier Ice Path Sneasel placement.",
+        "- Rare Finds now explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean Wooper, Lapras, Kangaskhan, Tauros, early Teddiursa, early Houndour, early Hisuian Sneasel, early Ponyta, and pre-League Ice Path Sneasel.",
         "- Land/cave and surf/fishing pools are now each filled to at least six species when that encounter mode exists.",
-        "- Route 31, Ilex Forest, Route 37, Slowpoke Well, Route 42, Cherrygrove, and Violet: earlier Johto access to Gen 1/3/4 starter lines.",
+        "- Starter rare access is pushed back into Kanto and postgame Kanto contexts; early Johto rare slots now favor local flavor, regional forms, and strong non-starter lines.",
+        "- Route 29, Ilex Forest, Route 36, Route 37, and Burned Tower now provide earlier Houndour, Teddiursa, Hisuian Sneasel, and Ponyta access.",
         "- Dark Cave Route 31 entrance: Larvitar at 4%, level 7.",
         "- Union Cave B1F/B2F: Gible and Bagon become early cave pseudo-legendary surprises.",
+        "- Route 34 remains the sole low-level Riolu placement, with later Riolu access reserved for Bell Tower, Route 43, and Mt. Silver.",
         "- Route 34/35/36/39, Ice Path, Burned Tower, Mt. Moon, and Route 8: missing baby/base forms are placed semantically, with common forms demoted out of rare slots.",
         "- Dragon's Den and Whirl Islands: Dratini/Bagon access in dragon- and water-themed spaces.",
         "- Mt. Mortar, Victory Road, Cerulean Cave, and Mt. Silver: Beldum, Gible, Bagon, and Riolu as late cave/mountain rares.",
@@ -1863,7 +1898,7 @@ def make_report(entries: list[Encounter]) -> str:
             f"- Non-legendary Gen 1-4 evolution-family components with wild encounter coverage: {len(wild_covered)} / {len(wild_covered) + len(wild_missing)}.",
             f"- Non-legendary Gen 1-4 family components still missing from wild tables: {missing_text}",
             f"- Non-legendary Gen 1-4 base/pre-evolution species still missing from wild tables: {missing_bases_text}",
-            f"- Non-legendary Gen 3-4 base/pre-evolution species covered in Johto main encounters: {len(johto_gen3_4_covered)} / {len(johto_gen3_4_bases)}.",
+            f"- Non-legendary non-starter Gen 3-4 base/pre-evolution species covered in Johto main encounters: {len(johto_gen3_4_covered)} / {len(johto_gen3_4_bases)}.",
             f"- Unrelated later-generation species found in encounter tables: {forbidden_text}",
             "- Gen 1-4 non-mythical legendaries are covered by low-rate random surprise overlays: weaker-tier legends at 1/500 beginning at 4 badges and true/cover-story legends at 1/1000 once unlocked.",
             "- Gen 1-4 mythicals are included only in the 16-badge surprise pool, following the personalized tweak file's permissive direction while preserving proper events as future official encounters.",
