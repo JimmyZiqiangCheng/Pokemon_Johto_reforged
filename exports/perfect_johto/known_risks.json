@@ -1,8 +1,9 @@
 {
   "build_readiness": {
     "armips_dojo_assembly": {
-      "details": "armips is not available on PATH",
-      "status": "SKIP"
+      "details": "completed",
+      "name": "armips armips/scr_seq/scr_seq_00832_phase8_dojo.s",
+      "status": "PASS"
     },
     "baserom_nds": {
       "exists": false,
@@ -10,8 +11,9 @@
     },
     "docker_route": "docker missing",
     "make_dry_run": {
-      "details": "make is not available on PATH",
-      "status": "SKIP"
+      "details": "echo \"Done.  See output test.nds.\"",
+      "name": "make -n",
+      "status": "PASS"
     },
     "rom_nds": {
       "exists": true,
@@ -19,16 +21,16 @@
     },
     "tools": {
       "arm-none-eabi-gcc": {
-        "available": false,
-        "path": null
+        "available": true,
+        "path": "C:\\msys64\\ucrt64\\bin\\arm-none-eabi-gcc.EXE"
       },
       "armips": {
-        "available": false,
-        "path": null
+        "available": true,
+        "path": "C:\\Users\\jimmy\\Documents\\pokemon_romhacks\\perfect_johto\\hg-engine-main\\hg-engine-main\\tools\\armips.EXE"
       },
       "cmake": {
-        "available": false,
-        "path": null
+        "available": true,
+        "path": "C:\\msys64\\ucrt64\\bin\\cmake.EXE"
       },
       "docker": {
         "available": false,
@@ -36,11 +38,11 @@
       },
       "git": {
         "available": true,
-        "path": "C:\\Program Files\\Git\\cmd\\git.EXE"
+        "path": "C:\\msys64\\usr\\bin\\git.EXE"
       },
       "make": {
-        "available": false,
-        "path": null
+        "available": true,
+        "path": "C:\\msys64\\usr\\bin\\make.EXE"
       },
       "python": {
         "available": true,
@@ -164,7 +166,7 @@
       "status": "WARN"
     },
     {
-      "details": "missing requirements: make, cmake, armips, docker, arm-none-eabi-gcc",
+      "details": "missing requirements: docker",
       "name": "Build readiness",
       "status": "WARN"
     }
