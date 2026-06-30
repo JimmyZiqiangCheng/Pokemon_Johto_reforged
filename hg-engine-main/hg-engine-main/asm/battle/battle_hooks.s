@@ -31,6 +31,8 @@ str r1, [r7, r2]
 push {r0-r3}
 mov r0, r4
 bl BattleEndRevertFormChange
+mov r0, r4
+bl PerfectJohto_ReleaseFaintedBattleParty
 pop {r0-r3}
 ldr r1, =0xB98 + 0x022378C0|1
 bx r1

@@ -5,6 +5,7 @@ This folder contains static documentation for Pokemon Johto Reforged. The intera
 ## Core Docs
 
 - `PROJECT_SCOPE.md`
+- `GAME_MODES.md`
 - `BUILD_AND_TESTING.md`
 - `PLAYTEST_CHECKLIST.md`
 - `RELEASE_CHECKLIST.md`

@@ -196,6 +196,8 @@ arm9 GiveMon 020541DC 5
 
 arm9 ScrCmd_GiveEgg 0204D248 1
 0001 ScrCmd_GiveTogepiEgg 022020CC 1
+0053 PerfectJohto_OakModeMenuPrintHook 021E716C 0
+0053 PerfectJohto_OakModeMenuInputHook 021E7188 0
 arm9 sub_0206D328 0206D328 2
 
 arm9 HiddenItemGetUnk3 02040578 1
@@ -364,6 +366,7 @@ arm9 Summary_Entry_Hook 0208D2C4 1
 
 
 arm9 CanUseItemOnMonInParty_hook 020902BC 5
+arm9 PerfectJohto_BattleSystem_GetBattleStyle 0202AD90 1
 #ifdef IMPLEMENT_LEVEL_CAP
 
 0012 ImplementLevelCap_hook 02245A28 3

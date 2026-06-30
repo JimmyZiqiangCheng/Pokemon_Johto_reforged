@@ -1604,12 +1604,12 @@ struct BattleSystem {
     u8 trainerGender[4];
     TRAINER_DATA trainers[4];
     GROUND_WORK ground[2];
-    // u32 *unk19C;
-    // u32 *unk1A0[2];
-    // FontID *hpFont;
-    // FontID *levelFont;
-    // void *msgIcon;
-    // Options *options;
+    void *unk19C;
+    void *unk1A0[2];
+    void *hpFont;
+    void *levelFont;
+    void *msgIcon;
+    struct OPTIONS *options;
     // u32 *unk1B8;
     // void *unk1BC;
     // u32 *unk1C0;
@@ -1619,7 +1619,7 @@ struct BattleSystem {
     // UnkBattleSystemSub1D0 unk1D0[4];
     // UnkBattleSystemSub220 unk220;
     // GAME_STATS *gameStats;
-    u8 padding_19C[0x220 - 0x19C]; // 220 based on assembly at 0223B884
+    u8 padding_1B8[0x220 - 0x1B8]; // 220 based on assembly at 0223B884
     u8 *bg_area;
     u16 *pal_area;
     u8 sendBuffer[0x1000];
@@ -1645,7 +1645,7 @@ struct BattleSystem {
     u8 criticalHpMusicDelay : 3;
     u32 terrain;
     u32 bgId;
-    // int location;
+    int location;
     // u32 battleSpecial;
     // int timezone; //might be timeOfDay? unclear
     // int safariBallCnt;

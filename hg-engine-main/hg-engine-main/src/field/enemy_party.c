@@ -10,6 +10,7 @@
 #include "../../include/constants/species.h"
 #include "../../include/constants/weather_numbers.h"
 #include "../../include/debug.h"
+#include "../../include/perfect_johto_game_modes.h"
 #include "../../include/pokemon.h"
 #include "../../include/rtc.h"
 #include "../../include/save.h"
@@ -712,6 +713,7 @@ static BOOL PerfectJohto_TryRandomLegendary(
  */
 BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, struct PartyPokemon *encounterPartyPokemon, struct BATTLE_PARAM *encounterBattleParam)
 {
+    struct BattleSetup *battleSetup = (struct BattleSetup *)encounterBattleParam;
     int range = 0;
     u8 change_form = 0;
     u8 form_no;
@@ -720,6 +722,10 @@ BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, s
 
     if (encounterInfo->isEgg == 0 && encounterInfo->ability == ABILITY_COMPOUND_EYES) {
         range = 1;
+    }
+
+    if (encounterInfo->isEgg == 0 && encounterBattleParam != NULL) {
+        PerfectJohto_NuzlockePrepareBattleArea(encounterBattleParam->savedata, battleSetup->mapSection);
     }
 
     PerfectJohto_TryRandomLegendary(encounterInfo, encounterPartyPokemon, encounterBattleParam);

@@ -5,6 +5,7 @@
 #include "../../include/debug.h"
 #include "../../include/constants/file.h"
 #include "../../include/message.h"
+#include "../../include/perfect_johto_game_modes.h"
 #include "../../include/pokemon.h"
 #include "../../include/rtc.h"
 #include "../../include/save.h"
@@ -41,6 +42,10 @@ BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
     u8 partyCount = party->count;
     if (partyCount < 6)
     {
+        if (!PerfectJohto_NuzlockeTryClaimGift(fsys)) {
+            return FALSE;
+        }
+
         struct PartyPokemon *pokemon = AllocMonZeroed(11);
         ZeroMonData(pokemon);
         int val = sub_02017FE4(1, offset);
@@ -85,6 +90,9 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
     party = SaveData_GetPlayerPartyPtr(fsys->savedata);
 
     if (party->count >= 6) {
+        return FALSE;
+    }
+    if (!PerfectJohto_NuzlockeTryClaimGift(fsys)) {
         return FALSE;
     }
 

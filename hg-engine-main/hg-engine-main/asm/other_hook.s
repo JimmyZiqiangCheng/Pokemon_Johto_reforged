@@ -324,6 +324,45 @@ bx r1
 .pool
 
 
+.global PerfectJohto_OakModeMenuInputHook
+PerfectJohto_OakModeMenuInputHook:
+mov r0, r4
+mov r1, r5
+ldr r2, =0x021E6988 | 1 // OakSpeech_MultichoiceMenuHandleInputVertical
+bl PerfectJohto_OakModeMenuCallViaR2
+mov r1, r5
+sub r1, #1
+cmp r0, r1
+beq PerfectJohto_OakModeMenuNoSelection
+
+mov r0, r4
+bl PerfectJohto_OakModeMenuApplySelection
+cmp r0, #0
+beq PerfectJohto_OakModeMenuNoSelection
+
+ldr r0, =0x021E7194 | 1
+bx r0
+
+PerfectJohto_OakModeMenuNoSelection:
+ldr r0, =0x021E71F6 | 1
+bx r0
+
+PerfectJohto_OakModeMenuCallViaR2:
+bx r2
+
+.pool
+
+
+.global PerfectJohto_OakModeMenuPrintHook
+PerfectJohto_OakModeMenuPrintHook:
+mov r0, r4
+bl PerfectJohto_OakModeMenuShowInitialPage
+ldr r0, =0x021E71F6 | 1
+bx r0
+
+.pool
+
+
 // need to grab species, pid, form
 .global grab_sex_for_GetBoxMonData
 grab_sex_for_GetBoxMonData:

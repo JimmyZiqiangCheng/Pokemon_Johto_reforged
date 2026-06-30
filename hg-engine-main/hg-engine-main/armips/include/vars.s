@@ -374,9 +374,9 @@ VAR_UNK_4169 equ                       0x4169
 VAR_UNK_416A equ                       0x416A
 VAR_UNK_416B equ                       0x416B
 VAR_UNK_416C equ                       0x416C
-VAR_UNK_416D equ                       0x416D
-VAR_UNK_416E equ                       0x416E
-VAR_UNK_416F equ                       0x416F
+VAR_PERFECT_JOHTO_NUZLOCKE_LEGAL_AREA equ 0x416D
+VAR_PERFECT_JOHTO_GAME_MODE equ           0x416E
+VAR_PERFECT_JOHTO_LEVEL_CAP equ           0x416F
 
 NUM_VARS equ                           (0x170)
 

@@ -6,12 +6,12 @@
 #include "../../include/constants/move_effects.h"
 #include "../../include/constants/hold_item_effects.h"
 #include "../../include/constants/file.h"
+#include "../../include/perfect_johto_game_modes.h"
 
 #ifdef DEBUG_BATTLE_SCENARIOS
 #include "../../include/test_battle.h"
 #endif // DEBUG_BATTLE_SCENARIOS
 
-#if defined (DISABLE_ITEMS_IN_TRAINER_BATTLE)
 void overrideItemUsage(struct BattleSystem *bsys, struct BattleStruct *ctx)
 {
     BattleMessage mp;
@@ -33,7 +33,6 @@ void overrideItemUsage(struct BattleSystem *bsys, struct BattleStruct *ctx)
         }
     }
 }
-#endif
 
 BOOL LONG_CALL BattleContext_Main(struct BattleSystem *bsys, struct BattleStruct *ctx)
 {
@@ -90,9 +89,9 @@ BOOL LONG_CALL BattleContext_Main(struct BattleSystem *bsys, struct BattleStruct
 #ifdef DEBUG_BATTLE_SCENARIOS
     TestBattle_autoSelectPlayerMoves(bsys, ctx);
 #endif
-#if defined (DISABLE_ITEMS_IN_TRAINER_BATTLE)
-    overrideItemUsage(bsys, ctx);
-#endif
+    if (PerfectJohto_ModeDisablesBattleItems()) {
+        overrideItemUsage(bsys, ctx);
+    }
 
     if (ctx->server_seq_no == CONTROLLER_COMMAND_45)
     {

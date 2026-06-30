@@ -377,9 +377,9 @@
 #define VAR_UNK_416A                       0x416A
 #define VAR_UNK_416B                       0x416B
 #define VAR_UNK_416C                       0x416C
-#define VAR_UNK_416D                       0x416D
-#define VAR_UNK_416E                       0x416E
-#define VAR_UNK_416F                       0x416F
+#define VAR_PERFECT_JOHTO_NUZLOCKE_LEGAL_AREA 0x416D
+#define VAR_PERFECT_JOHTO_GAME_MODE           0x416E
+#define VAR_PERFECT_JOHTO_LEVEL_CAP           0x416F
 
 #define NUM_VARS (0x170)
 

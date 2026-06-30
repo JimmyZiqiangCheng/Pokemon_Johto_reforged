@@ -5,6 +5,7 @@
 #include "constants/save.h"
 #include "rtc.h"
 #include "pokemon.h"
+#include "perfect_johto_game_modes.h"
 
 #define OT_ID_PRESET 1
 
@@ -116,6 +117,7 @@ struct SAVE_MISC_DATA
     // expanded fields - offset 0x2E0 and up
     struct PartyPokemon storedMons[NUM_OF_STORED_MONS];
     u8 isMonStored[NUM_OF_STORED_MONS];
+    u8 perfectJohtoNuzlockeAreas[PERFECT_JOHTO_NUZLOCKE_AREA_BYTES];
 
 #endif
 

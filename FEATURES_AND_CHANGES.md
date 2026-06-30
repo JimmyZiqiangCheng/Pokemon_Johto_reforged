@@ -1,7 +1,7 @@
 # Pokemon Johto Reforged - Features and Changes
 
-Document version: v2026.06.29-rare-encounter-starter-rebalance
-Last updated: 2026-06-29
+Document version: v2026.06.30-game-modes
+Last updated: 2026-06-30
 
 This is the current feature/change index for Pokemon Johto Reforged. The older
 long-form phase ledger was archived so this file can stay readable while still
@@ -19,6 +19,7 @@ preserving history.
 | v2026.06.29-luminescent-data-refresh | 2026-06-29 | Extended the Luminescent Platinum 3.0 source-of-truth pass to Gen 1-4 base stats and level-up learnsets. Local extra moves are preserved, missing Luminescent level-up moves are appended at Luminescent levels, and move IDs are mapped by Luminescent move names before resolving local constants. |
 | v2026.06.29-learnset-accessibility-refresh | 2026-06-29 | Made every egg move in the active learnset data level-up accessible, cleaned duplicate level-up moves, and re-applied the non-legendary pre-level-60 learnset philosophy across the full shared learnset file. |
 | v2026.06.29-rare-encounter-starter-rebalance | 2026-06-29 | Rebalanced rare encounters so Teddiursa, Houndour, Hisuian Sneasel, and Ponyta appear earlier, reduced early Riolu saturation, and pushed starter rare access back into Kanto/postgame Kanto contexts. |
+| v2026.06.30-game-modes | 2026-06-30 | Added New Game mode selection before Oak's speech: Normal, Challenge, Hardcore, and Nuzlocke. Challenge modes enforce dynamic level caps, Set battle style, and trainer-battle item restrictions; Hardcore/Nuzlocke release fainted Pokemon while preserving the last non-Egg party Pokemon; Nuzlocke enforces first encounter/gift/static claims per map section. |
 
 ## Project Goals
 
@@ -136,6 +137,20 @@ preserving history.
 - Rematch and late-game trainer records were updated.
 - Champion Circuit battles were added for late postgame challenges.
 
+### Game Modes and Difficulty
+
+- New Game now presents a mode selector before Professor Oak's speech.
+- Normal preserves the current QOL and balance without level caps.
+- Challenge adds dynamic badge/story level caps, forced Set battle style, and
+  blocks player Bag item use in trainer battles.
+- Level caps stop battle EXP at cap and also prevent Rare Candy from leveling
+  Pokemon beyond the active cap.
+- Hardcore includes Challenge rules and releases/deletes fainted non-Egg party
+  Pokemon after battle. The last non-Egg party Pokemon is never released by
+  this rule.
+- Nuzlocke includes Hardcore rules and enforces one wild encounter/gift/static
+  claim per map section. Optional Nuzlocke rules are left to the player.
+
 ### Kanto Postgame and Legendaries
 
 - Saffron Fighting Dojo acts as a postgame hub.
@@ -170,7 +185,6 @@ Still deferred:
   separate field/input task.
 - Fast Surf.
 - Field moves without teaching the HM move.
-- Optional badge-based level cap.
 - Optional QOL/settings NPC.
 
 ## Validation and Exports
@@ -196,6 +210,7 @@ python tools/perfect_johto/validate_project.py --write
 ## Key Docs
 
 - `docs/PROJECT_SCOPE.md`
+- `docs/GAME_MODES.md`
 - `docs/LUMINESCENT_DATA_REFRESH.md`
 - `docs/LEARNSET_ACCESSIBILITY.md`
 - `docs/QOL_FEATURES.md`
@@ -240,6 +255,8 @@ python tools/perfect_johto/validate_project.py --write
   aggregate roll to tiered 1/500 and 1/1000 rolls.
 - Phase 13: Luminescent Platinum 3.0 ability refresh for Generation 1-4 Pokemon
   and relevant native forms, plus natural wild hidden-ability rolls.
+- Phase 14: New Game mode selector and enforced Normal, Challenge, Hardcore,
+  and Nuzlocke rules.
 
 ## Known Limitations and TODO
 
@@ -253,6 +270,9 @@ python tools/perfect_johto/validate_project.py --write
   Champion Circuit unlocks, Dojo retries, and legendary/mythical caught flags.
 - Runtime-test random legendary surprise encounters with Repel, Safari
   exclusion, native roamer coexistence, level scaling, and badge-gated pools.
+- Runtime-test New Game mode selection, level caps, Rare Candy cap handling,
+  trainer-battle item blocking, Set battle style, Hardcore release behavior,
+  and Nuzlocke encounter/gift/static area claims.
 - Investigate AutoRun/toggle-run, fast Surf, and field-move-without-HM-teaching
   as separate future field/input tasks.
 - Add exact source provenance for the HG-Engine checkout.

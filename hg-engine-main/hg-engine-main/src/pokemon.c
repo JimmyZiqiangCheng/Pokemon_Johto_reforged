@@ -15,6 +15,7 @@
 #include "../include/constants/weather_numbers.h"
 #include "../include/debug.h"
 #include "../include/overlay.h"
+#include "../include/perfect_johto_game_modes.h"
 #include "../include/rtc.h"
 #include "../include/save.h"
 #include "../include/script.h"
@@ -1365,6 +1366,10 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
     profile = Sav2_PlayerData_GetProfileAddr(saveData);
     party = SaveData_GetPlayerPartyPtr(saveData);
 
+    if (party->count < 6 && !PerfectJohto_NuzlockeTryClaimGiftForSave(saveData)) {
+        return FALSE;
+    }
+
     pokemon = AllocMonZeroed(heapId);
     ZeroMonData(pokemon);
     PokeParaSet(pokemon, species, level, 32, FALSE, 0, 0, 0); // CreateMon
@@ -1875,7 +1880,7 @@ u32 LONG_CALL GetLevelCap(void)
     return 0;
 #else
 #ifdef IMPLEMENT_LEVEL_CAP
-    u32 levelCap = GetScriptVar(LEVEL_CAP_VARIABLE);
+    u32 levelCap = PerfectJohto_GetLevelCap(SaveBlock2_get());
     if (levelCap > 100 || levelCap == 0) {
         levelCap = 100;
     }

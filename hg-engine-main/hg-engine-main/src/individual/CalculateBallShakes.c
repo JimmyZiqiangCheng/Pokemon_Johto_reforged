@@ -4,6 +4,7 @@
 #include "../../include/debug.h"
 #include "../../include/mega.h"
 #include "../../include/overlay.h"
+#include "../../include/perfect_johto_game_modes.h"
 #include "../../include/pokemon.h"
 #include "../../include/save.h"
 #include "../../include/constants/ability.h"
@@ -63,6 +64,10 @@ u32 __attribute__((section (".init"))) CalculateBallShakesInternal(void *bw, str
     if (BattleTypeGet(bw) & (BATTLE_TYPE_PAL_PARK | BATTLE_TYPE_CATCHING_DEMO)) // poke park and safari zone always succeed
     {
         return 4;
+    }
+
+    if (!PerfectJohto_NuzlockeCanCatchCurrentBattle(SaveBlock2_get(), ((struct BattleSystem *)bw)->location)) {
+        return 0;
     }
 
     // location does not need to be adjusted because speciesCatchRate is not used until heavyBallMod is

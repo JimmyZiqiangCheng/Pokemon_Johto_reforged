@@ -2,6 +2,7 @@
 #include "../include/config.h"
 #include "../include/debug.h"
 #include "../include/message.h"
+#include "../include/perfect_johto_game_modes.h"
 #include "../include/pokemon.h"
 #include "../include/pokemon_storage_system.h"
 #include "../include/save.h"
@@ -34,6 +35,7 @@ void LONG_CALL InitStoredMons(struct SAVE_MISC_DATA *saveMiscData)
 void LONG_CALL Sav2_Misc_init_new_fields(struct SAVE_MISC_DATA *saveMiscData)
 {
     InitStoredMons(saveMiscData);
+    PerfectJohto_ClearNuzlockeAreas(saveMiscData);
 }
 
 
