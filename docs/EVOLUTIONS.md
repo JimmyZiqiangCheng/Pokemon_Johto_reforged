@@ -5,28 +5,21 @@ Evolution data is exported from `hg-engine-main/hg-engine-main/data/Evolutions.c
 ## References
 
 - Full export: `exports/perfect_johto/evolutions.json`.
-- Trade replacement export:
-  `exports/perfect_johto/trade_evolution_replacements.json`.
+- Trade replacement export: `exports/perfect_johto/trade_evolution_replacements.json`.
 - Required item access: `docs/ITEMS_AND_MARTS.md`.
-- Learnset prerequisites: `docs/TYPE_AND_LEARNSET_CHANGES.md` and
-  `docs/LEARNSET_ACCESSIBILITY.md`.
+- Learnset prerequisites: `docs/TYPE_AND_LEARNSET_CHANGES.md` and `docs/LEARNSET_ACCESSIBILITY.md`.
 
 ## Design Rules
 
-- All approved-scope Pokemon should be evolvable in one save file without
-  trading.
+- All approved-scope Pokemon should be evolvable in one save file without trading.
 - Existing item-use methods are preferred when they are clear and HGSS-friendly.
-- Known-move methods are used when they better match the later official
-  evolution identity.
-- Required approved-scope evolution items are made repeatably available through
-  the badge-gated standard mart.
-- Unrelated later-generation families remain out of scope even if their
-  evolution items or constants exist in HG-Engine.
+- Known-move methods are used when they better match the later official evolution identity.
+- Required approved-scope evolution items are made repeatably available through the badge-gated standard mart.
+- Unrelated later-generation families remain out of scope even if their evolution items or constants exist in HG-Engine.
 
 ## Trade-Only Replacements
 
-These approved-scope trade-only lines use the Linking Cord item where the engine
-already supports a non-trade replacement:
+These approved-scope trade-only lines use the Linking Cord item where the engine already supports a non-trade replacement:
 
 - Kadabra -> Alakazam.
 - Machoke -> Machamp.
@@ -64,13 +57,8 @@ These trade-with-item evolutions were converted into direct item-use evolutions:
 - Dudunsparce Three-Segment evolves from Dudunsparce by level-up at 50.
 - Ursaluna Bloodmoon evolves from Ursaluna by level-up at 55.
 
-These are simple access methods for special forms already present in local data.
-Runtime testing still needs to confirm form display, naming, and evolution
-behavior.
+These are simple access methods for special forms already present in local data. Runtime testing still needs to confirm form display, naming, and evolution behavior.
 
 ## Validation
 
-Static validation checks that no approved-scope trade-only evolutions remain,
-that species/move/item constants resolve, that required evolution items are
-available through the badge mart, and that known-move methods have reasonable
-learnset access.
+Static validation checks that no approved-scope trade-only evolutions remain, that species/move/item constants resolve, that required evolution items are available through the badge mart, and that known-move methods have reasonable learnset access.

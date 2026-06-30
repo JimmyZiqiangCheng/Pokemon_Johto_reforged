@@ -1,15 +1,11 @@
 # QOL Features
 
-This doc tracks quality-of-life features that are enabled, added, or explicitly
-deferred.
+This doc tracks quality-of-life features that are enabled, added, or explicitly deferred.
 
 ## Implemented Or Preserved
 
-- Running from the beginning: Mom gives the Running Shoes in the initial home
-  conversation.
-- Cherrygrove Guide Gent skip: if the player already has Running Shoes, the
-  Guide skips the forced walking tour while preserving the later Map Card
-  callback.
+- Running from the beginning: Mom gives the Running Shoes in the initial home conversation.
+- Cherrygrove Guide Gent skip: if the player already has Running Shoes, the Guide skips the forced walking tour while preserving the later Map Card callback.
 - Fast text is enabled globally through `FAST_TEXT_PRINTING`.
 - HMs are deletable through `DELETABLE_HMS`.
 - TMs are reusable through existing HG-Engine configuration.
@@ -21,13 +17,11 @@ deferred.
 - Hidden Abilities are enabled.
 - Overworld poison damage is disabled.
 - Max Candy and IV stat candies are party-use convenience items.
-- Mints, Ability Capsule, Ability Patch, EV training items, IV stat candies, and
-  evolution items are progressively available through the standard badge mart.
+- Mints, Ability Capsule, Ability Patch, EV training items, IV stat candies, and evolution items are progressively available through the standard badge mart.
 
 ## Deferred
 
-- AutoRun/toggle-run as an input-mode feature. Running from the start is handled
-  through early Running Shoes, but automatic running remains separate.
+- AutoRun/toggle-run as an input-mode feature. Running from the start is handled through early Running Shoes, but automatic running remains separate.
 - Fast Surf.
 - Field moves without teaching the HM move.
 - Optional QOL/settings NPC.

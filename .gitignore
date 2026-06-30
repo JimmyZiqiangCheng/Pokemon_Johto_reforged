@@ -5,7 +5,12 @@ baserom.nds
 *.srl
 *.sav
 *.dsv
+*.bps
+*.ips
+*.ups
 *.xdelta
+*.delta
+*.ppf
 
 # Build outputs and temporary validation artifacts
 build/

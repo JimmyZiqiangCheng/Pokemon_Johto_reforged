@@ -19,12 +19,12 @@ python tools/perfect_johto/validate_project.py --write
 | Check | Status | Details |
 | --- | --- | --- |
 | Learnset JSON parse | PASS | data/learnsets/learnsets.json parsed |
-| text archive validation | PASS | 46 archives passed |
-| Build readiness | WARN | missing requirements: git, make, cmake, armips, docker, arm-none-eabi-gcc |
+| text archive validation | PASS | 47 archives passed |
+| Build readiness | WARN | missing requirements: make, cmake, armips, docker, arm-none-eabi-gcc |
 
 ## Tool Availability
 
-- `git`: missing on PATH
+- `git`: available at C:\Program Files\Git\cmd\git.EXE
 - `make`: missing on PATH
 - `cmake`: missing on PATH
 - `armips`: missing on PATH

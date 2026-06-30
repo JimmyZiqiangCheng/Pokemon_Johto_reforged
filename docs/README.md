@@ -1,26 +1,17 @@
 # Pokemon Johto Reforged Documentation
 
-This folder contains the project-facing documentation for Pokemon Johto
-Reforged. Use `FEATURES_AND_CHANGES.md` at the repository root for the general
-feature index, then use the category docs here for implementation and future
-modification reference.
+This folder contains the project-facing documentation for Pokemon Johto Reforged. Use `FEATURES_AND_CHANGES.md` at the repository root for the general feature index, then use the category docs here for implementation and future modification reference.
 
-The interactive web-app explorer is intentionally not part of this ROM hack
-phase. Structured exports live in `exports/perfect_johto/` so a future separate
-project can consume them.
+The interactive web-app explorer is intentionally not part of this ROM hack phase. Structured exports live in `exports/perfect_johto/` so a future separate project can consume them.
 
 ## Start Here
 
 - `PROJECT_SCOPE.md`: allowed content, forbidden content, and scope policy.
-- `POKEMON_DATA.md`: Pokemon stats, abilities, typings, learnsets, and
-  evolution references.
-- `ENCOUNTER_SYSTEMS.md`: wild tables, rare finds, random legendary surprises,
-  proper legendary access, and Nuzlocke encounter claims.
-- `TRAINER_TEAMS.md`: trainer roster, level curve, boss, rematch, and validation
-  references.
+- `POKEMON_DATA.md`: Pokemon stats, abilities, typings, learnsets, and evolution references.
+- `ENCOUNTER_SYSTEMS.md`: wild tables, rare finds, random legendary surprises, proper legendary access, and Nuzlocke encounter claims.
+- `TRAINER_TEAMS.md`: trainer roster, level curve, boss, rematch, and validation references.
 - `GAME_MODES.md`: Normal, Challenge, Hardcore, and Nuzlocke rules.
-- `BUILD_AND_TESTING.md`: validation commands, build readiness, and required
-  local inputs.
+- `BUILD_AND_TESTING.md`: validation commands, build readiness, and required local inputs.
 
 ## Feature Categories
 
@@ -81,5 +72,4 @@ Most structured data lives in `exports/perfect_johto/`. The key exports are:
 - `approved_scope.json`
 - `approved_later_exceptions.json`
 
-Run `python tools/perfect_johto/validate_project.py --write` after gameplay
-data changes to regenerate exports and generated docs.
+Run `python tools/perfect_johto/validate_project.py --write` after gameplay data changes to regenerate exports and generated docs.

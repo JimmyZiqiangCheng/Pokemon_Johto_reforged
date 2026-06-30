@@ -1,8 +1,6 @@
 # Legendaries
 
-This doc covers proper Gen 1-4 legendary and mythical access. The separate
-repeatable random legendary surprise system is documented in
-`docs/RANDOM_LEGENDARY_SYSTEM.md`.
+This doc covers proper Gen 1-4 legendary and mythical access. The separate repeatable random legendary surprise system is documented in `docs/RANDOM_LEGENDARY_SYSTEM.md`.
 
 ## References
 
@@ -14,8 +12,7 @@ repeatable random legendary surprise system is documented in
 ## Access Layers
 
 - Raikou and Entei remain native Burned Tower roamers.
-- All other Gen 1-4 legendary/mythical access is handled through Saffron
-  Fighting Dojo dossier encounters unless already covered by native flow.
+- All other Gen 1-4 legendary/mythical access is handled through Saffron Fighting Dojo dossier encounters unless already covered by native flow.
 - Dossier battles are scripted/static encounters.
 - Static encounter outcome `4` is used so caught flags are set only on capture.
 - Failed, fled, or fainted dossier battles remain retryable by script logic.
@@ -25,8 +22,7 @@ repeatable random legendary surprise system is documented in
 
 - Native entries: 2.
 - Dojo dossier entries: 33.
-- Phase 8 validates 35/35 Gen 1-4 legendary/mythical coverage including native
-  Raikou and Entei.
+- Phase 8 validates 35/35 Gen 1-4 legendary/mythical coverage including native Raikou and Entei.
 
 ## Major Prerequisite Chains
 
@@ -38,6 +34,4 @@ repeatable random legendary surprise system is documented in
 
 ## Runtime Focus
 
-Runtime testing should verify Dojo menus, caught flags, retry behavior,
-Latias/Latios duplicate-access edge cases, native roamer coexistence, and
-prerequisite chains.
+Runtime testing should verify Dojo menus, caught flags, retry behavior, Latias/Latios duplicate-access edge cases, native roamer coexistence, and prerequisite chains.

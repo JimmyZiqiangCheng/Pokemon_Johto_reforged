@@ -1902,7 +1902,7 @@ def make_report(entries: list[Encounter]) -> str:
             f"- Non-legendary Gen 1-4 base/pre-evolution species still missing from wild tables: {missing_bases_text}",
             f"- Non-legendary non-starter Gen 3-4 base/pre-evolution species covered in Johto main encounters: {len(johto_gen3_4_covered)} / {len(johto_gen3_4_bases)}.",
             f"- Unrelated later-generation species found in encounter tables: {forbidden_text}",
-            "- Gen 1-4 non-mythical legendaries are covered by low-rate random surprise overlays: weaker-tier legends at 1/500 beginning at 4 badges and true/cover-story legends at 1/1000 once unlocked.",
+            "- Gen 1-4 non-mythical legendaries are covered by low-rate random surprise overlays: weaker/mystical-tier legends at 1/2000 beginning at 4 badges and stronger true/cover-story legends at 1/4000 once unlocked.",
             "- Gen 1-4 mythicals are included only in the 16-badge surprise pool, following the personalized tweak file's permissive direction while preserving proper events as future official encounters.",
             "",
             "## Featured Common Variety",

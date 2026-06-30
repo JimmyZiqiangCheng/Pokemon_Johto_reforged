@@ -1,8 +1,6 @@
 # Boss Battles
 
-Boss battles are the curated high-importance trainer records: Gym Leaders, Elite
-Four, Champions, Red, Champion Circuit trainers, major rivals, and major Team
-Rocket leaders.
+Boss battles are the curated high-importance trainer records: Gym Leaders, Elite Four, Champions, Red, Champion Circuit trainers, major rivals, and major Team Rocket leaders.
 
 ## References
 
@@ -23,15 +21,11 @@ Rocket leaders.
 
 ## Level Bands
 
-- Johto leaders: Falkner 13-14, Bugsy 18-20, Whitney 23-25, Morty 29-31,
-  Chuck 34-38, Jasmine 38-42, Pryce 40-43, Clair 46-50.
+- Johto leaders: Falkner 13-14, Bugsy 18-20, Whitney 23-25, Morty 29-31, Chuck 34-38, Jasmine 38-42, Pryce 40-43, Clair 46-50.
 - First League: Will 50-54, Koga 52-56, Bruno 54-58, Karen 56-58, Lance 58-60.
 - Kanto leaders: early Kanto 58-66, mid Kanto 65-72, Blaine 72-76, Blue 78-82.
-- Rematches/postgame: Elite Four rematches 78-84, legacy Lance rematch 82-88,
-  Gym Leader rematches 66-90, Champion Circuit trainers 92-96.
+- Rematches/postgame: Elite Four rematches 78-84, legacy Lance rematch 82-88, Gym Leader rematches 66-90, Champion Circuit trainers 92-96.
 
 ## Remaining Risk
 
-Route/order playtesting is still needed for local difficulty spikes, especially
-optional trainer density, Rocket/Silver pacing, rematches, Red, and Champion
-Circuit unlock timing.
+Route/order playtesting is still needed for local difficulty spikes, especially optional trainer density, Rocket/Silver pacing, rematches, Red, and Champion Circuit unlock timing.

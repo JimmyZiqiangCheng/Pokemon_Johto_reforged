@@ -44,7 +44,7 @@
     {
       "min_badges": 4,
       "name": "Articuno",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_ARTICUNO",
       "species_id": 144,
       "tier": "weaker"
@@ -52,7 +52,7 @@
     {
       "min_badges": 4,
       "name": "Zapdos",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_ZAPDOS",
       "species_id": 145,
       "tier": "weaker"
@@ -60,7 +60,7 @@
     {
       "min_badges": 4,
       "name": "Moltres",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_MOLTRES",
       "species_id": 146,
       "tier": "weaker"
@@ -68,7 +68,7 @@
     {
       "min_badges": 4,
       "name": "Raikou",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_RAIKOU",
       "species_id": 243,
       "tier": "weaker"
@@ -76,7 +76,7 @@
     {
       "min_badges": 4,
       "name": "Entei",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_ENTEI",
       "species_id": 244,
       "tier": "weaker"
@@ -84,7 +84,7 @@
     {
       "min_badges": 4,
       "name": "Suicune",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_SUICUNE",
       "species_id": 245,
       "tier": "weaker"
@@ -92,7 +92,7 @@
     {
       "min_badges": 5,
       "name": "Regirock",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_REGIROCK",
       "species_id": 377,
       "tier": "weaker"
@@ -100,7 +100,7 @@
     {
       "min_badges": 5,
       "name": "Regice",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_REGICE",
       "species_id": 378,
       "tier": "weaker"
@@ -108,7 +108,7 @@
     {
       "min_badges": 5,
       "name": "Registeel",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_REGISTEEL",
       "species_id": 379,
       "tier": "weaker"
@@ -116,7 +116,7 @@
     {
       "min_badges": 5,
       "name": "Latias",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_LATIAS",
       "species_id": 380,
       "tier": "weaker"
@@ -124,7 +124,7 @@
     {
       "min_badges": 5,
       "name": "Latios",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_LATIOS",
       "species_id": 381,
       "tier": "weaker"
@@ -132,7 +132,7 @@
     {
       "min_badges": 5,
       "name": "Uxie",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_UXIE",
       "species_id": 480,
       "tier": "weaker"
@@ -140,7 +140,7 @@
     {
       "min_badges": 5,
       "name": "Mesprit",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_MESPRIT",
       "species_id": 481,
       "tier": "weaker"
@@ -148,7 +148,7 @@
     {
       "min_badges": 5,
       "name": "Azelf",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_AZELF",
       "species_id": 482,
       "tier": "weaker"
@@ -156,7 +156,7 @@
     {
       "min_badges": 5,
       "name": "Heatran",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_HEATRAN",
       "species_id": 485,
       "tier": "weaker"
@@ -164,7 +164,7 @@
     {
       "min_badges": 5,
       "name": "Cresselia",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_CRESSELIA",
       "species_id": 488,
       "tier": "weaker"
@@ -172,7 +172,7 @@
     {
       "min_badges": 6,
       "name": "Mewtwo",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_MEWTWO",
       "species_id": 150,
       "tier": "true"
@@ -180,7 +180,7 @@
     {
       "min_badges": 6,
       "name": "Lugia",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_LUGIA",
       "species_id": 249,
       "tier": "true"
@@ -188,7 +188,7 @@
     {
       "min_badges": 6,
       "name": "Ho Oh",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_HO_OH",
       "species_id": 250,
       "tier": "true"
@@ -196,7 +196,7 @@
     {
       "min_badges": 6,
       "name": "Kyogre",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_KYOGRE",
       "species_id": 382,
       "tier": "true"
@@ -204,7 +204,7 @@
     {
       "min_badges": 6,
       "name": "Groudon",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_GROUDON",
       "species_id": 383,
       "tier": "true"
@@ -212,7 +212,7 @@
     {
       "min_badges": 6,
       "name": "Rayquaza",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_RAYQUAZA",
       "species_id": 384,
       "tier": "true"
@@ -220,7 +220,7 @@
     {
       "min_badges": 6,
       "name": "Dialga",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_DIALGA",
       "species_id": 483,
       "tier": "true"
@@ -228,7 +228,7 @@
     {
       "min_badges": 6,
       "name": "Palkia",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_PALKIA",
       "species_id": 484,
       "tier": "true"
@@ -236,7 +236,7 @@
     {
       "min_badges": 6,
       "name": "Giratina",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_GIRATINA",
       "species_id": 487,
       "tier": "true"
@@ -244,7 +244,7 @@
     {
       "min_badges": 6,
       "name": "Regigigas",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_REGIGIGAS",
       "species_id": 486,
       "tier": "true"
@@ -252,7 +252,7 @@
     {
       "min_badges": 16,
       "name": "Mew",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_MEW",
       "species_id": 151,
       "tier": "weaker"
@@ -260,7 +260,7 @@
     {
       "min_badges": 16,
       "name": "Celebi",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_CELEBI",
       "species_id": 251,
       "tier": "weaker"
@@ -268,7 +268,7 @@
     {
       "min_badges": 16,
       "name": "Jirachi",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_JIRACHI",
       "species_id": 385,
       "tier": "weaker"
@@ -276,7 +276,7 @@
     {
       "min_badges": 16,
       "name": "Deoxys",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_DEOXYS",
       "species_id": 386,
       "tier": "weaker"
@@ -284,7 +284,7 @@
     {
       "min_badges": 16,
       "name": "Phione",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_PHIONE",
       "species_id": 489,
       "tier": "weaker"
@@ -292,7 +292,7 @@
     {
       "min_badges": 16,
       "name": "Manaphy",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_MANAPHY",
       "species_id": 490,
       "tier": "weaker"
@@ -300,7 +300,7 @@
     {
       "min_badges": 16,
       "name": "Darkrai",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_DARKRAI",
       "species_id": 491,
       "tier": "weaker"
@@ -308,7 +308,7 @@
     {
       "min_badges": 16,
       "name": "Shaymin",
-      "rate_denominator": 500,
+      "rate_denominator": 2000,
       "species": "SPECIES_SHAYMIN",
       "species_id": 492,
       "tier": "weaker"
@@ -316,7 +316,7 @@
     {
       "min_badges": 16,
       "name": "Arceus",
-      "rate_denominator": 1000,
+      "rate_denominator": 4000,
       "species": "SPECIES_ARCEUS",
       "species_id": 493,
       "tier": "true"
@@ -330,16 +330,16 @@
     },
     {
       "badges": "4+ badges",
-      "denominator": 500,
-      "description": "1/500 aggregate unlocked weaker-legendary pool roll",
+      "denominator": 2000,
+      "description": "1/2000 aggregate unlocked weaker/mystical legendary pool roll",
       "tier": "weaker"
     },
     {
       "badges": "6+ badges when true-tier species are unlocked",
-      "denominator": 1000,
-      "description": "1/1000 aggregate unlocked true/cover-story legendary pool roll",
+      "denominator": 4000,
+      "description": "1/4000 aggregate unlocked stronger true/cover-story legendary pool roll",
       "tier": "true"
     }
   ],
-  "roll_model": "One tier roll is made after a normal eligible wild encounter succeeds: weaker-tier species have two hits in 1000 (1/500 aggregate), true/cover-story species have one hit in 1000 (1/1000 aggregate), then one species is selected from the matching unlocked tier."
+  "roll_model": "One tier roll is made after a normal eligible wild encounter succeeds: weaker/mystical-tier species have two hits in 4000 (1/2000 aggregate), stronger true/cover-story species have one hit in 4000 (1/4000 aggregate), then one species is selected from the matching unlocked tier."
 }

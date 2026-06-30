@@ -26,6 +26,7 @@ reference docs and generated exports.
 | v2026.06.29-special-form-evolution-access | 2026-06-29 | Added simple level-up access for Dudunsparce Three-Segment and Ursaluna Bloodmoon via their standard final forms. |
 | v2026.06.30-game-modes | 2026-06-30 | Added New Game mode selection before Oak's speech: Normal, Challenge, Hardcore, and Nuzlocke. Challenge modes enforce dynamic level caps, Set battle style, and trainer-battle item restrictions; Hardcore/Nuzlocke release fainted Pokemon while preserving the last non-Egg party Pokemon; Nuzlocke enforces first encounter/gift/static claims per map section. |
 | v2026.06.30-doc-reference-structure | 2026-06-30 | Reorganized documentation around category reference docs, added Pokemon-data and encounter-system hubs, expanded trainer, boss, item, QOL, evolution, scope, postgame, and release docs, and kept this file as the general feature/change index. |
+| v2026.06.30-random-legendary-rate-reduction | 2026-06-30 | Reduced random legendary surprise rates to 1/2000 for weaker/mystical legends and 1/4000 for stronger true/cover-story legends. |
 
 ## Project Goals
 
@@ -132,7 +133,8 @@ reference docs and generated exports.
 - Kanto wild levels were raised for a stronger postgame.
 - Random legendary surprise encounters are badge-gated, Repel-aware,
   Safari-excluded, separate from native roamer save state, and tiered at
-  1/500 for weaker legends versus 1/1000 for true/cover-story legends.
+  1/2000 for weaker/mystical legends versus 1/4000 for stronger
+  true/cover-story legends.
 
 ### Trainers and Bosses
 
@@ -261,7 +263,7 @@ python tools/perfect_johto/validate_project.py --write
 - Phase 11: encounter-rate cleanup, separated land/water variety validation,
   progression re-audit, and Gen 3-4 type/learnset polish.
 - Phase 12: random legendary surprise rates reduced from the old 1/100
-  aggregate roll to tiered 1/500 and 1/1000 rolls.
+  aggregate roll to tiered 1/2000 and 1/4000 rolls.
 - Phase 13: Luminescent Platinum 3.0 ability refresh for Generation 1-4 Pokemon
   and relevant native forms, plus natural wild hidden-ability rolls.
 - Phase 14: New Game mode selector and enforced Normal, Challenge, Hardcore,

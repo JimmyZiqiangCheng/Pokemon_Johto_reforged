@@ -1,8 +1,6 @@
 # Rare Encounters
 
-Rare encounters are a curated low-rate layer on top of the main wild tables.
-They are intended for rare finds, approved regional forms, strong current forms,
-and sparse pseudo-legendary access.
+Rare encounters are a curated low-rate layer on top of the main wild tables. They are intended for rare finds, approved regional forms, strong current forms, and sparse pseudo-legendary access.
 
 ## References
 
@@ -18,20 +16,14 @@ and sparse pseudo-legendary access.
 - Surf rare slots use slot 3 at 4%.
 - Fishing rare slots use slot 4, changed by Phase 6 to 4%.
 - Rock Smash is not used for rare placement because it only has 80%/20% slots.
-- Legacy non-rare land/surf filler slots and non-rare rod filler slots duplicate
-  common species and are not treated as rare finds.
+- Legacy non-rare land/surf filler slots and non-rare rod filler slots duplicate common species and are not treated as rare finds.
 
 ## Placement Rules
 
 - Every meaningful non-Safari encounter area has 1-3 rare species.
-- Rare species are reserved for strong current forms, lines whose final form
-  reaches 500+ BST, or approved regional forms.
-- Rare Finds explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean
-  Wooper, Lapras, Kangaskhan, Tauros, early Teddiursa, early Houndour, early
-  Hisuian Sneasel, early Ponyta, and pre-League Ice Path Sneasel.
-- Rare pseudo-legendary initial forms are intentionally sparse and semantically
-  placed, including Larvitar, Bagon, Gible, Beldum, and Riolu in cave, mountain,
-  dragon, or expert-training contexts.
+- Rare species are reserved for strong current forms, lines whose final form reaches 500+ BST, or approved regional forms.
+- Rare Finds explicitly include Alolan Geodude, Galarian Zigzagoon, Paldean Wooper, Lapras, Kangaskhan, Tauros, early Teddiursa, early Houndour, early Hisuian Sneasel, early Ponyta, and pre-League Ice Path Sneasel.
+- Rare pseudo-legendary initial forms are intentionally sparse and semantically placed, including Larvitar, Bagon, Gible, Beldum, and Riolu in cave, mountain, dragon, or expert-training contexts.
 - Starter rare access is pushed into Kanto and postgame Kanto contexts.
 
 ## Current Audit

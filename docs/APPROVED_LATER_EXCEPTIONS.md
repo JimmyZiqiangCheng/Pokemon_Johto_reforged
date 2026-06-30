@@ -1,7 +1,6 @@
 # Approved Later Exceptions
 
-Approved later exceptions are limited to direct evolutions, regional forms, and
-new forms of Generation 1-4 Pokemon families.
+Approved later exceptions are limited to direct evolutions, regional forms, and new forms of Generation 1-4 Pokemon families.
 
 ## References
 
@@ -16,17 +15,12 @@ new forms of Generation 1-4 Pokemon families.
 
 ## Allowed Categories
 
-- Direct later-generation evolutions of Gen 1-4 families, such as Sylveon,
-  Wyrdeer, Kleavor, Ursaluna, Annihilape, Farigiraf, Dudunsparce, Sneasler,
-  Overqwil, Clodsire, and similar family continuations.
-- Regional forms of Gen 1-4 families, including selected Alolan, Galarian,
-  Hisuian, and Paldean forms.
-- New forms tied to approved Gen 1-4 families, such as Dudunsparce
-  Three-Segment and Ursaluna Bloodmoon.
+- Direct later-generation evolutions of Gen 1-4 families, such as Sylveon, Wyrdeer, Kleavor, Ursaluna, Annihilape, Farigiraf, Dudunsparce, Sneasler, Overqwil, Clodsire, and similar family continuations.
+- Regional forms of Gen 1-4 families, including selected Alolan, Galarian, Hisuian, and Paldean forms.
+- New forms tied to approved Gen 1-4 families, such as Dudunsparce Three-Segment and Ursaluna Bloodmoon.
 
 ## Restrictions
 
-- No unrelated Gen 5+ Pokemon are intentionally exposed by encounter, trainer,
-  mart, or Phase 8 Dojo gameplay files.
+- No unrelated Gen 5+ Pokemon are intentionally exposed by encounter, trainer, mart, or Phase 8 Dojo gameplay files.
 - Later-generation legendary/mythical forms require explicit separate approval.
 - Forbidden battle gimmick forms remain out of scope.

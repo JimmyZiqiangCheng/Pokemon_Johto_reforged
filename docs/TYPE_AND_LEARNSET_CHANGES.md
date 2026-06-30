@@ -1,17 +1,13 @@
 # Type And Learnset Changes
 
-This doc covers type modernization, level-up attacking STAB support, and
-project-wide learnset cleanup rules. For the broader Pokemon-data overview, see
-`docs/POKEMON_DATA.md`.
+This doc covers type modernization, level-up attacking STAB support, and project-wide learnset cleanup rules. For the broader Pokemon-data overview, see `docs/POKEMON_DATA.md`.
 
 ## Type Modernization Policy
 
 - Type changes are restrained and species-identity driven.
 - No type chart change has been made.
-- Type changes do not by themselves change base stats, evolution methods,
-  encounter scope, catch rates, EV yields, held items, or growth data.
-- Custom or modernized typings are audited so project-added secondary types have
-  reasonable level-up attacking move access.
+- Type changes do not by themselves change base stats, evolution methods, encounter scope, catch rates, EV yields, held items, or growth data.
+- Custom or modernized typings are audited so project-added secondary types have reasonable level-up attacking move access.
 
 ## Type Change List
 
@@ -76,11 +72,9 @@ Later Gen 3-4 semantic additions:
 
 ## Level-Up STAB Support
 
-The following lines now have direct level-up attack support for an added or
-previously unsupported type:
+The following lines now have direct level-up attack support for an added or previously unsupported type:
 
-- Fairy support: Meganium, Rapidash, Azurill, Misdreavus, Mismagius, Chingling,
-  Chimecho, Togetic, Finneon, and Lumineon.
+- Fairy support: Meganium, Rapidash, Azurill, Misdreavus, Mismagius, Chingling, Chimecho, Togetic, Finneon, and Lumineon.
 - Dragon support: Sceptile, Cranidos, and Rampardos.
 - Bug support: Surskit, Nincada, Shedinja, and Trapinch.
 - Electric support: Volbeat.
@@ -92,39 +86,26 @@ previously unsupported type:
 - Fire support: Sunflora and Octillery.
 - Ice support: Delibird.
 
-Huntail, Gorebyss, and Carnivine already had appropriate Dark/Psychic/Dark
-level-up attacks after their type changes and did not need extra moves.
+Huntail, Gorebyss, and Carnivine already had appropriate Dark/Psychic/Dark level-up attacks after their type changes and did not need extra moves.
 
-Remaining no-level-up attacking STAB cases are canonical or status-oriented
-exceptions such as the Bulbasaur, Gastly, and Budew poison lines, plus Beldum's
-one-move identity. No project-added custom secondary type is intentionally left
-without a level-up attacking move.
+Remaining no-level-up attacking STAB cases are canonical or status-oriented exceptions such as the Bulbasaur, Gastly, and Budew poison lines, plus Beldum's one-move identity. No project-added custom secondary type is intentionally left without a level-up attacking move.
 
 ## Learnset Rules
 
-- Phase 4 updated approved-scope level-up learnsets only. Machine, tutor, and
-  egg move lists were not intentionally changed in that pass.
+- Phase 4 updated approved-scope level-up learnsets only. Machine, tutor, and egg move lists were not intentionally changed in that pass.
 - Evolved forms inherit earlier-form level-up moves more consistently.
 - Duplicate level-up move entries are removed, keeping the earliest occurrence.
 - Non-legendary level-up moves are compressed below level 60.
-- Legendary, mythical, Ultra Beast, and comparable special one-off Pokemon keep
-  their late signature pacing.
+- Legendary, mythical, Ultra Beast, and comparable special one-off Pokemon keep their late signature pacing.
 - Egg moves are also level-up accessible for every Pokemon that has egg moves.
 
 ## Notable Learnset Access Changes
 
-- Stantler learns `Psyshield Bash` at level 32 so Wyrdeer has a reachable
-  known-move evolution method.
-- Galarian Farfetch'd learns `Leaf Blade` at level 35 so Sirfetch'd has a
-  reachable known-move evolution method before late game.
-- Missing Luminescent Platinum 3.0 level-up moves are appended at their
-  Luminescent levels while preserving local extras.
-- Luminescent move IDs are resolved through Luminescent move-name text before
-  mapping to local `MOVE_*` constants.
+- Stantler learns `Psyshield Bash` at level 32 so Wyrdeer has a reachable known-move evolution method.
+- Galarian Farfetch'd learns `Leaf Blade` at level 35 so Sirfetch'd has a reachable known-move evolution method before late game.
+- Missing Luminescent Platinum 3.0 level-up moves are appended at their Luminescent levels while preserving local extras.
+- Luminescent move IDs are resolved through Luminescent move-name text before mapping to local `MOVE_*` constants.
 
 ## Validation
 
-`tools/perfect_johto/validate_project.py` validates learnset JSON parsing,
-learnset generation, no duplicate level-up moves after cleanup, no
-non-legendary level 60+ moves after compression, and egg-move coverage through
-level-up learnsets.
+`tools/perfect_johto/validate_project.py` validates learnset JSON parsing, learnset generation, no duplicate level-up moves after cleanup, no non-legendary level 60+ moves after compression, and egg-move coverage through level-up learnsets.

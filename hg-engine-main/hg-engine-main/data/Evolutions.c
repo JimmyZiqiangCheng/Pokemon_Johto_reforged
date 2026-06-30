@@ -13330,7 +13330,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
 
     [SPECIES_URSALUNA] = {
         .entries = {
-            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_LEVEL, 55, SPECIES_URSALUNA_BLOODMOON },
             { EVO_NONE, 0, SPECIES_NONE },
             { EVO_NONE, 0, SPECIES_NONE },
             { EVO_NONE, 0, SPECIES_NONE },
@@ -14464,7 +14464,7 @@ const EvolutionTable __data[MAX_SPECIES_INCLUDING_FORMS + 1] =
 
     [SPECIES_DUDUNSPARCE] = {
         .entries = {
-            { EVO_NONE, 0, SPECIES_NONE },
+            { EVO_LEVEL, 50, SPECIES_DUDUNSPARCE_THREE_SEGMENT },
             { EVO_NONE, 0, SPECIES_NONE },
             { EVO_NONE, 0, SPECIES_NONE },
             { EVO_NONE, 0, SPECIES_NONE },

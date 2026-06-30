@@ -1,8 +1,6 @@
 # Random Legendary System
 
-The random legendary surprise overlay is a repeatable low-rate wild encounter
-system. It is separate from proper legendary/mythical access through native
-roamers and Saffron Fighting Dojo dossiers.
+The random legendary surprise overlay is a repeatable low-rate wild encounter system. It is separate from proper legendary/mythical access through native roamers and Saffron Fighting Dojo dossiers.
 
 ## References
 
@@ -13,25 +11,19 @@ roamers and Saffron Fighting Dojo dossiers.
 
 ## Trigger Flow
 
-- The overlay runs from `AddWildPartyPokemon` after normal wild encounter
-  generation succeeds.
-- Because it runs after the normal encounter flow, Repel behavior is preserved
-  by the existing encounter system.
+- The overlay runs from `AddWildPartyPokemon` after normal wild encounter generation succeeds.
+- Because it runs after the normal encounter flow, Repel behavior is preserved by the existing encounter system.
 - The selected legendary/mythical is started as a normal wild battle.
 - The system does not write to roamer save state.
-- Surprise legendaries receive Teleport in move slot 4, giving the wild AI a
-  move-based chance to flee each turn.
+- Surprise legendaries receive Teleport in move slot 4, giving the wild AI a move-based chance to flee each turn.
 
 ## Rates
 
 - 0-3 badges: disabled.
-- 4+ badges: 1/500 aggregate unlocked weaker-legendary pool roll.
-- 6+ badges when true-tier species are unlocked: 1/1000 aggregate unlocked
-  true/cover-story legendary pool roll.
+- 4+ badges: 1/2000 aggregate unlocked weaker/mystical legendary pool roll.
+- 6+ badges when true-tier species are unlocked: 1/4000 aggregate unlocked stronger true/cover-story legendary pool roll.
 
-These rates are aggregate tier rolls, not independent rolls per legendary.
-After a tier roll succeeds, one species is selected from the currently unlocked
-matching tier.
+These rates are aggregate tier rolls, not independent rolls per legendary. After a tier roll succeeds, one species is selected from the currently unlocked matching tier.
 
 ## Exclusions
 
@@ -44,7 +36,4 @@ matching tier.
 
 ## Validation And Testing
 
-Static validation checks the pool, rates, badge gates, excluded battle types,
-and approved Gen 1-4 legendary/mythical scope. Runtime testing is still required
-for Repel behavior, Safari exclusion, native roamer coexistence, level scaling,
-and badge-gated pools.
+Static validation checks the pool, rates, badge gates, excluded battle types, and approved Gen 1-4 legendary/mythical scope. Runtime testing is still required for Repel behavior, Safari exclusion, native roamer coexistence, level scaling, and badge-gated pools.

@@ -123,14 +123,14 @@ EXPECTED_RANDOM_LEGENDARY_RATES = [
     {
         "badges": "4+ badges",
         "tier": "weaker",
-        "denominator": 500,
-        "description": "1/500 aggregate unlocked weaker-legendary pool roll",
+        "denominator": 2000,
+        "description": "1/2000 aggregate unlocked weaker/mystical legendary pool roll",
     },
     {
         "badges": "6+ badges when true-tier species are unlocked",
         "tier": "true",
-        "denominator": 1000,
-        "description": "1/1000 aggregate unlocked true/cover-story legendary pool roll",
+        "denominator": 4000,
+        "description": "1/4000 aggregate unlocked stronger true/cover-story legendary pool roll",
     },
 ]
 
@@ -498,7 +498,7 @@ def parse_random_legendary_pool() -> list[dict[str, Any]]:
             "species_id": species_numbers.get(species),
             "min_badges": int(badges),
             "tier": tier_names.get(tier, tier),
-            "rate_denominator": 1000 if tier.endswith("_TRUE") else 500,
+            "rate_denominator": 4000 if tier.endswith("_TRUE") else 2000,
         }
         for species, badges, tier in re.findall(
             r"\{\s*(SPECIES_[A-Z0-9_]+)\s*,\s*(\d+)\s*,\s*(PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_[A-Z]+)\s*\}",
@@ -783,7 +783,7 @@ def validate_random_legendary() -> CheckResult:
     text = (ENGINE / "src" / "field" / "enemy_party.c").read_text(encoding="utf-8", errors="replace")
     required_fragments = [
         "if (badgeCount < 4)",
-        "PERFECT_JOHTO_RANDOM_LEGENDARY_ROLL_DENOMINATOR 1000",
+        "PERFECT_JOHTO_RANDOM_LEGENDARY_ROLL_DENOMINATOR 4000",
         "PERFECT_JOHTO_RANDOM_LEGENDARY_WEAKER_HITS 2",
         "PERFECT_JOHTO_RANDOM_LEGENDARY_TRUE_HITS 1",
         "PERFECT_JOHTO_RANDOM_LEGENDARY_TIER_WEAKER",
@@ -809,7 +809,7 @@ def validate_random_legendary() -> CheckResult:
     return CheckResult(
         "Random legendary validation",
         "PASS",
-        f"{len(pool)} Gen 1-4 legendary/mythical pool entries; {weaker_count} weaker at 1/500 and {true_count} true-tier at 1/1000; flee move and exclusions present",
+        f"{len(pool)} Gen 1-4 legendary/mythical pool entries; {weaker_count} weaker/mystical at 1/2000 and {true_count} stronger true-tier at 1/4000; flee move and exclusions present",
     )
 
 
@@ -1223,7 +1223,7 @@ def build_exports(build_details: dict[str, Any], results: list[CheckResult]) -> 
         "random_legendary_surprise.json": {
             "pool": random_pool,
             "rates": EXPECTED_RANDOM_LEGENDARY_RATES,
-            "roll_model": "One tier roll is made after a normal eligible wild encounter succeeds: weaker-tier species have two hits in 1000 (1/500 aggregate), true/cover-story species have one hit in 1000 (1/1000 aggregate), then one species is selected from the matching unlocked tier.",
+            "roll_model": "One tier roll is made after a normal eligible wild encounter succeeds: weaker/mystical-tier species have two hits in 4000 (1/2000 aggregate), stronger true/cover-story species have one hit in 4000 (1/4000 aggregate), then one species is selected from the matching unlocked tier.",
             "flee_behavior": "Generated surprise legendaries receive Teleport in move slot 4, giving wild AI a move-based chance to flee each turn.",
             "blocked_battle_types": [
                 "BATTLE_TYPE_TRAINER",

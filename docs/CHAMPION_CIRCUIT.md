@@ -1,7 +1,6 @@
 # Champion Circuit
 
-The Saffron Fighting Dojo Champion Circuit exposes repeatable late-postgame
-battles.
+The Saffron Fighting Dojo Champion Circuit exposes repeatable late-postgame battles.
 
 ## References
 
@@ -13,16 +12,13 @@ battles.
 ## Unlocks
 
 - Lance and Blue unlock after 16 badges.
-- Red rematch, Steven, Wallace, Cynthia, and Arceus unlock after the original
-  Mt. Silver Red defeat flag.
+- Red rematch, Steven, Wallace, Cynthia, and Arceus unlock after the original Mt. Silver Red defeat flag.
 - Steven, Wallace, and Cynthia are valid six-Pokemon Champion-class records.
 
 ## Level Band
 
-Champion Circuit trainers sit at 92-96, matching Red's late-postgame superboss
-band.
+Champion Circuit trainers sit at 92-96, matching Red's late-postgame superboss band.
 
 ## Runtime Focus
 
-Runtime testing should verify unlock gates, repeatability, party data, Dojo menu
-flow, and interactions with the original Mt. Silver Red defeat flag.
+Runtime testing should verify unlock gates, repeatability, party data, Dojo menu flow, and interactions with the original Mt. Silver Red defeat flag.

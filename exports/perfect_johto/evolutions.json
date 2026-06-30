@@ -2304,6 +2304,24 @@
     "target_name": "Abomasnow"
   },
   {
+    "from": "SPECIES_URSALUNA",
+    "from_name": "Ursaluna",
+    "method": "EVO_LEVEL",
+    "parameter": "55",
+    "target": "SPECIES_URSALUNA_BLOODMOON",
+    "target_form": null,
+    "target_name": "Ursaluna Bloodmoon"
+  },
+  {
+    "from": "SPECIES_DUDUNSPARCE",
+    "from_name": "Dudunsparce",
+    "method": "EVO_LEVEL",
+    "parameter": "50",
+    "target": "SPECIES_DUDUNSPARCE_THREE_SEGMENT",
+    "target_form": null,
+    "target_name": "Dudunsparce Three Segment"
+  },
+  {
     "from": "SPECIES_RATTATA_ALOLAN",
     "from_name": "Rattata Alolan",
     "method": "EVO_LEVEL_NIGHT",

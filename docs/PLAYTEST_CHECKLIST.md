@@ -6,8 +6,7 @@
 - New Game mode selector before Oak's speech.
 - Normal mode starts without level caps.
 - Challenge mode level caps, Set battle style, and trainer-battle item block.
-- Hardcore fainted-Pokemon release while preserving the last non-Egg party
-  Pokemon.
+- Hardcore fainted-Pokemon release while preserving the last non-Egg party Pokemon.
 - Nuzlocke first encounter/gift/static map-section claims.
 
 ## QOL And Economy

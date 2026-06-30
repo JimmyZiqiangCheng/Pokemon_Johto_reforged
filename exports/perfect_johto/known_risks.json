@@ -35,8 +35,8 @@
         "path": null
       },
       "git": {
-        "available": false,
-        "path": null
+        "available": true,
+        "path": "C:\\Program Files\\Git\\cmd\\git.EXE"
       },
       "make": {
         "available": false,
@@ -50,8 +50,8 @@
   },
   "risks": [
     {
-      "risk": "Full ROM build not confirmed locally",
-      "status": "blocked until build tools and legal rom.nds are present"
+      "risk": "Full ROM build not confirmed in current PowerShell environment",
+      "status": "blocked until build tools are available on PATH; ROM input status is tracked in docs/BUILD_AND_TESTING.md"
     },
     {
       "risk": "Dojo script not assembled locally if armips is missing",
@@ -62,16 +62,16 @@
       "status": "use docs/PLAYTEST_CHECKLIST.md"
     },
     {
+      "risk": "Game mode runtime behavior",
+      "status": "needs Oak intro, battle, item, gift/static, save/reload, and Nuzlocke route playtesting"
+    },
+    {
       "risk": "Pokedex area data may need regeneration",
       "status": "release blocker/TODO until engine behavior is confirmed"
     },
     {
       "risk": "Latias/Latios dossier flags are separate from native roamer state",
       "status": "manual duplicate-access edge-case testing required"
-    },
-    {
-      "risk": "Dudunsparce Three-Segment and Ursaluna Bloodmoon special form access",
-      "status": "not implemented; documented limitation"
     },
     {
       "risk": "Approved regional/new form display text",
@@ -91,6 +91,11 @@
     {
       "details": "completed",
       "name": "Learnset generation",
+      "status": "PASS"
+    },
+    {
+      "details": "907 egg-move rows/5520 egg moves are level-up accessible; non-legendary moves stay below 60; 419 legendary late moves preserved",
+      "name": "Learnset accessibility validation",
       "status": "PASS"
     },
     {
@@ -114,7 +119,7 @@
       "status": "PASS"
     },
     {
-      "details": "46 archives passed",
+      "details": "47 archives passed",
       "name": "text archive validation",
       "status": "PASS"
     },
@@ -124,7 +129,7 @@
       "status": "PASS"
     },
     {
-      "details": "35 Gen 1-4 legendary/mythical pool entries; 24 weaker at 1/500 and 11 true-tier at 1/1000; flee move and exclusions present",
+      "details": "35 Gen 1-4 legendary/mythical pool entries; 24 weaker/mystical at 1/2000 and 11 stronger true-tier at 1/4000; flee move and exclusions present",
       "name": "Random legendary validation",
       "status": "PASS"
     },
@@ -144,9 +149,14 @@
       "status": "PASS"
     },
     {
-      "details": "no trade-only approved-scope evolutions; evolution items and known-move methods validated; Dudunsparce Three-Segment special access is not implemented; Ursaluna Bloodmoon special access is not implemented",
+      "details": "no trade-only approved-scope evolutions; evolution items and known-move methods validated",
       "name": "Evolution and form validation",
-      "status": "WARN"
+      "status": "PASS"
+    },
+    {
+      "details": "mode selector, cap, battle item, death release, and Nuzlocke hooks documented",
+      "name": "Game mode validation",
+      "status": "PASS"
     },
     {
       "details": "encounter tables changed; no Phase 9 regeneration hook confirmed for Pokedex area data",
@@ -154,7 +164,7 @@
       "status": "WARN"
     },
     {
-      "details": "missing requirements: git, make, cmake, armips, docker, arm-none-eabi-gcc",
+      "details": "missing requirements: make, cmake, armips, docker, arm-none-eabi-gcc",
       "name": "Build readiness",
       "status": "WARN"
     }
