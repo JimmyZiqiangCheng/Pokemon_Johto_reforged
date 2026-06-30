@@ -2,8 +2,8 @@
 
 Last updated: 2026-06-29
 
-This note documents the Luminescent Platinum data pass for Gen 1-4 Pokemon
-identity data.
+This note documents the Luminescent Platinum 3.0 data pass for Generation 1-4
+Pokemon identity data: base stats, ability slots, and level-up learnsets.
 
 ## Source Priority
 
@@ -26,11 +26,13 @@ identity data.
 
 - Updated 493 base species rows from Bulbasaur through Arceus.
 - Updated 18 relevant native Gen 3-4 form rows: Deoxys Attack/Defense/Speed,
-  Wormadam Sandy/Trash, Giratina Origin, Shaymin Sky, Rotom Heat/Wash/Frost/Fan/Mow,
-  Castform Sunny/Rainy/Snowy, Cherrim Sunshine, Shellos East Sea, and Gastrodon
-  East Sea.
-- Updated base stats only: HP, Attack, Defense, Special Attack, Special Defense,
-  and Speed.
+  Wormadam Sandy/Trash, Giratina Origin, Shaymin Sky, Rotom
+  Heat/Wash/Frost/Fan/Mow, Castform Sunny/Rainy/Snowy, Cherrim Sunshine,
+  Shellos East Sea, and Gastrodon East Sea.
+- Updated base stats: HP, Attack, Defense, Special Attack, Special Defense, and
+  Speed.
+- Updated normal ability slots and hidden ability data for the target species
+  and form rows.
 - Appended missing Luminescent level-up moves only. Existing local level-up
   extras are intentionally preserved.
 - Created seven missing form learnset rows so the target form scope is complete:
@@ -38,7 +40,19 @@ identity data.
   `SPECIES_CASTFORM_SNOWY`, `SPECIES_CHERRIM_SUNSHINE`,
   `SPECIES_SHELLOS_EAST_SEA`, and `SPECIES_GASTRODON_EAST_SEA`.
 
-## Mapping Rules
+## Ability Handling
+
+- Ability modernization follows Luminescent Platinum 3.0 for the target rows.
+- Renegade Platinum and Polished Crystal remain secondary references for design
+  philosophy only.
+- Later-generation abilities are allowed as data modernization when they support
+  Pokemon identity and role variety.
+- Hidden ability slots participate in ordinary wild ability rolls through
+  `AddWildPartyPokemon`; they are no longer only scripted or Ability Patch
+  outcomes.
+- Duplicate Luminescent ability slots are preserved as intentional weighting.
+
+## Learnset Mapping Rules
 
 - Form rows use each Luminescent base row's `form_index` and form offset.
 - Luminescent `WazaOboeTable` level-up data is read as `[level, move_id]` pairs.
@@ -64,7 +78,9 @@ identity data.
 ## Not Changed
 
 - TM, tutor, item, catch rate, EV yield, type, encounter, and evolution data
-  were not changed by this pass unless already handled elsewhere. Egg moves
-  are mirrored into level-up learnsets by the separate learnset accessibility
-  pass documented in `docs/LEARNSET_ACCESSIBILITY.md`.
+  were not changed by this pass unless already handled elsewhere.
+- Egg moves are mirrored into level-up learnsets by the separate learnset
+  accessibility pass documented in `docs/LEARNSET_ACCESSIBILITY.md`.
+- Move battle behavior and ability battle behavior were not rewritten by this
+  pass.
 - Later-generation Pokemon outside the approved project scope were not imported.

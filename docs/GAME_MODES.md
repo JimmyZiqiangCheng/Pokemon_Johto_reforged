@@ -5,6 +5,18 @@ Game modes are selected immediately after choosing New Game, before Professor Oa
 - Page 1: Normal, Challenge, More.
 - Page 2: Hardcore, Nuzlocke, Back.
 
+## References
+
+- Implementation header:
+  `hg-engine-main/hg-engine-main/include/perfect_johto_game_modes.h`.
+- Implementation source:
+  `hg-engine-main/hg-engine-main/src/perfect_johto_game_modes.c`.
+- Oak intro integration:
+  `hg-engine-main/hg-engine-main/src/field/script_commands.c`.
+- Wild/gift/static encounter interaction:
+  `docs/ENCOUNTER_SYSTEMS.md`.
+- Playtest checklist: `docs/PLAYTEST_CHECKLIST.md`.
+
 ## Modes
 
 | Mode | Rules |

@@ -2,6 +2,10 @@
 
 The active learnset source is `hg-engine-main/hg-engine-main/data/learnsets/learnsets.json`.
 
+This doc covers project-wide learnset accessibility rules. Type-specific move
+support is documented in `docs/TYPE_AND_LEARNSET_CHANGES.md`, and the
+Luminescent import behavior is documented in `docs/LUMINESCENT_DATA_REFRESH.md`.
+
 ## Rules
 
 - Every egg move listed for a Pokemon must also be learnable through that Pokemon's level-up learnset.
@@ -12,10 +16,19 @@ The active learnset source is `hg-engine-main/hg-engine-main/data/learnsets/lear
 
 ## Current Audit
 
-- Learnset rows with egg moves: 906.
-- Egg move entries covered by level-up learnsets: 5514.
+- Learnset rows with egg moves: 907.
+- Egg move entries covered by level-up learnsets: 5520.
 - Non-legendary level 60+ moves after compression: 0.
 - Duplicate level-up move names after cleanup: 0.
 - Legendary/special level 60+ entries intentionally preserved: 419.
 
 `tools/perfect_johto/validate_project.py` enforces these rules through the Learnset accessibility validation check.
+
+## Edit Notes
+
+- Regenerate learnset outputs with the HG-Engine learnset builder after changing
+  `learnsets.json`.
+- Do not add duplicate level-up move names to solve access problems; move the
+  earliest useful instance instead.
+- Keep late legendary and mythical signature pacing unless the species is no
+  longer treated as a special one-off.

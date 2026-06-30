@@ -1,11 +1,15 @@
 # Pokemon Johto Reforged - Features and Changes
 
-Document version: v2026.06.30-game-modes
+Document version: v2026.06.30-doc-reference-structure
 Last updated: 2026-06-30
 
 This is the current feature/change index for Pokemon Johto Reforged. The older
 long-form phase ledger was archived so this file can stay readable while still
 preserving history.
+
+For implementation detail and future modification work, start with
+`docs/README.md`. That index routes each feature category to the relevant
+reference docs and generated exports.
 
 ## Document Versions
 
@@ -19,7 +23,9 @@ preserving history.
 | v2026.06.29-luminescent-data-refresh | 2026-06-29 | Extended the Luminescent Platinum 3.0 source-of-truth pass to Gen 1-4 base stats and level-up learnsets. Local extra moves are preserved, missing Luminescent level-up moves are appended at Luminescent levels, and move IDs are mapped by Luminescent move names before resolving local constants. |
 | v2026.06.29-learnset-accessibility-refresh | 2026-06-29 | Made every egg move in the active learnset data level-up accessible, cleaned duplicate level-up moves, and re-applied the non-legendary pre-level-60 learnset philosophy across the full shared learnset file. |
 | v2026.06.29-rare-encounter-starter-rebalance | 2026-06-29 | Rebalanced rare encounters so Teddiursa, Houndour, Hisuian Sneasel, and Ponyta appear earlier, reduced early Riolu saturation, and pushed starter rare access back into Kanto/postgame Kanto contexts. |
+| v2026.06.29-special-form-evolution-access | 2026-06-29 | Added simple level-up access for Dudunsparce Three-Segment and Ursaluna Bloodmoon via their standard final forms. |
 | v2026.06.30-game-modes | 2026-06-30 | Added New Game mode selection before Oak's speech: Normal, Challenge, Hardcore, and Nuzlocke. Challenge modes enforce dynamic level caps, Set battle style, and trainer-battle item restrictions; Hardcore/Nuzlocke release fainted Pokemon while preserving the last non-Egg party Pokemon; Nuzlocke enforces first encounter/gift/static claims per map section. |
+| v2026.06.30-doc-reference-structure | 2026-06-30 | Reorganized documentation around category reference docs, added Pokemon-data and encounter-system hubs, expanded trainer, boss, item, QOL, evolution, scope, postgame, and release docs, and kept this file as the general feature/change index. |
 
 ## Project Goals
 
@@ -91,6 +97,8 @@ preserving history.
   item-use methods where appropriate.
 - Stantler, Primeape, and Galarian Farfetch'd use known-move evolutions for
   Wyrdeer, Annihilape, and Sirfetch'd.
+- Dudunsparce Three-Segment evolves from Dudunsparce by level-up at 50, and
+  Ursaluna Bloodmoon evolves from Ursaluna by level-up at 55.
 - Evolved forms inherit earlier-form level-up moves more consistently.
 
 ### Items, Marts, and Customization
@@ -194,11 +202,9 @@ Still deferred:
 - Structured JSON exports live in `exports/perfect_johto/`.
 - Generated Markdown summaries live in `docs/`.
 - The latest known validation state from the archived ledger: static checks and
-  local native ROM build passed. Current static validation passes with three
-  known environment/release warnings: Dudunsparce Three-Segment and Ursaluna
-  Bloodmoon special-form access are still deferred, Pokedex area data still
-  needs release confirmation, and this machine is missing several build tools
-  on `PATH`.
+  local native ROM build passed. Current static validation passes with two known
+  environment/release warnings: Pokedex area data still needs release
+  confirmation, and this machine is missing several build tools on `PATH`.
 
 Common commands:
 
@@ -209,7 +215,10 @@ python tools/perfect_johto/validate_project.py --write
 
 ## Key Docs
 
+- `docs/README.md`
 - `docs/PROJECT_SCOPE.md`
+- `docs/POKEMON_DATA.md`
+- `docs/ENCOUNTER_SYSTEMS.md`
 - `docs/GAME_MODES.md`
 - `docs/LUMINESCENT_DATA_REFRESH.md`
 - `docs/LEARNSET_ACCESSIBILITY.md`
